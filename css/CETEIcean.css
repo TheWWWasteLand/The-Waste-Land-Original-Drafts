@@ -1372,7 +1372,7 @@ input:checked + .slider:before {
     top: 15em;
     left: 78.5em;
     width: 9px;
-    height: 38em !important;
+    height: 36em !important;
 }
 #add-8 {
     top: 7.2em;
