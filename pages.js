@@ -278,6 +278,8 @@ function finalVer() {
     document.getElementById('note-22').classList.toggle('hidden');
     document.getElementById('note-12').classList.toggle('vertical');
     document.getElementById('note-17').classList.toggle('vertical');
+    document.getElementById('note-19').classList.toggle('vertical');
+    document.getElementById('note-21').classList.toggle('vertical');
     document.getElementById('note-10').classList.toggle('diagonal');
     document.getElementById('note-11').classList.toggle('diagonal');
     document.getElementById('note-13').classList.toggle('diagonal');
