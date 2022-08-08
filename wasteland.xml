@@ -418,13 +418,13 @@
                         <l>well</l>
                     </lg>
                 </note>
-                <note xml:id="note-19" hand="Pound">
+                <note xml:id="note-19" hand="Pound" rend="vertical">
                     <lg>
                         <l>Re this</l>
                         <l>point</l>
                     </lg>
                 </note>
-                <note xml:id="note-20" hand="Pound">
+                <note xml:id="note-20" hand="Pound" rend="diagonal">
                     <lg>
                         <l>photography</l>
                         <l>?</l>
