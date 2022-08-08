@@ -385,6 +385,7 @@
                 <note xml:id="note-13" hand="Pound" rend="diagonal">
                     <lg>
                         <l>space</l>
+                        <l>_\_\_\</l>
                     </lg>
                 </note>
                 <note xml:id="note-14" hand="Pound" rend="diagonal">
@@ -425,6 +426,33 @@
                 <note xml:id="note-20" hand="Pound">
                     <lg>
                         <l>Re this point</l>
+                    </lg>
+                </note>
+                <note xml:id="note-21" hand="Pound">
+                    <lg>
+                        <l>Re this point</l>
+                    </lg>
+                </note>
+                <note xml:id="note-22" hand="Pound">
+                    <lg>
+                        <l>photography</l>
+                        <l>?</l>
+                    </lg>
+                </note>
+                <note xml:id="note-23" hand="Pound">
+                    <lg>
+                        <l>Il cherchaitpour</l>
+                        <l>des sentiments</l>
+                        <l>pour les</l>
+                        <l>accomoder</l>
+                        <l>a</l>
+                        <l>son</l>
+                        <l>vocabulaire.</l>
+                    </lg>
+                </note>
+                <note xml:id="note-24" hand="Pound">
+                    <lg>
+                        <l>Beddoes</l>
                     </lg>
                 </note>
             </div>
