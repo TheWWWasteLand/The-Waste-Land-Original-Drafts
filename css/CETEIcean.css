@@ -1419,6 +1419,16 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     top: 10em;
     left:75.8em;
 }
+#note-11 {
+    position: absolute;
+    top: 16em;
+    left: 80em;
+}
+#note-12 {
+    position: absolute;
+    top: 28em;
+    left: 79em;
+}
 #add-12a {
     top: 33.8em;
     left: 46.8em;
