@@ -1439,6 +1439,7 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     position: absolute;
     top: 41em;
     left: 48em;
+    text-align: right;
 }
 #note-14 {
     position: absolute;
@@ -1448,17 +1449,42 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 #note-15 {
     position: absolute;
     top: 52em;
-    left: 51em;
+    left: 48em;
 }
 #note-16 {
     position: absolute;
     top: 52em;
-    left: 70em;
+    left: 75em;
 }
 #note-17 {
     position: absolute;
     top: 70em;
-    left: 80em;
+    left: 78em;
+}
+#note-18 {
+   position: absolute;
+    top: 70em;
+    left: 79em;
+}
+#note-19 {
+    position: absolute;
+    top: 80em;
+    left: 48em;
+}
+#note-20 {
+    position:absolute;
+    top: 80em;
+    left:75em;
+}
+#note-21 {
+    position: absolute; 
+    top: 83em;
+    left: 50em;
+}
+#note-22 {
+    position: absolute;
+    top: 82em;
+    left: 73em;
 }
 #add-12a {
     top: 33.8em;
