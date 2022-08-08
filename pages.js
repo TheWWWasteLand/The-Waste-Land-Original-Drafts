@@ -277,7 +277,14 @@ function finalVer() {
     document.getElementById('note-21').classList.toggle('hidden');
     document.getElementById('note-22').classList.toggle('hidden');
     document.getElementById('note-23').classList.toggle('hidden');
-    document.getElementById('note-24').classList.toggle('hidden');
+    document.getElementById('note-12').classList.toggle('vertical');
+    document.getElementById('note-18').classList.toggle('vertical');
+    document.getElementById('note-10').classList.toggle('diagonal');
+    document.getElementById('note-11').classList.toggle('diagonal');
+    document.getElementById('note-13').classList.toggle('diagonal');
+    document.getElementById('note-14').classList.toggle('diagonal');
+    document.getElementById('note-15').classList.toggle('diagonal');
+    document.getElementById('note-16').classList.toggle('diagonal');
     const pound4 = document.createElement("img"), teliot3 = document.createElement('img');
     pound4.setAttribute('src', 'https://thewwwasteland.github.io/images/Pound3.png');
     pound4.setAttribute('id', 'pound-4');
