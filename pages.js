@@ -285,6 +285,7 @@ function finalVer() {
     document.getElementById('note-13').classList.toggle('diagonal');
     document.getElementById('note-14').classList.toggle('diagonal');
     document.getElementById('note-15').classList.toggle('diagonal');
+    document.getElementById('note-20').classList.toggle('diagonal');
     const pound4 = document.createElement("img"), teliot3 = document.createElement('img');
     pound4.setAttribute('src', 'https://thewwwasteland.github.io/images/Pound3.png');
     pound4.setAttribute('id', 'pound-4');
