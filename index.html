@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/CETEIcean.css">
+  <script src="js/CETEI.js"></script>
+  <script src="pages.js"></script>
+  <script>
+    let c = new CETEI();
+    c.getHTML5('wasteland.xml', function(data) {
+    document.getElementsByTagName("body")[0].appendChild(data);
+    });
+  </script> 
+</head>
+<body>
+  <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" style='display: none; width:45px; position:fixed; left: 15px; bottom: 45vh' onclick="prevPage()" class="arrows" id="prev">
+  <img src="https://cdn-icons-png.flaticon.com/512/271/271228.png" style='width:45px; position:fixed; right: -30px; bottom: 45vh' onclick="nextPage()" class="arrows" id="next">
+  <div class='nbar bar'>
+    <ul id="navbar">
+      <li class="left"><img src="https://img.icons8.com/cute-clipart/344/home.png"></li>
+      <li class="left"><img src="https://img.icons8.com/cute-clipart/344/info-popup.png" onclick="info()"></li>
+      <li class="left"><img src="https://img.icons8.com/cute-clipart/344/search.png" onclick="lens()"></li>
+      <li class="left"><img src="https://img.icons8.com/cute-clipart/452/document.png"></li>
+      <li class="left"><img src="https://img.icons8.com/cute-clipart/344/image-file.png"></li>
+    </ul>      
+  </div>
+  <div class="nbar low-bar">
+    <ul id="low-navbar">
+      <li class="right" onclick="sec()">Title page     <span class="bolder">+</span></li>
+      <div id="secList" class="hidden">
+        <ul>
+          <li>1. The Burial of the Dead</li>
+          <li>2. The Cage / A Game of Chess</li>
+          <li></li>
+        </ul>
+      </div>
+      <li class="right" onclick="page()">1      <span class="bolder">+</span></li>
+      <div id="pageList" class="hidden">
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+        </ul>
+      </div>
+      <li class="right" onclick="finalVer()">Show final version</li>
+      <li class="right">Show editio princeps</li>
+    </ul>
+  </div>
+  <div id="selectAuthors" class="hidden">
+    <p>Select annotations by authors          <span class="bolder" onclick="closeList()">—</span></p>
+    <ul id="selectAutList">
+      <li>T. S. Eliot's annotations (<span id="TSEnumber">#1</span>)
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider round red"  onclick="TEliot()"></span>
+        </label>
+      </li>
+      <li>Ezra Pound's annotations (<span id="EPnumber">#0</span>)
+        <label class="switch" onclick="Pound()">
+          <input type="checkbox" checked>
+          <span class="slider round blue"></span>
+        </label>
+      </li>
+      <li>Viviene Eliot's annotations (<span id="VEnumber">#0</span>)
+        <label class="switch" onclick="VEliot()">
+          <input type="checkbox" checked>
+          <span class="slider round green"></span>
+        </label>
+      </li>
+    </ul>
+  </div>
+  <div id="carbonCopy" class="hidden">
+    <p>Show the Carbon of the Typescript 
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round carbon"  onclick="carbon()"></span>
+        </label>
+    </p>
+  </div>    
+</body>
+</html>
