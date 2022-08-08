@@ -42,6 +42,13 @@ tei-add[hand=Pound], tei-note[hand=Pound] {
     color: #118ab2;
     text-decoration-color:  #118ab2;
 }
+tei-del[hand=VEliot], tei-hi[hand=VEliot], tei-rdg[hand=VEliot] {
+    text-decoration-color: #06d6a0 !important;
+}
+tei-add[hand=VEliot], tei-note[hand=VEliot] {
+    color: #06d6a0;
+    text-decoration-color:  #06d6a0;
+}
 /* Choice elements */
 tei-choice tei-abbr + tei-expan:before,
 tei-choice tei-expan + tei-abbr:before,
@@ -1156,7 +1163,7 @@ tei-lg {
     padding-bottom: 1.5em;
 }
 tei-div > tei-lg {
-    margin-left: 45em;
+    margin-left: 45.5em;
 }
 .switch {
   position: relative;
@@ -1349,7 +1356,7 @@ input:checked + .slider:before {
 #pound-4 {
     position: absolute;
     top: 15em;
-    left: 73.5em;
+    left: 73.8em;
     height: 4.5em;
     width: 2px;
 }
@@ -1370,7 +1377,7 @@ input:checked + .slider:before {
 #teliot-3 {
     position: absolute;
     top: 15em;
-    left: 78.5em;
+    left: 77em;
     width: 9px;
     height: 36em !important;
 }
@@ -1412,7 +1419,6 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     top: 35em;
     left: 72em;
     line-height: 0.8em;
-    
 }
 #note-10 {
     position: absolute;
@@ -1427,8 +1433,13 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 #note-12 {
     position: absolute;
     top: 28em;
-    left: 79em;
+    left: 75em;
 }
+#note-13 {
+    position: absolute;
+    top: 40em;
+    left: 45em;
+}   
 #add-12a {
     top: 33.8em;
     left: 46.8em;
