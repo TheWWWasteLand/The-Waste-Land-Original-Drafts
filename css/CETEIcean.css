@@ -1397,7 +1397,7 @@ input:checked + .slider:before {
 tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     transform: rotate(-35deg);
 }
-tei-note[rend=vertical] {
+.vertical {
     transform: rotate(-90deg);
 }    
 #note-7 {
