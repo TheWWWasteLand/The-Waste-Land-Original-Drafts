@@ -521,7 +521,7 @@
                         <l>"Do?</l>
                     </lg>
                 </note>
-                <note xml:id="note-24" hand="Pound">
+                <note xml:id="note-24" hand="Pound" rend="diagonal">
                     <lg>
                         <l><hi xml:id="under-7" rend="underline" hand="Pound">Penelope</hi></l>
                         <l>J.J.
@@ -532,7 +532,7 @@
                         <l>photo.</l>
                     </lg>
                 </note>
-                <note xml:id="note-26" hand="Pound">
+                <note xml:id="note-26" hand="Pound" rend="vertical">
                     <lg>
                         <l>Why this Blot on Scutchen</l>
                         <l><hi xml:id="double-under-1" rend="dobule-underline" hand="Pound">between</hi> 1922 and Lil'</l>
