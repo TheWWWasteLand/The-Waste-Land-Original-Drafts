@@ -122,12 +122,13 @@ function prevPage() {
 };
 
 function finalVer() {
-  var i, one, two, three;
+  var i, one, two, three, four, five;
   i = document.getElementById('page-i');
   one = document.getElementById('page-2');
   two = document.getElementById('page-3');
   three = document.getElementById('page-4');
   four = document.getElementById('page-5');
+  five = document.getElementById('page-6')
   document.getElementById('selectAuthors').classList.remove('hidden');
   if (i.getAttribute('style') != "display: none;") {
     document.getElementById("add-i").classList.toggle('hidden');
@@ -294,6 +295,30 @@ function finalVer() {
     teliot3.setAttribute('id', 'teliot-3');
     document.body.appendChild(teliot3);
   }
+  else if (five.getAttribute('style') == 'display: block;') {
+    document.getElementById('highlight-7').classList.toggle('highlightPound');
+    document.getElementById('highlight-8').classList.toggle('highlightPound');
+    document.getElementById('highlight-9').classList.toggle('highlightPound');
+    document.getElementById('highlight-10').classList.toggle('highlightPound');
+    document.getElementById('highlight-11').classList.toggle('highlightPound');
+    document.getElementById('del-40a').classList.toggle('line-del');
+    document.getElementById('del-41').classList.toggle('line-del');
+    document.getElementById('del-42a').classList.toggle('line-del');
+    document.getElementById('del-42b').classList.toggle('line-del');
+    document.getElementById('del-43').classList.toggle('line-del');
+    document.getElementById('del-44').classList.toggle('line-del');
+    document.getElementById('del-45').classList.toggle('line-del');
+    document.getElementById('del-46').classList.toggle('line-del');
+    document.getElementById('del-47').classList.toggle('line-del');
+    document.getElementById('add-17').classList.toggle('hidden');
+    document.getElementById('add-18').classList.toggle('hidden');
+    document.getElementById('add-19a').classList.toggle('hidden');
+    document.getElementById('add-19b').classList.toggle('hidden');
+    document.getElementById('add-20a').classList.toggle('hidden');
+    document.getElementById('add-20b').classList.toggle('hidden');
+    document.getElementById('add-21').classList.toggle('hidden');
+    document.getElementById('add-22').classList.toggle('hidden');
+    document.getElementById('under-6').classList.toggle('underline');
 };
 
 function closeList() {
