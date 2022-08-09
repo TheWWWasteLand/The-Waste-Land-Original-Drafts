@@ -543,17 +543,17 @@
                         <l>(1880)</l>
                     </lg>
                 </note>
-                <note xml:id="note-28" hand="VEliot">
+                <note xml:id="note-28" hand="VEliot" rend="vertical">
                     <lg>
                         <l>wonderful</l>
                     </lg>
                 </note>
-                <note xml:id="note-29" hand="VEliot">
+                <note xml:id="note-29" hand="VEliot" rend="vertical">
                     <lg>
                         <l>&#38; wonderful</l>
                     </lg>
                 </note>
-                <note xml:id="note-30" hand="VEliot">
+                <note xml:id="note-30" hand="VEliot" rend="vertical">
                     <lg>
                         <l>Yes</l>
                     </lg>
