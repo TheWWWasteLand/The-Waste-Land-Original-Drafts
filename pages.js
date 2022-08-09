@@ -319,6 +319,7 @@ function finalVer() {
     document.getElementById('add-21').classList.toggle('hidden');
     document.getElementById('add-22').classList.toggle('hidden');
     document.getElementById('under-6').classList.toggle('underline');
+  }
 };
 
 function closeList() {
