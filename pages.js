@@ -319,6 +319,21 @@ function finalVer() {
     document.getElementById('add-21').classList.toggle('hidden');
     document.getElementById('add-22').classList.toggle('hidden');
     document.getElementById('under-6').classList.toggle('underline');
+    document.getElementById('note-23').classList.toggle('hidden');
+    document.getElementById('note-24').classList.toggle('hidden');
+    document.getElementById('note-25').classList.toggle('hidden');
+    document.getElementById('note-26').classList.toggle('hidden');
+    document.getElementById('note-27').classList.toggle('hidden');
+    document.getElementById('note-28').classList.toggle('hidden');
+    document.getElementById('note-29').classList.toggle('hidden');
+    document.getElementById('note-30').classList.toggle('hidden');
+    document.getElementById('note-31').classList.toggle('hidden');
+    document.getElementById('note-32').classList.toggle('hidden');
+    document.getElementById('note-33').classList.toggle('hidden');
+    document.getElementById('note-34').classList.toggle('hidden');
+    document.getElementById('note-28').classList.toggle('vertical');
+    document.getElementById('note-29').classList.toggle('vertical');
+    document.getElementById('note-30').classList.toggle('vertical');
   }
 };
 
