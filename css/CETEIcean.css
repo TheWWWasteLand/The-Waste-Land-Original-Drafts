@@ -1165,6 +1165,9 @@ tei-lg {
 tei-div > tei-lg {
     margin-left: 45.5em;
 }
+#page-6 > tei-lg {
+    margin-left: 50em;
+}
 .switch {
   position: relative;
   display: inline-block;
