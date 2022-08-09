@@ -331,9 +331,12 @@ function finalVer() {
     document.getElementById('note-32').classList.toggle('hidden');
     document.getElementById('note-33').classList.toggle('hidden');
     document.getElementById('note-34').classList.toggle('hidden');
+    document.getElementById('note-24').classList.toggle('diagonal');
+    document.getElementById('note-26').classList.toggle('vertical');
     document.getElementById('note-28').classList.toggle('vertical');
     document.getElementById('note-29').classList.toggle('vertical');
     document.getElementById('note-30').classList.toggle('vertical');
+    document.getElementById('double-under-1').classList.toggle('doubleUnderline');
   }
 };
 
