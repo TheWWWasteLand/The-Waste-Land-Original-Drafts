@@ -97,7 +97,6 @@ function prevPage() {
   else if (two.getAttribute('style') == "display: block;") {
     two.style.display="none";
     one.style.display="block";
-    document.getElementById("back-1").classList.add('hidden');
   }
   else if (three.getAttribute('style') == "display: block;") {
     three.style.display="none";
@@ -122,13 +121,14 @@ function prevPage() {
 };
 
 function finalVer() {
-  var i, one, two, three, four, five;
+  var i, one, two, three, four, five, six;
   i = document.getElementById('page-i');
   one = document.getElementById('page-2');
   two = document.getElementById('page-3');
   three = document.getElementById('page-4');
   four = document.getElementById('page-5');
-  five = document.getElementById('page-6')
+  five = document.getElementById('page-6');
+  six = document.getElementById('page-7');
   document.getElementById('selectAuthors').classList.remove('hidden');
   if (i.getAttribute('style') != "display: none;") {
     document.getElementById("add-i").classList.toggle('hidden');
@@ -338,6 +338,17 @@ function finalVer() {
     document.getElementById('note-29').classList.toggle('vertical');
     document.getElementById('note-30').classList.toggle('vertical');
     document.getElementById('double-under-1').classList.toggle('doubleUnderline');
+  }
+  else if (five.getAttribute('style') == 'display: block;') {
+    document.getElementById('del-49').classList.toggle('line-del');
+    document.getElementById('del-50a').classList.toggle('line-del');
+    document.getElementById('del-50b').classList.toggle('line-del');
+    document.getElementById('del-50c').classList.toggle('line-del');
+    document.getElementById('del-50d').classList.toggle('line-del');
+    document.getElementById('del-51').classList.toggle('line-del');
+    document.getElementById('add-23').classList.toggle('hidden');
+    document.getElementById('note-35').classList.toggle('hidden');
+    document.getElementById('note-36').classList.toggle('hidden');
   }
 };
 
