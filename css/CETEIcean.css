@@ -1021,16 +1021,11 @@ tei-body tei-div {
 #rdg-2 {
     display: inline-block;
 }
-#lg-1, #lg-2 {
+#lg-1 {
     display: inline-block;
     border-radius: 3px;
     border: solid 0.5px rgba(255, 255, 255, 0);
     padding-bottom: 0em !important;
-}
-#lg-3 {
-    display: inline-block;
-    border-radius: 3px;
-    border: solid 0.5px rgba(255, 255, 255, 0);
 }
 .highlight {
     border: solid 0.5px #ef476f !important;
