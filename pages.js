@@ -339,7 +339,7 @@ function finalVer() {
     document.getElementById('note-30').classList.toggle('vertical');
     document.getElementById('double-under-1').classList.toggle('doubleUnderline');
   }
-  else if (five.getAttribute('style') == 'display: block;') {
+  else if (six.getAttribute('style') == 'display: block;') {
     document.getElementById('del-49').classList.toggle('line-del');
     document.getElementById('del-50a').classList.toggle('line-del');
     document.getElementById('del-50b').classList.toggle('line-del');
