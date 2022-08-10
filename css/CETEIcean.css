@@ -1027,6 +1027,9 @@ tei-body tei-div {
     border: solid 0.5px rgba(255, 255, 255, 0);
     padding-bottom: 0em !important;
 }
+#lg-2 {
+    display: inline-block;
+}
 .highlight {
     border: solid 0.5px #ef476f !important;
 }
