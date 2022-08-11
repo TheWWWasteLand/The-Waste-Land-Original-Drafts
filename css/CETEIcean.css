@@ -343,6 +343,7 @@ tei-figure {
   text-align: left;
   float:left;
   border: 1px solid #272e40;
+  width: 45vw;
 }
 /* g */
 tei-gap[data-tei-reason='lost']:before {
@@ -919,10 +920,6 @@ html {
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/16584/retina_wood.png');
 }
 
-img {
-    width: 45vw;
-    margin-right: 3em
-}
 tei-line, tei-l {
     white-space: pre;
     width: 35em;
