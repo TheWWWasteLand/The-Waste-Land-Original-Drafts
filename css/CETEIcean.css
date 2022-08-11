@@ -342,6 +342,7 @@ tei-figure {
   display: inline-block;
   text-align: left;
   float:left;
+  border: 1px solid #272e40;
 }
 /* g */
 tei-gap[data-tei-reason='lost']:before {
