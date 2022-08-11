@@ -1248,9 +1248,10 @@ input:checked + .slider:before {
     position:fixed;
     bottom:4em;
     z-index:101;
-    background-color: white;
-    border: solid 0.5px #000;
-    border-bottom: none;    
+    background-color: #e0cda9;
+    border: solid 0.5px #d1c0a8;
+    border-bottom: none;
+    color: #272e40;
 }
 #selectAuthors {
     left:0;
