@@ -343,7 +343,8 @@ tei-figure {
   text-align: left;
   float:left;
   border: 1px solid #272e40;
-  width: 45vw;
+  height: 75vh;
+  width:40vw;
 }
 tei-figure img {
     max-width:100%;
