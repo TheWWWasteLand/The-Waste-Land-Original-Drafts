@@ -1151,6 +1151,8 @@ tei-lg {
 }
 tei-div > tei-lg {
     margin-left: 48em;
+    height: 70vh;
+    overflow: auto
 }
 #page-6 > tei-lg {
     margin-left: 52em;
