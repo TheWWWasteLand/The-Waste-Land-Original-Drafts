@@ -919,7 +919,7 @@ html {
 }
 
 img {
-    width: calc(50vw - 12em);
+    height: 75vh;
     margin-right: 3em
 }
 tei-line, tei-l {
