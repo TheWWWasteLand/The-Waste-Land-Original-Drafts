@@ -927,7 +927,7 @@ tei-line, tei-l {
     width: 35em;
 }
 body {
-  background-color: #fff0;
+  background-color: #fff !important;
   border-radius: 3px;
   height: 1500px;
   -webkit-box-shadow: 0px 0px 6px 0px #000000;
