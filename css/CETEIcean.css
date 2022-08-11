@@ -944,7 +944,7 @@ tei-text {
     padding-top: 60px;
 }
 .nbar {
-    background-color: #ecdcc4 !important;
+    background-color: #272e40 !important;
 }
 .bar {
   display:block;
@@ -958,7 +958,6 @@ tei-text {
   padding-top: 1em;
   padding-right: 1em;
   padding-bottom: 0.2em;
-  box-shadow: 0px 5px 8px #888888;
 }
 .nbar ul {
   list-style-type: none;
@@ -974,7 +973,6 @@ tei-text {
   cursor: pointer;
 }
 .low-bar {
-    border-top: solid 0.5px #000;
     padding-left: 30vw;
     height: 4em;
     margin-left: -4.5em !important;
@@ -983,6 +981,7 @@ tei-text {
     display: block;
     width: 100%;
     z-index: 100;
+    color: #d1c0a8;
 }
 
 .right {
