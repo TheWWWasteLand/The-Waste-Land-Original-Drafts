@@ -947,7 +947,7 @@ tei-text {
     padding-top: 60px;
 }
 .nbar {
-    background-image: url('https://assets.codepen.io/567707/background-paper-brown.png') !important;
+    background-color: #ebf1f4 !important;
 }
 .bar {
   display:block;
