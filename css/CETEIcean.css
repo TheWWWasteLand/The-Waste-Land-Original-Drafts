@@ -915,7 +915,7 @@ html {
   font-family: "Lucida Grande", "Cardo", "Arial Unicode MS","Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode", "Palatino Linotype", "Titus Cyberbit Basic", "Vusillus Old Face", "Alphabetum", "Galatia SIL", "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic", "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon", "Verdana", "Tahoma";
   font-size: 11.5pt;
   color: #292929;
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/16584/retina_wood.png');
+  background-color: #ebf1f4;
 }
 
 img {
@@ -927,16 +927,13 @@ tei-line, tei-l {
     width: 35em;
 }
 body {
-  border: 1px solid #333;
-  background: rgb(226,226,226);
-  background: linear-gradient(90deg, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 50%, rgba(226,226,226,1) 100%);
-  );
+  background-color: #fff0;
   border-radius: 3px;
   height: 1500px;
-  -webkit-box-shadow: 0px 0px 10px 0px #000000;
-  -moz-box-shadow: 0px 0px 10px 0px #000000;
-  -o-box-shadow: 0px 0px 10px 0px #000000;
-  box-shadow: 0px 0px 10px 0px #000000;
+  -webkit-box-shadow: 0px 0px 6px 0px #000000;
+  -moz-box-shadow: 0px 0px 6px 0px #000000;
+  -o-box-shadow: 0px 0px 6px 0px #000000;
+  box-shadow: 0px 0px 6px 0px #000000;
 }
 tei-p{
   display: block;
@@ -947,7 +944,7 @@ tei-text {
     padding-top: 60px;
 }
 .nbar {
-    background-color: #ebf1f4 !important;
+    background-color: #ecdcc4 !important;
 }
 .bar {
   display:block;
