@@ -928,15 +928,8 @@ tei-line, tei-l {
 }
 body {
   border: 1px solid #333;
-  background: linear-gradient(
-    to right,
-    hsl(35deg, 30%, 90%),
-    hsl(35deg, 30%, 90%) 47%,
-    hsl(35deg, 30%, 70%) 49.5%,
-    hsl(35deg, 20%, 50%) 50%,
-    hsl(35deg, 30%, 70%) 50.5%,
-    hsl(35deg, 30%, 90%) 53%,
-    hsl(35deg, 30%, 90%)
+  background: rgb(226,226,226);
+  background: linear-gradient(90deg, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 50%, rgba(226,226,226,1) 100%);
   );
   border-radius: 3px;
   height: 1500px;
