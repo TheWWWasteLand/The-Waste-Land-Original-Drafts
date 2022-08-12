@@ -345,7 +345,8 @@ tei-figure {
   border: 1px solid #272e40;
   height: 79vh;
   width:40vw;
-  margin-top: -45px;
+  margin-top: -50px;
+  margin-left: -2.5em;
 }
 tei-figure img {
   max-width: 100%;
