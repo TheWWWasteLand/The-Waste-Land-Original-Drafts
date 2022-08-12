@@ -339,13 +339,13 @@ tei-filedesc > tei-extent {
 }
 /* f */
 tei-figure {
-  display: inline-block;
+  display: block;
   text-align: left;
   float:left;
   border: 1px solid #272e40;
   height: 69vh;
   width:40vw;
-  padding-top: -30px;
+  margin-top: -30px;
 }
 tei-figure img {
   max-width: 100%;
