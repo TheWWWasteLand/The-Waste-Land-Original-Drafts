@@ -1009,6 +1009,7 @@ li img {
 }
 tei-body tei-div {
     display: none;
+    height: 79vh;
     overflow: auto;
     margin-top: -58px;
     padding-top: 58px;
@@ -1164,7 +1165,6 @@ tei-lg {
 tei-div > tei-lg {
     margin-left: 48em;
     height: 70vh;
-    overflow: auto
 }
 #page-6 > tei-lg {
     margin-left: 52em;
