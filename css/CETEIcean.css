@@ -347,7 +347,7 @@ tei-figure {
   width:40vw;
   margin-top: -60px;
   margin-left: -4em;
-  overflow: hidden;
+  overflow: scroll;
 }
 tei-figure img {
   max-width: 100%;
