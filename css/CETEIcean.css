@@ -349,10 +349,10 @@ tei-figure {
   margin-left: -4em;
 }
 tei-figure img {
-  max-width: 100%;
-  max-height: 100%;
   margin-left: auto;
   margin-right: auto;
+  overlay: hidden;
+  object-fit:cover;
 }
 /* g */
 tei-gap[data-tei-reason='lost']:before {
