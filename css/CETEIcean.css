@@ -1010,10 +1010,10 @@ li img {
 }
 tei-body tei-div {
     display: none;
-    height: 79vh;
+    height: 80vh;
     overflow: auto;
-    margin-top: -48px;
-    padding-top: 48px;
+    margin-top: -44px;
+    padding-top: 44px;
 }
 .arrows {
     opacity: 0.5
