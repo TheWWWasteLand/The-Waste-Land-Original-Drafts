@@ -1009,6 +1009,9 @@ li img {
 }
 tei-body tei-div {
     display: none;
+    overflow: auto;
+    margin-top: -58px;
+    padding-top: 58px;
 }
 .arrows {
     opacity: 0.5
