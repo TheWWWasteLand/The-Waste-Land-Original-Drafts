@@ -1163,11 +1163,11 @@ tei-lg {
     display: block;
     padding-bottom: 1.5em;
 }
-tei-div > tei-lg {
+tei-lg[type=poemPage] {
     margin-left: 48em;
     height: 70vh;
 }
-#page-6 > tei-lg {
+#poemPage05 {
     margin-left: 52em;
 }
 .switch {
