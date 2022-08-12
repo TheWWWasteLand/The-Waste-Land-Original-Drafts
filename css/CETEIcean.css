@@ -347,11 +347,11 @@ tei-figure {
   width:40vw;
   margin-top: -58px;
   margin-left: -4em;
+  overflow: hidden;
 }
 tei-figure img {
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
   object-fit:cover;
 }
 /* g */
