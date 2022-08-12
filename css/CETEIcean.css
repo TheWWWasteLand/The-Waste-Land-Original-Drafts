@@ -345,14 +345,14 @@ tei-figure {
   float:left;
   height: 80vh;
   width:40vw;
-  margin-top: -58px;
+  margin-top: -56px;
   margin-left: -3em;
   overflow: scroll;
   background-color: #313b50 !important;
 }
 tei-figure img {
-  max-width: 150%;
-  max-height: 150%;
+  max-width: 100%;
+  max-height: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -1012,8 +1012,8 @@ tei-body tei-div {
     display: none;
     height: 80vh;
     overflow: auto;
-    margin-top: -44px;
-    padding-top: 44px;
+    margin-top: -40px;
+    padding-top: 40px;
 }
 .arrows {
     opacity: 0.5
