@@ -1012,8 +1012,8 @@ tei-body tei-div {
     display: none;
     height: 79vh;
     overflow: auto;
-    margin-top: -58px;
-    padding-top: 58px;
+    margin-top: -48px;
+    padding-top: 48px;
 }
 .arrows {
     opacity: 0.5
