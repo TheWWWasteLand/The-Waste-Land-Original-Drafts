@@ -345,7 +345,7 @@ tei-figure {
   height: 80vh;
   width:40vw;
   margin-top: -58px;
-  margin-left: -4em;
+  margin-left: -3em;
   overflow: scroll;
   background-color: #313b50 !important;
 }
@@ -950,7 +950,6 @@ tei-p{
   padding-left: 3em
 }
 tei-text {
-    padding:1em;
     padding-top: 60px;
 }
 .nbar {
