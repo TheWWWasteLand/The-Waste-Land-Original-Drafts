@@ -340,6 +340,7 @@ tei-filedesc > tei-extent {
 /* f */
 tei-figure {
   display: block;
+  position: absolute;
   text-align: left;
   float:left;
   height: 80vh;
