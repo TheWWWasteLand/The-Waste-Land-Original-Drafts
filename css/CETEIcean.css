@@ -345,11 +345,13 @@ tei-figure {
   border: 1px solid #272e40;
   height: 81vh;
   width:40vw;
-  margin-top: -58px;
+  margin-top: -60px;
   margin-left: -4em;
   overflow: hidden;
 }
 tei-figure img {
+  max-width: 100%;
+  max-height: 100%;
   margin-left: auto;
   margin-right: auto;
   object-fit:cover;
