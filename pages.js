@@ -7,6 +7,7 @@ window.onload = function() {
   }
   for (let a = 0; a < note.length; a++) {
     note[a].classList.add('hidden');
+    console.log("Hello!");
   }
   for (let b = 0; b < lines.lenght; b++) {
     if (lines[b].hasAttribute("n")) {
