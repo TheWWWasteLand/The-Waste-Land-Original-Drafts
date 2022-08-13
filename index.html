@@ -9,10 +9,24 @@
   <script src="pages.js"></script>
   <script>
     let c = new CETEI();
+    let behaviors = {
+      "tei": {
+        "l": function(e) {
+          let number = document.createElement("SPAN");
+          if (e.hasAttribute("n")) {
+            number.innerHTML = e.getAttribute("n");
+        }
+        return number;
+      }
+    };
+    c.addBehaviors(behaviors);
     c.getHTML5('wasteland.xml', function(data) {
     document.getElementsByTagName("body")[0].appendChild(data);
     });
-  </script> 
+  </script>
+  <script>
+    
+  </script>
 </head>
 <body>
   <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" style='display: none; width:45px; position:fixed; left: 15px; bottom: 45vh' onclick="prevPage()" class="arrows" id="prev">
