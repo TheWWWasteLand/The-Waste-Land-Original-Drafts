@@ -15,6 +15,7 @@
           if (e.hasAttribute("n")) {
             let number = document.createElement("SPAN");
             number.innerHTML = e.getAttribute("n");
+            var parent = number.parentNode;
             parent.prepend(number);
           }
         }
