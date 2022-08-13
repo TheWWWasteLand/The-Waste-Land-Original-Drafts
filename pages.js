@@ -8,7 +8,7 @@ window.onload = function() {
   for (let a = 0; a < note.length; a++) {
     note[a].classList.add('hidden');
   }
-  for (let b = 0; a < lines.lenght; b++) {
+  for (let b = 0; b < lines.lenght; b++) {
     if lines[b].hasAttribute("n") {
       let span = lines[b].children[1];
       let text = lines[b].children[0].innerHTML;
