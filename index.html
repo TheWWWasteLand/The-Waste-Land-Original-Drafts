@@ -13,10 +13,9 @@
       "tei": {
         "l": function(e) {
           if (e.hasAttribute("n")) {
-            let text = e.innerHTML;
             let number = document.createElement("SPAN");
             number.innerHTML = e.getAttribute("n");
-            return number + text;
+            return number
           }
         }
       }
