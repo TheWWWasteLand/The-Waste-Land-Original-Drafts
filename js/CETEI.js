@@ -54,7 +54,7 @@ var CETEI = (function () {
     with display set to "none".
   */
   function hideContent(elt, rewriteIds = true) {
-    if (elt.childNodes.length > 0 && elt.tagName != "L") {
+    if (elt.childNodes.length > 0) {
       let hidden = document.createElement("span");
       elt.appendChild(hidden);
       hidden.setAttribute("hidden", "");
