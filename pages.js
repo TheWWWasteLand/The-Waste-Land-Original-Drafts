@@ -10,13 +10,11 @@ window.onload = function() {
   }
   for (let b = 0; b < line.length; b++) {
     if (line[b].hasAttribute("n")) {
-      let span = line[b].children[1];
+      let span = line[b].children[1].innerHTML;
       let text = line[b].children[0].innerHTML;
+      const newspan = document.createElement("SPAN");
+      newspan.innerHTML = span
       line[b].innerHTML = span + text;
-      console.log("Hello miao!");
-    }
-    else {
-      console.log("Hello world!");
     }
   }
 };
