@@ -12,11 +12,11 @@
     let behaviors = {
       "tei": {
         "l": function(e) {
-          let number = document.createElement("SPAN");
           if (e.hasAttribute("n")) {
+            let number = document.createElement("SPAN");
             number.innerHTML = e.getAttribute("n");
+            return number;
           }
-          return number;
         }
       }
     };
