@@ -10,9 +10,9 @@ window.onload = function() {
   }
   for (let b = 0; b < line.length; b++) {
     if (line[b].hasAttribute("n")) {
-      let span = line.children[1];
-      let text = line.children[0].innerHTML;
-      line.innerHTML = span + text;
+      let span = line[b].children[1];
+      let text = line[b].children[0].innerHTML;
+      line[b].innerHTML = span + text;
       console.log("Hello miao!");
     }
     else {
