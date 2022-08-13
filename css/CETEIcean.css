@@ -1025,7 +1025,7 @@ li img {
 tei-body tei-div {
     display: none;
     height: 80vh;
-    overflow: auto;
+    overflow: scroll;
     margin-top: -40px;
     padding-top: 40px;
 }
