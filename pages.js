@@ -1,11 +1,19 @@
 window.onload = function() {
   const add = document.getElementsByTagName("tei-add");
-  const note = document.getElementsByTagName("tei-note")
+  const note = document.getElementsByTagName("tei-note");
+  const lines = document.getElementsByTagName("tei-l");
   for (let i = 0; i < add.length; i++) {
     add[i].classList.add('hidden');
   }
   for (let a = 0; a < note.length; a++) {
     note[a].classList.add('hidden');
+  }
+  for (let b = 0; a < lines.lenght; b++) {
+    if lines.hasAttribute("n") {
+      let span = lines.children[1];
+      let text = lines.children[0].innerHTML;
+      lines.innerHTML = span + text;
+    }
   }
 };
 
