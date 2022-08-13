@@ -60,7 +60,6 @@ function nextPage() {
     i.style.display="none";
     one.style.display="block";
     document.getElementById('prev').style.display="block";
-    document.getElementById('add-4').classList.add('hidden');
   }
   else if (one.getAttribute('style') == "display: block;") {
     one.style.display="none";
