@@ -1178,7 +1178,7 @@ tei-lg {
     padding-bottom: 1.5em;
 }
 tei-lg[type=poemPage] {
-    margin-left: 48em;
+    margin-left: calc(40vw + 10em);
     height: 70vh;
 }
 #poemPage05 {
