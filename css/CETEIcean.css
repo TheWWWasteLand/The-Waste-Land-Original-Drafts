@@ -939,6 +939,7 @@ tei-line, tei-l {
 }
 tei-l > span {
     margin-left: -5em;
+    margin-right: 5em;
     position: relative;
     -webkit-user-select: none;
     -khtml-user-select: none;
