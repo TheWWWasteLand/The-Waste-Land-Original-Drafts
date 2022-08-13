@@ -9,10 +9,10 @@ window.onload = function() {
     note[a].classList.add('hidden');
   }
   for (let b = 0; a < lines.lenght; b++) {
-    if lines.hasAttribute("n") {
-      let span = lines.children[1];
-      let text = lines.children[0].innerHTML;
-      lines.innerHTML = span + text;
+    if lines[b].hasAttribute("n") {
+      let span = lines[b].children[1];
+      let text = lines[b].children[0].innerHTML;
+      lines[b].innerHTML = span + text;
     }
   }
 };
