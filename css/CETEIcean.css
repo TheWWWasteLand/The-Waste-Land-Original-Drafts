@@ -948,8 +948,8 @@ tei-l > span {
     user-select: none;
     color: #d1c0a8;
 }
-tei-l[n=1] > span, tei-l[n=5] > span {
-    margin-right: 5em !important;
+tei-l[n="1"] > span, tei-l[n="5"] > span {
+    margin-right: 4.5em !important;
 }
 body {
   background-color: #fff !important;
