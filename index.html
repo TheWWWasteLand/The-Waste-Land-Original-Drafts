@@ -13,10 +13,10 @@
       "tei": {
         "l": function(e) {
           if (e.hasAttribute("n")) {
+            let text = e.innerHTML;
             let number = document.createElement("SPAN");
             number.innerHTML = e.getAttribute("n");
-            var parent = number.parentNode;
-            parent.prepend(number);
+            return number + text;
           }
         }
       }
