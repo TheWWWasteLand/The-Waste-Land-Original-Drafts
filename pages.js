@@ -14,6 +14,9 @@ window.onload = function() {
       let text = lines[b].children[0].innerHTML;
       lines[b].innerHTML = span + text;
     }
+    else {
+      console.log("Hello world!");
+    }
   }
 };
 
