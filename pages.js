@@ -14,7 +14,7 @@ window.onload = function() {
       let text = line[b].children[0].innerHTML;
       const newspan = document.createElement("SPAN");
       newspan.innerHTML = span
-      line[b].innerHTML = span + text;
+      line[b].innerHTML = newspan + text;
     }
   }
 };
