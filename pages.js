@@ -143,7 +143,6 @@ function finalVer() {
     document.getElementById("add-i").classList.toggle('hidden');
   }
   else if (one.getAttribute('style') == "display: block;") {
-    document.getElementById('lg-1').classList.toggle('highlight');
     document.getElementById('add-1').classList.toggle('hidden');
     document.getElementById('add-2a').classList.toggle('hidden');
     document.getElementById('add-2b').classList.toggle('hidden');
@@ -176,7 +175,6 @@ function finalVer() {
     document.body.appendChild(arrow);
     document.getElementById('rdg-12').classList.toggle('highlightPound');
     document.getElementById('rdg-13').classList.toggle('highlightPound');
-    document.getElementById('lg-2').classList.toggle('highlight');
     document.getElementById('add-5').classList.toggle('hidden');
     document.getElementById('del-12').classList.toggle('line-del');
     document.getElementById('under-1a').classList.toggle('underline');
