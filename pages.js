@@ -1,16 +1,18 @@
 window.onload = function() {
   const add = document.getElementsByTagName("tei-add");
   const note = document.getElementsByTagName("tei-note");
-  const lines = document.getElementsByTagName("tei-l");
+  const line = document.getElementsByTagName("tei-l")
   for (let i = 0; i < add.length; i++) {
     add[i].classList.add('hidden');
   }
   for (let a = 0; a < note.length; a++) {
     note[a].classList.add('hidden');
   }
-  for (let b = 0; b < lines.lenght; b++) {
-    console.log("ciao");
-    if (lines[b].hasAttribute("n")) {
+  for (let b = 0; b < line.length; b++) {
+    if (line[b].hasAttribute("n")) {
+      let span = line.children[1];
+      let text = line.children[0].innerHTML;
+      line.innerHTML = span + text;
       console.log("Hello miao!");
     }
     else {
@@ -18,6 +20,8 @@ window.onload = function() {
     }
   }
 };
+
+
 
 document.onkeydown = checkKey;
 
