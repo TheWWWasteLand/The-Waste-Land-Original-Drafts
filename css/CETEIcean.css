@@ -939,7 +939,6 @@ tei-line, tei-l {
 }
 tei-l > span {
     position: absolute;
-    margin-left: calc(40vw + 5em);
 }
 body {
   background-color: #fff !important;
