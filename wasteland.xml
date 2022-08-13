@@ -52,7 +52,6 @@
                     </p>
                     <p>
                         <quote>
-                    
                             <line>"Did he live his life again in every detail of desire, tempta-<lb/></line>
                             <line>tion, and surrender during that supreme moment of complete<lb/></line>
                             <line>knowledge? He cried in a whisper at some image, at some vi-<lb/></line>
@@ -74,13 +73,11 @@
                     <figure><graphic url="https://thewwwasteland.github.io/images/2.jpg" xml:id="page-1"/>
                     </figure>
                 </p>
-                <p>
-                    <head>
-                        <line>HE DO THE POLICE IN DIFFERENT VOICES: Part I.<lb/></line>
-                        <line><lb/></line>
-                        <line>THE BURIAL OF THE DEAD<lb/></line>
-                    </head>
-                </p>
+                <head>
+                    <line>HE DO THE POLICE IN DIFFERENT VOICES: Part I.<lb/></line>
+                    <line><lb/></line>
+                    <line>THE BURIAL OF THE DEAD<lb/></line>
+                </head>
                 <lg type="poemPage" n="1" xml:id="poemPage01">
                     <del xml:id="rdg-2" hand="TEliot">
                         <lg type="stanza" n="1" xml:id="stanza01">
@@ -169,10 +166,10 @@
                     <figure><graphic url="https://thewwwasteland.github.io/images/3.jpg" xml:id="page-2"/>
                     </figure>
                 </p>
-                    <head>
-                        <line>2.</line>
-                    </head>
-                    <line> *  *  *  *  <lb/></line>
+                <head>
+                    <line>2.</line>
+                </head>
+                <line> *  *  *  *  <lb/></line>
                 <lg type="poemPage" n="2" xml:id="poemPage02">
                     <lg type="stanza" n="2" xml:id="stanza02">
                         <l n="55">April is the cruellest month, breeding</l>
@@ -305,13 +302,11 @@
                     <figure><graphic url="https://thewwwasteland.github.io/images/5.jpg" xml:id="page-4"/>
                     </figure>
                 </p>
-                <p>
-                    <head>
-                        <line>HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/></line>
-                        <line><lb/></line>
-                        <line><rdg><subst xml:id="sub-9"><del xml:id="del-24" hand="TEliot">IN THE CAGE.</del><add place="above" xml:id="add-14" hand="TEliot">A Game of Chess.</add></subst></rdg><lb/></line>
-                    </head>
-                </p>
+                <head>
+                    <line>HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/></line>
+                    <line><lb/></line>
+                    <line><rdg><subst xml:id="sub-9"><del xml:id="del-24" hand="TEliot">IN THE CAGE.</del><add place="above" xml:id="add-14" hand="TEliot">A Game of Chess.</add></subst></rdg><lb/></line>
+                </head>
                 <lg type="poemPage" n="4" xml:id="poemPage04">
                     <lg type="stanza" n="8" xml:id="stanza08">
                         <l>The Chair she sat in, like a burnished throne</l>
