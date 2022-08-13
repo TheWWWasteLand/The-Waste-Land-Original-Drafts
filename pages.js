@@ -13,6 +13,7 @@ window.onload = function() {
       let span = lines[b].children[1];
       let text = lines[b].children[0].innerHTML;
       lines[b].innerHTML = span + text;
+      console.log("Hello miao!");
     }
     else {
       console.log("Hello world!");
