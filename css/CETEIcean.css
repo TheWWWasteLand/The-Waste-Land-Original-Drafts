@@ -388,8 +388,7 @@ tei-head {
 }
 tei-div > tei-line {
   text-align: center;
-  margin-left: calc(40vw + 5em);
-  width: (60vw - 8em);
+  margin-left: calc(40vw + 10em);
 }
 tei-lg > tei-line {
     text-align: center;
