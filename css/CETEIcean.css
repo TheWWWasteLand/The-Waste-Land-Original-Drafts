@@ -386,6 +386,14 @@ tei-head {
   margin-left: calc(40vw + 5em);
   width = (60vw - 8em);
 }
+tei-div > tei-line {
+  text-align: center;
+  margin-left: calc(40vw + 5em);
+  width = (60vw - 8em);
+}
+tei-lg > tei-line {
+    text-align: center;
+}
 tei-body > tei-head {
   text-indent: -0.5em;
 }
