@@ -1197,6 +1197,9 @@ tei-lg[type=poemPage] {
 #poemPage05 {
     margin-left: 52em;
 }
+#page-i tei-quote{
+    padding-top: 4em;
+}
 .switch {
   position: relative;
   display: inline-block;
