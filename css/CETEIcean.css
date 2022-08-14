@@ -384,7 +384,7 @@ tei-head {
   font-weight: normal;
   text-align: center;
   margin-left: calc(40vw + 5em);
-  width: 38em;
+  width: 36em;
 }
 tei-div > tei-line {
   text-align: center;
