@@ -383,16 +383,16 @@ tei-head {
   font-family: Arvo, sans-serif;
   font-weight: normal;
   text-align: center;
-  margin-left: calc(40vw + 5em);
+  margin-left: calc(40vw);
   width: (55vw - 8em);
 }
 tei-div > tei-line {
   text-align: center;
-  margin-left: calc(40vw + 16em);
+  margin-left: calc(40vw + 20.5em);
 }
 tei-lg > tei-line {
     text-align: center;
-    padding-left: 6.5em;
+    padding-left: 9.5em;
 }
 tei-body > tei-head {
   text-indent: -0.5em;
