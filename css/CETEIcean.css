@@ -388,10 +388,11 @@ tei-head {
 }
 tei-div > tei-line {
   text-align: center;
-  margin-left: calc(40vw + 10em);
+  margin-left: calc(40vw + 16em);
 }
 tei-lg > tei-line {
     text-align: center;
+    padding-left: 5em;
 }
 tei-body > tei-head {
   text-indent: -0.5em;
