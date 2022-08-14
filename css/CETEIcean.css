@@ -383,6 +383,8 @@ tei-head {
   font-family: Arvo, sans-serif;
   font-weight: normal;
   text-align: center;
+  margin-left: calc(40vw + 5em);
+  width = (60vw - 8em);
 }
 tei-body > tei-head {
   text-indent: -0.5em;
