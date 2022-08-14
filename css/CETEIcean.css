@@ -679,7 +679,7 @@ tei-quote {
   font-style:italic;
 }
 tei-quote > tei-line {
-    margin-left: calc(40vw + 10em);
+    margin-left: calc(40vw + 5em);
 }
 
 /* r */
@@ -1198,7 +1198,7 @@ tei-lg[type=poemPage] {
     margin-left: 52em;
 }
 #page-i tei-quote{
-    padding-top: 4em;
+    margin-top: 4em;
 }
 .switch {
   position: relative;
