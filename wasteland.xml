@@ -58,10 +58,8 @@
                             <line>sion, - he cried out twice, a cry that was no more than a<lb/></line>
                             <line>breath -<lb/></line>
                             <line>          'The horror!   The horror!'"<lb/></line>
-                        </quote>
-                        <ref>    
-                            <line>                                                       <app><rdg xml:id="rdg-1"><add xml:id="add-i" hand="TEliot">Conrad.</add></rdg></app></line>
-                        </ref>
+                            <line>                                                 <add xml:id="add-i" hand="TEliot"><bibl><author>Conrad</author></bibl>.</add></line>
+                        </quote>  
                     </p>
                 </div>
             </titlePage>
