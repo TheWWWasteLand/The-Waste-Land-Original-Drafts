@@ -383,7 +383,7 @@ tei-head {
   font-family: Arvo, sans-serif;
   font-weight: normal;
   text-align: center;
-  margin-left: calc(40vw);
+  margin-left: calc(40vw + 5em);
   width: 50em;
 }
 tei-div > tei-line {
