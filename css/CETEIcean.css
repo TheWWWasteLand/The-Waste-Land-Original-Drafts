@@ -390,7 +390,7 @@ tei-div > tei-head {
   text-align: center;
   margin-left: calc(40vw + 20.5em);
 }
-tei-lg > tei-p {
+tei-lg > tei-head {
     text-align: center;
     padding-left: 9.5em;
 }
@@ -399,9 +399,6 @@ tei-body > tei-head {
 }
 tei-div.textpart {
   display: none;
-}
-tei-div > tei-head {
-  text-indent: -0.5em;
 }
 tei-div > tei-div > tei-head {
   font-size: 155%;
