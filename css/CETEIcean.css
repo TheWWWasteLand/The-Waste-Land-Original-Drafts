@@ -671,9 +671,7 @@ tei-q[data-tei-prev]:before {
 }
 tei-quote {
   font-style:italic;
-}
-tei-quote > tei-line {
-    margin-left: calc(40vw + 5em);
+  margin-left: calc(40vw + 5em);
 }
 
 /* r */
