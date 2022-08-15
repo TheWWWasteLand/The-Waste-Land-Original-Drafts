@@ -1144,10 +1144,6 @@ tei-graphic {
   height: 130px;
 }    
 
-tei-add {
-    display: block;
-    position: absolute;
-}
 .hidden {
     display: none !important;
 }
