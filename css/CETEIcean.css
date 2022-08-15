@@ -603,9 +603,6 @@ tei-p {
   margin-bottom: 1em;
   text-align: justify;
 }
-#page-i tei-p {
-  margin-left: calc(40vw + 5em) !important;
-}
 *[data-tei-rendition~="#center"] p {
   text-align: center;
 }
@@ -1185,7 +1182,7 @@ tei-lg[type=poemPage] {
 #poemPage05 {
     margin-left: 52em;
 }
-#page-i > tei-p > tei-quote {
+#page-i > tei-quote {
     margin-top: 4em;
 }
 .switch {
