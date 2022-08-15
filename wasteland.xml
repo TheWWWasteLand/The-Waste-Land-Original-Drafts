@@ -43,13 +43,11 @@
                         <figure><graphic url="https://thewwwasteland.github.io/images/1.jpg" xml:id="page-i"/>
                         </figure>
                     </p>
-                    <p>
-                        <head>
-                            THE WASTE LAND<lb/>
-                            By<lb/>
-                            T. S. Eliot<lb/>
-                        </head>
-                    </p>
+                    <head>
+                        THE WASTE LAND<lb/>
+                        By<lb/>
+                        T. S. Eliot
+                    </head>
                     <quote>
                             <p>"Did he live his life again in every detail of desire, tempta-<lb/>
                             tion, and surrender during that supreme moment of complete<lb/>
@@ -69,12 +67,12 @@
                     <figure><graphic url="https://thewwwasteland.github.io/images/2.jpg" xml:id="page-1"/>
                     </figure>
                 </p>
-                <head>
-                    <p>HE DO THE POLICE IN DIFFERENT VOICES: Part I.<lb/>
-                    <lb/>
-                    THE BURIAL OF THE DEAD<lb/></p>
-                </head>
                 <lg type="poemPage" n="1" xml:id="poemPage01">
+                    <head>
+                        HE DO THE POLICE IN DIFFERENT VOICES: Part I.<lb/>
+                        <lb/>
+                        THE BURIAL OF THE DEAD
+                    </head>
                     <del xml:id="rdg-2" hand="TEliot">
                         <lg type="stanza" n="1" xml:id="stanza01">
                             <l n="1">First we had a couple of feelers down at Tom's place</l>
@@ -162,11 +160,11 @@
                     <figure><graphic url="https://thewwwasteland.github.io/images/3.jpg" xml:id="page-2"/>
                     </figure>
                 </p>
-                <head>
-                    <p>2.</p>
-                </head>
-                <p> *  *  *  *  <lb/></p>
                 <lg type="poemPage" n="2" xml:id="poemPage02">
+                    <head>
+                        2.<lb/>
+                        *  *  *  *
+                    </head>
                     <lg type="stanza" n="2" xml:id="stanza02">
                         <l n="55">April is the cruellest month, breeding</l>
                         <l>Liliacs out of the dead land, mixing</l>
@@ -187,7 +185,7 @@
                         <l>In the mountains, <rdg xml:id="rdg-13">there you feel free.</rdg></l>
                         <l>I read, much of the night, and go south in the winter.</l>
                     </lg>
-                    <p>  *  *  *  *  <lb/></p>
+                    <head>  *  *  *  * </head>
                     <lg type="stanza" n="3" xml:id="stanza03">
                         <l>What are the roots that clutch, what branches grew</l>
                         <l>Out of this stony rubbish! Son of man,</l>
@@ -202,7 +200,7 @@
                         <l>Or your shadow at evening rising to meet you;</l>
                         <l>I will show you fear in a handful of dust.</l>
                     </lg>
-                    <p>  *  *  *  *  <lb/></p>
+                    <head>  *  *  *  * </head>
                     <lg type="stanza" n="4" xml:id="stanza04">
                         <l n="85"><app><rdg xml:id="rdg-14"><del xml:id="del-13" hand="TEliot">Mein</del></rdg></app> Frisch <rdg xml:id="rdg-15"><subst xml:id="sub-5"><del xml:id="del-14" hand="TEliot">schwebt</del><add xml:id="add-5" hand="TEliot">weht</add></subst></rdg> der Wind </l>
                         <l>           Der Heimat zu,</l>
@@ -239,7 +237,7 @@
                     </figure>
                 </p>
                 <head>
-                    <line>3.<lb/></line>
+                    <head>3.</head>
                 </head>
                 <lg type="poemPage" n="3" xml:id="poemPage03">
                     <lg type="stanza" n="6" xml:id="stanza06">
@@ -299,9 +297,9 @@
                     </figure>
                 </p>
                 <head>
-                    <p>HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/>
+                    HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/>
                     <lb/>
-                    <rdg><subst xml:id="sub-9"><del xml:id="del-24" hand="TEliot">IN THE CAGE.</del><add place="above" xml:id="add-14" hand="TEliot">A Game of Chess.</add></subst></rdg><lb/></p>
+                    <rdg><subst xml:id="sub-9"><del xml:id="del-24" hand="TEliot">IN THE CAGE.</del><add place="above" xml:id="add-14" hand="TEliot">A Game of Chess.</add></subst></rdg>
                 </head>
                 <lg type="poemPage" n="4" xml:id="poemPage04">
                     <lg type="stanza" n="8" xml:id="stanza08">
@@ -453,7 +451,7 @@
                     </figure>
                 </p>
                 <head>
-                    <p>2<lb/></p>
+                    2
                 </head>
                 <lg type="poemPage" n="5" xml:id="poemPage05">
                     <lg type="stanza" n="14" xml:id="stanza14">
@@ -598,7 +596,7 @@
                     </figure>
                 </p>
                 <head>
-                    <p>3<lb/></p>
+                    3
                 </head>
                 <lg type="poemPage" n="6" xml:id="poemPage06">
                     <lg type="stanza" n="21" xml:id="stanza21">
@@ -632,9 +630,9 @@
                 </p>
                 <p>
                     <head>
-                        <p>HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/>
+                        HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/>
                         <lb/>
-                        <rdg><subst><del hand="TEliot">IN THE CAGE.</del><add place="above" hand="TEliot">A Game of Chess.</add></subst></rdg><lb/></p>
+                        <rdg><subst><del hand="TEliot">IN THE CAGE.</del><add place="above" hand="TEliot">A Game of Chess.</add></subst></rdg>
                     </head>
                 </p>
                 <lg>
