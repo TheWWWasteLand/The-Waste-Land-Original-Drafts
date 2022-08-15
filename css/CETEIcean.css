@@ -386,11 +386,11 @@ tei-head {
   margin-left: calc(40vw + 5em);
   width: 36em;
 }
-tei-div > tei-line {
+tei-div > tei-head {
   text-align: center;
   margin-left: calc(40vw + 20.5em);
 }
-tei-lg > tei-line {
+tei-lg > tei-p {
     text-align: center;
     padding-left: 9.5em;
 }
