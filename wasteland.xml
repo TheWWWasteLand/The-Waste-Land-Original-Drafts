@@ -45,22 +45,20 @@
                     </p>
                     <p>
                         <head>
-                            <line>THE WASTE LAND<lb/></line>
-                            <line>By<lb/></line>
-                            <line>T. S. Eliot<lb/></line>
+                            THE WASTE LAND<lb/>
+                            By<lb/>
+                            T. S. Eliot<lb/>
                         </head>
                     </p>
-                    <p>
-                        <quote>
-                            <line>"Did he live his life again in every detail of desire, tempta-<lb/></line>
-                            <line>tion, and surrender during that supreme moment of complete<lb/></line>
-                            <line>knowledge? He cried in a whisper at some image, at some vi-<lb/></line>
-                            <line>sion, - he cried out twice, a cry that was no more than a<lb/></line>
-                            <line>breath -<lb/></line>
-                            <line>          'The horror!   The horror!'"<lb/></line>
-                            <line>                                                          <add xml:id="add-i" hand="TEliot"><bibl><author>Conrad</author></bibl>.</add></line>
-                        </quote>  
-                    </p>
+                    <quote>
+                            <p>"Did he live his life again in every detail of desire, tempta-<lb/>
+                            tion, and surrender during that supreme moment of complete<lb/>
+                            knowledge? He cried in a whisper at some image, at some vi-<lb/>
+                            sion, - he cried out twice, a cry that was no more than a<lb/>
+                            breath -<lb/>
+                                      'The horror!   The horror!'"<lb/>
+                                                                                      <add xml:id="add-i" hand="TEliot"><bibl><author>Conrad</author></bibl>.</add></p>
+                    </quote>  
                 </div>
             </titlePage>
         </front>
@@ -72,9 +70,9 @@
                     </figure>
                 </p>
                 <head>
-                    <line>HE DO THE POLICE IN DIFFERENT VOICES: Part I.<lb/></line>
-                    <line><lb/></line>
-                    <line>THE BURIAL OF THE DEAD<lb/></line>
+                    <p>HE DO THE POLICE IN DIFFERENT VOICES: Part I.<lb/>
+                    <lb/>
+                    THE BURIAL OF THE DEAD<lb/></p>
                 </head>
                 <lg type="poemPage" n="1" xml:id="poemPage01">
                     <del xml:id="rdg-2" hand="TEliot">
@@ -165,9 +163,9 @@
                     </figure>
                 </p>
                 <head>
-                    <line>2.</line>
+                    <p>2.</p>
                 </head>
-                <line> *  *  *  *  <lb/></line>
+                <p> *  *  *  *  <lb/></p>
                 <lg type="poemPage" n="2" xml:id="poemPage02">
                     <lg type="stanza" n="2" xml:id="stanza02">
                         <l n="55">April is the cruellest month, breeding</l>
@@ -189,7 +187,7 @@
                         <l>In the mountains, <rdg xml:id="rdg-13">there you feel free.</rdg></l>
                         <l>I read, much of the night, and go south in the winter.</l>
                     </lg>
-                    <line>  *  *  *  *  <lb/></line>
+                    <p>  *  *  *  *  <lb/></p>
                     <lg type="stanza" n="3" xml:id="stanza03">
                         <l>What are the roots that clutch, what branches grew</l>
                         <l>Out of this stony rubbish! Son of man,</l>
@@ -204,7 +202,7 @@
                         <l>Or your shadow at evening rising to meet you;</l>
                         <l>I will show you fear in a handful of dust.</l>
                     </lg>
-                    <line>  *  *  *  *  <lb/></line>
+                    <p>  *  *  *  *  <lb/></p>
                     <lg type="stanza" n="4" xml:id="stanza04">
                         <l n="85"><app><rdg xml:id="rdg-14"><del xml:id="del-13" hand="TEliot">Mein</del></rdg></app> Frisch <rdg xml:id="rdg-15"><subst xml:id="sub-5"><del xml:id="del-14" hand="TEliot">schwebt</del><add xml:id="add-5" hand="TEliot">weht</add></subst></rdg> der Wind </l>
                         <l>           Der Heimat zu,</l>
@@ -301,9 +299,9 @@
                     </figure>
                 </p>
                 <head>
-                    <line>HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/></line>
-                    <line><lb/></line>
-                    <line><rdg><subst xml:id="sub-9"><del xml:id="del-24" hand="TEliot">IN THE CAGE.</del><add place="above" xml:id="add-14" hand="TEliot">A Game of Chess.</add></subst></rdg><lb/></line>
+                    <p>HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/>
+                    <lb/>
+                    <rdg><subst xml:id="sub-9"><del xml:id="del-24" hand="TEliot">IN THE CAGE.</del><add place="above" xml:id="add-14" hand="TEliot">A Game of Chess.</add></subst></rdg><lb/></p>
                 </head>
                 <lg type="poemPage" n="4" xml:id="poemPage04">
                     <lg type="stanza" n="8" xml:id="stanza08">
@@ -455,7 +453,7 @@
                     </figure>
                 </p>
                 <head>
-                    <line>2<lb/></line>
+                    <p>2<lb/></p>
                 </head>
                 <lg type="poemPage" n="5" xml:id="poemPage05">
                     <lg type="stanza" n="14" xml:id="stanza14">
@@ -600,7 +598,7 @@
                     </figure>
                 </p>
                 <head>
-                    <line>3<lb/></line>
+                    <p>3<lb/></p>
                 </head>
                 <lg type="poemPage" n="6" xml:id="poemPage06">
                     <lg type="stanza" n="21" xml:id="stanza21">
@@ -634,9 +632,9 @@
                 </p>
                 <p>
                     <head>
-                        <line>HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/></line>
-                        <line><lb/></line>
-                        <line><rdg><subst><del hand="TEliot">IN THE CAGE.</del><add place="above" hand="TEliot">A Game of Chess.</add></subst></rdg><lb/></line>
+                        <p>HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/>
+                        <lb/>
+                        <rdg><subst><del hand="TEliot">IN THE CAGE.</del><add place="above" hand="TEliot">A Game of Chess.</add></subst></rdg><lb/></p>
                     </head>
                 </p>
                 <lg>
