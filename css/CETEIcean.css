@@ -384,9 +384,12 @@ tei-head {
   font-weight: normal;
   text-align: center;
 }
+#page-i tei-head {
+  margin-left: calc(40vw + 5em);
+  width: 25em;
+}
 tei-lg > tei-head {
     text-align: center;
-    padding-left: 9.5em;
 }
 tei-body > tei-head {
   text-indent: -0.5em;
@@ -599,6 +602,9 @@ tei-p {
   margin-top: 1em;
   margin-bottom: 1em;
   text-align: justify;
+}
+#page-i tei-p {
+  margin-left: calc(40vw + 5em) !important;
 }
 *[data-tei-rendition~="#center"] p {
   text-align: center;
