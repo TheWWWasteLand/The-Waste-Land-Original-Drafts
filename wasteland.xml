@@ -58,7 +58,7 @@
                             <line>sion, - he cried out twice, a cry that was no more than a<lb/></line>
                             <line>breath -<lb/></line>
                             <line>          'The horror!   The horror!'"<lb/></line>
-                            <line>                                                 <add xml:id="add-i" hand="TEliot"><bibl><author>Conrad</author></bibl>.</add></line>
+                            <line>                                                          <add xml:id="add-i" hand="TEliot"><bibl><author>Conrad</author></bibl>.</add></line>
                         </quote>  
                     </p>
                 </div>
@@ -629,10 +629,8 @@
             </div>
             <div xml:id="page-8">
                 <p>
-                    <surface>
-                        <graphic url='TEliot3.png' width='10px' height='380px' />
-                        <zone points = ' 5,375 5,6 9,9 1,2 5,6 1,10 9,2 ' />
-                    </surface>
+                    <figure><graphic url="https://thewwwasteland.github.io/images/8.jpg" xml:id="page-7"/>
+                    </figure>
                 </p>
                 <p>
                     <head>
