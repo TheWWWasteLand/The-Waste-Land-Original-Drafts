@@ -1096,21 +1096,11 @@ tei-del {
     display: inline-block;
 }
 
-#note-3 tei-del {
-    text-decoration: line-through;
-    text-decoration-color: #ef476f;
-}
-
 #note-4 tei-del {
     text-decoration: line-through;
     text-decoration-color: #ef476f;
 }
-#note-3 {
-    position:absolute;
-    color: #ef476f;
-    right: 18em;
-    top: 75em;
-}
+
 #note-4 {
     position:absolute;
     color: #ef476f;
@@ -1385,10 +1375,9 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     bottom: 0.6em;
 }
 
-#add-7 {
-    display: inline-block !important;
+#note-3 {
     position: relative;
-    top: 0em;
+    top: -40em;
     left: 26em;
 }
 
