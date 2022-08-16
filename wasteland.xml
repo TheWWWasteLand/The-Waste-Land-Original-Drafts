@@ -115,8 +115,8 @@
                         <l>It's no use being sorry, he said; let me get my hat, I said.</l>                    
                         <l>Well by a stroke of luck who came by but Mr.Donovan.</l>                    
                         <l n="40">What's this, officer. You're new on this beat, aint you?</l>                    
-                        <l><delSpan xml:id="delSpan-02" hand="TEliot" rend="overstrike"/>I thought so. You know who I am? Yes, I do,</l>                   
-                        <l>Said the fresh cop, very peevish. Then let it alone,</l>                   
+                        <delSpan xml:id="delSpan-02" hand="TEliot" spanTo="#delSpan-02End" rend="overstrike"/><l>I thought so. You know who I am? Yes, I do,</l>                   
+                        <l>Said the fresh cop, very peevish.<anchor xml:id="delSpan-02End"/> Then let it alone,</l>                   
                         <l>These gents are particular friends of mine.</l>                    
                         <l>-Wasn't it luck? Then we wen to the German Club,</l>                    
                         <l n="45"><subst xml:id="sub-4"><add xml:id="add-9" hand="TEliot" place="margin-left">Us</add><del xml:id="del-8" hand="TEliot" rend="overstrike">We</del></subst> and Mr. Donovan and his friend <subst xml:id="sub-5"><del xml:id="del-9" hand="TEliot" rend="overstrike">Joe Leahy,</del><add xml:id="add-10" hand="TEliot" place="margin-right"><del xml:id="del-10" hand="TEliot" rend="overstrike">Heinie</del><add xml:id="add-11" hand="TEliot" place="above">Gus</add> Krutzsch</add></subst></l>             
