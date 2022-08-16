@@ -1083,17 +1083,22 @@ tei-del {
     text-decoration-color: #ef476f;
     text-align:right;
     left: 26em;
-    top: -80em;
+    top: -78em;
     line-height: 0.8em;
 }        
 
 #note-2 {
     position:relative;
     text-align:right;  
-    top: -74.5em;
+    top: -72.5em;
     left: 15em;
     line-height: 1.5em;
     display: inline-block;
+}
+#note-3 {
+    position: relative;
+    top: -40em;
+    left: 0em;
 }
 
 #note-4 tei-del {
@@ -1375,10 +1380,6 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     bottom: 0.6em;
 }
 
-#note-3 {
-    position: relative;
-    top: -40em;
-    left: 26em;
-}
+
 
     
