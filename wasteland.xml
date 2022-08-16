@@ -140,7 +140,10 @@
                             <l>Say Kid what're y'<lb/> doin'</l>
                         </lg>
                     </note>
-                    <note xml:id="note-3" hand="TEliot">real<lb/>good(?)</note>
+                    <note xml:id="note-3" hand="TEliot">
+                        <line>real<lb/></line>
+                        <line>good(?)</line
+                    </note>
                 </lg>
                 
             </div>
