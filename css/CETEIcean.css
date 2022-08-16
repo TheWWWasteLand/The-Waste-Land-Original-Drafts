@@ -1083,8 +1083,8 @@ tei-del {
     text-decoration: line-through;
     text-decoration-color: #ef476f;
     text-align:right;
-    left: 20em;
-    top: -50em;
+    left: 24em;
+    top: -75em;
     line-height: 0.8em;
 }        
 
@@ -1092,8 +1092,8 @@ tei-del {
     position:relative;
     color: #ef476f;
     text-align:right;  
-    left: 25em;
-    top: -45em;
+    left: 23em;
+    top: -70em;
     line-height: 1.5em;
 }
 
