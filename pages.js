@@ -148,7 +148,7 @@ function finalVer() {
     for (let i = 0; i < 14; i++) {
       dels[i].classList.toggle('line-del');
     }
-    for (let i = 1; i < 12; i++) {
+    for (let i = 1; i < 13; i++) {
       adds[i].classList.toggle('hidden');
       if (adds[i].getAttribute('place') == "above") {
         if (adds[i].parentNode.nodeName == "TEI-L") {
