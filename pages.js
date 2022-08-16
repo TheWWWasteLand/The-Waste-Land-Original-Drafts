@@ -150,6 +150,9 @@ function finalVer() {
     }
     for (let i = 1; i < 12; i++) {
       adds[i].classList.toggle('hidden');
+      if (adds[i].getAttribute('place') == "above") {
+        adds[i].classList.toggle('interline');
+      }
     }
     document.getElementById('hi-1').classList.toggle('highlight');
     document.getElementById('stanza01').classList.toggle('total-del');
