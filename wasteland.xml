@@ -71,66 +71,65 @@
                     <head>
                         HE DO THE POLICE IN DIFFERENT VOICES: Part I.<lb/>
                         <lb/>
-                        THE BURIAL OF THE DEAD
+                        THE BURIAL OF THE DEAD.
                     </head>
-                    <del xml:id="rdg-2" hand="TEliot">
-                        <lg type="stanza" n="1" xml:id="stanza01">
-                            <l n="1">First we had a couple of feelers down at Tom's place</l>
-                            <l>There was old Tom, boiled to eyes, blind,</l>
-                            <l>(Don't you remember that time after a dance,</l>
-                            <l>Top hats and all, we and Silk Hat Harry,</l>
-                            <l n="5">And old Tom took us behind, brought out a bottle of fizz,</l>
-                            <l>With old Jane, Tom's Wife; and we got Joe to sing</l>
-                            <l>"I'm proud of all the Irish blood that's in me,</l>
-                            <l>"There's not a man can say a word agin me").</l>
-                            <l>Then we had dinner in good form, and a couple of Bengal lights.</l>
-                            <l n="10">When we got into the show, up in Row A,</l>
-                            <l>I tried to put my food in the drum, and didn't the girl squeal,</l>
-                            <l>She never did take to me, a nice guy-but rough;</l>
-                            <l>The next thing we were out in the street, Oh was it cold!</l>
-                            <l>When will you be good? Blew in to the Opera Exchange,</l>
-                            <l n="15">Sopped up some gin, sat in to the cork game,</l>
-                            <l>Mr. Fay was there, singing "The Maid of The Mill";</l>
-                            <l>Then we thought we'd breeze along and take a walk.</l>
-                            <l>Then we lost Steve.</l>
-                            <l>("I turned up an hour later down at Myrtle's place.</l>
-                            <l n="20">What d'y' mean, she says, at two o'clock in the morning,</l>
-                            <l>I'm not busy here for guys like you;</l>
-                            <l>We've only had a raid last week, I've been warned twice.</l>
-                            <l><rdg xml:id="rdg-4"><del xml:id="del-4" hand="TEliot">Sergeant, I said</del></rdg>, I've kept a decent house for twenty years,</l>
-                            <l>There's three gents from the Buckingham Club upstairs now,</l>
-                            <l n="25">I'm going to retire and live on a farm, she says,</l>
-                            <l>There's no money in it now, what with the damage done,</l>
-                            <l>And the reputation the place gets, <rdg xml:id="rdg-5"><subst><del xml:id="del-5" hand="TEliot">on account</del><add place="above" xml:id="add-1" hand="TEliot">off</add></subst></rdg> of a few bar-flies,</l>
-                            <l>I've kept a clean house for twenty years, she says,</l>
-                            <l>And the gents from Buckingham Club know they're safe here;</l>
-                            <l n="30">You was well introduced, but this is the last of you.</l>
-                            <l>Get me a woman, I said; you're too drunk, she said,</l>
-                            <l>But she gave me a bed, and a bath, and ham and eggs,</l>
-                            <l>And now you go get a shave, she said; <rdg xml:id="rdg-6"><subst xml:id="sub-2"><del xml:id="del-6a" hand="TEliot">I had a good laugh,</del><add xml:id="add-2a" hand="TEliot"><del xml:id="del-6b" hand="TEliot">couple of laughs (?)</del></add><add xml:id="add-2b" hand="TEliot"><del xml:id="del-6c" hand="TEliot">real<lb/>good(?)</del></add><add xml:id="add-2c" hand="TEliot"><del xml:id="del-6d" hand="TEliot">good laugh</del></add></subst></rdg></l>
-                            <l>Myrtle <rdg xml:id="rdg-7"><subst xml:id="sub-3"><del xml:id="del-7a" hand="TEliot">was</del> always a <del xml:id="del-7b" hand="TEliot">good sport").</del> <add xml:id="add-3" hand="TEliot">treated me white.</add></subst></rdg></l>
-                            <l n="35">We'd just gone up the alley, a fly cop came along,</l>
-                            <l>Looking for trouble; committing a nuisance, he said,</l> 
-                            <l>You come on to the station. I'm sorry, I said,</l>
-                            <l>It's no use being sorry, he said; let me get my hat, I said.</l>                    
-                            <l>Well by a stroke of luck who came by but Mr.Donovan.</l>                    
-                            <l n="40">What's this, officer. You're new on this beat, aint you?</l>                    
-                            <l><rdg xml:id="rdg-8a"><del xml:id="del-8a" hand="TEliot">I thought so. You know who I am? Yes, I do,</del></rdg></l>                   
-                            <l><rdg xml:id="rdg-8b"><del xml:id="del-8b" hand="TEliot">Said the fresh cop, very peevish.</del></rdg> Then let it alone,</l>                   
-                            <l>These gents are particular friends of mine.</l>                    
-                            <l>-Wasn't it luck? Then we wen to the German Club,</l>                    
-                            <l n="45"><rdg xml:id="rdg-9"><subst xml:id="sub-4"><add xml:id="add-4" hand="TEliot">Us</add><del xml:id="del-9" hand="TEliot">We</del></subst></rdg> and Mr. Donovan and his friend <rdg xml:id="rdg-10"><del xml:id="del-10" hand="TEliot">Joe Leahy</del></rdg>,</l>                    
-                            <l><rdg xml:id="rdg-11"><del xml:id="del-11" hand="TEliot">Found it shut.</del></rdg> I want to get home, said the cabman,</l>
-                            <l>We all go the same way home, said Mr. Donavan,</l>                                     
-                            <l>Cheer up, Trixie and Stella; and put his foot through the window.</l>                                     
-                            <l>The next I know the old cab was hauled up on the avenue,</l>                                     
-                            <l n="50">And the cabman and little Ben Levin the tailor,</l>                                     
-                            <l>The one who read George Meredith,</l>                                     
-                            <l>Were running a hundred yards on a bet,</l>
-                            <l>And Mr. Donovan holding the watch.</l>
-                            <l>So I got out to see the sunrise, and walked home.</l> 
-                        </lg>
-                    </del>
+                    <delSpan xml:id="delSpan-01" hand="TEliot" rend="diagonalStrike rightToLeft"/>
+                    <lg type="stanza" n="1" xml:id="stanza01">
+                        <l n="1">First we had a couple of feelers down at Tom's place</l>
+                        <l>There was old Tom, boiled to eyes, blind,</l>
+                        <l>(Don't you remember that time after a dance,</l>
+                        <l>Top hats and all, we and Silk Hat Harry,</l>
+                        <l n="5">And old Tom took us behind, brought out a bottle of fizz,</l>
+                        <l>With old Jane, Tom's Wife; and we got Joe to sing</l>
+                        <hi xml:id="hi-1" hand="TEliot" rend="circled"><l>"I'm proud of all the Irish blood that's in me,</l>
+                        <l>"There's not a man can say a word agin me").</l></hi>
+                        <l>Then we had dinner in good form, and a couple of Bengal lights.</l>
+                        <l n="10">When we got into the show, up in Row A,</l>
+                        <l>I tried to put my food in the drum, and didn't the girl squeal,</l>
+                        <l>She never did take to me, a nice guy-but rough;</l>
+                        <l>The next thing we were out in the street, Oh was it cold!</l>
+                        <l>When will you be good? Blew in to the Opera Exchange,</l>
+                        <l n="15">Sopped up some gin, sat in to the cork game,</l>
+                        <l>Mr. Fay was there, singing "The Maid of The Mill";</l>
+                        <l>Then we thought we'd breeze along and take a walk.</l>
+                        <l>Then we lost Steve.</l>
+                        <l><add xml:id="add-1" hand="TEliot" place="margin-left">-</add>("I turned up an hour later down at Myrtle's place.</l>
+                        <l n="20">What d'y' mean, she says, at two o'clock in the morning,</l>
+                        <l>I'm not busy here for guys like you;</l>
+                        <l>We've only had a raid last week, I've been warned twice.</l>
+                        <l><del xml:id="del-1" hand="TEliot">Sergeant, I said</del>, I've kept a decent house for twenty years,   <add xml:id="add-2" place="inline" hand="TEliot">she says</add></l>
+                        <l>There's three gents from the Buckingham Club upstairs now,</l>
+                        <l n="25">I'm going to retire and live on a farm, she says,</l>
+                        <l>There's no money in it now, what with the damage done,</l>
+                        <l>And the reputation the place gets, <subst xml:id="sub-1"><del xml:id="del-2" hand="TEliot" rend="overstrike">on account</del><add xml:id="add-3" place="above" hand="TEliot">off</add></subst></rdg> of a few bar-flies,</l>
+                        <l>I've kept a clean house for twenty years, she says,</l>
+                        <l>And the gents from Buckingham Club know they're safe here;</l>
+                        <l n="30">You was well introduced, but this is the last of you.</l>
+                        <l>Get me a woman, I said; you're too drunk, she said,</l>
+                        <l>But she gave me a bed, and a bath, and ham and eggs,</l>
+                        <l>And now you go get a shave, she said; <subst xml:id="sub-2"><del xml:id="del-3" hand="TEliot" rend="overstrike">I had a good laugh,</del><add xml:id="add-4" hand="TEliot"><del xml:id="del-4" hand="TEliot" rend="overstrike">couple of laughs (?)</del></add><add xml:id="add-5" hand="TEliot"><del xml:id="del-5" hand="TEliot" rend="overstrike">good laugh</del></add></subst></l>
+                        <l>Myrtle <subst xml:id="sub-3"><del xml:id="del-6a" hand="TEliot" rend="overstrike">was</del> always a <del xml:id="del-6b" hand="TEliot" rend="overstrike">good sport").</del> <add xml:id="add-7" hand="TEliot" place="inline">treated me white.</add></subst><add xml:id="add-6" place="margin-right" hand="TEliot"><ptr target="del-6b"/>real<lb/>good(?)</add></l>
+                        <l n="35"><add xml:id="add-8" hand="TEliot" place="margin-left">-</add>We'd just gone up the alley, a fly cop came along,</l>
+                        <l>Looking for trouble; committing a nuisance, he said,</l> 
+                        <l>You come on to the station. I'm sorry, I said,</l>
+                        <l>It's no use being sorry, he said; let me get my hat, I said.</l>                    
+                        <l>Well by a stroke of luck who came by but Mr.Donovan.</l>                    
+                        <l n="40">What's this, officer. You're new on this beat, aint you?</l>                    
+                        <l><delSpan xml:id="delSpan-02" hand="TEliot" rend="overstrike"/>I thought so. You know who I am? Yes, I do,</del></l>                   
+                        <l>Said the fresh cop, very peevish. Then let it alone,</l>                   
+                        <l>These gents are particular friends of mine.</l>                    
+                        <l>-Wasn't it luck? Then we wen to the German Club,</l>                    
+                        <l n="45"><subst xml:id="sub-4"><del xml:id="del-8" hand="TEliot" rend="overstrike">We</del><add xml:id="add-9" hand="TEliot" place="margin-left">Us</add></subst> and Mr. Donovan and his friend <subst xml:id="sub-5"><del xml:id="del-9" hand="TEliot" rend="overstrike">Joe Leahy,</del><add xml:id="add-10" hand="TEliot" place="margin-right"><del xml:id="del-10" hand="TEliot" rend="overstrike">Heinie</del><add xml:id="add-11" hand="TEliot" place="above">Gus</add> Krutzsch</add></subst></l>             
+                        <l><del xml:id="del-10" hand="TEliot" rend="overstrike">Found it shut.</del> I want to get home, said the cabman,</l>
+                        <l>We all go the same way home, said Mr. Donavan,</l>                                     
+                        <l>Cheer up, Trixie and Stella; and put his foot through the window.</l>                                     
+                        <l>The next I know the old cab was hauled up on the avenue,</l>                                     
+                        <l n="50">And the cabman and little Ben Levin the tailor,</l>                                     
+                        <l>The one who read George Meredith,</l>                                     
+                        <l>Were running a hundred yards on a bet,</l>
+                        <l>And Mr. Donovan holding the watch.</l>
+                        <l>So I got out to see the sunrise, and walked home.</l> 
+                    </lg>
                 </lg>
                 <note id="note-1" hand="TEliot"><del><lg>
                         <l>Meet me in the shadow of the</l>
@@ -142,15 +141,6 @@
                         <l>Tease, Squeeze lovin &#38; wooin</l>
                         <l>Say Kid what're y'</l>
                         <l>doin'</l>
-                    </lg>
-                </note>
-                <note id="note-3" hand="TEliot"><lg>
-                        <l><del>me</del>?</l>
-                    </lg>
-                </note>
-                <note id="note-4" hand="TEliot"><lg>
-                        <l> Gus</l>
-                        <l><del>Heinie</del> Krutzsch</l>
                     </lg>
                 </note>
             </div>
