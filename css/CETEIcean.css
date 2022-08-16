@@ -1372,9 +1372,5 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 .vertical {
     transform: rotate(-90deg);
 }    
-#add-3 {
-    top: 30em;
-    left: 30em;
-}
-    
+
     
