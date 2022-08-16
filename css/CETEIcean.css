@@ -105,6 +105,13 @@ tei-add[place=margin-right] {
   display: inline-block;
   margin-left: 2em;
 }
+tei-add[place=margin-left] {
+  width: 4em;
+  text-align: right;
+  display: inline-block;
+  margin-left: -1em;
+  padding-right: 1em;
+}
 tei-additional {
   display: block;
 }
@@ -1372,7 +1379,7 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 }
 .vertical {
     transform: rotate(-90deg);
-}    
+} 
 #add-3, #add-11 {
     margin-left: -3em;
     padding-right: 2em;
