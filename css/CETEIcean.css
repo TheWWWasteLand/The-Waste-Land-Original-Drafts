@@ -1084,7 +1084,7 @@ tei-del {
     text-decoration-color: #ef476f;
     text-align:right;
     left: 20em;
-    top: -24em;
+    top: -50em;
     line-height: 0.8em;
 }        
 
@@ -1092,8 +1092,8 @@ tei-del {
     position:relative;
     color: #ef476f;
     text-align:right;  
-    left: 30em;
-    top: -28.2em;
+    left: 25em;
+    top: -45em;
     line-height: 1.5em;
 }
 
@@ -1389,7 +1389,7 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 #add-6 {
     display: block !important;
     position: relative;
-    top: 20em;
+    top: 0em;
     left: 26em;
 }
 
