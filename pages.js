@@ -138,14 +138,18 @@ function finalVer() {
   four = document.getElementById('page-5');
   five = document.getElementById('page-6');
   six = document.getElementById('page-7');
-  const dels = document.getElementsByTagName("tei-del")
+  const dels = document.getElementsByTagName("tei-del");
+  const adds = document.getElementsByTagName("tei-add");
   document.getElementById('selectAuthors').classList.remove('hidden');
   if (i.getAttribute('style') != "display: none;") {
     document.getElementById("add-i").classList.toggle('hidden');
   }
   else if (one.getAttribute('style') == "display: block;") {
     for (let i = 0; i < 13; i++) {
-      dels[i].classList.add('line-del');
+      dels[i].classList.toggle('line-del');
+    }
+    for (let i = 0; i < 10; i++) {
+      adds[i].classList.toggle('hidden');
     }
   }
   else if (two.getAttribute('style') == "display: block;") {
