@@ -954,6 +954,7 @@ tei-l > span {
     -o-user-select: none;
     user-select: none;
     color: #d1c0a8;
+    z-index: 1;
 }
 tei-l[n="1"] > span, tei-l[n="5"] > span {
     margin-right: 4.5em !important;
