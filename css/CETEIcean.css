@@ -1043,6 +1043,9 @@ tei-body tei-div {
 .arrows:hover {
     opacity: 1
 }
+.interline {
+    line-height: 2.5em !important;
+}
 #rdg-2 {
     display: inline-block;
 }
