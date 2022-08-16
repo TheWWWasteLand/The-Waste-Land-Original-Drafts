@@ -1097,8 +1097,8 @@ tei-del {
 }
 #note-3 {
     position: relative;
-    top: -40em;
-    left: 0em;
+    top: 0.5em;
+    left: 26em;
 }
 
 #note-4 tei-del {
