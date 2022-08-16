@@ -99,6 +99,9 @@ tei-add[place=above] {
 tei-add[place=below] {
   vertical-align: sub;
 }
+tei-add[place=margin-left] {
+  margin-left: -2em;
+}
 tei-additional {
   display: block;
 }
