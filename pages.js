@@ -148,7 +148,7 @@ function finalVer() {
     for (let i = 0; i < 13; i++) {
       dels[i].classList.toggle('line-del');
     }
-    for (let i = 1; i < 11; i++) {
+    for (let i = 1; i < 12; i++) {
       adds[i].classList.toggle('hidden');
     }
     document.getElementById('hi-1').classList.toggle('highlight');
