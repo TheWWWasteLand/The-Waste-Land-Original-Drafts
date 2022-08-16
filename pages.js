@@ -151,7 +151,12 @@ function finalVer() {
     for (let i = 1; i < 12; i++) {
       adds[i].classList.toggle('hidden');
       if (adds[i].getAttribute('place') == "above") {
-        adds[i].parentNode.classList.toggle('interline');
+        if (adds[i].parentNode.nodeName == "TEI-L") {
+          adds[i].parentNode.classList.toggle('interline');
+        }
+        else if (adds[i].parentNode.parentNode.nodeName == "TEI-L") {
+          adds[i].parentNode.classList.toggle('interline');
+        }
       }
     }
     document.getElementById('hi-1').classList.toggle('highlight');
