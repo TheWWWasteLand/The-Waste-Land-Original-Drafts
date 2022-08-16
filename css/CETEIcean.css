@@ -96,7 +96,7 @@ tei-activity:before {
 tei-add[place=above] {
   vertical-align: super;
   position: relative;
-  display: block;
+  display: inline-block;
 }
 tei-add[place=below] {
   vertical-align: sub;
