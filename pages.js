@@ -157,6 +157,12 @@ function finalVer() {
         else if (adds[i].parentNode.parentNode.nodeName == "TEI-L") {
           adds[i].parentNode.classList.toggle('interline');
         }
+        else if (adds[i].parentNode.parentNode.nodeName == "TEI-L") {
+          adds[i].parentNode.parentNode.classList.toggle('interline');
+        }
+        else if (adds[i].parentNode.parentNode.parentNode.nodeName == "TEI-L") {
+          adds[i].parentNode.parentNode.parentNode.classList.toggle('interline');
+        }
       }
     }
     document.getElementById('hi-1').classList.toggle('highlight');
