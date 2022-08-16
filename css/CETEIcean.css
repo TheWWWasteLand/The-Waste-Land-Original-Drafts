@@ -106,11 +106,11 @@ tei-add[place=margin-right] {
   margin-left: 2em;
 }
 tei-add[place=margin-left] {
-  width: 4em;
+  width: 3em;
   text-align: right;
   display: inline-block;
-  margin-left: -1em;
-  padding-right: 1em;
+  margin-left: -3em;
+  padding-right: 3em;
 }
 tei-additional {
   display: block;
