@@ -1078,21 +1078,21 @@ tei-del {
 }
 
 #note-1 tei-del {
-    position:absolute;
+    position:relative;
     color: #ef476f;
     text-decoration: line-through;
     text-decoration-color: #ef476f;
     text-align:right;
-    right: 7vw;
+    left: 20em;
     top: 24em;
     line-height: 0.8em;
 }        
 
 #note-2 {
-    position:absolute;
+    position:relative;
     color: #ef476f;
     text-align:right;  
-    right: 7vw;
+    right: 10em;
     top: 28.2em;
     line-height: 1.5em;
 }
