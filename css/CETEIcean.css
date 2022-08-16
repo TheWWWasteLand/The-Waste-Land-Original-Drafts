@@ -1387,8 +1387,10 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 }
 
 #add-11 {
-    margin-left: -2em;
+    margin-left: -3em;
     bottom:1em;
 }
-    
+#add-10 {
+    display: block!important;
+}
     
