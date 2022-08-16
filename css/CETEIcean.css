@@ -95,6 +95,8 @@ tei-activity:before {
 }
 tei-add[place=above] {
   vertical-align: super;
+  position: relative;
+  display: block;
 }
 tei-add[place=below] {
   vertical-align: sub;
@@ -1046,27 +1048,12 @@ tei-body tei-div {
 .interline {
     line-height: 2.5em !important;
 }
-#rdg-2 {
-    display: inline-block;
-}
-#lg-1, #lg-2 {
-    display: inline-block;
-    border-radius: 3px;
-    border: solid 0.5px rgba(255, 255, 255, 0);
-    padding-bottom: 0em !important;
-}
-#lg-2 {
-    margin-top: 0px !important;
-}
 .highlight {
     border: solid 0.5px #ef476f !important;
 }
 .highlightPound {
     border: solid 0.5px #118ab2 !important;
     border-radius: 3px;
-}
-#rdg-12 {
-    border-top: none !important;
 }
 tei-del {
     display: inline-block;
@@ -1316,11 +1303,6 @@ input:checked + .slider:before {
   margin: 0;
   padding: 0;
 }
-#add-5 {
-    color: #ef476f;
-    top: 62.5em;
-    padding-left: 6em;
-}
 .underline {
     text-decoration: underline;
 }
@@ -1390,106 +1372,9 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 .vertical {
     transform: rotate(-90deg);
 }    
-#note-7 {
-    position:absolute;
-    top: 33.3em;
-    left: 81em;
-    line-height: 1em !important;
-    padding-bottom: 0em !important;
+#add-3 {
+    top: 30em;
+    left: 30em;
 }
-#note-8 {
-    position:absolute;
-    top: 35em;
-    left: 72em;
-    line-height: 0.8em;
-}
-#note-10 {
-    position: absolute;
-    top: 10em;
-    left:75.8em;
-}
-#note-11 {
-    position: absolute;
-    top: 16em;
-    left: 80em;
-}
-#note-12 {
-    position: absolute;
-    top: 33em;
-    left: 73.5em;
-}
-#note-13 {
-    position: absolute;
-    top: 41em;
-    left: 48em;
-    text-align: right;
-}
-#note-14 {
-    position: absolute;
-    top: 45em;
-    left: 73em;
-}
-#note-15 {
-    position: absolute;
-    top: 52em;
-    left: 49em;
-}
-#note-16 {
-    position: absolute;
-    top: 52em;
-    left: 75em;
-}
-#note-17 {
-    position: absolute;
-    top: 70em;
-    left: 76em;
-    letter-spacing:0.3em;
-}
-#note-18 {
-   position: absolute;
-    top: 67em;
-    left: 80.8em;
-}
-#note-19 {
-    position: absolute;
-    top: 80em;
-    left: 48em;
-    line-height: 1em;
-}
-#note-20 {
-    position:absolute;
-    top: 80em;
-    left:75em;
-}
-#note-21 {
-    position: absolute; 
-    top: 86em;
-    left: 50em;
-    line-height: 1em;
-}
-#note-22 {
-    position: absolute;
-    top: 84em;
-    left: 70em;
-}
-#add-12a {
-    top: 33.8em;
-    left: 46.8em;
-}
-#add-12b {
-    top: 34.8em;
-    left: 46.8em;
-}
-#add-11{
-    top: 38.8em;
-    left: 46.8em;
-}
-#add-13 {
-    top: 56em;
-    left: 55em;
-}
-#note-9 {
-    position:absolute;
-    top: 48.5em;
-    left: 70.5em;
-}
+    
+    
