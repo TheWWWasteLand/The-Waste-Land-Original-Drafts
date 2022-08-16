@@ -1334,10 +1334,6 @@ input:checked + .slider:before {
     top: 79.5em;
     right: 13em;
 }
-#add-7 {
-    top: 8.5em;
-    padding-left: 50em;
-}
 #pound-1,#pound-2, #pound-3 {
     position: absolute;
     height: 2.7em;
@@ -1382,26 +1378,6 @@ input:checked + .slider:before {
     left: 77em;
     width: 9px;
     height: 36em !important;
-}
-#add-8 {
-    top: 7.2em;
-    padding-left: 51em;
-}
-#add-9 {
-    top: 26.5em;
-    left: 49em;
-}    
-#add-10a {
-    top: 33.3em;
-    left: 68em;
-}
-#add-10b {
-    top: 33.3em;
-    left: 72em;
-}
-#add-10c {
-    top: 33.3em;
-    left:76em;
 }
 tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     transform: rotate(-35deg);
