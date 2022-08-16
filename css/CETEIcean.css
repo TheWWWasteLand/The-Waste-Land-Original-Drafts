@@ -1385,8 +1385,8 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     bottom: 0.6em;
 }
 
-#add-6 {
-    display: block !important;
+#add-7 {
+    display: inline-block !important;
     position: relative;
     top: 0em;
     left: 26em;
