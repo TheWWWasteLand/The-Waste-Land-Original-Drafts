@@ -169,6 +169,7 @@ function finalVer() {
     document.getElementById('stanza01').classList.toggle('total-del');
     document.getElementById('note-1').classList.toggle('hidden');
     document.getElementById('note-2').classList.toggle('hidden');
+    document.getElementById('note-3').classList.toggle('hidden');
   }
   else if (two.getAttribute('style') == "display: block;") {
     const arrow = document.createElement("img");
