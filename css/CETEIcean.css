@@ -1139,29 +1139,6 @@ tei-graphic {
 .hidden {
     display: none !important;
 }
-#add-1 {
-    padding-left:16em;
-    top: 53.1em;
-}
-#add-2a {
-    padding-left: 26.2em;
-    top: 62.9em;
-}
-#add-2b {
-    padding-left: 27.8em;
-    line-height: 1em;
-}
-#add-2c {
-    padding-left: 31.2em;
-    line-height: 1em;
-}
-#add-3 {
-    padding-left: 15.2em;
-    top: 64.4em;
-}
-#add-4 {
-    margin-left: -1.6em;
-}
 #back-1 {
     position: absolute;
     height: 22em;
