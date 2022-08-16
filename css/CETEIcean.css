@@ -96,12 +96,6 @@ tei-activity:before {
 tei-add[place=above] {
   vertical-align: super;
 }
-tei-add[place=inline]:before {
-  content: "«";
-}
-tei-add[place=inline]:after {
-  content: "»";
-}
 tei-add[place=below] {
   vertical-align: sub;
 }
