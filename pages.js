@@ -138,35 +138,15 @@ function finalVer() {
   four = document.getElementById('page-5');
   five = document.getElementById('page-6');
   six = document.getElementById('page-7');
+  const dels = document.getElementsByTagName("tei-del")
   document.getElementById('selectAuthors').classList.remove('hidden');
   if (i.getAttribute('style') != "display: none;") {
     document.getElementById("add-i").classList.toggle('hidden');
   }
   else if (one.getAttribute('style') == "display: block;") {
-    document.getElementById('add-1').classList.toggle('hidden');
-    document.getElementById('add-2a').classList.toggle('hidden');
-    document.getElementById('add-2b').classList.toggle('hidden');
-    document.getElementById('add-2c').classList.toggle('hidden');
-    document.getElementById('add-3').classList.toggle('hidden');
-    document.getElementById('add-4').classList.toggle('hidden');
-    document.getElementById('rdg-2').classList.toggle('total-del');
-    document.getElementById('del-4').classList.toggle('line-del');
-    document.getElementById('del-5').classList.toggle('line-del');
-    document.getElementById('del-6a').classList.toggle('line-del'); 
-    document.getElementById('del-6b').classList.toggle('line-del');        
-    document.getElementById('del-6c').classList.toggle('line-del');        
-    document.getElementById('del-6d').classList.toggle('line-del');        
-    document.getElementById('del-7a').classList.toggle('line-del');
-    document.getElementById('del-7b').classList.toggle('line-del');
-    document.getElementById('del-9').classList.toggle('line-del');
-    document.getElementById('del-8a').classList.toggle('line-del');
-    document.getElementById('del-8b').classList.toggle('line-del');
-    document.getElementById('del-10').classList.toggle('line-del');
-    document.getElementById('del-11').classList.toggle('line-del');
-    document.getElementById('note-1').classList.toggle('hidden');
-    document.getElementById('note-2').classList.toggle('hidden');
-    document.getElementById('note-3').classList.toggle('hidden');
-    document.getElementById('note-4').classList.toggle('hidden');
+    for (let i = 0; i < 13; i++) {
+      dels[i].classList.add('line-del');
+    }
   }
   else if (two.getAttribute('style') == "display: block;") {
     const arrow = document.createElement("img");
