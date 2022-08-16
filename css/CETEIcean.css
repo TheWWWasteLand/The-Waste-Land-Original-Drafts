@@ -100,7 +100,7 @@ tei-add[place=below] {
   vertical-align: sub;
 }
 tei-add[place=margin-right] {
-  margin-right: -2em;
+  padding-right: -2em;
 }
 tei-additional {
   display: block;
