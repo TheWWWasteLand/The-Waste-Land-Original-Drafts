@@ -100,7 +100,7 @@ tei-add[place=below] {
   vertical-align: sub;
 }
 tei-add[place=margin-right] {
-  padding-left: -2em;
+  margin-left: -2em;
 }
 tei-additional {
   display: block;
@@ -1072,7 +1072,7 @@ tei-del {
 .total-del {
     background: 
          linear-gradient(to top left,
-             rgba(0,0,0,0) 10%,
+             rgba(0,0,0,0) 0%,
              rgba(0,0,0,0) calc(52% - 0.8px),
              #ef476f 52%,
              rgba(0,0,0,0) calc(52% + 0.8px),
