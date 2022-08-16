@@ -102,6 +102,7 @@ tei-add[place=below] {
   vertical-align: sub;
 }
 tei-add[place=margin-right] {
+  display: inline-block;
   margin-left: 2em;
 }
 tei-additional {
