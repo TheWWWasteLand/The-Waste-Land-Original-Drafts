@@ -152,6 +152,7 @@ function finalVer() {
       adds[i].classList.toggle('hidden');
     }
     document.getElementById('hi-1').classList.toggle('highlight');
+    document.getElementById('stanza01').classList.toggle('totalDel');
   }
   else if (two.getAttribute('style') == "display: block;") {
     const arrow = document.createElement("img");
