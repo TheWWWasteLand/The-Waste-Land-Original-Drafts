@@ -151,6 +151,7 @@ function finalVer() {
     for (let i = 1; i < 11; i++) {
       adds[i].classList.toggle('hidden');
     }
+    document.getElementById('hi-1').classList.toggle('highlight');
   }
   else if (two.getAttribute('style') == "display: block;") {
     const arrow = document.createElement("img");
