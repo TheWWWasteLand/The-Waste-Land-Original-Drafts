@@ -427,6 +427,11 @@ tei-figure > tei-head {
   font-family: Georgia, Serif;
   font-size: 13pt;
 }
+tei-hi[rend='circled'] {
+    display: inline-block;
+    border-radius: 3px;
+}
+
 tei-ident {
   font-family: Courier,monospace;
 }
