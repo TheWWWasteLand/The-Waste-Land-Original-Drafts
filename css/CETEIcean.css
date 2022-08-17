@@ -1068,13 +1068,8 @@ tei-del {
 }
 
 .total-del {
-    background: 
-        linear-gradient(to top left,
-             rgba(0,0,0,0) 0%,
-             rgba(0,0,0,0) calc(52% - 0.8px),
-             #ef476f 52%,
-             rgba(0,0,0,0) calc(52% + 0.8px),
-             rgba(0,0,0,0) 100%);
+    background-image: url('https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/bg.png');
+    background-size: cover;   
 }
 
 #note-1 {
