@@ -1140,10 +1140,11 @@ tei-lg {
     padding-bottom: 1.5em;
 }
 tei-lg[type=poemPage] {
-    margin-left: calc(40vw + 10em);
-    height: 70vh;
+    margin-left: calc(40vw + 3em);
+    height: 79vh;
     overflow: scroll;
     padding-left: 7em;
+    margin-top: -3em;
 }
 #poemPage05 {
     margin-left: 52em;
