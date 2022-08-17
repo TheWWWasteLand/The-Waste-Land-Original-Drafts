@@ -1043,7 +1043,6 @@ li img {
 tei-body tei-div {
     display: none;
     height: 80vh;
-    overflow: scroll;
     margin-top: -40px;
     padding-top: 40px;
 }
@@ -1142,8 +1141,8 @@ tei-lg {
 }
 tei-lg[type=poemPage] {
     margin-left: calc(40vw + 10em);
-    width: 50vw;
     height: 70vh;
+    overflow: scroll;
 }
 #poemPage05 {
     margin-left: 52em;
