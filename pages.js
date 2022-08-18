@@ -7,6 +7,14 @@ window.onload = function() {
   for (let a = 0; a < note.length; a++) {
     note[a].classList.add('hidden');
   }
+  const line = document.getElementsByTagName("tei-l");
+  for (let b = 0; b < line.length; b++) {
+    if (line[b].hasAttribute("n")) {
+      let span = line[b].children[1].innerHTML;
+      let text = line[b].children[0].innerHTML;
+      line[b].innerHTML = '<span>' + span + '</span>' + text;
+    }
+  }
 };
 
 
@@ -38,14 +46,6 @@ function nextPage() {
   autList = document.getElementById('selectAuthors');
   pageList = document.getElementById('pageList');
   secList = document.getElementById('secList');
-  const line = document.getElementsByTagName("tei-l");
-  for (let b = 0; b < line.length; b++) {
-    if (line[b].hasAttribute("n")) {
-      let span = line[b].children[1].innerHTML;
-      let text = line[b].children[0].innerHTML;
-      line[b].innerHTML = '<span>' + span + '</span>' + text;
-    }
-  }
   if (autList.getAttribute("class") != "hidden") {
     autList.classList.toggle('hidden');
   }
@@ -140,6 +140,7 @@ function finalVer() {
   six = document.getElementById('page-7');
   const dels = document.getElementsByTagName("tei-del");
   const adds = document.getElementsByTagName("tei-add");
+  const his = document.getElementsByTagName("tei-hi");
   document.getElementById('selectAuthors').classList.remove('hidden');
   if (i.getAttribute('style') != "display: none;") {
     document.getElementById("add-i").classList.toggle('hidden');
@@ -176,8 +177,9 @@ function finalVer() {
     arrow.setAttribute('src', 'https://thewwwasteland.github.io/images/arrow1.png');
     arrow.setAttribute('id', 'back-1');
     document.body.appendChild(arrow);
-    document.getElementById('hi-2').classList.toggle('highlightPound');
-    document.getElementById('hi-3').classList.toggle('highlightPound');
+    for (let i = 2; i < 4; i++) {
+      his[i].classList.toggle('highlightPound');
+    }
     for (let i = 12; i < 16; i++) {
       dels[i].classList.toggle('line-del');
     }
