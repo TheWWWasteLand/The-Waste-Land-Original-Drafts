@@ -5,7 +5,7 @@
 /* language support */
 /* render Arabic, Persian, Ottoman, Hebrew  as rtl */
 [lang = "ar"],
-[lang = "ota"],
+[lang = "ota"], 
 [lang = "fa"],
 [lang = "he"],
 [lang *="-Arab-AR"]{
