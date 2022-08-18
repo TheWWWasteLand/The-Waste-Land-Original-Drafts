@@ -1,19 +1,12 @@
 window.onload = function() {
   const add = document.getElementsByTagName("tei-add");
   const note = document.getElementsByTagName("tei-note");
-  const line = document.getElementsByTagName("tei-l")
+  
   for (let i = 0; i < add.length; i++) {
     add[i].classList.add('hidden');
   }
   for (let a = 0; a < note.length; a++) {
     note[a].classList.add('hidden');
-  }
-  for (let b = 0; b < line.length; b++) {
-    if (line[b].hasAttribute("n")) {
-      let span = line[b].children[1].innerHTML;
-      let text = line[b].children[0].innerHTML;
-      line[b].innerHTML = '<span>' + span + '</span>' + text;
-    }
   }
 };
 
@@ -45,7 +38,15 @@ function nextPage() {
   seven = document.getElementById('page-8');
   autList = document.getElementById('selectAuthors');
   pageList = document.getElementById('pageList');
-  secList = document.getElementById('secList')
+  secList = document.getElementById('secList');
+  const line = document.getElementsByTagName("tei-l");
+  for (let b = 0; b < line.length; b++) {
+    if (line[b].hasAttribute("n")) {
+      let span = line[b].children[1].innerHTML;
+      let text = line[b].children[0].innerHTML;
+      line[b].innerHTML = '<span>' + span + '</span>' + text;
+    }
+  }
   if (autList.getAttribute("class") != "hidden") {
     autList.classList.toggle('hidden');
   }
