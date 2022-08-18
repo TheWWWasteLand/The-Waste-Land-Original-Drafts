@@ -441,6 +441,10 @@ tei-figure > tei-head {
   font-size: 13pt;
 }
 
+tei-hi[rend="circled"], tei-hi[rend="circledExceptAbove"] {
+    display: inline-block;
+}
+
 tei-ident {
   font-family: Courier,monospace;
 }
