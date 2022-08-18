@@ -446,6 +446,9 @@ tei-figure > tei-head {
 tei-hi[rend="circled"], tei-hi[rend="circledExceptAbove"] {
     display: inline-block;
 }
+tei-hi[rend="circledExceptAbove"] {
+    border-top: none !important;
+}
 
 tei-ident {
   font-family: Courier,monospace;
