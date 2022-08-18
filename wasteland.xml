@@ -198,7 +198,7 @@
                     </metamark>
                     <head>  *  *  *  * </head>
                     <lg type="stanza" n="4" xml:id="stanza04">
-                        <l n="85"><del xml:id="del-13">Mein</del> Frisch <subst xml:id="sub-6"><del xml:id="del-14" hand="TEliot">schwebt</del><add xml:id="add-12" hand="TEliot">weht</add></subst> der Wind </l>
+                        <l n="85"><del xml:id="del-13">Mein</del> Frisch <subst xml:id="sub-6"><del xml:id="del-14" hand="TEliot">schwebt</del><add xml:id="add-12" hand="TEliot" place="above">weht</add></subst> der Wind </l>
                         <l>           Der Heimat zu,</l>
                         <l>           Mein Irisch' Kind,</l>
                         <l>           Wo weilest du?</l>
