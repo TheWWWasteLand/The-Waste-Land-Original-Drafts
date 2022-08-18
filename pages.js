@@ -1,7 +1,6 @@
 window.onload = function() {
   const add = document.getElementsByTagName("tei-add");
   const note = document.getElementsByTagName("tei-note");
-  
   for (let i = 0; i < add.length; i++) {
     add[i].classList.add('hidden');
   }
