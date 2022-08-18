@@ -156,10 +156,10 @@ function finalVer() {
           adds[i].parentNode.classList.toggle('interline');
         }
         else if (adds[i].parentNode.parentNode.nodeName == "TEI-L") {
-          adds[i].parentNode.classList.toggle('interline');
+          adds[i].parentNode.parentNode.classList.toggle('interline');
         }
         else if (adds[i].parentNode.parentNode.nodeName == "TEI-L") {
-          adds[i].parentNode.parentNode.classList.toggle('interline');
+          adds[i].parentNode.parentNode.parentNode.classList.toggle('interline');
         }
         else if (adds[i].parentNode.parentNode.parentNode.nodeName == "TEI-L") {
           adds[i].parentNode.parentNode.parentNode.classList.toggle('interline');
@@ -190,6 +190,14 @@ function finalVer() {
     }
     for (let i = 12; i < 15; i++) {
       adds[i].classList.toggle('hidden');
+      if (adds[i].getAttribute('place') == "above") {
+        if (adds[i].parentNode.nodeName == "TEI-L") {
+          adds[i].parentNode.classList.toggle('interline');
+        }
+        else if (adds[i].parentNode.parentNode.nodeName == "TEI-L") {
+          adds[i].parentNode.parentNode.classList.toggle('interline');
+        }
+      }
     }  
   }
   else if (three.getAttribute('style') == "display: block;") {
