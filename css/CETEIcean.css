@@ -443,6 +443,7 @@ tei-figure > tei-head {
 tei-hi[rend='circled'], tei-hi[rend='circledExceptAbove'] {
     display: inline-block;
     border-radius: 3px;
+    border: solid 1px rgba(255, 255, 255, 0);
 }
 tei-hi[rend='circledExceptAbove'] {
     border-top: none !important;
