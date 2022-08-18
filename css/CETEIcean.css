@@ -1373,6 +1373,8 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     bottom: 0.6em;
 }
 
-
+#hi-2 {
+    border: 3px solid #333;
+}
 
     
