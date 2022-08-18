@@ -1058,7 +1058,8 @@ tei-body tei-div {
     line-height: 1.7em !important;
 }
 .highlight {
-    border: solid 0.5px !important;
+    border: solid 2px !important;
+    border-radius: 3px;
 }
 
 tei-del {
