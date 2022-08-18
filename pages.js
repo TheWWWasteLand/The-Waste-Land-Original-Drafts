@@ -177,7 +177,7 @@ function finalVer() {
     arrow.setAttribute('src', 'https://thewwwasteland.github.io/images/arrow1.png');
     arrow.setAttribute('id', 'back-1');
     document.body.appendChild(arrow);
-    for (let i = 2; i < 4; i++) {
+    for (let i = 1; i < 5; i++) {
       his[i].classList.toggle('highlightPound');
     }
     for (let i = 12; i < 16; i++) {
