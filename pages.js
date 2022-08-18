@@ -182,6 +182,8 @@ function finalVer() {
     for (let i = 12; i < 15; i++) {
       adds[i].classList.toggle('hidden');
     }
+    document.getElementById('hi-2').classList.toggle('highlight');
+    document.getElementById('hi-3').classList.toggle('highlight');
   }
   else if (three.getAttribute('style') == "display: block;") {
     const pound1 = document.createElement("img"), pound2 = document.createElement("img"), pound3 = document.createElement("img"), teliot1 = document.createElement("img"), teliot2 = document.createElement("img");
