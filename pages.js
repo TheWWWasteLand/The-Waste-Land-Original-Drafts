@@ -176,14 +176,14 @@ function finalVer() {
     arrow.setAttribute('src', 'https://thewwwasteland.github.io/images/arrow1.png');
     arrow.setAttribute('id', 'back-1');
     document.body.appendChild(arrow);
+    document.getElementById('hi-2').classList.toggle('highlightPound');
+    document.getElementById('hi-3').classList.toggle('highlightPound');
     for (let i = 12; i < 16; i++) {
       dels[i].classList.toggle('line-del');
     }
     for (let i = 12; i < 15; i++) {
       adds[i].classList.toggle('hidden');
-    }
-    document.getElementById('hi-2').classList.toggle('highlightPound');
-    document.getElementById('hi-3').classList.toggle('highlightPound');
+    }  
   }
   else if (three.getAttribute('style') == "display: block;") {
     const pound1 = document.createElement("img"), pound2 = document.createElement("img"), pound3 = document.createElement("img"), teliot1 = document.createElement("img"), teliot2 = document.createElement("img");
