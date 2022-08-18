@@ -145,10 +145,10 @@ function finalVer() {
     document.getElementById("add-i").classList.toggle('hidden');
   }
   else if (one.getAttribute('style') == "display: block;") {
-    for (let i = 0; i < 14; i++) {
+    for (let i = 0; i < 13; i++) {
       dels[i].classList.toggle('line-del');
     }
-    for (let i = 1; i < 13; i++) {
+    for (let i = 1; i < 12; i++) {
       adds[i].classList.toggle('hidden');
       if (adds[i].getAttribute('place') == "above") {
         if (adds[i].parentNode.nodeName == "TEI-L") {
@@ -176,16 +176,12 @@ function finalVer() {
     arrow.setAttribute('src', 'https://thewwwasteland.github.io/images/arrow1.png');
     arrow.setAttribute('id', 'back-1');
     document.body.appendChild(arrow);
-    document.getElementById('rdg-12').classList.toggle('highlightPound');
-    document.getElementById('rdg-13').classList.toggle('highlightPound');
-    document.getElementById('add-5').classList.toggle('hidden');
-    document.getElementById('del-12').classList.toggle('line-del');
-    document.getElementById('under-1a').classList.toggle('underline');
-    document.getElementById('under-1b').classList.toggle('underline');
-    document.getElementById('del-13').classList.toggle('line-del'); 
-    document.getElementById('del-14').classList.toggle('line-del');
-    document.getElementById('del-15').classList.toggle('line-del');
-    document.getElementById('note-5').classList.toggle('hidden');
+    for (let i = 12; i < 16; i++) {
+      dels[i].classList.toggle('line-del');
+    }
+    for (let i = 12; i < 15; i++) {
+      adds[i].classList.toggle('hidden');
+    }
   }
   else if (three.getAttribute('style') == "display: block;") {
     const pound1 = document.createElement("img"), pound2 = document.createElement("img"), pound3 = document.createElement("img"), teliot1 = document.createElement("img"), teliot2 = document.createElement("img");
