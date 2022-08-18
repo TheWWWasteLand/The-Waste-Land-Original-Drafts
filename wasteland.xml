@@ -115,11 +115,11 @@
                         <l>It's no use being sorry, he said; let me get my hat, I said.</l>                    
                         <l>Well by a stroke of luck who came by but Mr.Donovan.</l>                    
                         <l n="40">What's this, officer. You're new on this beat, aint you?</l>                    
-                        <delSpan xml:id="delSpan-02" hand="TEliot" spanTo="#delSpan-02End" rend="overstrike"/><l>I thought so. You know who I am? Yes, I do, <add xml:id="add-8" hand="TEliot" place="margin-right"><del hand="TEliot">me?</del></add></l>                   
+                        <delSpan xml:id="delSpan-02" hand="TEliot" spanTo="#delSpan-02End" rend="overstrike"/><l>I thought so. You know who I am? Yes, I do, <add xml:id="add-8" hand="TEliot" place="margin-right" rend="linking-line"><del hand="TEliot">me?</del></add></l>                   
                         <l>Said the fresh cop, very peevish.<anchor xml:id="delSpan-02End"/> Then let it alone,</l>                   
                         <l>These gents are particular friends of mine.</l>                    
                         <l>-Wasn't it luck? Then we wen to the German Club,</l>                    
-                        <l n="45"><subst xml:id="sub-4"><add xml:id="add-9" hand="TEliot" place="margin-left">Us</add><del xml:id="del-8" hand="TEliot" rend="overstrike">We</del></subst> and Mr. Donovan and his friend <subst xml:id="sub-5"><del xml:id="del-9" hand="TEliot" rend="overstrike">Joe Leahy,</del><add xml:id="add-10" hand="TEliot" place="margin-right"><del xml:id="del-10" hand="TEliot" rend="overstrike">Heinie</del><add xml:id="add-12" hand="TEliot" place="above">Gus</add> Krutzsch</add></subst></l>             
+                        <l n="45"><subst xml:id="sub-4"><add xml:id="add-9" hand="TEliot" place="margin-left">Us</add><del xml:id="del-8" hand="TEliot" rend="overstrike">We</del></subst> and Mr. Donovan and his friend <subst xml:id="sub-5"><del xml:id="del-9" hand="TEliot" rend="overstrike">Joe Leahy,</del><add xml:id="add-10" hand="TEliot" place="margin-right" rend="linking-line"><del xml:id="del-10" hand="TEliot" rend="overstrike">Heinie</del><add xml:id="add-11" hand="TEliot" place="above">Gus</add> Krutzsch</add></subst></l>             
                         <l><del xml:id="del-11" hand="TEliot" rend="overstrike">Found it shut.</del> I want to get home, said the cabman,</l>
                         <l>We all go the same way home, said Mr. Donavan,</l>                                     
                         <l>Cheer up, Trixie and Stella; and put his foot through the window.</l>                                     
@@ -157,6 +157,7 @@
                     <head>
                         2.<lb/>
                         *  *  *  *
+                        <anchor xml:id="target-2"
                     </head>
                     <lg type="stanza" n="2" xml:id="stanza02">
                         <l n="55">April is the cruellest month, breeding</l>
@@ -164,7 +165,7 @@
                         <l>Memory and desire, stirring</l>
                         <l>Dull roots with spring rain.</l>
                         <l>Winter kept us warm, covering</l>
-                        <l n="60">Earth in <rdg xml:id="rdg-12">forgetful</rdg> snow, feeding</l>
+                        <l n="60">Earth in <hi xml:id="hi-2" rend="circledExceptAbove" hand="Pound">forgetful</hi> snow, feeding</l>
                         <l>A little life with dried tubers.</l>
                         <l>Summer surprised us, coming over Königssee</l>
                         <l>With a shower of rain; we stopped in the colonnade,</l>
@@ -175,54 +176,51 @@
                         <l>My cousin's, he took me out on a sled,</l>
                         <l>And I was frightened. He said, Marie,</l>
                         <l n="70">Marie, hold on tight. And down we went.</l>
-                        <l>In the mountains, <rdg xml:id="rdg-13">there you feel free.</rdg></l>
+                        <l>In the mountains, <hi xml:id="hi-3" rend="circled" hand="Pound">there you feel free.</hi></l>
                         <l>I read, much of the night, and go south in the winter.</l>
                     </lg>
                     <head>  *  *  *  * </head>
-                    <lg type="stanza" n="3" xml:id="stanza03">
-                        <l>What are the roots that clutch, what branches grew</l>
-                        <l>Out of this stony rubbish! Son of man,</l>
-                        <l n="75">You cannot say, or guess for you know only</l>
-                        <l>A heap of broken images, where the sun beats,</l>
-                        <l>And the dead tree gives no shelter, the cricket no relief,</l>
-                        <l>And the dry stone no sound of water. Only</l>
-                        <l>There is shadow under this red rock,</l>
-                        <l n="80">(Come in under the shadow of this red rock),</l>
-                        <l><app><rdg><del xml:id="del-12" hand="TEliot">And</del></rdg></app> I will show you something different from either</l>
-                        <l>Your shadow at morning striding behind you</l>
-                        <l>Or your shadow at evening rising to meet you;</l>
-                        <l>I will show you fear in a handful of dust.</l>
-                    </lg>
+                    <metamark function="transpostion" place="around" rend="circled arrow" hand="TEliot" target="#target-2">
+                        <lg type="stanza" n="3" xml:id="stanza03">
+                            <l>What are the roots that clutch, what branches grew</l>
+                            <l>Out of this stony rubbish! Son of man,</l>
+                            <l n="75">You cannot say, or guess for you know only</l>
+                            <l>A heap of broken images, where the sun beats,</l>
+                            <l>And the dead tree gives no shelter, the cricket no relief,</l>
+                            <l>And the dry stone no sound of water. Only</l>
+                            <l>There is shadow under this red rock,</l>
+                            <l n="80">(Come in under the shadow of this red rock),</l>
+                            <l><del xml:id="del-12" hand="TEliot">And</del> I will show you something different from either</l>
+                            <l>Your shadow at morning striding behind you</l>
+                            <l>Or your shadow at evening rising to meet you;</l>
+                            <l>I will show you fear in a handful of dust.</l>
+                        </lg>
+                    </metamark>
                     <head>  *  *  *  * </head>
                     <lg type="stanza" n="4" xml:id="stanza04">
-                        <l n="85"><app><rdg xml:id="rdg-14"><del xml:id="del-13" hand="TEliot">Mein</del></rdg></app> Frisch <rdg xml:id="rdg-15"><subst xml:id="sub-5"><del xml:id="del-14" hand="TEliot">schwebt</del><add xml:id="add-5" hand="TEliot">weht</add></subst></rdg> der Wind </l>
+                        <l n="85"><del xml:id="del-13">Mein</del> Frisch <subst xml:id="sub-6"><del xml:id="del-14" hand="TEliot">schwebt</del><add xml:id="add-5" hand="TEliot">weht</add></subst> der Wind </l>
                         <l>           Der Heimat zu,</l>
                         <l>           Mein Irisch' Kind,</l>
                         <l>           Wo weilest du?</l>
                         <l>"You fave me hyacinths first a year ago; </l>
                         <l n="90">"They called me the hyacinth girl".</l>
                         <l>- Yet when we came back, late, from the hyacinth garden,</l>
-                        <l>Your arms full, and your hair wet, <rdg xml:id="rdg-16a"><hi xml:id="under-1a" rend="underline" hand="Pound">I could not</hi></rdg></l>
-                        <l><rdg xml:id="rdg-16b"><hi xml:id="under-1b" rend="underline" hand="Pound">Speak</hi></rdg>, and my eyes failed, I was neither</l>
+                        <l>Your arms full, and your hair wet, <hi xml:id="hi-4a" rend="underline" hand="Pound">I could not</hi></l>
+                        <l><hi xml:id="under-4b" rend="underline" hand="Pound">Speak</hi>, and my eyes failed, I was neither</l>
                         <l>Living nor dead, and I knew nothing,</l>
-                        <l n="95">Looking into the heart of light, the silence.</l> 
+                        <l n="95">Looking into the heart of light, the silence.</l><add xml:id="add-12" place="margin-right" hand="TEliot" rend="linking-line">Öd' und leer das Meer.</add>
                     </lg>
                     <lg type="stanza" n="5" xml:id="stanza05">
-                        <l>Madame Sosostris, famous clairvoyant,<rdg xml:id="rdg-17"><add xml:id="add-6">e</add></rdg></l>
+                        <l>Madame Sosostris, famous clairvoyant,<add xml:id="add-13" place="above" rend="superscript" hand="TEliot">e</add></l>
                         <l>Had a bad cold, nevertheless</l>
                         <l>Is known to be the wisest woman in Europe,</l>
                         <l>With a wicked pack of cards. Here, said she,</l>
                         <l n="100">Is your card, the drowned Phoenician Sailor,</l>
-                        <l><rdg xml:id="rdg-18"><del xml:id="del-15" hand="Pound">(Those are pearls that were hist eyes, Look!</del></rdg></l>
+                        <l><del xml:id="del-15" hand="Pound">(Those are pearls that were hist eyes, Look!)</del></l>
                         <l>Here is Belladonna, the Lady of the Rocks,</l>
                         <l>The lady of situations,</l>
                     </lg>
                 </lg>
-                <note xml:id="note-5" hand="TEliot">
-                    <lg>
-                        <l><hi xml:id="under-2">                  </hi>Öd' und leer das Meer.</l>
-                    </lg>
-                </note>
             </div>
             <div xml:id="page-4">
                 <p>
