@@ -178,7 +178,12 @@ function finalVer() {
     arrow.setAttribute('id', 'back-1');
     document.body.appendChild(arrow);
     for (let i = 1; i < 5; i++) {
-      his[i].classList.toggle('highlightPound');
+      if (his[i].getAttribute('rend') == 'circled' || his[i].getAttribute('rend') == 'circledExceptAbove') {
+        his[i].classList.toggle('highlight');
+      }
+      else if (his[i].getAttribute('rend') == 'underline') {
+        his[i].classList.toggle('underline');
+      }
     }
     for (let i = 12; i < 16; i++) {
       dels[i].classList.toggle('line-del');
