@@ -197,7 +197,7 @@
                         </lg>
                     </metamark>
                     <head>  *  *  *  * </head>
-                    <lg type="stanza" n="4" xml:id="stanza04">
+                    <hi xml:id="hi-5" rend="circled" hand="TEliot"><lg type="stanza" n="4" xml:id="stanza04">
                         <l n="85"><del xml:id="del-13">Mein</del> Frisch <subst xml:id="sub-6"><del xml:id="del-14" hand="TEliot">schwebt</del><add xml:id="add-12" hand="TEliot" place="above">weht</add></subst> der Wind </l>
                         <l>           Der Heimat zu,</l>
                         <l>           Mein Irisch' Kind,</l>
@@ -209,8 +209,8 @@
                         <l><hi xml:id="hi-4b" rend="underline" hand="Pound">Speak</hi>, and my eyes failed, I was neither</l>
                         <l>Living nor dead, and I knew nothing,</l>
                         <l n="95">Looking into the heart of light, the silence.</l><add xml:id="add-13" place="margin-right" hand="TEliot" rend="linking-line">Öd' und leer das Meer.</add>
-                    </lg>
-                    <hi xml:id="hi-5" rend="circled" hand="TEliot"><lg type="stanza" n="5" xml:id="stanza05">
+                    </lg></hi>
+                    <lg type="stanza" n="5" xml:id="stanza05">
                         <l>Madame Sosostris, famous clairvoyant,<add xml:id="add-14" place="above" rend="superscript" hand="TEliot">e</add></l>
                         <l>Had a bad cold, nevertheless</l>
                         <l>Is known to be the wisest woman in Europe,</l>
@@ -219,7 +219,7 @@
                         <l><del xml:id="del-15" hand="Pound">(Those are pearls that were hist eyes, Look!)</del></l>
                         <l>Here is Belladonna, the Lady of the Rocks,</l>
                         <l>The lady of situations,</l>
-                    </lg></hi>
+                    </lg>
                 </lg>
             </div>
             <div xml:id="page-4">
