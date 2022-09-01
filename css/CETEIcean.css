@@ -114,7 +114,8 @@ tei-add[place=margin-left] {
   margin-left: -3em;
   padding-right: 0.5em;
 }
-tei-add[rend=linkingline]::before {
+tei-add[rend=linking-line]::before {
+  margin-left: 7em;
   content:"         ";
   white-space: pre;
   text-decoration: line-through;
