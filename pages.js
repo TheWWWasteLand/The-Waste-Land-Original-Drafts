@@ -176,7 +176,7 @@ function finalVer() {
     const arrow = document.createElement("img");
     arrow.setAttribute('src', 'https://thewwwasteland.github.io/images/arrow1.png');
     arrow.setAttribute('id', 'back-1');
-    document.body.appendChild(arrow);
+    two.appendChild(arrow);
     for (let i = 1; i < 6; i++) {
       if (his[i].getAttribute('rend') == 'circled' || his[i].getAttribute('rend') == 'circledExceptAbove') {
         his[i].classList.toggle('highlight');
