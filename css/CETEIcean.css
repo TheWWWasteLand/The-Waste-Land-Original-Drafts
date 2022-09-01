@@ -399,7 +399,6 @@ tei-head {
 }
 #page-i > tei-quote > tei-p {
     margin-left:40vw;
-    padding-left:40vw;
 }
 tei-lg > tei-head {
     text-align: center;
