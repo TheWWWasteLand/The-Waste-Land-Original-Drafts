@@ -397,8 +397,9 @@ tei-head {
   margin-left: calc(40vw + 5em);
   width: 20em;
 }
-#page-i > tei-p {
+#page-i > tei-quote > tei-p {
     margin-left:40vw;
+    padding-left:40vw;
 }
 tei-lg > tei-head {
     text-align: center;
