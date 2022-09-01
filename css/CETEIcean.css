@@ -114,6 +114,12 @@ tei-add[place=margin-left] {
   margin-left: -3em;
   padding-right: 0.5em;
 }
+tei-add[rend=linkingline]::before {
+  content:"         ";
+  white-space: pre;
+  text-decoration: line-through;
+}
+    
 tei-additional {
   display: block;
 }
