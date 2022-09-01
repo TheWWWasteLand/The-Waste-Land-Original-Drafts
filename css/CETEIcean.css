@@ -395,7 +395,7 @@ tei-head {
 }
 #page-i tei-head {
   margin-left: calc(40vw + 5em);
-  width: 25em;
+  width: 20em;
 }
 tei-lg > tei-head {
     text-align: center;
