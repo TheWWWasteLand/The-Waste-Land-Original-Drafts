@@ -1136,7 +1136,7 @@ tei-graphic {
     display: none !important;
 }
 #back-1 {
-    position: absolute;
+    position: relative;
     height: 22em;
     width: 11em;
     right: 12em;
