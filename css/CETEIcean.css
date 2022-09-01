@@ -115,7 +115,7 @@ tei-add[place=margin-left] {
   padding-right: 0.5em;
 }
 tei-add[rend=linking-line]::before {
-  margin-left: 7em;
+  margin-left: 12em;
   content:"         ";
   white-space: pre;
   text-decoration: line-through;
@@ -1146,8 +1146,8 @@ tei-graphic {
     position: relative;
     height: 22em;
     width: 11em;
-    left: 32em;
-    top: -60em;
+    left: 50em;
+    top: -30em;
 }
 tei-lg {
     display: block;
