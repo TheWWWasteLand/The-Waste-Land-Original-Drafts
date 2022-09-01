@@ -1146,6 +1146,9 @@ tei-lg {
     display: block;
     padding-bottom: 1.5em;
 }
+tei-lg[type=stanza] {
+    max-width: 25em;
+}
 tei-lg[type=poemPage] {
     margin-left: 40vw;
     height: 79.5vh;
