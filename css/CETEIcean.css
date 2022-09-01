@@ -1139,8 +1139,8 @@ tei-graphic {
     position: relative;
     height: 22em;
     width: 11em;
-    right: 12em;
-    top: 38em;
+    left: 32em;
+    top: -60em;
 }
 tei-lg {
     display: block;
