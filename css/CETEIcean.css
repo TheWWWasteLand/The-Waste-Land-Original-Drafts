@@ -392,7 +392,7 @@ tei-head {
   font-family: Arvo, sans-serif;
   font-weight: normal;
   text-align: center;
-  margin-left: -5em;
+  margin-left: -18vw;
 }
 #page-i tei-head {
   margin-left: calc(40vw + 5em);
