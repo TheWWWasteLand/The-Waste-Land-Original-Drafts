@@ -961,7 +961,7 @@ html {
 
 tei-line, tei-l {
     white-space: pre;
-    width: 30em;
+    width: 25em;
 }
 tei-l > span {
     margin-left: -5em;
