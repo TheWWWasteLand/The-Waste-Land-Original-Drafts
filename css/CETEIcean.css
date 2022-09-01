@@ -397,7 +397,7 @@ tei-head {
   margin-left: calc(40vw + 5em);
   width: 20em;
 }
-#page-i > tei-quote {
+#page-i > tei-p {
     margin-left:40vw;
 }
 tei-lg > tei-head {
