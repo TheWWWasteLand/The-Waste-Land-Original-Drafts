@@ -352,7 +352,7 @@ tei-figure {
   position: absolute;
   text-align: left;
   float:left;
-  height: 80vh;
+  height: 82vh;
   width:40vw;
   margin-top: -56px;
   margin-left: -3em;
@@ -1047,7 +1047,7 @@ li img {
 }
 tei-body tei-div {
     display: none;
-    height: 80vh;
+    height: 82vh;
     margin-top: -40px;
     padding-top: 40px;
 }
