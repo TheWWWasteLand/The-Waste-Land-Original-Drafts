@@ -1126,7 +1126,7 @@ tei-del {
     display: block;
     position: relative;
     top: -40em;
-    left: 20em;
+    left: 26em;
 }
 .line-del {
    text-decoration: line-through;
@@ -1154,7 +1154,7 @@ tei-graphic {
     height: 22em;
     width: 11em;
     left: 20em;
-    top: -56em;
+    top: -57em;
     height: 325px;
 }
 tei-lg {
