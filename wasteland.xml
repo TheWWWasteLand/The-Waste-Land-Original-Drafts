@@ -197,7 +197,7 @@
                         </lg>
                     </metamark>
                     <head>  *  *  *  * </head>
-                    <hi xml:id="hi-5" rend="circled" hand="TEliot"><lg type="stanza" n="4" xml:id="stanza04">
+                    <hi xml:id="hi-4" rend="circled" hand="TEliot"><lg type="stanza" n="4" xml:id="stanza04">
                         <l n="85"><del xml:id="del-13">Mein</del> Frisch <subst xml:id="sub-6"><del xml:id="del-14" hand="TEliot">schwebt</del><add xml:id="add-12" hand="TEliot" place="above">weht</add></subst> der Wind </l>
                         <l>           Der Heimat zu,</l>
                         <l>           Mein Irisch' Kind,</l>
@@ -205,8 +205,8 @@
                         <l>"You fave me hyacinths first a year ago; </l>
                         <l n="90">"They called me the hyacinth girl".</l>
                         <l>- Yet when we came back, late, from the hyacinth garden,</l>
-                        <l>Your arms full, and your hair wet, <hi xml:id="hi-4a" rend="underline" hand="Pound">I could not</hi></l>
-                        <l><hi xml:id="hi-4b" rend="underline" hand="Pound">Speak</hi>, and my eyes failed, I was neither</l>
+                        <l>Your arms full, and your hair wet, <hi xml:id="hi-5a" rend="underline" hand="Pound">I could not</hi></l>
+                        <l><hi xml:id="hi-5b" rend="underline" hand="Pound">Speak</hi>, and my eyes failed, I was neither</l>
                         <l>Living nor dead, and I knew nothing,</l>
                         <l n="95">Looking into the heart of light, the silence.</l>
                     </lg></hi>
@@ -221,6 +221,9 @@
                         <l>Here is Belladonna, the Lady of the Rocks,</l>
                         <l>The lady of situations,</l>
                     </lg>
+                    <note xml:id="note-4" hand="Pound" rend="diagonal" place="margin-right">
+                        <line><hi xml:id="hi-6" rend="underline" hand="Pound"><del xml:id="del-16" rend="central-deletion" hand"Pound">Marianne?</del></hi></line>
+                    </note>
                 </lg>
             </div>
             <div xml:id="page-4">
