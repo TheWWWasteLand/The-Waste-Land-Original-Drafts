@@ -200,16 +200,13 @@ function finalVer() {
       }
     }
     var element =  document.getElementById('back-1');
-    if (typeof(element) != 'undefined' && element != null)
+    if (typeof(element) == 'undefined' && element == null)
     {
-      // Exists.
-    }
-    else {
       const arrow = document.createElement("img");
       arrow.setAttribute('src', 'https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/arrow1.png');
       arrow.setAttribute('id', 'back-1');
+      document.getElementById('poemPage02').appendChild(arrow);
     }
-    document.getElementById('poemPage02').appendChild(arrow);
     document.getElementById('note-4').classList.toggle('hidden');
   }
   else if (three.getAttribute('style') == "display: block;") {
