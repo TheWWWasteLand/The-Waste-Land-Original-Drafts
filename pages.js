@@ -201,6 +201,7 @@ function finalVer() {
     }
     var element =  document.getElementById('back-1');
     if (element) {
+      element.remove();
     }
     else {
       const arrow = document.createElement("img");
