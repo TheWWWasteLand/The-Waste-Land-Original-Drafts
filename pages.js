@@ -174,7 +174,7 @@ function finalVer() {
   }
   else if (two.getAttribute('style') == "display: block;") {
     const arrow = document.createElement("img");
-    arrow.setAttribute('src', 'https://thewwwasteland.github.io/images/arrow1.png');
+    arrow.setAttribute('src', 'https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/arrow1.png');
     arrow.setAttribute('id', 'back-1');
     document.getElementById('poemPage02').appendChild(arrow);
     for (let i = 1; i < 6; i++) {
