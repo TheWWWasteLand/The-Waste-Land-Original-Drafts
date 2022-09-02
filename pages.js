@@ -217,7 +217,7 @@ function finalVer() {
       const PoundMarks1 = document.createElement("img");
       PoundMarks1.setAttribute('src', 'https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/Pound-marks1.png');
       PoundMarks1.setAttribute('id', 'marks-1');
-      PoundMarks1.getElementById('poemPage02').appendChild(arrow);
+      document.getElementById('poemPage02').appendChild(PoundMarks1);
     }
     document.getElementById('note-4').classList.toggle('hidden');
   }
