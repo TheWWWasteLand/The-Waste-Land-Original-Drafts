@@ -1151,12 +1151,18 @@ tei-graphic {
 }
 #back-1 {
     position: relative;
-    height: 22em;
     width: 11em;
     left: 20em;
     top: -57em;
     height: 325px;
 }
+#marks-1 {
+    position: relative;
+    left: 22em;
+    top: -40em;
+    height: 50px;
+}
+    
 tei-lg {
     display: block;
     padding-bottom: 1.5em;
