@@ -460,7 +460,9 @@ tei-hi[rend="circled"], tei-hi[rend="circledExceptAbove"] {
 tei-hi[rend="circledExceptAbove"] {
     border-top: none !important;
 }
-
+tei-hi[rend="circled"] > tei-lg {
+    padding-bottom: 0px!important;
+}
 tei-ident {
   font-family: Courier,monospace;
 }
@@ -1336,9 +1338,6 @@ input:checked + .slider:before {
     color: #ef476f;
     top: 79.5em;
     right: 13em;
-}
-#hi-5 {
-    padding-bottom:0px!important;
 }
 #pound-1,#pound-2, #pound-3 {
     position: absolute;
