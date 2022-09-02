@@ -107,6 +107,10 @@ tei-add[place=margin-right] {
   display: inline-block;
   margin-left: 2em;
 }
+tei-add[place=margin-right-inline] {
+  display: inline-block;
+  margin-left: 0.5em!important;
+}
 tei-add[place=margin-left] {
   width: 3em;
   text-align: right;
@@ -116,7 +120,7 @@ tei-add[place=margin-left] {
 }
 tei-add[rend=linking-line]::before {
   margin-left: 12em;
-  content:"         ";
+  content:"                    ";
   white-space: pre;
   text-decoration: line-through;
 }
