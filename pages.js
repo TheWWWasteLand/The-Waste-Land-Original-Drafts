@@ -209,6 +209,16 @@ function finalVer() {
       arrow.setAttribute('id', 'back-1');
       document.getElementById('poemPage02').appendChild(arrow);
     }
+    var element2 =  document.getElementById('marks-1');
+    if (element2) {
+      element2.remove();
+    }
+    else {
+      const PoundMarks1 = document.createElement("img");
+      PoundMarks1.setAttribute('src', 'https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/Pound-marks1.png');
+      PoundMarks1.setAttribute('id', 'marks-1');
+      PoundMarks1.getElementById('poemPage02').appendChild(arrow);
+    }
     document.getElementById('note-4').classList.toggle('hidden');
   }
   else if (three.getAttribute('style') == "display: block;") {
