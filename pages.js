@@ -173,11 +173,6 @@ function finalVer() {
     document.getElementById('note-3').classList.toggle('hidden');
   }
   else if (two.getAttribute('style') == "display: block;") {
-    const arrow = document.createElement("img");
-    arrow.setAttribute('src', 'https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/arrow1.png');
-    arrow.setAttribute('id', 'back-1');
-    document.getElementById('poemPage02').appendChild(arrow);
-    document.getElementById('note-4').classList.toggle('hidden');
     for (let i = 1; i < 8; i++) {
       if (his[i].getAttribute('rend') == 'circled' || his[i].getAttribute('rend') == 'circledExceptAbove') {
         his[i].classList.toggle('highlight');
@@ -203,7 +198,19 @@ function finalVer() {
           adds[i].parentNode.parentNode.classList.toggle('interline');
         }
       }
-    }  
+    }
+    var element =  document.getElementById('back-1');
+    if (typeof(element) != 'undefined' && element != null)
+    {
+      // Exists.
+    }
+    else {
+      const arrow = document.createElement("img");
+      arrow.setAttribute('src', 'https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/arrow1.png');
+      arrow.setAttribute('id', 'back-1');
+    }
+    document.getElementById('poemPage02').appendChild(arrow);
+    document.getElementById('note-4').classList.toggle('hidden');
   }
   else if (three.getAttribute('style') == "display: block;") {
     const pound1 = document.createElement("img"), pound2 = document.createElement("img"), pound3 = document.createElement("img"), teliot1 = document.createElement("img"), teliot2 = document.createElement("img");
