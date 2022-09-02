@@ -107,10 +107,16 @@ tei-add[place=margin-right] {
   display: inline-block;
   margin-left: 2em;
 }
+tei-add[place=margin-right][rend=linking-line]::before {
+  margin-left: 12em;
+  content:"                    ";
+  white-space: pre;
+  text-decoration: line-through;
+}
 tei-add[place=margin-right-inline] {
   display: inline-block;
 }
-tei-add[place=margin-right-inline]::before {
+tei-add[place=margin-right-inline][rend=linking-line]::before {
   display: inline-block;
   margin-left: 0.5em;
   content:"                    ";
@@ -124,12 +130,7 @@ tei-add[place=margin-left] {
   margin-left: -3em;
   padding-right: 0.5em;
 }
-tei-add[rend=linking-line]::before {
-  margin-left: 12em;
-  content:"                    ";
-  white-space: pre;
-  text-decoration: line-through;
-}
+
     
 tei-additional {
   display: block;
