@@ -177,7 +177,8 @@ function finalVer() {
     arrow.setAttribute('src', 'https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/arrow1.png');
     arrow.setAttribute('id', 'back-1');
     document.getElementById('poemPage02').appendChild(arrow);
-    for (let i = 1; i < 6; i++) {
+    document.getElementById('note-4').classList.toggle('hidden');
+    for (let i = 1; i < 8; i++) {
       if (his[i].getAttribute('rend') == 'circled' || his[i].getAttribute('rend') == 'circledExceptAbove') {
         his[i].classList.toggle('highlight');
       }
@@ -185,8 +186,12 @@ function finalVer() {
         his[i].classList.toggle('underline');
       }
     }
-    for (let i = 12; i < 16; i++) {
+    for (let i = 12; i < 17; i++) {
       dels[i].classList.toggle('line-del');
+      if (dels[i].getAttribute('rend') == "central-deletion") {
+        dels[i].classList.toogle('line-del');
+        dels[i].classList.toggle('central-del');
+      }
     }
     for (let i = 12; i < 15; i++) {
       adds[i].classList.toggle('hidden');
