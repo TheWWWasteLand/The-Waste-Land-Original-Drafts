@@ -200,8 +200,9 @@ function finalVer() {
       }
     }
     var element =  document.getElementById('back-1');
-    if (typeof(element) == 'undefined' && element == null)
-    {
+    if (element) {
+    }
+    else {
       const arrow = document.createElement("img");
       arrow.setAttribute('src', 'https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/arrow1.png');
       arrow.setAttribute('id', 'back-1');
