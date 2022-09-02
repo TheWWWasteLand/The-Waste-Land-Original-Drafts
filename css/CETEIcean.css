@@ -1122,17 +1122,11 @@ tei-del {
     left: 26em;
 }
 
-#note-4 tei-del {
-    text-decoration: line-through;
-    text-decoration-color: #ef476f;
-}
-
 #note-4 {
-    position:absolute;
-    color: #ef476f;
-    line-height: 0.8em;
-    top: 79.5em;
-    right: 13em;
+    display: block;
+    position: relative;
+    top: -40em;
+    left: 13em;
 }
 .line-del {
    text-decoration: line-through;
