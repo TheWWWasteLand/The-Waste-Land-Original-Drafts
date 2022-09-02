@@ -622,6 +622,13 @@ tei-musicNotation:before {
 tei-node {
   display: none;
 }
+tei-note tei-del {
+   text-decoration: line-through;
+}
+tei-note[rend=underline] {
+    text-decoration:underline;
+}
+
 tei-notesstmt {
   display: none;
 }
