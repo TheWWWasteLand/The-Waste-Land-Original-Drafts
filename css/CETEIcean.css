@@ -109,7 +109,13 @@ tei-add[place=margin-right] {
 }
 tei-add[place=margin-right-inline] {
   display: inline-block;
-  margin-left: 0.5em!important;
+}
+tei-add[place=margin-right-inline]::before {
+  display: inline-block;
+  margin-left: 0.5em;
+  content:"                    ";
+  white-space: pre;
+  text-decoration: line-through;
 }
 tei-add[place=margin-left] {
   width: 3em;
