@@ -41,9 +41,23 @@
   </div>
   <div id="button-notes-list">
     <ul>
-      <li>T. S. Eliot</li>
-      <li>Ezra Pound</li>
-      <li>Viviene Eliot</li>
+      <li>T. S. Eliot 
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider round red"  onclick="TEliot()"></span>
+        </label></li>
+      <li>Ezra Pound
+        <label class="switch" onclick="Pound()">
+          <input type="checkbox" checked>
+          <span class="slider round blue"></span>
+        </label>
+      </li>
+      <li>Viviene Eliot
+        <label class="switch" onclick="VEliot()">
+          <input type="checkbox" checked>
+          <span class="slider round green"></span>
+        </label>
+      </li>
     </ul>
   </div>
   <div class="nbar low-bar">
@@ -78,22 +92,13 @@
     <p>Select annotations by authors          <span class="bolder" onclick="closeList()">—</span></p>
     <ul id="selectAutList">
       <li>T. S. Eliot's annotations (<span id="TSEnumber">#1</span>)
-        <label class="switch">
-          <input type="checkbox" checked>
-          <span class="slider round red"  onclick="TEliot()"></span>
-        </label>
+        
       </li>
       <li>Ezra Pound's annotations (<span id="EPnumber">#0</span>)
-        <label class="switch" onclick="Pound()">
-          <input type="checkbox" checked>
-          <span class="slider round blue"></span>
-        </label>
+        
       </li>
       <li>Viviene Eliot's annotations (<span id="VEnumber">#0</span>)
-        <label class="switch" onclick="VEliot()">
-          <input type="checkbox" checked>
-          <span class="slider round green"></span>
-        </label>
+        
       </li>
     </ul>
   </div>
