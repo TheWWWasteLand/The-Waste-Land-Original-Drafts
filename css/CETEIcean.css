@@ -1077,7 +1077,7 @@ li img {
 }
 tei-body tei-div {
     display: none;
-    height: calc(100vh - 155px);
+    height: calc(100vh - 115px);
     margin-top: -40px;
     padding-top: 40px;
 }
