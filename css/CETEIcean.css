@@ -1419,17 +1419,18 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 }
 
 #button-notes-list {
-    left: 42vw;
-    width: calc(100vw - 42vw - 3em);
+    left: 41vw;
+    width: calc(100vw - 41vw - 4em);
     position: fixed;
-    top: 75px;
+    top: 74px;
     z-index: 700;
 }
   
 #button-notes-list li {
     display: inline-block;
-    width: 32%;
+    width: 33%;
     background-color: #e6f3ff;
-    padding: 0;
+    padding: 8px;
+    border: solid 1pt #272e40;
 }
     
