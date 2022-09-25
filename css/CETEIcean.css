@@ -1418,4 +1418,14 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     border: 3px solid #333;
 }
 
+#button-notes-list {
+    margin-left: 52em;
+    width: calc(100vw - 58em);
+}
+  
+#button-notes-list li {
+    display: inline-block;
+    width: 33%;
+    background-color: #e6f3ff;
+}
     
