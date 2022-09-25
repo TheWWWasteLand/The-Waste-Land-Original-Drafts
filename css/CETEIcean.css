@@ -1428,7 +1428,9 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
   
 #button-notes-list li {
     display: inline-block;
-    width: 33%;
+    width: 28%;
     background-color: #e6f3ff;
+    padding: 0;
+    
 }
     
