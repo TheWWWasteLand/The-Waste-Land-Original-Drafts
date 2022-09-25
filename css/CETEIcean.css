@@ -1420,7 +1420,7 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 
 #button-notes-list {
     left: calc(40vw + 28px);
-    width: calc(100vw - 40vw - 56em);
+    width: calc(100vw - 40vw - 56px);
     position: fixed;
     top: 71px;
     z-index: 700;
