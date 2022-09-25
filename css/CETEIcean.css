@@ -1185,7 +1185,7 @@ tei-lg[type=poemPage] {
     padding-top: 2.5em;
 }
 #poemPage05 {
-    margin-left: 52em;
+    margin-left: 52vw;
 }
 #page-i > tei-quote {
     margin-top: 4em;
@@ -1419,10 +1419,10 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 }
 
 #button-notes-list {
-    left: 55em;
+    left: 40vw;
     width: calc(100vw - 58em);
     position: fixed;
-    top: 100px;
+    top: 75px;
     z-index: 700;
 }
   
@@ -1431,6 +1431,5 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     width: 28%;
     background-color: #e6f3ff;
     padding: 0;
-    
 }
     
