@@ -1051,7 +1051,7 @@ tei-text {
 }
 .low-bar {
     padding-left: 30vw;
-    height: 4em;
+    height: 55px;
     margin-left: -4.5em !important;
     position: fixed;
     bottom: 0;
@@ -1077,7 +1077,7 @@ li img {
 }
 tei-body tei-div {
     display: none;
-    height: 82vh;
+    height: calc (100vh - 155px);
     margin-top: -40px;
     padding-top: 40px;
 }
