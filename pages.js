@@ -496,3 +496,10 @@ function magnify(imgID, zoom) {
     return {x : x, y : y};
   }
 }
+
+$(document).ready(function(){
+  $("#finalV").click(function(){
+    $(".switch").show();
+  });
+});
+
