@@ -1442,7 +1442,6 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 .zoom-button {
     width: 80px;
     position: fixed;
-    bottom: 95px;
     z-index:800;
 }
 
@@ -1451,6 +1450,7 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     max-height: 30px;
     display: inline-block;
     position: fixed;
+    bottom: 105px;
 }
 
 .zoom-in {
