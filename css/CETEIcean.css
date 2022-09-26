@@ -1443,11 +1443,12 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     width: 80px;
     position: fixed;
     bottom: 75px;
-    left: 60px;
+    left: 75px;
 }
 
 .zoom-button > img {
     max-width: 30px;
     max-height: 30px;
     display: inline-block;
+    z-index:800;
 }
