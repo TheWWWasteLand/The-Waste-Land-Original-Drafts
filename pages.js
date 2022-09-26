@@ -495,7 +495,7 @@ function magnify(imgID, zoom) {
     y = y - window.pageYOffset;
     return {x : x, y : y};
   }
-}
+};
 
 $(document).ready(function(){
   $("#finalV").click(function(){
