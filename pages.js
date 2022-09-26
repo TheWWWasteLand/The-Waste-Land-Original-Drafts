@@ -141,7 +141,6 @@ function finalVer() {
   const dels = document.getElementsByTagName("tei-del");
   const adds = document.getElementsByTagName("tei-add");
   const his = document.getElementsByTagName("tei-hi");
-  document.getElementById('selectAuthors').classList.remove('hidden');
   if (i.getAttribute('style') != "display: none;") {
     document.getElementById("add-i").classList.toggle('hidden');
   }
