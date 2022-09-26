@@ -1462,7 +1462,7 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     left: 115px;
 }
 
-.tei-figure:hover .zoom-in, .tei-figure:hover .zoom-out {
+tei-figure:hover .zoom-in, tei-figure:hover .zoom-out {
   opacity: 0.5;
 }
 
