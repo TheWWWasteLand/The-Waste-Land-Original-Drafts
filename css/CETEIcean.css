@@ -370,7 +370,7 @@ tei-figure {
   position: absolute;
   text-align: left;
   float:left;
-  height: calc(100vh - 142px);
+  height: calc(100vh - 135px);
   width:40vw;
   margin-top: -56px;
   margin-left: -3em;
