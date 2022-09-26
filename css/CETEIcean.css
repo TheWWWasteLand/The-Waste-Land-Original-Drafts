@@ -1192,7 +1192,7 @@ tei-lg[type=poemPage] {
 }
 .switch {
   position: relative;
-  display: inline-block;
+  display: none;
   width: 45px;
   height: 18px;
 }
