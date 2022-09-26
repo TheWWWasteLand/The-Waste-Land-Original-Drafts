@@ -1462,8 +1462,8 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     left: 115px;
 }
 
-tei-figure:hover .zoom-in, tei-figure:hover .zoom-out {
-  opacity: 0.5;
+tei-graphic:hover .zoom-in {
+  opacity: 0.6;
 }
 
 .zoom-button > img:hover {
