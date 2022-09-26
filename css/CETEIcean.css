@@ -1450,7 +1450,8 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     max-height: 30px;
     display: inline-block;
     position: fixed;
-    bottom: 105px;
+    bottom: 100px;
+    opacity: 0;
 }
 
 .zoom-in {
@@ -1459,4 +1460,12 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 
 .zoom-out {
     left: 115px;
+}
+
+.tei-figure:hover .zoom-button > img {
+  opacity: 0.5;
+}
+
+.zoom-button > img:hover {
+  opacity: 1;
 }
