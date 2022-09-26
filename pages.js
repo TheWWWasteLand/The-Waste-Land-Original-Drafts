@@ -34,7 +34,7 @@ function checkKey(e) {
 };
 
 function nextPage() {
-  var i, one, two, three, four, five, six, seven, autList, pageList, secList;
+  var i, one, two, three, four, five, six, seven, pageList, secList;
   i = document.getElementById('page-i');
   one = document.getElementById('page-2');
   two = document.getElementById('page-3');
@@ -43,12 +43,8 @@ function nextPage() {
   five = document.getElementById('page-6');
   six = document.getElementById('page-7');
   seven = document.getElementById('page-8');
-  autList = document.getElementById('selectAuthors');
   pageList = document.getElementById('pageList');
   secList = document.getElementById('secList');
-  if (autList.getAttribute("class") != "hidden") {
-    autList.classList.toggle('hidden');
-  }
   if (pageList.getAttribute("class") != "hidden") {
     pageList.classList.toggle('hidden');
   }
@@ -393,10 +389,6 @@ function finalVer() {
     document.getElementById('note-35').classList.toggle('hidden');
     document.getElementById('note-36').classList.toggle('hidden');
   }
-};
-
-function closeList() {
-  document.getElementById('selectAutList').classList.toggle('hidden');
 };
 
 function lens() {
