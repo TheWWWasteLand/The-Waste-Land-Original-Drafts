@@ -139,7 +139,7 @@ function finalVer() {
   const his = document.getElementsByTagName("tei-hi");
   if (i.getAttribute('style') != "display: none;") {
     document.getElementById("add-i").classList.toggle('hidden');
-    document.getElementById("TEswitch").style.display('inline-block');
+    document.getElementById("TEswitch").style.display = 'inline-block' ;
   }
   else if (one.getAttribute('style') == "display: block;") {
     for (let i = 0; i < 13; i++) {
