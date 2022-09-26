@@ -26,9 +26,6 @@
     document.getElementsByTagName("body")[0].appendChild(data);
     });
   </script>
-  <script>
-    
-  </script>
 </head>
 <body>
   <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" style='display: none; width:45px; position:fixed; left: 15px; bottom: 45vh' onclick="prevPage()" class="arrows" id="prev">
@@ -43,18 +40,18 @@
   <div id="button-notes-list">
     <ul>
       <li>T. S. Eliot 
-        <label class="switch">
+        <label class="switch" id="TEswitch">
           <input type="checkbox" checked>
           <span class="slider round red"  onclick="TEliot()"></span>
         </label></li>
       <li>Ezra Pound
-        <label class="switch" onclick="Pound()">
+        <label class="switch" onclick="Pound()" id="EPswitch">
           <input type="checkbox" checked>
           <span class="slider round blue"></span>
         </label>
       </li>
       <li>Viviene Eliot
-        <label class="switch" onclick="VEliot()">
+        <label class="switch" onclick="VEliot()" id="TEswitch">
           <input type="checkbox" checked>
           <span class="slider round green"></span>
         </label>
