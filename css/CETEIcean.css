@@ -1451,4 +1451,5 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     max-height: 30px;
     display: inline-block;
     z-index:800;
+    position: fixed;
 }
