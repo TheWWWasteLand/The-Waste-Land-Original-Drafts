@@ -1448,7 +1448,8 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
   width:40vw;
   top: 100px;
   left: 28px;
-  overflow: scroll;
+  background-color: rgba(255, 255, 255, 0);
+  z-index:800;
 }
 
 .zoom-button > img {
