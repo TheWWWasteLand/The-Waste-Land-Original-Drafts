@@ -495,7 +495,10 @@ $(document).ready(function(){
     $(".switch").show();
   });
   $("#textOnly").click(function(){
-    $("tei-graphic > img").hide();
+    $("tei-figure").hide();
+    $(".zoom-button").hide();
+    $("[type='poemPage']").css({"margin-left": "12vw", "height": "100%"});
+    $("#button-notes-list").css({"left": "63px", "width": "calc(100vw - 130px)"});
   });
 });
 
