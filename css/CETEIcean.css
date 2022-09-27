@@ -365,7 +365,7 @@ tei-filedesc > tei-extent {
   display: none;
 }
 /* f */
-tei-figure {
+tei-figure, .zoom-button {
   display: block;
   position: absolute;
   text-align: left;
@@ -1440,8 +1440,6 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 }
 
 .zoom-button {
-    width: 80px;
-    position: fixed;
     z-index:800;
 }
 
@@ -1462,7 +1460,7 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     left: 115px;
 }
 
-tei-graphic:hover .zoom-in {
+.zoom-button:hover > img {
   opacity: 0.6;
 }
 
