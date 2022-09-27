@@ -444,7 +444,7 @@ $(document).ready(function(){
     $("tei-figure").hide();
     $(".zoom-button").hide();
     $("[type=poemPage]").css({"margin-left": "12vw", "overflow": "auto"});
-    $("#button-notes-list").css({"left": "63px", "width": "calc(100vw - 130px)"});
+    $("#button-notes-list").css({"left": "26px", "width": "calc(100vw - 130px)"});
   });
 });
 
