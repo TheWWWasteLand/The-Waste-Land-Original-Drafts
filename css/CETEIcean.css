@@ -1439,10 +1439,6 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     margin-left: -3.5px;
 }
 
-.zoom-button {
-    z-index:800;
-}
-
 .zoom-button > img {
     max-width: 30px;
     max-height: 30px;
@@ -1454,10 +1450,12 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 
 .zoom-in {
     left: 80px;
+    z-index:800;
 }
 
 .zoom-out {
     left: 115px;
+    z-index:800;
 }
 
 .zoom-button:hover > img {
