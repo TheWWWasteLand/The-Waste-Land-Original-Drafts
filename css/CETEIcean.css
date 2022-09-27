@@ -1458,16 +1458,15 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     position: fixed;
     bottom: 100px;
     opacity: 0;
+    z-index:800;
 }
 
 .zoom-in {
     left: 80px;
-    z-index:800;
 }
 
 .zoom-out {
-    left: 115px;
-    z-index:800;
+    left: 115px;   
 }
 
 .zoom-button:hover > img {
