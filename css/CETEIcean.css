@@ -365,7 +365,7 @@ tei-filedesc > tei-extent {
   display: none;
 }
 /* f */
-tei-figure, .zoom-button {
+tei-figure {
   display: block;
   position: absolute;
   text-align: left;
