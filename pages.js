@@ -494,5 +494,8 @@ $(document).ready(function(){
   $("#finalV").click(function(){
     $(".switch").show();
   });
+  $("#textOnly").click(function(){
+    $("tei-graphic > img").hide();
+  });
 });
 
