@@ -497,7 +497,7 @@ $(document).ready(function(){
   $("#textOnly").click(function(){
     $("tei-figure").hide();
     $(".zoom-button").hide();
-    $("[type='poemPage']").css({"margin-left": "12vw", "height": "100%"});
+    $("[type=poemPage]").css({"margin-left": "12vw", "height": "100%"});
     $("#button-notes-list").css({"left": "63px", "width": "calc(100vw - 130px)"});
   });
 });
