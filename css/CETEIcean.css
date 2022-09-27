@@ -1439,6 +1439,18 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     margin-left: -3.5px;
 }
 
+.zoom-button {
+  display: block;
+  position: fixed;
+  text-align: left;
+  float:left;
+  height: calc(100vh - 135px);
+  width:40vw;
+  top: 100px;
+  left: 28px;
+  overflow: scroll;
+}
+
 .zoom-button > img {
     max-width: 30px;
     max-height: 30px;
