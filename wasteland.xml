@@ -33,6 +33,14 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+            </langUsage>
+        </profileDesc>
     </teiHeader>
     <text>
         <front>
