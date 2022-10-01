@@ -1177,7 +1177,7 @@ tei-lg[type=stanza] {
 }
 tei-lg[type=poemPage] {
     margin-left: 40vw;
-    height: calc(100vh - 116px);
+    height: calc(100vh - 126px);
     overflow: scroll;
     padding-left: 7.5em;
     margin-top: -3.5em;
