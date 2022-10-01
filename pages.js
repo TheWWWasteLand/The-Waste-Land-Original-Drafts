@@ -283,13 +283,12 @@ $(document).ready(function(){
 function zoomin() {
   const figures = document.getElementsByTagName("tei-graphic");
   for (let i = 0; i < 8; i++) {
-    console.log(figures[i]);
     var img = figures[i].childNodes[0];
-    console.log(img);
     var style = window.getComputedStyle(img);
     var width = style.getPropertyValue('max-width');
     if (width != '300%') {
       var newDim = width + '50%';
+      console.log(newDim);
       img.style.maxWidth = newDim;
     }
   }
