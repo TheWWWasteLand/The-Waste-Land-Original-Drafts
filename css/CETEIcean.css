@@ -1439,8 +1439,8 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
   position: fixed;
   text-align: left;
   float:left;
-  height: calc(100vh - 145px);
-  width:40vw;
+  height: calc(100vh - 152px);
+  width: calc(40vw - 10px);
   top: 85px;
   left: 70px;
   background-color: rgba(255, 255, 255, 0);
