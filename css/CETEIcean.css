@@ -1345,16 +1345,11 @@ input:checked + .slider:before {
     text-decoration-line: underline;
     text-decoration-style: double;
 }
-#note-5 tei-hi {
-    text-decoration: line-through;
-    text-decoration-color: #ef476f;
-    white-space: pre;
-}
 #note-5 {
-    position:absolute;
-    color: #ef476f;
-    top: 79.5em;
-    right: 13em;
+    display: block;
+    position: relative;
+    top: -40em;
+    left: 26em;
 }
 #pound-1,#pound-2, #pound-3 {
     position: absolute;
