@@ -229,10 +229,10 @@
             <div xml:id="page-4">
                 <figure><graphic url="https://thewwwasteland.github.io/images/4.jpg" xml:id="page-3"/>
                 </figure>
-                <head>
-                    3.
-                </head>
                 <lg type="poemPage" n="3" xml:id="poemPage03">
+                    <head>
+                        3.
+                    </head>
                     <lg type="stanza" n="6" xml:id="stanza06">
                         <l>Here is the <hi xml:id="hi-7" hand="TEliot">man with three staves</hi><add xml:id="add-15" place="above" hand="TEliot"><subst xml:id="sub-7"><del xml:id="del-16" hand="TEliot">King fishing</del><add xml:id="add-16" place="above" hand="TEliot">fishing King</add></subst></add>, and here the Wheel,</l>
                         <l>And here is the onw-eyes merchant, and this card,</l>
