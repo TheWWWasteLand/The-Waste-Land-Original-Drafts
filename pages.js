@@ -220,10 +220,6 @@ function finalVer() {
   else if (three.getAttribute('style') == "display: block;") {
     for (let i = 17; i < 27; i++) {
       dels[i].classList.toggle('line-del');
-      if (dels[i].getAttribute('rend') == "central-deletion") {
-        dels[i].classList.toogle('line-del');
-        dels[i].classList.toggle('central-del');
-      }
     } 
   }
   else if (four.getAttribute('style') == "display: block;") {
