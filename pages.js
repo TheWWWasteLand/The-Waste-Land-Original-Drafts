@@ -288,7 +288,7 @@ function zoomin() {
     console.log(img);
     var style = window.getComputedStyle(img);
     var width = style.getPropertyValue('max-width');
-    if (width != '100%' && width != '300%') {
+    if (width != '300%') {
       var newDim = 'calc(' + width + ' + 50%)';
       img.style.maxWidth = newDim;
     }
