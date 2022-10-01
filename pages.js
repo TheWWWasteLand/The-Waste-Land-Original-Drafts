@@ -296,6 +296,21 @@ function zoomin() {
   }
 }
       
-      
+function zoomout () {
+  const figures = document.getElementsByTagName("tei-graphic");
+  for (let i = 0; i < 8; i++) {
+    var img = figures[i].childNodes[0];
+    var style = window.getComputedStyle(img);
+    var width = style.getPropertyValue('max-width');
+    if (width != '100%') {
+      var value = parseInt(width);
+      var newDim = value - 50;
+      var finalValue = newDim + '%'
+      img.style.maxWidth = finalValue;
+      img.style.maxHeight = finalValue;
+    }
+  }
+}
+  
     
   
