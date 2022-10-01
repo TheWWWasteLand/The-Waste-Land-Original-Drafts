@@ -159,7 +159,6 @@
                     <head>
                         2.<lb/>
                         *  *  *  *
-                        <anchor xml:id="target-2"/>
                     </head>
                     <lg type="stanza" n="2" xml:id="stanza02">
                         <l n="55">April is the cruellest month, breeding</l>
@@ -181,9 +180,9 @@
                         <l>In the mountains, <hi xml:id="hi-3" rend="circled" hand="Pound">there you feel free.</hi></l>
                         <l>I read, much of the night, and go south in the winter.</l>
                     </lg>
-                    <head>  *  *  *  * </head>
-                    <metamark function="transpostion" place="around" rend="circled arrow" hand="TEliot" target="#target-2">
-                        <lg type="stanza" n="3" xml:id="stanza03">
+                    <head>  *  *  *  * </head> 
+                    <anchor xml:id="target-2"/>
+                    <lg type="stanza" n="3" xml:id="stanza03">
                             <l>What are the roots that clutch, what branches grew</l>
                             <l>Out of this stony rubbish! Son of man,</l>
                             <l n="75">You cannot say, or guess for you know only</l>
@@ -196,10 +195,9 @@
                             <l>Your shadow at morning striding behind you</l>
                             <l>Or your shadow at evening rising to meet you;</l>
                             <l>I will show you fear in a handful of dust.</l>
-                        </lg>
-                    </metamark>
+                    </lg>
                     <head>  *  *  *  * </head>
-                    <hi xml:id="hi-4" rend="circled" hand="TEliot"><lg type="stanza" n="4" xml:id="stanza04">
+                    <metamark function="transpostion" place="around" rend="circled arrow" hand="TEliot" target="#target-2"><hi xml:id="hi-4" rend="circled" hand="TEliot"><lg type="stanza" n="4" xml:id="stanza04">
                         <l n="85"><del xml:id="del-13">Mein</del> Frisch <subst xml:id="sub-6"><del xml:id="del-14" hand="TEliot">schwebt</del><add xml:id="add-12" hand="TEliot" place="above">weht</add></subst> der Wind </l>
                         <l>           Der Heimat zu,</l>
                         <l>           Mein Irisch' Kind,</l>
@@ -211,7 +209,7 @@
                         <l><hi xml:id="hi-5b" rend="underline" hand="Pound">Speak</hi>, and my eyes failed, I was neither</l>
                         <l>Living nor dead, and I knew nothing,</l>
                         <l n="95">Looking into the heart of light, the silence.</l>
-                    </lg></hi>
+                    </lg></hi></metamark>
                     <add xml:id="add-13" place="margin-right" hand="TEliot" rend="linking-line">Öd' und leer das Meer.</add>
                     <lg type="stanza" n="5" xml:id="stanza05">
                         <l>Madame Sosostris, famous clairvoyant,<add xml:id="add-14" place="above" rend="superscript" hand="TEliot">e</add></l>
@@ -232,7 +230,7 @@
                 <figure><graphic url="https://thewwwasteland.github.io/images/4.jpg" xml:id="page-3"/>
                 </figure>
                 <head>
-                    <head>3.</head>
+                    3.
                 </head>
                 <lg type="poemPage" n="3" xml:id="poemPage03">
                     <lg type="stanza" n="6" xml:id="stanza06">
