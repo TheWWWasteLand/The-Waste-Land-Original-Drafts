@@ -1348,8 +1348,7 @@ input:checked + .slider:before {
 #note-5 {
     display: block;
     position: relative;
-    top: -40em;
-    left: 26em;
+    left: 70em;
 }
 #pound-1,#pound-2, #pound-3 {
     position: absolute;
