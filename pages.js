@@ -220,7 +220,10 @@ function finalVer() {
   else if (three.getAttribute('style') == "display: block;") {
     for (let i = 17; i < 27; i++) {
       dels[i].classList.toggle('line-del');
-    } 
+    }
+    document.getElementById('note-5').classList.toggle('hidden');
+    document.getElementById('note-6').classList.toggle('hidden');
+    document.getElementById('note-7').classList.toggle('hidden');
   }
   else if (four.getAttribute('style') == "display: block;") {
   }
