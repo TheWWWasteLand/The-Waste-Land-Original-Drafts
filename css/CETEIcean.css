@@ -417,6 +417,8 @@ tei-head {
 }
 #page-i > tei-quote > tei-p {
     margin-left:40vw;
+    white-space: pre;
+    line-height: 0.8em;
 }
 tei-lg > tei-head {
     text-align: center;
