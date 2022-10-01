@@ -17,7 +17,7 @@ window.onload = function() {
   }
 };
 
-
+/* keyboard - turning pages */
 
 document.onkeydown = checkKey;
 
@@ -124,6 +124,10 @@ function prevPage() {
     six.style.display="block";
   }
 };
+
+
+/* show final version */
+
 
 function finalVer() {
   var i, one, two, three, four, five, six;
@@ -233,25 +237,7 @@ function finalVer() {
   }
 };
 
-function lens() {
-  var i, one, two, three;
-  i = document.getElementById('page-i');
-  one = document.getElementById('page-2');
-  two = document.getElementById('page-3');
-  three = document.getElementById('page-4')
-  if (i.getAttribute('style') != "display: none;") {
-    magnify('page-i-pic', 3);
-  }
-  else if (one.getAttribute('style') == "display: block;") {
-    magnify('page-1-pic', 3);
-  }
-  else if (two.getAttribute('style') == "display: block;") {
-    magnify('page-2-pic', 3);
-  }
-  else if (three.getAttribute('style') == "display: block;") {
-    magnify('page-3-pic', 3);
-  }
-};
+/* sections and pages menu */
 
 function sec() {
   document.getElementById('secList').classList.toggle('hidden');
@@ -259,6 +245,8 @@ function sec() {
 function page() {
   document.getElementById('pageList').classList.toggle('hidden');
 };
+
+/* shows/hides T. Eliot notes */
 
 function TEliot() {
   var i, one, two, three, four, five;;
@@ -276,6 +264,7 @@ function TEliot() {
   }
 };  
 
+/* jQuery */
 
 $(document).ready(function(){
   $("#finalV").click(function(){
@@ -289,3 +278,21 @@ $(document).ready(function(){
   });
 });
 
+/* zoom */
+
+function zoomin() {
+  const figures = document.getElementsByTagName("tei-graphics");
+  for (let i = 0; i < 8; i++) {
+    var img = figures[i].childNodes[0];
+    var style = window.getComputedStyle(img);
+    var width = style.getPropertyValue('max-width');
+    if (width != '100%' && width != '300%') {
+      var newDim = 'calc(' + width + ' + 50%)';
+      img.style.maxWidth = newDim;
+    }
+  }
+}
+      
+      
+    
+  
