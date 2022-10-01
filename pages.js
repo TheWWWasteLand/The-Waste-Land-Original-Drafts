@@ -289,7 +289,7 @@ function zoomin() {
     var style = window.getComputedStyle(img);
     var width = style.getPropertyValue('max-width');
     if (width != '300%') {
-      var newDim = 'calc(' + width + ' + 50%)';
+      var newDim = 'calc(' + width + ' + 50%) !important';
       img.style.maxWidth = newDim;
     }
   }
