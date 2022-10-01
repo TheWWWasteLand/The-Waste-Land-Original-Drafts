@@ -283,6 +283,7 @@ $(document).ready(function(){
 function zoomin() {
   const figures = document.getElementsByTagName("tei-graphics");
   for (let i = 0; i < 8; i++) {
+    console.log(figures[i]);
     var img = figures[i].childNodes;
     console.log(img);
     var style = window.getComputedStyle(img);
