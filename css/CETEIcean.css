@@ -1177,7 +1177,7 @@ tei-lg {
 tei-lg[type=stanza] {
     max-width: 25em;
 }
-tei-lg[type=poemPage], #page-i {
+tei-lg[type=poemPage] {
     margin-left: 40vw;
     height: calc(100vh - 127px);
     overflow: scroll;
