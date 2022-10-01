@@ -290,9 +290,8 @@ function zoomin() {
       var value = parseInt(width);
       var newDim = value + 50;
       var finalValue = newDim + '%'
-      console.log(newDim);
-      console.log(finalValue);  
       img.style.maxWidth = finalValue;
+      img.style.maxHeight = finalValue;
     }
   }
 }
