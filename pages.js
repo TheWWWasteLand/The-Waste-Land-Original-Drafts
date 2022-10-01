@@ -287,9 +287,12 @@ function zoomin() {
     var style = window.getComputedStyle(img);
     var width = style.getPropertyValue('max-width');
     if (width != '300%') {
-      var newDim = width + '50%';
+      var value = width - '%';
+      var newDim = width + 50;
+      var finalValue = newDim + '%'
       console.log(newDim);
-      img.style.maxWidth = newDim;
+      console.log(finalValue);  
+      img.style.maxWidth = finalValue;
     }
   }
 }
