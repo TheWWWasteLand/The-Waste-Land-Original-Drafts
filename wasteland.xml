@@ -283,12 +283,12 @@
             <div xml:id="page-5">
                 <figure><graphic url="https://thewwwasteland.github.io/images/5.jpg" xml:id="page-4"/>
                 </figure>
-                <head>
+                <lg type="poemPage" n="4" xml:id="poemPage04">
+                    <head>
                     HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/>
                     <lb/>
                     <rdg><subst xml:id="sub-9"><del xml:id="del-24" hand="TEliot">IN THE CAGE.</del><add place="above" xml:id="add-14" hand="TEliot">A Game of Chess.</add></subst></rdg>
-                </head>
-                <lg type="poemPage" n="4" xml:id="poemPage04">
+                    </head>
                     <lg type="stanza" n="8" xml:id="stanza08">
                         <l>The Chair she sat in, like a burnished throne</l>
                         <l>Glowed on the marble, where the swinging glass</l>
