@@ -69,10 +69,8 @@
         <body>
             <pb xml:id="wasteland-1" n="1"/>
             <div xml:id="page-2">
-                <p>
-                    <figure><graphic url="https://thewwwasteland.github.io/images/2.jpg" xml:id="page-1"/>
-                    </figure>
-                </p>
+                <figure><graphic url="https://thewwwasteland.github.io/images/2.jpg" xml:id="page-1"/>
+                </figure>
                 <lg type="poemPage" n="1" xml:id="poemPage01">
                     <head>
                         HE DO THE POLICE IN DIFFERENT VOICES: Part I.<lb/>
@@ -155,10 +153,8 @@
             </div>
             <pb xml:id="wasteland-2" n="2"/>
             <div xml:id="page-3">
-                <p>
-                    <figure><graphic url="https://thewwwasteland.github.io/images/3.jpg" xml:id="page-2"/>
-                    </figure>
-                </p>
+                <figure><graphic url="https://thewwwasteland.github.io/images/3.jpg" xml:id="page-2"/>
+                </figure>
                 <lg type="poemPage" n="2" xml:id="poemPage02">
                     <head>
                         2.<lb/>
@@ -233,56 +229,54 @@
                 </lg>
             </div>
             <div xml:id="page-4">
-                <p>
-                    <figure><graphic url="https://thewwwasteland.github.io/images/4.jpg" xml:id="page-3"/>
-                    </figure>
-                </p>
+                <figure><graphic url="https://thewwwasteland.github.io/images/4.jpg" xml:id="page-3"/>
+                </figure>
                 <head>
                     <head>3.</head>
                 </head>
                 <lg type="poemPage" n="3" xml:id="poemPage03">
                     <lg type="stanza" n="6" xml:id="stanza06">
-                        <l>Here is the <rdg xml:id="rdg-19" hand="TEliot">man with three staves<add xml:id="add-7" place="above" hand="TEliot"><del xml:id="del-16" hand="TEliot">King fishing</del></add><add xml:id="add-8" place="above" hand="TEliot">fishing King</add></rdg>, and here the Wheel,</l>
+                        <l>Here is the <hi xml:id="hi-7" hand="TEliot">man with three staves</hi><add xml:id="add-15" place="above" hand="TEliot"><subst xml:id="sub-7"><del xml:id="del-16" hand="TEliot">King fishing</del><add xml:id="add-16" place="above" hand="TEliot">fishing King</add></subst></add>, and here the Wheel,</l>
                         <l>And here is the onw-eyes merchant, and this card,</l>
                         <l>Which is blank, is something he carries on his back,</l>
-                        <l>Which I am forbidden to see. <rdg xml:id="rdg-20" hand="Pound">I look in vain</rdg></l>
+                        <l>Which I am forbidden to see. <hi xml:id="hi-8" hand="Pound" rend="squared">I look in vain</hi></l>
                         <l>For the Hanged Man. Fear death by water.</l>
                         <l>I see crowds of people, walking round in a ring.</l>
-                        <l><rdg xml:id="rdg-21"><del xml:id="del-17" hand="Pound">(I John saw these things, and heard them)</del></rdg>.</l>
+                        <l><del xml:id="del-17" hand="Pound">(I John saw these things, and heard them)</del>.</l>
                         <l>Thank you. If you see dear Mrs. Equitone,</l>
                         <l>Tell her I bring the horoscope myself,</l>
                         <l>One must be so careful these days.</l>
                     </lg>
                     <lg type="stanza" n="7" xml:id="stanza07">
-                        <l><rdg xml:id="rdg-22"><subst xml:id="sub-6"><del xml:id="del-18a" hand="TEliot">Terrible</del><add xml:id="add-9" hand="TEliot" place="above">Unreal</add></subst> City<del xml:id="del-18b" hand="Pound">,</del> I have sometimes seen and see</rdg></l>
-                        <l>Under the brown fog of <rdg xml:id="rdg-23" hand="Pound">your</rdg> winter dawn</l>
+                        <l><hi xml:id="hi-8" rend="cirlcedExceptRight" hand="Pound"><subst xml:id="sub-8"><del xml:id="del-18" hand="TEliot">Terrible</del><add xml:id="add-17" hand="TEliot" place="above">Unreal</add></subst></hi> City<del xml:id="del-19" hand="Pound">,</del> I have sometimes seen and <hi xml:id="hi-9" rend="cirlcedExceptLeft" hand="Pound">see</hi></l>
+                        <l>Under the brown fog of <hi xml:id="hi-10" hand="Pound" rend="circled">your</hi> winter dawn</l>
                         <l>A crowd flow over London Bridge, so many,</l>
                         <l>I had not thought death had undone so many.</l>
-                        <l>Sighs, short and infrequent, were <rdg xml:id="rdg-24"><subst xml:id="sub-7"><del xml:id="del-19a" hand="TEliot">expired</del>,<add xml:id="add-10a" hand="TEliot"><del xml:id="del-19b" hand="TEliot">exhaled.</del></add><add xml:id="add-10b" hand="TEliot"><del xml:id="del-19c" hand="TEliot">expired.</del></add><add xml:id="add-10c" hand="TEliot">exhaled.</add></subst></rdg></l>
-                        <l>And each <rdg xml:id="rdg-25a"><subst xml:id="sub-8"><del xml:id="del-20" hand="TEliot">one</del><add xml:id="add-11" hand="TEliot" rend="diagonal">man</add></subst></rdg> <rdg xml:id="rdg-25b"><subst xml:id="sub-9"><del xml:id="del-21a" hand="TEliot">kept</del><add xml:id="add-12a" hand="TEliot"><del xml:id="del-21b" hand="TEliot">held</del></add><add xml:id="add-12b" hand="TEliot">fixed</add></subst></rdg> his eyes before his feet.</l>
+                        <l>Sighs, short and infrequent, were <subst xml:id="sub-9"><del xml:id="del-20a" hand="TEliot">expired</del>,<del xml:id="del-20b" hand="TEliot"><add xml:id="add-18" hand="TEliot">exhaled.</add></del><del xml:id="del-20c" hand="TEliot"><add xml:id="add-19" hand="TEliot">expired.</add></del><add xml:id="add-20" hand="TEliot">exhaled.</add></subst></l>
+                        <l>And each <subst xml:id="sub-10"><del xml:id="del-21" hand="TEliot">one</del><add xml:id="add-21" hand="TEliot" rend="diagonal">man</add></subst> <subst xml:id="sub-11"><del xml:id="del-22" hand="TEliot">kept</del><del xml:id="del-23" hand="TEliot"><add xml:id="add-22" hand="TEliot">held</add></del><add xml:id="add-23" hand="TEliot">fixed</add></subst> his eyes before his feet.</l>
                         <l>Flowed up the hill and down King William Street,</l>
-                        <l><del xml:id="del-22a" hand="Pound">To where Saint Mary Woolnoth kept the time,</del></l>
-                        <l><del xml:id="del-22b" hand="Pound">With a dead sound on the final stroke of nine.</del></l>
+                        <delSpan xml:id="delSpan-03" hand="Pound" spanTo="#delSpan-03End" rend="overstrike"/><l>To where Saint Mary Woolnoth kept the time,</del></l>
+                        <l>With a dead sound on the final stroke of nine.<anchor xml:id="delSpan-03End"/></l>
                         <l>There I saw one I knew, and stopped him, crying: "Stetson! </l>
                         <l>"You who were with me in the ships at Mylae!</l>
                         <l>"That corpse you planted last year in your garden,</l>
-                        <l>"Has it begun to sprout <add xml:id="add-13" hand="TEliot">yet?</add>? Will it bloom this year?"</l>
+                        <l>"Has it begun to sprout <add xml:id="add-24" hand="TEliot">yet?</add>? Will it bloom this year?"</l>
                         <l>"Or has the sudden frost disturbed its bed?"</l>
                         <l>"Oh keep the Dog far hence, that's <del xml:id="del-23" hand="TEliot">foe</del> to men,</l>
                         <l>"Or with his nails he'll dig it up again!</l>
-                        <l>"You! <hi xml:id="under-4a" hand="TEliot">hypocrite lecteur</hi>,-<hi xml:id="under-4b" hand="TEliot">mon semblable</hi>,-<hi xml:id="under-4c" hand="TEliot">mon frère</hi>!"</l>
+                        <l>"You! <hi xml:id="hi-11a" hand="TEliot" rend="underline">hypocrite lecteur</hi>,-<hi xml:id="hi-11b" hand="TEliot" rend="underline">mon semblable</hi>,-<hi xml:id="hi-11c" hand="TEliot" rend="underline">mon frère</hi>!"</l>
                     </lg>
                 </lg>
-                <note xml:id="note-7" hand="Pound" rend="diagonal">
+                <note xml:id="note-5" hand="Pound" rend="diagonal squared">
                     <lg>
                         <l>J.J.</l>
                     </lg>
                 </note>
-                <note xml:id="note-8" hand="Pound" rend="diagonal">
+                <note xml:id="note-6" hand="Pound" rend="diagonal">
                     <lg>
-                        <l><hi xml:id="under-3">Blake</hi></l>
+                        <l><hi xml:id="hi-12" rend="underline">Blake</hi></l>
                         <l>Too</l>
-                        <l><rdg xml:id="rdg-note-1">old</rdg><rdg xml:id="rdg-note-2">often</rdg></l>
+                        <l><subst><del>old</del> <add rend="overwritten">often</add></subst></l>
                         <l>used</l>
                     </lg>
                 </note>
@@ -293,10 +287,8 @@
                 </note>
             </div>
             <div xml:id="page-5">
-                <p>
-                    <figure><graphic url="https://thewwwasteland.github.io/images/5.jpg" xml:id="page-4"/>
-                    </figure>
-                </p>
+                <figure><graphic url="https://thewwwasteland.github.io/images/5.jpg" xml:id="page-4"/>
+                </figure>
                 <head>
                     HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/>
                     <lb/>
@@ -447,10 +439,8 @@
                 </note>
             </div>
             <div xml:id="page-6">
-                <p>
-                    <figure><graphic url="https://thewwwasteland.github.io/images/6.jpg" xml:id="page-5"/>
-                    </figure>
-                </p>
+                <figure><graphic url="https://thewwwasteland.github.io/images/6.jpg" xml:id="page-5"/>
+                </figure>
                 <head>
                     2
                 </head>
@@ -592,10 +582,8 @@
                 </note>
             </div>
             <div xml:id="page-7">
-                <p>
-                    <figure><graphic url="https://thewwwasteland.github.io/images/7.jpg" xml:id="page-6"/>
-                    </figure>
-                </p>
+                <figure><graphic url="https://thewwwasteland.github.io/images/7.jpg" xml:id="page-6"/>
+                </figure>
                 <head>
                     3
                 </head>
@@ -625,10 +613,8 @@
                 </note>
             </div>
             <div xml:id="page-8">
-                <p>
-                    <figure><graphic url="https://thewwwasteland.github.io/images/8.jpg" xml:id="page-7"/>
-                    </figure>
-                </p>
+                <figure><graphic url="https://thewwwasteland.github.io/images/8.jpg" xml:id="page-7"/>
+                </figure>
                 <p>
                     <head>
                         HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/>
