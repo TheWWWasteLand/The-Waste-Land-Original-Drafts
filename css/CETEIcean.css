@@ -1020,7 +1020,7 @@ tei-text {
     padding-top: 60px;
 }
 .nbar {
-    background-color: #272e40 !important;
+    background-color: #2c3840 !important;
 }
 .bar {
   display:block;
@@ -1428,7 +1428,7 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
     width: 33%;
     background-color: #e6f3ff;
     padding: 8px;
-    border: solid 1pt #272e40;
+    border: solid 1pt #2c3840;
     margin-left: -3.5px;
 }
 
