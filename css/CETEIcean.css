@@ -1441,8 +1441,8 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
   float:left;
   height: calc(100vh - 135px);
   width:40vw;
-  top: 85px;
-  left: 63px;
+  top: 75px;
+  left: 70px;
   background-color: rgba(255, 255, 255, 0);
   z-index:800;
 }
@@ -1458,7 +1458,7 @@ tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
 }
 
 .zoom-in {
-    left: 80px;
+    left: 100px;
 }
 
 .zoom-out {
