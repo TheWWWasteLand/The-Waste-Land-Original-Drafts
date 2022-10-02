@@ -3,8 +3,8 @@ window.onload = function() {
   const note = document.getElementsByTagName("tei-note");
   for (let i = 0; i < add.length; i++) {
     add[i].classList.add('hidden');
-    var strLength = 1.5 * (0 - add[i].innerText.length);
-    var dist = strLength + 'en';
+    var strLength = 0.5 * (0 - add[i].innerText.length);
+    var dist = strLength + 'em';
     console.log(dist);
     add[i].style.marginLeft = dist;
     console.log(add[i])
