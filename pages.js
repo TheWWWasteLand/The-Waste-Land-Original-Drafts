@@ -247,7 +247,7 @@ function finalVer() {
     for (let i = 15; i < 25; i++) {
       adds[i].classList.toggle('hidden');
     }
-    for (let i = 5; i < 15; i++) {
+    for (let i = 5; i < 17; i++) {
       if (his[i].getAttribute('rend') == 'circled' || his[i].getAttribute('rend') == 'circledExceptLeft' || his[i].getAttribute('rend') == 'circledExceptRight') {
         his[i].classList.toggle('highlight');
       }
