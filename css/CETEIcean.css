@@ -412,6 +412,7 @@ tei-head {
   margin-left: -18vw;
 }
 #page-i tei-head {
+  padding-top: 2em;
   margin-left: calc(40vw + 5em);
   width: 20em;
 }
