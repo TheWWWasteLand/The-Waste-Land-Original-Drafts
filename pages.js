@@ -9,7 +9,7 @@ window.onload = function() {
         var newLength = strLength;
       }
       else if (strLength > 3 && strLength < 7) {
-        var newLength = 0.75 * strLength;
+        var newLength = 0.65 * strLength;
       }
       else if (strLength > 7 && strLength < 11) {
         var newLength = 0.5 * strLength;
