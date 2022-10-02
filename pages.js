@@ -6,7 +6,7 @@ window.onload = function() {
     if (add[i].getAttribute('place') == 'above') {
       var strLength = add[i].innerText.length;
       if (strLength < 4) {
-        var newLength = strLength;
+        var newLength = 0.8 * strLength;
       }
       else if (strLength > 3 && strLength < 7) {
         var newLength = 0.55 * strLength;
