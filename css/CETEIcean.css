@@ -1006,6 +1006,10 @@ tei-l > span {
 tei-l[n="1"] > span, tei-l[n="5"] > span {
     margin-right: 4.5em !important;
 }
+
+
+/* TOTALLY NEW CSS */
+
 body {
   background-color: #fff !important;
   border-radius: 3px;
@@ -1096,6 +1100,10 @@ tei-body tei-div {
     border: solid 2px !important;
     border-radius: 3px;
 }
+
+tei-add[style=largerFirstLetter]:: first-letter {
+    font-size: 150%;
+}   
 
 tei-del {
     display: inline-block;
