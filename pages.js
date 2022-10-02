@@ -7,19 +7,24 @@ window.onload = function() {
       var strLength = add[i].innerText.length;
       if (strLength < 4) {
         var newLength = 0.8 * strLength;
+        var padd = '1.3em';
       }
       else if (strLength > 3 && strLength < 7) {
         var newLength = 0.55 * strLength;
+        var padd = '0.8em'; 
       }
       else if (strLength > 7 && strLength < 11) {
         var newLength = 0.45 * strLength;
+        var padd = '1.3em';
       }
       else if (strLength > 11) {
         var newLength = 0.35 * strLength;
+        var padd = '1.5em';
       }
       var finalLength = 0 - newLength;
       var dist = finalLength + 'em';
       add[i].style.marginLeft = dist;
+      add[i].style.paddingRight = padd;
     }
   }
   for (let a = 0; a < note.length; a++) {
