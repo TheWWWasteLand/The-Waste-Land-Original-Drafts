@@ -246,8 +246,8 @@
                         <l>One must be so careful these days.</l>
                     </lg>
                     <lg type="stanza" n="7" xml:id="stanza07">
-                        <l><hi xml:id="hi-8" rend="cirlcedExceptRight" hand="Pound"><subst xml:id="sub-8"><del xml:id="del-18" hand="TEliot">Terrible</del><add xml:id="add-17" hand="TEliot" place="above">Unreal</add></subst></hi> City<del xml:id="del-19" hand="Pound">,</del> I have sometimes seen and <hi xml:id="hi-9" rend="cirlcedExceptLeft" hand="Pound">see</hi></l>
-                        <l>Under the brown fog of <hi xml:id="hi-10" hand="Pound" rend="circled">your</hi> winter dawn</l>
+                        <l><hi xml:id="hi-9" rend="cirlcedExceptRight" hand="Pound"><subst xml:id="sub-8"><del xml:id="del-18" hand="TEliot">Terrible</del><add xml:id="add-17" hand="TEliot" place="above">Unreal</add></subst></hi> City<del xml:id="del-19" hand="Pound">,</del> I have sometimes seen and <hi xml:id="hi-10" rend="cirlcedExceptLeft" hand="Pound">see</hi></l>
+                        <l>Under the brown fog of <hi xml:id="hi-11" hand="Pound" rend="circled">your</hi> winter dawn</l>
                         <l>A crowd flow over London Bridge, so many,</l>
                         <l>I had not thought death had undone so many.</l>
                         <l>Sighs, short and infrequent, were <subst xml:id="sub-9"><del xml:id="del-20a" hand="TEliot">expired</del>,<del xml:id="del-20b" hand="TEliot"><add xml:id="add-18" hand="TEliot">exhaled.</add></del><del xml:id="del-20c" hand="TEliot"><add xml:id="add-19" hand="TEliot">expired.</add></del><add xml:id="add-20" hand="TEliot">exhaled.</add></subst></l>
@@ -262,13 +262,13 @@
                         <l>"Or has the sudden frost disturbed its bed?"</l>
                         <l>"Oh keep the Dog far hence, that's <del xml:id="del-24" hand="TEliot">foe</del> to men,</l>
                         <l>"Or with his nails he'll dig it up again!</l>
-                        <l>"You! <hi xml:id="hi-11a" hand="TEliot" rend="underline">hypocrite lecteur</hi>,-<hi xml:id="hi-11b" hand="TEliot" rend="underline">mon semblable</hi>,-<hi xml:id="hi-11c" hand="TEliot" rend="underline">mon frère</hi>!"</l>
+                        <l>"You! <hi xml:id="hi-12a" hand="TEliot" rend="underline">hypocrite lecteur</hi>,-<hi xml:id="hi-12b" hand="TEliot" rend="underline">mon semblable</hi>,-<hi xml:id="hi-12c" hand="TEliot" rend="underline">mon frère</hi>!"</l>
                     </lg>
                     <note xml:id="note-5" hand="Pound" rend="diagonal squared">
                         <line>J.J.</line>
                     </note>
                     <note xml:id="note-6" hand="Pound" rend="diagonal">
-                        <p><hi xml:id="hi-12" rend="underline">Blake</hi><lb/>
+                        <p><hi xml:id="hi-13" rend="underline">Blake</hi><lb/>
                         Too<lb/>
                         <subst><del>old</del> <add rend="overwritten">often</add></subst><lb/>
                         used</p>
