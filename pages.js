@@ -3,6 +3,9 @@ window.onload = function() {
   const note = document.getElementsByTagName("tei-note");
   for (let i = 0; i < add.length; i++) {
     add[i].classList.add('hidden');
+    var strLenght = add[i].innerHtml.lenght;
+    var dist = strLenght + 'em';
+    add[i].style.marginLeft = dist;
   }
   for (let a = 0; a < note.length; a++) {
     note[a].classList.add('hidden');
