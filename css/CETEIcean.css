@@ -1127,20 +1127,17 @@ tei-body tei-div {
    border-left: none !important;
    border-radius: 0.5px;
    border-right: solid 3px !important;
-   border-top: solid 3px !important;
-   border-bottom: solid 3px !important;
-   display: block;
+   display: inline-block;
 }
 
 .squaredOnlyRight:after {
       content: "";
-      width:50%;
-      height:1.1px;
-      background-color: white;
+      width: 25%;
+      border-bottom: 3px solid;
       position: absolute;
-      right:0;
+      left: 75%;
+      bottom:0px;
 }
-
 
 [rend=largerFirstLetter] {
  display: block;
