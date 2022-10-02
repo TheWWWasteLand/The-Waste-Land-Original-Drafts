@@ -429,6 +429,7 @@ tei-head {
 }
 tei-lg > tei-head {
     text-align: center;
+    line-height: 2em;
 }
 tei-body > tei-head {
   text-indent: -0.5em;
@@ -1110,7 +1111,7 @@ tei-body tei-div {
 }
 .highlight {
     border: solid 3px !important;
-    border-radius: 3px;
+    border-radius: 8px;
 }
 
 .squared {
