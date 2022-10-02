@@ -1101,6 +1101,10 @@ tei-body tei-div {
     border-radius: 3px;
 }
 
+[rend=largerFirstLetter] {
+ display: block;
+}
+
 [rend=largerFirstLetter]::first-letter {
     font-size: 150%;
 }   
