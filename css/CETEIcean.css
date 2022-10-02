@@ -100,6 +100,10 @@ tei-add {
  font-weight: bolder;
 }
 
+tei-hi + tei-add[place=above] {
+ bottom: 1.3em;
+}
+
 tei-add[place=above] {
   vertical-align: super;
   position: relative;
