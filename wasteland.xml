@@ -250,7 +250,7 @@
                         <l>Under the brown fog of <hi xml:id="hi-11" hand="Pound" rend="circled">your</hi> winter dawn</l>
                         <l>A crowd flow over London Bridge, so many,</l>
                         <l>I had not thought death had undone so many.</l>
-                        <l>Sighs, short and infrequent, were <subst xml:id="sub-9"><del xml:id="del-20a" hand="TEliot">expired</del>,<del xml:id="del-20b" hand="TEliot"><add xml:id="add-18" hand="TEliot">exhaled.</add></del><del xml:id="del-20c" hand="TEliot"><add xml:id="add-19" hand="TEliot">expired.</add></del><add xml:id="add-20" hand="TEliot">exhaled.</add></subst></l>
+                        <l>Sighs, short and infrequent, were <subst xml:id="sub-9"><del xml:id="del-20a" hand="TEliot"> expired</del>,<del xml:id="del-20b" hand="TEliot"><add xml:id="add-18" hand="TEliot"> exhaled.</add></del><del xml:id="del-20c" hand="TEliot"><add xml:id="add-19" hand="TEliot"> expired.</add></del><add xml:id="add-20" hand="TEliot"> exhaled.</add></subst></l>
                         <l>And each <subst xml:id="sub-10"><del xml:id="del-21" hand="TEliot">one</del><add xml:id="add-21" hand="TEliot" rend="diagonal">man</add></subst> <subst xml:id="sub-11"><del xml:id="del-22" hand="TEliot">kept</del><del xml:id="del-23" hand="TEliot"><add xml:id="add-22" hand="TEliot">held</add></del><add xml:id="add-23" hand="TEliot">fixed</add></subst> his eyes before his feet.</l>
                         <l>Flowed up the hill and down King William Street,</l>
                         <delSpan xml:id="delSpan-03" hand="Pound" spanTo="#delSpan-03End" rend="overstrike"/><l>To where Saint Mary Woolnoth kept the time,</l>
