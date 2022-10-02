@@ -104,7 +104,6 @@ tei-add[place=above] {
   vertical-align: super;
   position: relative;
   display: inline-block;
-  margin-left: -3em;
   padding-right: 2em;
   bottom: 0.6em;
 }
