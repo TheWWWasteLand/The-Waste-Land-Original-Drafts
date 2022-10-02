@@ -264,21 +264,21 @@
                         <l>"Or with his nails he'll dig it up again!</l>
                         <l>"You! <hi xml:id="hi-11a" hand="TEliot" rend="underline">hypocrite lecteur</hi>,-<hi xml:id="hi-11b" hand="TEliot" rend="underline">mon semblable</hi>,-<hi xml:id="hi-11c" hand="TEliot" rend="underline">mon frère</hi>!"</l>
                     </lg>
+                    <note xml:id="note-5" hand="Pound" rend="diagonal squared">
+                        <line>J.J.</line>
+                    </note>
+                    <note xml:id="note-6" hand="Pound" rend="diagonal">
+                        <p><hi xml:id="hi-12" rend="underline">Blake</hi><lb/>
+                        Too<lb/>
+                        <subst><del>old</del> <add rend="overwritten">often</add></subst><lb/>
+                        used</p>
+                    </note>
+                    <note xml:id="note-7" hand="TEliot">
+                        <lg>
+                            <l>/friend</l>
+                        </lg>
+                    </note>
                 </lg>
-                <note xml:id="note-5" hand="Pound" rend="diagonal squared">
-                    <line>J.J.</line>
-                </note>
-                <note xml:id="note-6" hand="Pound" rend="diagonal">
-                    <p><hi xml:id="hi-12" rend="underline">Blake</hi><lb/>
-                    Too<lb/>
-                    <subst><del>old</del> <add rend="overwritten">often</add></subst><lb/>
-                    used</p>
-                </note>
-                <note xml:id="note-7" hand="TEliot">
-                    <lg>
-                        <l>/friend</l>
-                    </lg>
-                </note>
             </div>
             <div xml:id="page-5">
                 <figure><graphic url="https://thewwwasteland.github.io/images/5.jpg" xml:id="page-4"/>
