@@ -253,6 +253,12 @@
                         <l>Sighs, short and infrequent, were <subst xml:id="sub-9"><del xml:id="del-20a" hand="TEliot">expired</del>, <del xml:id="del-20b" hand="TEliot"><add xml:id="add-18" hand="TEliot"> exhaled.</add></del> <del xml:id="del-20c" hand="TEliot"><add xml:id="add-19" hand="TEliot">expired.</add></del> <add xml:id="add-20" hand="TEliot">exhaled.</add></subst></l>
                         <l>And each <subst xml:id="sub-10"><del xml:id="del-21" hand="TEliot">one</del><add xml:id="add-21" hand="TEliot" rend="diagonal">man</add></subst> <subst xml:id="sub-11"><del xml:id="del-22" hand="TEliot">kept</del><del xml:id="del-23" hand="TEliot"><add xml:id="add-22" hand="TEliot">held</add></del><add xml:id="add-23" hand="TEliot">fixed</add></subst> his eyes before his feet.</l>
                         <l>Flowed up the hill and down King William Street,</l>
+                        <note xml:id="note-6" hand="Pound" rend="diagonal">
+                        <p><hi xml:id="hi-15" rend="underline">Blake</hi><lb/>
+                        Too<lb/>
+                        o<subst><del>ld</del> <add xml:id="add-25" rend="overwritten">ften</add></subst><lb/>
+                        used</p>
+                        </note>
                         <delSpan xml:id="delSpan-03" hand="Pound" spanTo="#delSpan-03End" rend="overstrike"/><hi xml:id="hi-12" hand="Pound" rend="squaredOnlyRight"><l>To where Saint Mary Woolnoth kept the time,</l>
                         <l>With a dead sound on the final stroke of nine.<anchor xml:id="delSpan-03End"/></l></hi>
                         <l>There I saw one I knew, and stopped him, crying: "Stetson! </l>
@@ -267,12 +273,7 @@
                     <note xml:id="note-5" hand="Pound" rend="diagonal squared" style="font-size: 200%;">
                         <hi xml:id="hi-14" hand="Pound" rend="squared"><line>J.J.</line></hi>
                     </note>
-                    <note xml:id="note-6" hand="Pound" rend="diagonal">
-                        <p><hi xml:id="hi-15" rend="underline">Blake</hi><lb/>
-                        Too<lb/>
-                        o<subst><del>ld</del> <add xml:id="add-25" rend="overwritten">ften</add></subst><lb/>
-                        used</p>
-                    </note>
+                    
                     <note xml:id="note-7" hand="TEliot">
                         <lg>
                             <l>/friend</l>
