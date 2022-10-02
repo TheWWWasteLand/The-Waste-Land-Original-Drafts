@@ -95,6 +95,11 @@ tei-activity {
 tei-activity:before {
   content: "activity: ";
 }
+
+tei-add {
+ font-weight: bolder;
+}
+
 tei-add[place=above] {
   vertical-align: super;
   position: relative;
@@ -1105,6 +1110,7 @@ tei-body tei-div {
  display: block;
  font-size: 75%;
  padding-left: 20em;
+ margin-top: -1em;
 }
 
 [rend=largerFirstLetter]::first-letter {
