@@ -104,7 +104,6 @@ tei-add[place=above] {
   vertical-align: super;
   position: relative;
   display: inline-block;
-  padding-right: 2em;
   bottom: 0.6em;
 }
 tei-add[place=below] {
@@ -1110,9 +1109,16 @@ tei-body tei-div {
     line-height: 1.7em !important;
 }
 .highlight {
-    border: solid 2px !important;
+    border: solid 3px !important;
     border-radius: 3px;
 }
+
+.squared {
+   border: solid 3px !important;
+   border-radius: 0.5px;
+}
+
+
 
 [rend=largerFirstLetter] {
  display: block;
@@ -1432,11 +1438,6 @@ tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal {
 }
 .vertical {
     transform: rotate(-90deg);
-} 
-#add-3, tei-add[data-origid="add-12"] {
-    margin-left: -3em;
-    padding-right: 2em;
-    bottom: 0.6em;
 }
 
 #hi-2 {
