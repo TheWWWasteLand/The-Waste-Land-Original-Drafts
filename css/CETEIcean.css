@@ -476,7 +476,7 @@ tei-hi[rend~="circled"], tei-hi[rend="circledExceptAbove"], tei-hi[rend="circled
     display: inline-block;
 }
 tei-hi[rend="circledExceptLeft"] {
-    border-left: none!important {
+    border-left: none!important ;
 }
 tei-hi[rend="circledExceptRight"] {
     border-right: none!important {
