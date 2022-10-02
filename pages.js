@@ -247,7 +247,7 @@ function finalVer() {
     for (let i = 15; i < 26; i++) {
       adds[i].classList.toggle('hidden');
     }
-    for (let i = 5; i < 17; i++) {
+    for (let i = 5; i < 18; i++) {
       if (his[i].getAttribute('rend') == 'circled' || his[i].getAttribute('rend') == 'circledExceptLeft' || his[i].getAttribute('rend') == 'circledExceptRight') {
         his[i].classList.toggle('highlight');
       }
@@ -256,6 +256,9 @@ function finalVer() {
       }
       else if (his[i].getAttribute('rend') == 'squared') {
         his[i].classList.toggle('squared');
+      }
+      else if (his[i].getAttribute('rend') == 'squaredOnlyRight') {
+        his[i].classList.toggle('squaredOnlyRight');
       } 
     }
     for (let i = 17; i < 27; i++) {
