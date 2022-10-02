@@ -19,7 +19,7 @@ window.onload = function() {
       }
       else if (strLength > 11) {
         var newLength = 0.35 * strLength;
-        var padd = '0.5em';
+        var padd = '0.6em';
       }
       var finalLength = 0 - newLength;
       var dist = finalLength + 'em';
