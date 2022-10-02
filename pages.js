@@ -172,7 +172,7 @@ function finalVer() {
     document.getElementById('note-3').classList.toggle('hidden');
   }
   else if (two.getAttribute('style') == "display: block;") {
-    for (let i = 1; i < 8; i++) {
+    for (let i = 1; i < 6; i++) {
       if (his[i].getAttribute('rend') == 'circled' || his[i].getAttribute('rend') == 'circledExceptAbove') {
         his[i].classList.toggle('highlight');
       }
@@ -224,7 +224,7 @@ function finalVer() {
     for (let i = 15; i < 25; i++) {
       adds[i].classList.toggle('hidden');
     }
-    for (let i = 8; i < 16; i++) {
+    for (let i = 6; i < 14; i++) {
       if (his[i].getAttribute('rend') == 'circled' || his[i].getAttribute('rend') == 'circledExceptLeft' || his[i].getAttribute('rend') == 'circledExceptRight') {
         his[i].classList.toggle('highlight');
       }
