@@ -1129,6 +1129,7 @@ tei-body tei-div {
    border-right: solid 3px !important;
    border-top: solid 3px !important;
    border-bottom: solid 3px !important;
+   display: block;
 }
 
 .squaredOnlyRight:after {
