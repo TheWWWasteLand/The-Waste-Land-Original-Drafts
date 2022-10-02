@@ -1123,6 +1123,22 @@ tei-body tei-div {
    border-radius: 0.5px;
 }
 
+.squaredOnlyRight {
+   border-left: none !important;
+   border-radius: 0.5px;
+   border-right: solid 3px !important;
+   border-top: solid 3px !important;
+   border-bottom: solid 3px !important;
+}
+
+.squaredOnlyRight:after {
+      content: "";
+      width:50%;
+      height:1.1px;
+      background-color: white;
+      position: absolute;
+      right:0;
+}
 
 
 [rend=largerFirstLetter] {
