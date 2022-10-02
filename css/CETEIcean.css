@@ -1103,10 +1103,12 @@ tei-body tei-div {
 
 [rend=largerFirstLetter] {
  display: block;
+ font-size: 75%;
+ padding-left: 20em;
 }
 
 [rend=largerFirstLetter]::first-letter {
-    font-size: 150%;
+    font-size: 130%;
 }   
 
 tei-del {
