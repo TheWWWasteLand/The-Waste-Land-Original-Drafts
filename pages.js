@@ -11,7 +11,7 @@ window.onload = function() {
       }
       else if (strLength > 3 && strLength < 7) {
         var newLength = 0.55 * strLength;
-        var padd = '0.8em'; 
+        var padd = '0.5em'; 
       }
       else if (strLength > 7 && strLength < 11) {
         var newLength = 0.45 * strLength;
@@ -19,7 +19,7 @@ window.onload = function() {
       }
       else if (strLength > 11) {
         var newLength = 0.35 * strLength;
-        var padd = '1.5em';
+        var padd = '0.8em';
       }
       var finalLength = 0 - newLength;
       var dist = finalLength + 'em';
