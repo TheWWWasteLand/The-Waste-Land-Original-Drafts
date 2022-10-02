@@ -472,8 +472,14 @@ tei-figure > tei-head {
   font-size: 13pt;
 }
 
-tei-hi[rend="circled"], tei-hi[rend="circledExceptAbove"] {
+tei-hi[rend~="circled"], tei-hi[rend="circledExceptAbove"], tei-hi[rend="circledExceptLeft"], tei-hi[rend="circledExceptRight"] {
     display: inline-block;
+}
+tei-hi[rend="circledExceptLeft"] {
+    border-left: none!important {
+}
+tei-hi[rend="circledExceptRight"] {
+    border-right: none!important {
 }
 tei-hi[rend="circledExceptAbove"] {
     border-top: none !important;
@@ -1418,7 +1424,7 @@ input:checked + .slider:before {
     width: 9px;
     height: 36em !important;
 }
-tei-note[rend=diagonal], tei-add[rend=diagonal], .diagonal {
+tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal {
     transform: rotate(-35deg);
 }
 .vertical {
