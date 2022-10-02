@@ -4,7 +4,7 @@ window.onload = function() {
   for (let i = 0; i < add.length; i++) {
     add[i].classList.add('hidden');
     var strLength = 0 - add[i].innerText.length;
-    var dist = strLength + 'em';
+    var dist = strLength + 'en';
     add[i].style.marginLeft = dist;
   }
   for (let a = 0; a < note.length; a++) {
