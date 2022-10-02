@@ -9,13 +9,13 @@ window.onload = function() {
         var newLength = strLength;
       }
       else if (strLength > 3 && strLength < 7) {
-        var newLength = 0.65 * strLength;
+        var newLength = 0.55 * strLength;
       }
       else if (strLength > 7 && strLength < 11) {
-        var newLength = 0.5 * strLength;
+        var newLength = 0.45 * strLength;
       }
       else if (strLength > 11) {
-        var newLength = 0.4 * strLength;
+        var newLength = 0.35 * strLength;
       }
       var finalLength = 0 - newLength;
       var dist = finalLength + 'em';
