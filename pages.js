@@ -3,11 +3,24 @@ window.onload = function() {
   const note = document.getElementsByTagName("tei-note");
   for (let i = 0; i < add.length; i++) {
     add[i].classList.add('hidden');
-    var strLength = 0.5 * (0 - add[i].innerText.length);
-    var dist = strLength + 'em';
-    console.log(dist);
-    add[i].style.marginLeft = dist;
-    console.log(add[i])
+    if (add[i].getAttribute('place') == 'above') {
+      var strLength = add[i].innerText.length;
+      if (strLength < 4) {
+        var newLength = strLength;
+      }
+      else if (strLength > 3 && strLength < 7) {
+        var newLength = 0.75 * strLength;
+      }
+      else if (strLength > 7 && strLength < 11) {
+        var newLength = 0.5 * strLength;
+      }
+      else if (strLength > 11) {
+        var newLength = 0.4 * strLength;
+      }
+      var finalLength = 0 - newLength;
+      var dist = finalLength + 'em';
+      add[i].style.marginLeft = dist;
+    }
   }
   for (let a = 0; a < note.length; a++) {
     note[a].classList.add('hidden');
