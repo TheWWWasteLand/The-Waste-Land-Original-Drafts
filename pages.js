@@ -221,6 +221,17 @@ function finalVer() {
     document.getElementById('note-4').classList.toggle('hidden');
   }
   else if (three.getAttribute('style') == "display: block;") {
+    for (let i = 8; i < 16; i++) {
+      if (his[i].getAttribute('rend') == 'circled' || his[i].getAttribute('rend') == 'circledExceptLeft' || his[i].getAttribute('rend') == 'circledExceptRight') {
+        his[i].classList.toggle('highlight');
+      }
+      else if (his[i].getAttribute('rend') == 'underline') {
+        his[i].classList.toggle('underline');
+      }
+      else if (his[i].getAttribute('rend') == 'squared') {
+        his[i].classList.toggle('squared');
+      } 
+    }
     for (let i = 17; i < 27; i++) {
       dels[i].classList.toggle('line-del');
     }
