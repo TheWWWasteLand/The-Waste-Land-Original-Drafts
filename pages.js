@@ -244,7 +244,7 @@ function finalVer() {
     document.getElementById('note-4').classList.toggle('hidden');
   }
   else if (three.getAttribute('style') == "display: block;") {
-    for (let i = 15; i < 25; i++) {
+    for (let i = 15; i < 26; i++) {
       adds[i].classList.toggle('hidden');
     }
     for (let i = 5; i < 17; i++) {
