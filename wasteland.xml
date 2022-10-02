@@ -246,7 +246,7 @@
                         <l>One must be so careful these days.</l>
                     </lg>
                     <lg type="stanza" n="7" xml:id="stanza07">
-                        <l><hi xml:id="hi-9" rend="cirlcedExceptRight" hand="Pound"><subst xml:id="sub-8"><del xml:id="del-18" hand="TEliot">Terrible</del><add xml:id="add-17" hand="TEliot" place="above">Unreal</add></subst></hi> City<del xml:id="del-19" hand="Pound">,</del> I have sometimes seen and <hi xml:id="hi-10" rend="cirlcedExceptLeft" hand="Pound">see</hi></l>
+                        <l><hi xml:id="hi-9" rend="circledExceptRight" hand="Pound"><subst xml:id="sub-8"><del xml:id="del-18" hand="TEliot">Terrible</del><add xml:id="add-17" hand="TEliot" place="above">Unreal</add></subst></hi> City<del xml:id="del-19" hand="Pound">,</del> I have sometimes seen and <hi xml:id="hi-10" rend="circledExceptLeft" hand="Pound">see</hi></l>
                         <l>Under the brown fog of <hi xml:id="hi-11" hand="Pound" rend="circled">your</hi> winter dawn</l>
                         <l>A crowd flow over London Bridge, so many,</l>
                         <l>I had not thought death had undone so many.</l>
