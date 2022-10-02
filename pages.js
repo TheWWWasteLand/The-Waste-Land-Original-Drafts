@@ -247,14 +247,14 @@ function finalVer() {
     for (let i = 15; i < 25; i++) {
       adds[i].classList.toggle('hidden');
     }
-    for (let i = 5; i < 14; i++) {
+    for (let i = 5; i < 15; i++) {
       if (his[i].getAttribute('rend') == 'circled' || his[i].getAttribute('rend') == 'circledExceptLeft' || his[i].getAttribute('rend') == 'circledExceptRight') {
         his[i].classList.toggle('highlight');
       }
       else if (his[i].getAttribute('rend') == 'underline') {
         his[i].classList.toggle('underline');
       }
-      else if (his[i].getAttribute('rend').includes('squared')) {
+      else if (his[i].getAttribute('rend') == 'squared') {
         his[i].classList.toggle('squared');
       } 
     }
