@@ -380,11 +380,12 @@ tei-figure {
   position: absolute;
   text-align: left;
   float:left;
-  height: calc(100vh - 138px);
+  height: calc(100vh - 137px);
   width:40vw;
-  margin-top: -38px;
+  margin-top: -37.5px;
   overflow: scroll;
   background-color: #45505F !important;
+  border: solid 0.5px #C8CBCE;
 }
 tei-figure img {
   max-width: 100%;
@@ -1473,7 +1474,7 @@ tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal {
     left: calc(40vw + 66px);
     width: calc(60vw - 124.5px);
     position: fixed;
-    top: 85px;
+    top: 85.5px;
     z-index: 700;
 }
 
