@@ -1473,12 +1473,14 @@ tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal {
     left: calc(40vw + 66px);
     width: calc(60vw - 124.5px);
     position: fixed;
-    top: 71px;
+    top: 85px;
     z-index: 700;
 }
 
 #button-notes-list ul {
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #button-notes-list li {
