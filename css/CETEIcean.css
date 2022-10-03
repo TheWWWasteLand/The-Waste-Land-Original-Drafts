@@ -1044,8 +1044,7 @@ tei-text {
     padding-top: 60px;
 }
 .nbar {
-    background: rgb(40,48,64);
-    background: linear-gradient(142deg, rgba(40,48,64,1) 0%, rgba(58,72,86,1) 100%);
+    background: #2c3840;
 }
 .bar {
   display:block;
