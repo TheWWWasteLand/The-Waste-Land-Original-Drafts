@@ -140,7 +140,13 @@ tei-add[place=margin-left] {
   margin-left: -3em;
   padding-right: 0.5em;
 }
-
+tei.add[place=margin-left-inline][rend~=linking-line]::before {
+  display: inline-block;
+  margin-left: 0.5em;
+  content:"                    ";
+  white-space: pre;
+  text-decoration: line-through;
+}
     
 tei-additional {
   display: block;
@@ -1414,51 +1420,7 @@ input:checked + .slider:before {
     left: 20em;
     top: 20em;
 }
-#pound-1,#pound-2, #pound-3 {
-    position: absolute;
-    height: 2.7em;
-    width: 2.7em;
-}
-#pound-1 {   
-    top: 26em;
-    left: 48.5em;
-}
-#pound-2 {
-    top: 26em;
-    left: 66em;
-}
-#pound-3 {
-    top: 38.2em;
-    left: 66.8em;
-}
-#pound-4 {
-    position: absolute;
-    top: 15em;
-    left: 73.8em;
-    height: 4.5em;
-    width: 2px;
-}
-#teliot-1, #teliot-2 {
-    position: absolute;
-    height: 4px;
-}
-#teliot-1 {
-    top: 34.8em;
-    left: 48.5em;
-    width: 8.5em;
-}    
-#teliot-2 {
-    top: 37.1em;
-    left: 47.8em;
-    width: 6.7em;
-}
-#teliot-3 {
-    position: absolute;
-    top: 15em;
-    left: 77em;
-    width: 9px;
-    height: 36em !important;
-}
+
 tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal {
     transform: rotate(-35deg);
 }
