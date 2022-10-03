@@ -1470,8 +1470,8 @@ tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal {
 }
 
 #button-notes-list {
-    left: calc(40vw + 27px);
-    width: calc(100vw - 40vw - 78px);
+    left: calc(40vw + 66px);
+    width: calc(60vw - 124.5px);
     position: fixed;
     top: 71px;
     z-index: 700;
@@ -1483,7 +1483,7 @@ tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal {
 
 #button-notes-list li {
     display: inline-block;
-    width: 33%;
+    width: 33.33%;
     background-color: #e6f3ff;
     padding: 8px;
     border: solid 1pt #2c3840;
