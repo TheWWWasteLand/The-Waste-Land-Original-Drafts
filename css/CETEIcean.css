@@ -1044,8 +1044,8 @@ tei-text {
     padding-top: 60px;
 }
 .nbar {
-    background: rgb(44,56,64);
-    background: linear-gradient(155deg, rgba(44,56,64,1) 41%, rgba(133,147,144,1) 100%);
+    background: rgb(40,48,64);
+    background: linear-gradient(142deg, rgba(40,48,64,1) 0%, rgba(58,72,86,1) 100%);
 }
 .bar {
   display:block;
@@ -1487,7 +1487,8 @@ tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal {
 #button-notes-list li {
     display: inline-block;
     width: 33.33%;
-    background-color: #e6f3ff;
+    background-color: #2C3843;
+    color: #C8CBCE;
     padding: 8px;
     border: solid 1pt #2c3840;
     margin-left: -3.5px;
