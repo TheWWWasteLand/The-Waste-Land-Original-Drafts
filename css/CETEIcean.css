@@ -144,6 +144,7 @@ tei-add[place~=margin-left][rend~=linking-line]::after {
   display: inline-block;
   margin-left: 0.5em;
   content:"";
+  width: attr(data-before);
   white-space: pre;
   text-decoration: line-through;
 }
