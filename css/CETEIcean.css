@@ -1489,7 +1489,7 @@ tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal {
     background-color: #2c3840;
     color: #C8CBCE;
     padding: 8px;
-    border: solid 1pt #2c3840;
+    border: solid 1pt #C8CBCE;
     margin-left: -3.5px;
 }
 
