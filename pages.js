@@ -246,10 +246,12 @@ function finalVer() {
   else if (three.getAttribute('style') == "display: block;") {
     for (let i = 15; i < 26; i++) {
       adds[i].classList.toggle('hidden');
-      if (adds[i].getAttribute('rend').includes('linking-line')) {
-        var chs = parseInt(adds[i].getAttribute('rend'));
-        if (adds[i].getAttribute('rend').includes('diagonal')) {
-          var chs = chs / 0.82;
+      if (adds[i].hasAttribute('rend')) {
+        if (adds[i].getAttribute('rend').includes('linking-line')) {
+          var chs = parseInt(adds[i].getAttribute('rend'));
+          if (adds[i].getAttribute('rend').includes('diagonal')) {
+            var chs = chs / 0.82;
+          }
         }
         var prevSpace = (chs * 0.42) + 'em';
         adds[i].setAttribute('data-before', prevSpace);
