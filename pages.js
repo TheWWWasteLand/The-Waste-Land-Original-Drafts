@@ -252,11 +252,12 @@ function finalVer() {
           var chs = adds[i].getAttribute('rend').match(regex);
           console.log(chs);
           var prevSpace = "";
-          for (let i = 0; i < (2 * chs); i++) {
+          for (let i = 0; i < (1.5 * chs); i++) {
             prevSpace = prevSpace + " ";
           }
+          prevSpace = prevSpace + adds[i].innerText;
           console.log(prevSpace);
-          adds[i].setAttribute('data-after', prevSpace);
+          adds[i].setAttribute('data-before', prevSpace);
         }
       }
     }
