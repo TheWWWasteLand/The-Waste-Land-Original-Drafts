@@ -248,8 +248,8 @@ function finalVer() {
       adds[i].classList.toggle('hidden');
       if (adds[i].hasAttribute('rend')) {
         if (adds[i].getAttribute('rend').includes('linking-line')) {
-          console.log(adds[i]);
-          var chs = parseInt(adds[i].getAttribute('rend'));
+          var regex = /\d+/g;
+          var chs = adds[i].getAttribute('rend').match(regex);
           console.log(chs)
           if (adds[i].getAttribute('rend').includes('diagonal')) {
             var chs = chs / 0.82;
