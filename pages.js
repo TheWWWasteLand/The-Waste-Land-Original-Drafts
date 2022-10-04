@@ -252,7 +252,7 @@ function finalVer() {
           var chs = adds[i].getAttribute('rend').match(regex);
           console.log(chs);
           var prevSpace = "";
-          for (let i = 0; i < chs; i++) {
+          for (let i = 0; i < (2 * chs); i++) {
             prevSpace = prevSpace + " ";
           }
           console.log(prevSpace);
