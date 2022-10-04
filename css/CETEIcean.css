@@ -140,10 +140,10 @@ tei-add[place=margin-left] {
   margin-left: -3em;
   padding-right: 0.5em;
 }
-tei-add[place=margin-left][rend~=linking-line]::after {
+tei-add[place=margin-left][rend~=linking-line]::before {
   display: inline-block;
   margin-left: 0.5em;
-  content: attr(data-after);
+  content: attr(data-before);
   white-space: pre;
   text-decoration: line-through;
 }
