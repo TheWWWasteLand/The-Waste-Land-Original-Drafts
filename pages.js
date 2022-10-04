@@ -251,12 +251,12 @@ function finalVer() {
           var regex = /\d+/g;
           var chs = adds[i].getAttribute('rend').match(regex);
           console.log(chs)
-          if (adds[i].getAttribute('rend').includes('diagonal')) {
-            var chs = chs / 0.82;
+          var prevSpace = ""
+          for (let i = 0; i < chs, i++) {
+            prevSpace = prevSpace + " ";
           }
-          var prevSpace = (chs * 0.42) + 'em';
           console.log(prevSpace);
-          adds[i].setAttribute('data-before', prevSpace);
+          adds[i].setAttribute('data-after', prevSpace);
         }
       }
     }
