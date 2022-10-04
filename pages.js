@@ -250,9 +250,9 @@ function finalVer() {
         if (adds[i].getAttribute('rend').includes('linking-line')) {
           var regex = /\d+/g;
           var chs = adds[i].getAttribute('rend').match(regex);
-          console.log(chs)
-          var prevSpace = ""
-          for (let i = 0; i < chs, i++) {
+          console.log(chs);
+          var prevSpace = "";
+          for (let i = 0; i < chs; i++) {
             prevSpace = prevSpace + " ";
           }
           console.log(prevSpace);
