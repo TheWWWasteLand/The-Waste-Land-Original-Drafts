@@ -254,7 +254,7 @@ function finalVer() {
       if (adds[i].hasAttribute('rend')) {
         if (adds[i].getAttribute('rend').includes('linking-line')) {
           var regex = /\d+/g;
-          var chs = adds[i].getAttribute('rend').match(regex);
+          var chs = parseInt(adds[i].getAttribute('rend').match(regex));
           var textLength = adds[i].innerText.length;
           var prevSpace = "";
           for (let i = 0; i < (1.5 * chs); i++) {
