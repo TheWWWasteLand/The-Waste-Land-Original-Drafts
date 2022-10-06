@@ -262,7 +262,7 @@ function finalVer() {
           }
           console.log(textLength);
           console.log(chs);
-          var marginleft = (0 - ((textLength + chs) * 0.42)) + 'em';
+          var marginleft = (0 - ((textLength + chs) * 0.5)) + 'em';
           adds[i].setAttribute('data-before', prevSpace);
           adds[i].style.marginLeft = marginleft;
         }
