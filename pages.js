@@ -36,6 +36,9 @@ window.onload = function() {
       let span = line[b].children[1].innerHTML;
       let text = line[b].children[0].innerHTML;
       line[b].innerHTML = '<span>' + span + '</span>' + text;
+      if (parseInt(line[b].getAttribute('n')) >= 100) {
+        line[b].style.marginLeft = "-5.5em";
+      }
     }
   }
 };
