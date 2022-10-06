@@ -260,6 +260,8 @@ function finalVer() {
           for (let i = 0; i < (1.5 * chs); i++) {
             prevSpace = prevSpace + " ";
           }
+          console.log(textLength);
+          console.log(chs);
           var marginleft = (0 - ((textLength + chs) * 0.42)) + 'em';
           adds[i].setAttribute('data-before', prevSpace);
           adds[i].style.marginLeft = marginleft;
