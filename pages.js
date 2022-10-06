@@ -260,7 +260,9 @@ function finalVer() {
           for (let i = 0; i < (1.5 * chs); i++) {
             prevSpace = prevSpace + " ";
           }
+          var marginleft = (0.3 * chs) + 'em';
           adds[i].setAttribute('data-before', prevSpace);
+          adds[i].style.marginLeft = marginleft;
         }
       }
     }
