@@ -255,12 +255,12 @@ function finalVer() {
         if (adds[i].getAttribute('rend').includes('linking-line')) {
           var regex = /\d+/g;
           var chs = adds[i].getAttribute('rend').match(regex);
-          console.log(chs);
+          var textLength = adds[i].innerText.length;
           var prevSpace = "";
           for (let i = 0; i < (1.5 * chs); i++) {
             prevSpace = prevSpace + " ";
           }
-          var marginleft = (0.3 * chs) + 'em';
+          var marginleft = (0 - (0.3 * chs) - (0.42 * textLength )) + 'em';
           adds[i].setAttribute('data-before', prevSpace);
           adds[i].style.marginLeft = marginleft;
         }
