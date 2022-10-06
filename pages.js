@@ -260,8 +260,6 @@ function finalVer() {
           for (let i = 0; i < (1.5 * chs); i++) {
             prevSpace = prevSpace + " ";
           }
-          prevSpace = adds[i].innerText + prevSpace;
-          console.log(prevSpace);
           adds[i].setAttribute('data-before', prevSpace);
         }
       }
