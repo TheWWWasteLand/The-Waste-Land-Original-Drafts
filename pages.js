@@ -40,9 +40,9 @@ window.onload = function() {
             add[i].style.marginBottom = marginbottom;
             add[i].style.lineHeight = lineheight;
           }
-          add[i].style.marginLeft = marginleft;
-          add[i].style.paddingRight = paddright;
         }
+        add[i].style.marginLeft = marginleft;
+        add[i].style.paddingRight = paddright;
       }
     }
     
