@@ -124,7 +124,7 @@ tei-add[place=margin-right] {
   display: inline-block;
   margin-left: 2em;
 }
-tei-add[place=margin-left above] {
+tei-add[place~=margin-left][place~=above] {
   line-height: 0em;
   vertical-align: super;
 }
