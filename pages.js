@@ -27,7 +27,6 @@ window.onload = function() {
       add[i].style.paddingRight = padd;
     }
     else if (add[i].hasAttribute('rend')) {
-      console.log(add[i]);
       if (add[i].getAttribute('place') == 'margin-left' || add[i].getAttribute('place') == 'margin-left below') {
         var strLength = add[i].innerText.length;
         var regex = /\d+/g;
@@ -37,7 +36,8 @@ window.onload = function() {
         if (add[i].getAttribute('rend').includes('diagonal')) {
           var marginbottom = (0 - ((strLength + chs) * 0.53 / 0.82 * 0.5736)) + 'em';
           var lineheight = (((strLength + chs) * 0.53 / 0.82 * 0.5736) + 1.5) + 'em';
-          var paddright = (((chs + strLength) * 0.53) + 0.5) + 'em';
+          paddright = (((chs + strLength) * 0.6)) + 'em';
+          marginleft = (0 - ((strLength + chs) * 0.6)) + 'em';
           add[i].style.marginBottom = marginbottom;
           add[i].style.lineHeight = lineheight;
         }
