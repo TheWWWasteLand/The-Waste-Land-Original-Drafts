@@ -148,6 +148,8 @@ tei-add[place=margin-left] {
   text-align: right;
   display: inline-block;
   width: 3em;
+  padding-right:0.5em;
+  margin-left: -3em;
 }
 
 tei-add[place~=margin-left][rend~=linking-line]::after {
