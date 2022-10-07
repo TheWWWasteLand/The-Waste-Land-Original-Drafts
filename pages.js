@@ -33,6 +33,9 @@ window.onload = function() {
         var chs = parseInt(add[i].getAttribute('rend').match(regex));
         var marginleft = (0 - ((strLength + chs) * 0.53)) + 'em';
         var paddright = ((chs * 0.53) + 0.5) + 'em';
+        if (add[i].getAttribute('place').includes('below')) {
+          paddright = (strLength + chs * 0.53) + 'em';
+        }
         if (add[i].getAttribute('rend').includes('diagonal')) {
           var marginbottom = (0 - ((strLength + chs) * 0.53 / 0.82 * 0.5736)) + 'em';
           var lineheight = (((strLength + chs) * 0.53 / 0.82 * 0.5736) + 1.5) + 'em';
