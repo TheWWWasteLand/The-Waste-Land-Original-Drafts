@@ -32,7 +32,7 @@ window.onload = function() {
       var chs = parseInt(add[i].getAttribute('rend').match(regex));
       var marginleft = (0 - ((strLength + chs) * 0.55)) + 'em';
       add[i].style.marginLeft = marginleft;
-      var paddright = ((0 - marginleft) - (strLength * 0.55)) + 'em';
+      var paddright = (chs * 0.55) + 'em';
       console.log(paddright);
       add[i].style.paddingRight = paddright;
     }
