@@ -26,7 +26,7 @@ window.onload = function() {
       add[i].style.marginLeft = dist;
       add[i].style.paddingRight = padd;
     }
-    else if (add[i].getAttribute('place') == 'margin-left below');
+    else if (add[i].getAttribute('place') == 'margin-left below') {
       var strLength = add[i].innerText.length;
       var regex = /^\d+$/;
       console.log(add[i].getAttribute('rend'));
@@ -35,6 +35,7 @@ window.onload = function() {
       add[i].style.marginLeft = marginleft;
       var paddright = (0 - marginleft) - (strLength * 0.55);
       add[i].style.paddingRight = paddright;
+    }
   }
   for (let a = 0; a < note.length; a++) {
     note[a].classList.add('hidden');
