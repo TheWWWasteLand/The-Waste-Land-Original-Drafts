@@ -28,25 +28,22 @@ window.onload = function() {
     }
     else if (add[i].hasAttribute('rend')) {
       console.log(add[i]);
-      if (add[i].getAttribute('rend').includes('linking-line')) {
-        if (add[i].getAttribute('place') == 'margin-left') {
-          var strLength = add[i].innerText.length;
-          var regex = /^\d+$/;
-          var chs = parseInt(add[i].getAttribute('rend').match(regex));
-          var marginleft = (0 - ((strLength + chs) * 0.53)) + 'em';
-          var paddright = ((chs * 0.53) + 0.5) + 'em';
-          if (add[i].getAttribute('rend').includes('diagonal')) {
-            var marginbottom = (0 - ((strLength + chs) * 0.53 * 0.82 / 0.5736)) + 'em';
-            var lineheight = (((strLength + chs) * 0.53 * 0.82 / 0.5736) + 1.5) + 'em';
-            add[i].style.marginBottom = marginbottom;
-            add[i].style.lineHeight = lineheight;
-          }
-          add[i].style.marginLeft = marginleft;
-          add[i].style.paddingRight = paddright;
+      if (add[i].getAttribute('place') == 'margin-left') {
+        var strLength = add[i].innerText.length;
+        var regex = /^\d+$/;
+        var chs = parseInt(add[i].getAttribute('rend').match(regex));
+        var marginleft = (0 - ((strLength + chs) * 0.53)) + 'em';
+        var paddright = ((chs * 0.53) + 0.5) + 'em';
+        if (add[i].getAttribute('rend').includes('diagonal')) {
+          var marginbottom = (0 - ((strLength + chs) * 0.53 * 0.82 / 0.5736)) + 'em';
+          var lineheight = (((strLength + chs) * 0.53 * 0.82 / 0.5736) + 1.5) + 'em';
+          add[i].style.marginBottom = marginbottom;
+          add[i].style.lineHeight = lineheight;
         }
+        add[i].style.marginLeft = marginleft;
+        add[i].style.paddingRight = paddright;
       }
-    }
-    
+    }   
   }
   for (let a = 0; a < note.length; a++) {
     note[a].classList.add('hidden');
