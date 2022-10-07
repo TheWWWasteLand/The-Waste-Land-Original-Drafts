@@ -26,6 +26,14 @@ window.onload = function() {
       add[i].style.marginLeft = dist;
       add[i].style.paddingRight = padd;
     }
+    else if (add[i].getAttribute('place').includes('margin-left below'));
+      var strLength = add[i].innerText.length;
+      var regex = /\d+/g;
+      var chs = parseInt(add[i].getAttribute('rend').match(regex));
+      var marginleft = (0 - ((textLength + chs) * 0.55)) + 'em';
+      add[i].style.marginLeft = marginleft;
+      var paddright = (0 - marginleft) - (strLength * 0.55);
+      add[i].style.paddingRight = paddright;
   }
   for (let a = 0; a < note.length; a++) {
     note[a].classList.add('hidden');
@@ -260,8 +268,6 @@ function finalVer() {
           for (let i = 0; i < (1.5 * chs); i++) {
             prevSpace = prevSpace + " ";
           }
-          console.log(textLength);
-          console.log(chs);
           var marginleft = (0 - ((textLength + chs) * 0.55)) + 'em';
           adds[i].setAttribute('data-before', prevSpace);
           adds[i].style.marginLeft = marginleft;
