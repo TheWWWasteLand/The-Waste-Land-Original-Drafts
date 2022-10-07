@@ -27,7 +27,7 @@ window.onload = function() {
       add[i].style.paddingRight = padd;
     }
     else if (add[i].hasAttribute('rend')) {
-      if (add[i].getAttribute('place') == 'margin-left' || add[i].getAttribute('place') == 'margin-left below') {
+      if (add[i].getAttribute('place') == 'margin-left' || add[i].getAttribute('place') == 'margin-left below' || add[i].getAttribute('place') == 'margin-left above') {
         var strLength = add[i].innerText.length;
         var regex = /\d+/g;
         var chs = parseInt(add[i].getAttribute('rend').match(regex));
