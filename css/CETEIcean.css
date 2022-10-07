@@ -147,6 +147,7 @@ tei-add[place=margin-left] {
   margin-left: -3em;
   padding-right: 0.5em;
 }
+
 tei-add[place=margin-left][rend~=linking-line]::after {
   display: inline-block;
   margin-left: 0.5em;
@@ -155,7 +156,13 @@ tei-add[place=margin-left][rend~=linking-line]::after {
   text-decoration: line-through;
   vertical-aling: text-bottom;
 }
-    
+
+tei-add[place=margin-left][rend~=linking-line][rend~=diagonal] {
+  line-height: 10em;
+  vertical-align: text-top;
+  margin-bottom: -8.5em;
+}
+
 tei-additional {
   display: block;
 }
