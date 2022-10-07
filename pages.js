@@ -37,6 +37,7 @@ window.onload = function() {
         if (add[i].getAttribute('rend').includes('diagonal')) {
           var marginbottom = (0 - ((strLength + chs) * 0.53 * 0.82 / 0.5736)) + 'em';
           var lineheight = (((strLength + chs) * 0.53 * 0.82 / 0.5736) + 1.5) + 'em';
+          var paddright = (((chs + strLength) * 0.53) + 0.5) + 'em';
           add[i].style.marginBottom = marginbottom;
           add[i].style.lineHeight = lineheight;
         }
