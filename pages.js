@@ -28,7 +28,8 @@ window.onload = function() {
     }
     else if (add[i].getAttribute('place') == 'margin-left below');
       var strLength = add[i].innerText.length;
-      var regex = /\d+/g;
+      var regex = /^\d+$;
+      console.log(add[i].getAttribute('rend'));
       var chs = parseInt(add[i].getAttribute('rend').match(regex));
       var marginleft = (0 - ((strLength + chs) * 0.55)) + 'em';
       add[i].style.marginLeft = marginleft;
