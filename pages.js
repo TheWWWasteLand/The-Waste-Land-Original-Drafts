@@ -291,9 +291,6 @@ function finalVer() {
       else if (his[i].getAttribute('rend') == 'squared') {
         his[i].classList.toggle('squared');
       }
-      else if (his[i].getAttribute('rend') == 'squaredOnlyRight') {
-        his[i].classList.toggle('squaredOnlyRight');
-      } 
     }
     for (let i = 17; i < 27; i++) {
       dels[i].classList.toggle('line-del');
@@ -301,6 +298,7 @@ function finalVer() {
     document.getElementById('note-5').classList.toggle('hidden');
     document.getElementById('note-6').classList.toggle('hidden');
     document.getElementById('note-7').classList.toggle('hidden');
+    document.getElementById('pound-1-hi').classList.toggle('hidden');
     
   }
   else if (four.getAttribute('style') == "display: block;") {
