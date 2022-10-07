@@ -34,7 +34,7 @@ window.onload = function() {
         var marginleft = (0 - ((strLength + chs) * 0.53)) + 'em';
         var paddright = ((chs * 0.53) + 0.5) + 'em';
         if (add[i].getAttribute('place').includes('below')) {
-          paddright = (strLength + chs * 0.53) + 'em';
+          paddright = ((strLength + chs) * 0.53) + 'em';
         }
         if (add[i].getAttribute('rend').includes('diagonal')) {
           var marginbottom = (0 - ((strLength + chs) * 0.53 / 0.82 * 0.5736)) + 'em';
