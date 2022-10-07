@@ -268,16 +268,7 @@ function finalVer() {
       arrow.setAttribute('id', 'back-1');
       document.getElementById('poemPage02').appendChild(arrow);
     }
-    var element2 =  document.getElementById('marks-1');
-    if (element2) {
-      element2.remove();
-    }
-    else {
-      const PoundMarks1 = document.createElement("img");
-      PoundMarks1.setAttribute('src', 'https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/Pound-marks1.png');
-      PoundMarks1.setAttribute('id', 'marks-1');
-      document.getElementById('poemPage02').appendChild(PoundMarks1);
-    }
+    document.getElementById('pound-1-hi').classList.toggle('hidden');
     document.getElementById('note-4').classList.toggle('hidden');
   }
   else if (three.getAttribute('style') == "display: block;") {
@@ -304,6 +295,7 @@ function finalVer() {
     document.getElementById('note-5').classList.toggle('hidden');
     document.getElementById('note-6').classList.toggle('hidden');
     document.getElementById('note-7').classList.toggle('hidden');
+    
   }
   else if (four.getAttribute('style') == "display: block;") {
   }
