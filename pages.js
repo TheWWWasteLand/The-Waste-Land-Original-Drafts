@@ -30,9 +30,9 @@ window.onload = function() {
       var strLength = add[i].innerText.length;
       var regex = /^\d+$/;
       var chs = parseInt(add[i].getAttribute('rend').match(regex));
-      var marginleft = (0 - ((strLength + chs) * 0.55)) + 'em';
+      var marginleft = (0 - ((strLength + chs) * 0.53)) + 'em';
       add[i].style.marginLeft = marginleft;
-      var paddright = (chs * 0.55) + 'em';
+      var paddright = ((chs * 0.53) + 0.5) + 'em';
       console.log(paddright);
       add[i].style.paddingRight = paddright;
     }
