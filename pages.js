@@ -28,7 +28,7 @@ window.onload = function() {
     }
     else if (add[i].hasAttribute('rend')) {
       console.log(add[i]);
-      if (add[i].getAttribute('place').includes('margin-left')) {
+      if (add[i].getAttribute('place') == 'margin-left' || add[i].getAttribute('place') == 'margin-left below') {
         var strLength = add[i].innerText.length;
         var regex = /^\d+$/;
         var chs = parseInt(add[i].getAttribute('rend').match(regex));
