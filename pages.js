@@ -42,6 +42,19 @@ window.onload = function() {
         }
         add[i].style.marginLeft = marginleft;
         add[i].style.paddingRight = paddright;
+        if (add[i].getAttribute('rend').includes('linking-line')) {
+          var regex = /\d+/g;
+          var chs = parseInt(add[i].getAttribute('rend').match(regex));
+          var textLength = add[i].innerText.length;
+          var prevSpace = "";
+          if (add[i].getAttribute('rend').includes('diagonal')) {
+            chs = chs / 0.82;
+          }
+          for (let i = 0; i < (1.5 * chs); i++) {
+            prevSpace = prevSpace + " ";
+          }
+          add[i].setAttribute('data-before', prevSpace);
+        }
       }
     }   
   }
@@ -269,20 +282,6 @@ function finalVer() {
   else if (three.getAttribute('style') == "display: block;") {
     for (let i = 15; i < 26; i++) {
       adds[i].classList.toggle('hidden');
-      if (adds[i].hasAttribute('rend')) {
-        if (adds[i].getAttribute('rend').includes('linking-line')) {
-          var regex = /\d+/g;
-          var chs = parseInt(adds[i].getAttribute('rend').match(regex));
-          var textLength = adds[i].innerText.length;
-          var prevSpace = "";
-          for (let i = 0; i < (1.5 * chs); i++) {
-            prevSpace = prevSpace + " ";
-          }
-          var marginleft = (0 - ((textLength + chs) * 0.55)) + 'em';
-          adds[i].setAttribute('data-before', prevSpace);
-          adds[i].style.marginLeft = marginleft;
-        }
-      }
     }
     for (let i = 5; i < 18; i++) {
       if (his[i].getAttribute('rend') == 'circled' || his[i].getAttribute('rend') == 'circledExceptLeft' || his[i].getAttribute('rend') == 'circledExceptRight') {
