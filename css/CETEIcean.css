@@ -100,6 +100,10 @@ tei-add {
  font-weight: bolder;
 }
 
+tei-del > tei-add {
+ text-decoration: line-through;
+}
+
 tei-hi + tei-add[place=above] {
  bottom: 1.3em;
 }
@@ -111,7 +115,10 @@ tei-add[place=above] {
   bottom: 0.6em;
 }
 tei-add[place=below] {
-  vertical-align: sub;
+  vertical-align: text-top;
+  display: inline-block;
+  margin-bottom: -3em;
+  line-height: 3.5em
 }
 tei-add[place=margin-right] {
   display: inline-block;
