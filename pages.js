@@ -1,6 +1,12 @@
 window.onload = function() {
   const add = document.getElementsByTagName("tei-add");
   const note = document.getElementsByTagName("tei-note");
+  const graphs = document.getElementsByTagName("tei-graphic");
+  for (let g = 0; g < graphs.length; g++) {
+    if (graphs[g].parentNode.nodeName != "TEI-FIGURE") {
+      graphs[g].classList.add('hidden');
+    }
+  }
   for (let i = 0; i < add.length; i++) {
     add[i].classList.add('hidden');
     if (add[i].getAttribute('place') == 'above') {
