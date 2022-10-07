@@ -144,7 +144,7 @@ tei-add[place=margin-right-inline][rend=linking-line]::before {
   white-space: pre;
   text-decoration: line-through;
 }
-tei-add[place=margin-left] {
+tei-add[place~=margin-left] {
   text-align: right;
   display: inline-block;
   width: 3em;
