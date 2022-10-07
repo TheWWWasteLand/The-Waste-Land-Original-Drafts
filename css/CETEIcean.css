@@ -114,7 +114,7 @@ tei-add[place=above] {
   display: inline-block;
   bottom: 0.6em;
 }
-tei-add[place=below] {
+tei-add[place~=below] {
   vertical-align: text-top;
   display: inline-block;
   margin-bottom: -3em;
