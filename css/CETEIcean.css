@@ -153,6 +153,7 @@ tei-add[place=margin-left][rend~=linking-line]::after {
   content: attr(data-before);
   white-space: pre;
   text-decoration: line-through;
+  vertical-aling: text-bottom;
 }
     
 tei-additional {
