@@ -27,6 +27,7 @@ window.onload = function() {
       add[i].style.paddingRight = padd;
     }
     else if (add[i].hasAttribute('rend')) {
+      console.log(add[i]);
       if (add[i].getAttribute('rend').includes('linking-line')) {
         if (add[i].getAttribute('place') == 'margin-left') {
           var strLength = add[i].innerText.length;
