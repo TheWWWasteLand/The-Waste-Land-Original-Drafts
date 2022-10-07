@@ -124,6 +124,10 @@ tei-add[place=margin-right] {
   display: inline-block;
   margin-left: 2em;
 }
+tei-add[place=margin-left above] {
+  line-height: 0em;
+  vertical-align: super;
+}
 tei-add[place=margin-right][rend=linking-line]::before {
   margin-left: 12em;
   content:"                    ";
@@ -146,7 +150,7 @@ tei-add[place=margin-left] {
   width: 3em;
 }
 
-tei-add[place=margin-left][rend~=linking-line]::after {
+tei-add[place~=margin-left][rend~=linking-line]::after {
   display: inline-block;
   margin-left: 0.5em;
   content: attr(data-before);
