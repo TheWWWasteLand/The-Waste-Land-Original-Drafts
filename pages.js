@@ -26,7 +26,7 @@ window.onload = function() {
       add[i].style.marginLeft = dist;
       add[i].style.paddingRight = padd;
     }
-    else if (add[i].getAttribute('place').includes('margin-left below'));
+    else if (add[i].getAttribute('place') == 'margin-left below');
       var strLength = add[i].innerText.length;
       var regex = /\d+/g;
       var chs = parseInt(add[i].getAttribute('rend').match(regex));
