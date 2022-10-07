@@ -30,7 +30,7 @@ window.onload = function() {
       console.log(add[i]);
       if (add[i].getAttribute('place') == 'margin-left' || add[i].getAttribute('place') == 'margin-left below') {
         var strLength = add[i].innerText.length;
-        var regex = /^\d+$/;
+        var regex = /\d+/g;
         var chs = parseInt(add[i].getAttribute('rend').match(regex));
         var marginleft = (0 - ((strLength + chs) * 0.53)) + 'em';
         var paddright = ((chs * 0.53) + 0.5) + 'em';
@@ -43,9 +43,6 @@ window.onload = function() {
         add[i].style.marginLeft = marginleft;
         add[i].style.paddingRight = paddright;
         if (add[i].getAttribute('rend').includes('linking-line')) {
-          var regex = /\d+/g;
-          var chs = parseInt(add[i].getAttribute('rend').match(regex));
-          var textLength = add[i].innerText.length;
           var prevSpace = "";
           if (add[i].getAttribute('rend').includes('diagonal')) {
             chs = chs / 0.82;
