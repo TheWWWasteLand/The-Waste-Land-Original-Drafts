@@ -1177,7 +1177,7 @@ tei-body tei-div {
   height: 3em;
 }
 
-tei-graphic[data-origin=pound-2-hi-pic] {
+tei-graphic[data-origid=pound-2-hi-pic] {
   height: 3em;
   margin-bottom: -1.05em;
   margin-left: -3.5em;
