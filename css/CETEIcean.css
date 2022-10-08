@@ -132,9 +132,16 @@ tei-add[place~=footer]::after {
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
   content: "";
-  width: 9em;
   text-decoration: line-through;
+  text-decoration-thickness: 1.5px;
+  position: absolute;
 }
+
+tei-add[place~=footer][rend~=9]::after {
+  top: -4.8em;
+  left: -3em;
+}
+    
 
 tei-add[place=margin-right] {
   display: inline-block;
