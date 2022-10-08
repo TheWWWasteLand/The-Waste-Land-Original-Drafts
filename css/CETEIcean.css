@@ -1172,6 +1172,11 @@ tei-body tei-div {
    border-radius: 0.5px;
 }
 
+#pound-1-hi-pic {
+  margin-bottom: -2em;
+  height: 2em;
+}
+
 #pound-3-hi-pic {
    height: 3em;
    margin-left: 18.5em;
