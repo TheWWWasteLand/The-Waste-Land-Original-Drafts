@@ -237,7 +237,7 @@
                         <l>Here is the <hi xml:id="hi-7" rend="circled" hand="TEliot">man with three staves</hi><add xml:id="add-15" place="above" hand="TEliot"><subst xml:id="sub-7"><del xml:id="del-16" hand="TEliot">King fishing</del><add xml:id="add-16" place="above" hand="TEliot">fishing King</add></subst></add>, and here the Wheel,</l>
                         <l n="105">And here is the onw-eyes merchant, and this card,</l>
                         <l>Which is blank, is something he carries on his back,</l>
-                        <l>Which I am forbidden to see. <hi xml:id="hi-8" hand="Pound" rend="squared">I look in vain</hi></l>
+                        <l>Which I am forbidden to see. <hi xml:id="hi-8" hand="Pound" rend="squared">I look in vain<graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el.png" xml:id="pound-1-hi"/></hi></l>
                         <l>For the Hanged Man. Fear death by water.</l>
                         <l>I see crowds of people, walking round in a ring.</l>
                         <l n="110"><del xml:id="del-17" hand="Pound">(I John saw these things, and heard them)</del>.</l>
@@ -253,7 +253,7 @@
                         <l>Sighs, short and infrequent, were <subst xml:id="sub-9"><del xml:id="del-20a" hand="TEliot">expired</del>, <del xml:id="del-20b" hand="TEliot"><add xml:id="add-18" hand="TEliot"> exhaled.</add></del> <del xml:id="del-20c" hand="TEliot"><add xml:id="add-19" hand="TEliot">expired.</add></del> <add xml:id="add-20" hand="TEliot">exhaled.</add></subst></l>
                         <l>And each <subst xml:id="sub-10"><del xml:id="del-21" hand="TEliot">one</del><add xml:id="add-21" hand="TEliot" rend="diagonal linking-line 13" place="margin-left">man</add></subst> <subst xml:id="sub-11"><del xml:id="del-22" hand="TEliot">kept</del><del xml:id="del-23" hand="TEliot"><add xml:id="add-22" hand="TEliot" place="margin-left above" rend="linking-line 17">held</add></del><add xml:id="add-23" hand="TEliot" rend="17" place="margin-left below">fixed</add></subst> his eyes before his feet.</l>
                         <l n="120">Flowed up the hill and down King William Street,</l>
-                        <delSpan xml:id="delSpan-03" hand="Pound" spanTo="#delSpan-03End" rend="overstrike"/><hi xml:id="hi-12" hand="Pound" rend="squaredOnlyRight"><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound2.png" xml:id="pound-1-hi"/><l>To where Saint Mary Woolnoth kept the time,</l>
+                        <delSpan xml:id="delSpan-03" hand="Pound" spanTo="#delSpan-03End" rend="overstrike"/><hi xml:id="hi-12" hand="Pound" rend="squaredOnlyRight"><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound2.png" xml:id="pound-3-hi"/><l>To where Saint Mary Woolnoth kept the time,</l>
                         <l>With a dead sound on the final stroke of nine.<anchor xml:id="delSpan-03End"/></l></hi>
                         <l>There I saw one I knew, and stopped him, crying: "Stetson! </l>
                         <l>"You who were with me in the ships at Mylae!</l>
