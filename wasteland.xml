@@ -258,7 +258,7 @@
                         <l>There I saw one I knew, and stopped him, crying: "Stetson! </l>
                         <l>"You who were with me in the ships at Mylae!</l>
                         <l n="125">"That corpse you planted last year in your garden,</l>
-                        <l>"Has it begun to sprout <add xml:id="add-24" hand="TEliot">yet?</add>? Will it bloom this year?"</l>
+                        <l>"Has it begun to sprout <add xml:id="add-24" hand="TEliot" place="footer" rend="linking-line 9">yet?</add>? Will it bloom this year?"</l>
                         <l>"Or has the sudden frost disturbed its bed?"</l>
                         <l>"Oh keep the Dog far hence, that's <del xml:id="del-24" hand="TEliot">foe</del> to men,</l>
                         <l>"Or with his nails he'll dig it up again!</l>
