@@ -33,9 +33,9 @@ window.onload = function() {
       add[i].style.paddingRight = padd;
     }
     else if (add[i].hasAttribute('rend')) {
+      var strLength = add[i].innerText.length;
+      var regex = /\d+/g;
       if (add[i].getAttribute('place') == 'margin-left' || add[i].getAttribute('place') == 'margin-left below' || add[i].getAttribute('place') == 'margin-left above') {
-        var strLength = add[i].innerText.length;
-        var regex = /\d+/g;
         var chs = parseInt(add[i].getAttribute('rend').match(regex));
         var marginleft = (0 - ((strLength + chs) * 0.53)) + 'em';
         var paddright = ((chs * 0.53) + 0.5) + 'em';
@@ -61,6 +61,15 @@ window.onload = function() {
             prevSpace = prevSpace + " ";
           }
           add[i].setAttribute('data-before', prevSpace);
+        }
+      }
+      else if (add[i].getAttribute('place') == 'footer') {
+        var distBelow = (parseInt(add[i].getAttribute('rend').match(regex)) * 1.5) + 'em';
+        add[i].style.top = distBelow;
+        var distLeft = strLength * 0.55;
+        add[i].style.left = (0 - distLeft / 2) + 'em';
+        add[i].style.marginRight = (0 - distLeft) + 'em';
+        if (add[i].getAttribute('rend').includes('diagonal')) {
         }
       }
     }   
