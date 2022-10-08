@@ -123,7 +123,18 @@ tei-add[place~=below] {
 
 tei-add[place~=footer] {
   position: relative;
-} 
+}
+
+tei-add[place~=footer]:after {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  content: "";
+  width: 9em;
+  text-decoration: line-through;
+}
 
 tei-add[place=margin-right] {
   display: inline-block;
