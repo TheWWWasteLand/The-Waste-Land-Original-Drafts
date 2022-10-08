@@ -310,7 +310,7 @@ function finalVer() {
     document.getElementById('note-7').classList.toggle('hidden');
     for (let g = 0; g < graphs.length; g++) {
       if (graphs[g].parentNode.nodeName != "TEI-FIGURE") {
-        graphs[g].classList.add('hidden');
+        graphs[g].classList.toggle('hidden');
       }
     }
   }
