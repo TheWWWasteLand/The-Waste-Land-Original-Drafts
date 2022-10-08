@@ -139,7 +139,7 @@ tei-add[place~=footer]::after {
 #add-24::after {
   top: -4.8em;
   left: -3em;
-  content: "                       ";
+  content: "                            ";
 }
     
 
