@@ -1447,6 +1447,7 @@ input:checked + .slider:before {
 }
 .underline {
     text-decoration: underline;
+    text-decoration-thickness: 1.5px;
 }
 .doubleUnderline {
     text-decoration-line: underline;
