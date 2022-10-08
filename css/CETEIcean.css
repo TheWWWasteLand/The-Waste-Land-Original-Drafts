@@ -120,6 +120,11 @@ tei-add[place~=below] {
   margin-bottom: -3em;
   line-height: 3.5em
 }
+
+tei-add[place~=footer] {
+  position: relative;
+} 
+
 tei-add[place=margin-right] {
   display: inline-block;
   margin-left: 2em;
