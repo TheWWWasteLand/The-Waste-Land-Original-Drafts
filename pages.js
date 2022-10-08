@@ -302,7 +302,7 @@ function finalVer() {
         his[i].classList.toggle('squared');
       }
     }
-    for (let i = 17; i < 27; i++) {
+    for (let i = 17; i < 30; i++) {
       dels[i].classList.toggle('line-del');
     }
     document.getElementById('note-5').classList.toggle('hidden');
