@@ -16,10 +16,10 @@
           if (e.hasAttribute("n")) {
             let number = document.createElement("SPAN");
             number.innerHTML = e.getAttribute("n");
-            let child = e.children;
-            for (let i=0 ; i < child.length; i++) {
-              if child[i].hasAttribute('xml:id') {
-                child[i].setAttribute('id', child[i].getAttribute('xml:id')); 
+            let childr = e.children;
+            for (let i=0 ; i < childr.length; i++) {
+              if childr[i].hasAttribute('xml:id') {
+                childr[i].setAttribute('id', childr[i].getAttribute('xml:id')); 
               }
             }
             return number;
