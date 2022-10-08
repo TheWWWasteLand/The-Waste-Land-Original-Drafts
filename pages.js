@@ -308,6 +308,7 @@ function finalVer() {
     document.getElementById('note-6').classList.toggle('hidden');
     document.getElementById('note-7').classList.toggle('hidden');
     document.getElementById('pound-1-hi').classList.toggle('hidden');
+    document.getElementById('pound-2-hi').classList.toggle('hidden');
     document.getElementById('pound-3-hi').classList.toggle('hidden');
     
   }
