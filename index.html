@@ -16,12 +16,6 @@
           if (e.hasAttribute("n")) {
             let number = document.createElement("SPAN");
             number.innerHTML = e.getAttribute("n");
-            let childr = e.children;
-            for (let i=0 ; i < childr.length; i++) {
-              if childr[i].hasAttribute('xml:id') {
-                childr[i].setAttribute('id', childr[i].getAttribute('xml:id')); 
-              }
-            }
             return number;
           }
         }
