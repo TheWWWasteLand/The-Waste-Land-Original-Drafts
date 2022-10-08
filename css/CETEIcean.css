@@ -125,7 +125,7 @@ tei-add[place~=footer] {
   position: relative;
 }
 
-tei-add[place~=footer]:after {
+tei-add[place~=footer]::after {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
