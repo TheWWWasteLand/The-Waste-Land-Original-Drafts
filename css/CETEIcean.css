@@ -131,7 +131,6 @@ tei-add[place~=footer]::after {
   -o-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  content: "";
   text-decoration: line-through;
   text-decoration-thickness: 1.5px;
   position: absolute;
@@ -140,6 +139,7 @@ tei-add[place~=footer]::after {
 #add-24::after {
   top: -4.8em;
   left: -3em;
+  content: "                       ";
 }
     
 
