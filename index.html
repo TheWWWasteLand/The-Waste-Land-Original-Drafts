@@ -16,7 +16,7 @@
           if (e.hasAttribute("n")) {
             let number = document.createElement("SPAN");
             number.innerHTML = e.getAttribute("n");
-            var child = e.children;
+            let child = e.children;
             for (let i=0 ; i < child.length; i++) {
               if child[i].hasAttribute('xml:id') {
                 child[i].setAttribute('id', child[i].getAttribute('xml:id')); 
