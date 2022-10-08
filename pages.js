@@ -215,6 +215,7 @@ function finalVer() {
   const dels = document.getElementsByTagName("tei-del");
   const adds = document.getElementsByTagName("tei-add");
   const his = document.getElementsByTagName("tei-hi");
+  const graphs = document.getElementsByTagName("tei-graphic");
   if (i.getAttribute('style') != "display: none;") {
     document.getElementById("add-i").classList.toggle('hidden');
     document.getElementById("TEswitch").style.display = 'inline-block' ;
@@ -307,10 +308,11 @@ function finalVer() {
     document.getElementById('note-5').classList.toggle('hidden');
     document.getElementById('note-6').classList.toggle('hidden');
     document.getElementById('note-7').classList.toggle('hidden');
-    document.getElementById('pound-1-hi').classList.toggle('hidden');
-    document.getElementById('pound-2-hi').classList.toggle('hidden');
-    document.getElementById('pound-3-hi').classList.toggle('hidden');
-    
+    for (let g = 0; g < graphs.length; g++) {
+      if (graphs[g].parentNode.nodeName != "TEI-FIGURE") {
+        graphs[g].classList.add('hidden');
+      }
+    }
   }
   else if (four.getAttribute('style') == "display: block;") {
   }
