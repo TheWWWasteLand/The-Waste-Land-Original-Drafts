@@ -1469,14 +1469,14 @@ input:checked + .slider:before {
     display: block;
     position: relative;
     left: 16em;
-    top: -13em;
+    top: calc(-7em - 20vw);
 }
 
 #note-6 {
     display: block;
     position: relative;
     left: 20em;
-    top: -24em;
+    top: calc(-13em - 20vw);
     line-height: 1em;
 }
 
