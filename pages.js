@@ -66,7 +66,7 @@ window.onload = function() {
       else if (add[i].getAttribute('place') == 'footer') {
         var distBelow = (parseInt(add[i].getAttribute('rend').match(regex)) * 1.5) + 'em';
         add[i].style.top = distBelow;
-        var distLeft = strLength * 0.55;
+        var distLeft = strLength * 0.53;
         add[i].style.left = (0 - distLeft / 2) + 'em';
         add[i].style.marginRight = (0 - distLeft) + 'em';
         if (add[i].getAttribute('rend').includes('diagonal')) {
