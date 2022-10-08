@@ -137,7 +137,7 @@ tei-add[place~=footer]::after {
   position: absolute;
 }
 
-tei-add[place~=footer][rend~="6"]::after {
+tei-add[place~=footer][rend~=6]::after {
   top: -4.8em;
   left: -3em;
 }
