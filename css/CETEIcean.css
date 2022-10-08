@@ -1468,8 +1468,23 @@ input:checked + .slider:before {
 #note-5 {
     display: block;
     position: relative;
+    left: 16em;
+    top: -13em;
+}
+
+#note-6 {
+    display: block;
+    position: relative;
     left: 20em;
-    top: 20em;
+    top: -24em;
+    line-height: 1em;
+}
+
+#note-7 {
+    display: block;
+    position: relative;
+    left: 21em;
+    top: -15em;
 }
 
 tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal {
