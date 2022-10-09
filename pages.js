@@ -216,6 +216,7 @@ function finalVer() {
   const adds = document.getElementsByTagName("tei-add");
   const his = document.getElementsByTagName("tei-hi");
   const graphs = document.getElementsByTagName("tei-graphic");
+  const notes = document.getElementsByTagName("tei-note");
   if (i.getAttribute('style') != "display: none;") {
     additions(document.getElementById("add-i"));
     document.getElementById("TEswitch").style.display = 'inline-block' ;
@@ -227,11 +228,11 @@ function finalVer() {
     for (let i = 1; i < 12; i++) {
       additions(adds[i]); 
     }
-    document.getElementById('hi-1').classList.toggle('highlight');
+    highlight(document.getElementById('hi-1'));
     document.getElementById('stanza01').classList.toggle('total-del');
-    document.getElementById('note-1').classList.toggle('hidden');
-    document.getElementById('note-2').classList.toggle('hidden');
-    document.getElementById('note-3').classList.toggle('hidden');
+    for (let i = 0; i < 4; i++) {
+      note(notes[i]);
+    }
   }
   else if (two.getAttribute('style') == "display: block;") {
     for (let i = 1; i < 6; i++) {
@@ -259,29 +260,21 @@ function finalVer() {
       document.getElementById('poemPage02').appendChild(arrow);
     }
     document.getElementById('pound-1-hi').classList.toggle('hidden');
-    document.getElementById('note-4').classList.toggle('hidden');
+    note(document.getElementById('note-4'));
   }
   else if (three.getAttribute('style') == "display: block;") {
     for (let i = 15; i < 26; i++) {
       additions(adds[i]);
     }
     for (let i = 5; i < 18; i++) {
-      if (his[i].getAttribute('rend') == 'circled' || his[i].getAttribute('rend') == 'circledExceptLeft' || his[i].getAttribute('rend') == 'circledExceptRight') {
-        his[i].classList.toggle('highlight');
-      }
-      else if (his[i].getAttribute('rend') == 'underline') {
-        his[i].classList.toggle('underline');
-      }
-      else if (his[i].getAttribute('rend') == 'squared') {
-        his[i].classList.toggle('squared');
-      }
+      highlight(his[i]);
     }
     for (let i = 17; i < 29; i++) {
       deletions(dels[i]);
     }
-    document.getElementById('note-5').classList.toggle('hidden');
-    document.getElementById('note-6').classList.toggle('hidden');
-    document.getElementById('note-7').classList.toggle('hidden');
+    for (let i = 5; i < 8; i++) {
+      note(notes[i]);
+    }
     for (let g = 0; g < graphs.length; g++) {
       if (graphs[g].parentNode.nodeName != "TEI-FIGURE") {
         graphs[g].classList.toggle('hidden');
@@ -324,8 +317,28 @@ function additions(el) {
 function deletions(el) {
   el.classList.toggle('line-del');
   if (el.getAttribute('rend') == "central-deletion") {
-    el.classList.toogle('line-del');
+    el.classList.toggle('line-del');
     el.classList.toggle('central-del');
+  }
+}
+
+/* tei-note */ 
+
+function note(el) {
+  el.classList.toggle('hidden');
+}
+
+/* te-hi */ 
+
+function highlight(el) {
+  if (el.getAttribute('rend') == 'circled' || el.getAttribute('rend') == 'circledExceptLeft' || el.getAttribute('rend') == 'circledExceptRight') {
+    el.classList.toggle('highlight');
+  }
+  else if (el.getAttribute('rend') == 'underline') {
+    el.classList.toggle('underline');
+  }
+  else if (el.getAttribute('rend') == 'squared') {
+    el.classList.toggle('squared');
   }
 }
 
