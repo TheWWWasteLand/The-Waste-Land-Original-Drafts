@@ -339,7 +339,7 @@ function note(el) {
 /* te-hi */ 
 
 function highlight(el) {
-  if (el.getAttribute('rend') == 'circled' || el.getAttribute('rend') == 'circledExceptLeft' || el.getAttribute('rend') == 'circledExceptRight') {
+  if (el.getAttribute('rend') == 'circled' || el.getAttribute('rend') == 'circledExceptLeft' || el.getAttribute('rend') == 'circledExceptRight' || el.getAttribute('rend') == 'circledExceptBelow') {
     el.classList.toggle('highlight');
   }
   else if (el.getAttribute('rend') == 'underline') {
@@ -353,6 +353,10 @@ function highlight(el) {
   }   
   else if (el.getAttribute('rend') == 'borderRight') {
     el.classList.toggle('rightBorder');
+  }
+  else if (el.getAttribute('rend') == 'squared underline') {
+    el.classList.toggle('underline');
+    el.classList.toggle('squared');
   }
 }
 
