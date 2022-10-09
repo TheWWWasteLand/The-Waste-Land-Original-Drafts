@@ -527,7 +527,7 @@ tei-figure > tei-head {
   font-size: 13pt;
 }
 
-tei-hi[rend~="circled"], tei-hi[rend="circledExceptAbove"], tei-hi[rend="circledExceptLeft"], tei-hi[rend="circledExceptRight"] {
+tei-hi[rend~="circled"], tei-hi[rend="circledExceptAbove"], tei-hi[rend="circledExceptLeft"], tei-hi[rend="circledExceptRight"], tei-hi[rend="circledExceptBelow"] {
     display: inline-block;
 }
 tei-hi[rend="circledExceptLeft"] {
@@ -539,6 +539,11 @@ tei-hi[rend="circledExceptRight"] {
 tei-hi[rend="circledExceptAbove"] {
     border-top: none !important;
 }
+
+tei-hi[rend="circledExceptBelow"] {
+    border-bottom: none !important;
+}
+
 tei-hi[rend="circled"] > tei-lg {
     padding-bottom: 0px!important;
 }
