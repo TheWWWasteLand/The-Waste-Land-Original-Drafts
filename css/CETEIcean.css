@@ -1174,6 +1174,7 @@ tei-body tei-div {
 
 .rightBorder {
    border-right: solid 3px !important;
+   display: inline-block;
 }
 
 #pound-1-hi-pic {
