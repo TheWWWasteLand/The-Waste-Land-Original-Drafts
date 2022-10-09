@@ -293,6 +293,9 @@ function finalVer() {
     for (let i = 18; i < 34; i++) {
       highlight(his[i]);
     }
+    for (let i = 7; i < 10; i++) {
+      note(notes[i]);
+    }
   }
   else if (five.getAttribute('style') == 'display: block;') {
   }
