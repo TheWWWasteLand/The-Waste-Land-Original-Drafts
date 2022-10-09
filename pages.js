@@ -277,7 +277,7 @@ function finalVer() {
     for (let i = 4; i < 7; i++) {
       note(notes[i]);
     }
-    for (let g = 0; g < graphs.length; g++) {
+    for (let g = 0; g < 3; g++) {
       if (graphs[g].parentNode.nodeName != "TEI-FIGURE") {
         graphs[g].classList.toggle('hidden');
       }
@@ -295,6 +295,11 @@ function finalVer() {
     }
     for (let i = 7; i < 10; i++) {
       note(notes[i]);
+    }
+    for (let g = 3; g < 6; g++) {
+      if (graphs[g].parentNode.nodeName != "TEI-FIGURE") {
+        graphs[g].classList.toggle('hidden');
+      }
     }
   }
   else if (five.getAttribute('style') == 'display: block;') {
@@ -336,7 +341,6 @@ function deletions(el) {
 /* tei-note */ 
 
 function note(el) {
-  console.log(el);
   el.classList.toggle('hidden');
 }
 
