@@ -235,12 +235,7 @@ function finalVer() {
   }
   else if (two.getAttribute('style') == "display: block;") {
     for (let i = 1; i < 6; i++) {
-      if (his[i].getAttribute('rend') == 'circled' || his[i].getAttribute('rend') == 'circledExceptAbove') {
-        his[i].classList.toggle('highlight');
-      }
-      else if (his[i].getAttribute('rend') == 'underline') {
-        his[i].classList.toggle('underline');
-      }
+      highlight(his[i]);
     }
     for (let i = 12; i < 17; i++) {
       deletions(dels[i]);
@@ -283,6 +278,9 @@ function finalVer() {
   else if (four.getAttribute('style') == "display: block;") {
     for (let i = 26; i < 32; i++) {
       additions(adds[i]);
+    }
+    for (let i = 29; i < 48; i++) {
+      deletions(dels[i]);
     }
   }
   else if (five.getAttribute('style') == 'display: block;') {
