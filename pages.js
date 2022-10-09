@@ -11,7 +11,11 @@ window.onload = function() {
     add[i].classList.add('hidden');
     if (add[i].getAttribute('place') == 'above') {
       var strLength = add[i].innerText.length;
-      if (strLength < 4) {
+      if (strLength == 1) {
+        var newLength = 1;
+        var padd = '1.3em';
+      }
+      else if (strLength > 1 && < 4) {
         var newLength = 0.8 * strLength;
         var padd = '1.3em';
       }
