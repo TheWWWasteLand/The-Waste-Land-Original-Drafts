@@ -12,7 +12,7 @@ window.onload = function() {
     if (add[i].getAttribute('place') == 'above') {
       var strLength = add[i].innerText.length;
       if (strLength > 1 && strLength < 4) {
-        var newLength = 0.8 * strLength;
+        var newLength = 0.6 * strLength;
         var padd = '1.3em';
       }
       else if (strLength > 3 && strLength < 7) {
@@ -44,7 +44,7 @@ window.onload = function() {
         var marginleft = (0 - ((strLength + chs) * 0.53)) + 'em';
         var paddright = ((chs * 0.53) + 0.5) + 'em';
         if (strLength == 1) {
-          marginleft = (0 - ((strLength + chs) * 0.8)) + 'em';
+          marginleft = (0 - ((strLength + chs) * 0.55)) + 'em';
         }
         if (add[i].getAttribute('place').includes('below')) {
           paddright = ((strLength + chs) * 0.53) + 'em';
