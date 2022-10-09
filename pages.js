@@ -217,7 +217,7 @@ function finalVer() {
   const his = document.getElementsByTagName("tei-hi");
   const graphs = document.getElementsByTagName("tei-graphic");
   if (i.getAttribute('style') != "display: none;") {
-    document.getElementById("add-i").classList.toggle('hidden');
+    additions(document.getElementById("add-i"));
     document.getElementById("TEswitch").style.display = 'inline-block' ;
   }
   else if (one.getAttribute('style') == "display: block;") {
@@ -250,15 +250,7 @@ function finalVer() {
       }
     }
     for (let i = 12; i < 15; i++) {
-      adds[i].classList.toggle('hidden');
-      if (adds[i].getAttribute('place') == "above") {
-        if (adds[i].parentNode.nodeName == "TEI-L") {
-          adds[i].parentNode.classList.toggle('interline');
-        }
-        else if (adds[i].parentNode.parentNode.nodeName == "TEI-L") {
-          adds[i].parentNode.parentNode.classList.toggle('interline');
-        }
-      }
+      additions(adds[i];
     }
     var element =  document.getElementById('back-1');
     if (element) {
