@@ -225,21 +225,7 @@ function finalVer() {
       dels[i].classList.toggle('line-del');
     }
     for (let i = 1; i < 12; i++) {
-      adds[i].classList.toggle('hidden');
-      if (adds[i].getAttribute('place') == "above") {
-        if (adds[i].parentNode.nodeName == "TEI-L") {
-          adds[i].parentNode.classList.toggle('interline');
-        }
-        else if (adds[i].parentNode.parentNode.nodeName == "TEI-L") {
-          adds[i].parentNode.parentNode.classList.toggle('interline');
-        }
-        else if (adds[i].parentNode.parentNode.nodeName == "TEI-L") {
-          adds[i].parentNode.parentNode.parentNode.classList.toggle('interline');
-        }
-        else if (adds[i].parentNode.parentNode.parentNode.nodeName == "TEI-L") {
-          adds[i].parentNode.parentNode.parentNode.classList.toggle('interline');
-        }
-      }
+      additions(this); 
     }
     document.getElementById('hi-1').classList.toggle('highlight');
     document.getElementById('stanza01').classList.toggle('total-del');
@@ -315,12 +301,34 @@ function finalVer() {
     }
   }
   else if (four.getAttribute('style') == "display: block;") {
+      
   }
   else if (five.getAttribute('style') == 'display: block;') {
   }
   else if (six.getAttribute('style') == 'display: block;') {
   }
 };
+
+/* tei-add */
+
+function additions(el) {
+  el.classList.toggle('hidden');
+  if (el.getAttribute('place') == "above") {
+    if (el.parentNode.nodeName == "TEI-L") {
+      el.parentNode.classList.toggle('interline');
+    }
+    else if (el.parentNode.parentNode.nodeName == "TEI-L") {
+      el.parentNode.parentNode.classList.toggle('interline');
+    }
+    else if (el.parentNode.parentNode.nodeName == "TEI-L") {
+      el.parentNode.parentNode.parentNode.classList.toggle('interline');
+    }
+    else if (el.parentNode.parentNode.parentNode.nodeName == "TEI-L") {
+      el.parentNode.parentNode.parentNode.classList.toggle('interline');
+    }
+  }
+}
+
 
 /* sections and pages menu */
 
