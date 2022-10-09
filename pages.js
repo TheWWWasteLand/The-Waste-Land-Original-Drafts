@@ -25,7 +25,7 @@ window.onload = function() {
       }
       else if (strLength > 10 && strLength < 17) {
         var newLength = 0.4 * strLength;
-        var padd = '0.6em';
+        var padd = '0.8em';
       }
       else if (strLength > 16) {
         var newLength = 0.35 * strLength;
