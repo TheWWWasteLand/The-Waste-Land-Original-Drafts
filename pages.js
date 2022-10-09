@@ -229,7 +229,7 @@ function finalVer() {
     }
     highlight(document.getElementById('hi-1'));
     document.getElementById('stanza01').classList.toggle('total-del');
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 3; i++) {
       note(notes[i]);
     }
   }
@@ -271,7 +271,7 @@ function finalVer() {
     for (let i = 17; i < 29; i++) {
       deletions(dels[i]);
     }
-    for (let i = 5; i < 8; i++) {
+    for (let i = 4; i < 7; i++) {
       note(notes[i]);
     }
     for (let g = 0; g < graphs.length; g++) {
