@@ -270,7 +270,7 @@
                     <note xml:id="note-6" hand="Pound" rend="diagonal">
                         <p><hi xml:id="hi-15" rend="underline">Blake</hi><lb/>
                         Too<lb/>
-                        o<subst><del>ld</del> <add xml:id="add-25" rend="overwritten">ften</add></subst><lb/>
+                        o<subst><del xml:id="del-25" hand="Pound">ld</del> <add xml:id="add-25" rend="overwritten">ften</add></subst><lb/>
                         used</p>
                         </note>
                     <note xml:id="note-7" hand="TEliot">
@@ -280,51 +280,51 @@
                     </note>
                 </lg>
             </div>
-            <div xml:id="page-5">
+                        <div xml:id="page-5">
                 <figure><graphic url="https://thewwwasteland.github.io/images/5.jpg" xml:id="page-4"/>
                 </figure>
                 <lg type="poemPage" n="4" xml:id="poemPage04">
                     <head>
                     HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/>
                     <lb/>
-                    <rdg><subst xml:id="sub-9"><del xml:id="del-24" hand="TEliot">IN THE CAGE.</del><add place="above" xml:id="add-14" hand="TEliot">A Game of Chess.</add></subst></rdg>
+                    <subst xml:id="sub-10"><del xml:id="del-26" hand="TEliot">IN THE CAGE.</del><add place="above" xml:id="add-26" hand="TEliot">A Game of Chess.</add></subst>
                     </head>
                     <lg type="stanza" n="8" xml:id="stanza08">
-                        <l>The Chair she sat in, like a burnished throne</l>
+                        <hi xml:id="hi-16" rend="borderRight" pound="Pound"><l n="1">The Chair she sat in, like a burnished throne</l>
                         <l>Glowed on the marble, where the swinging glass</l>
-                        <l>Held up by standards wrought with golden vines</l>
-                        <l>From which <hi xml:id="highlight-1" rend="highlight" hand="Pound">one</hi><add xml:id="add-15" hand="Pound">a</add> tender Cupidon peeped out</l>
-                        <l>(Another hid his eyes behind his wing)</l>
+                        <l>Held up by standards wrought with golden vines</l></hi>
+                        <l>From which <hi xml:id="hi-17" rend="circled" hand="Pound">one</hi><add xml:id="add-27" hand="Pound" place="margin-left"> a</add> tender Cupidon peeped out</l>
+                        <l n="5">(Another hid his eyes behind his wing)</l>
                         <l>Doubled the flames of seven-branched candelabra</l>
-                        <l>Reflecting light upon the table <del xml:id="del-25" hand="TEliot">where</del> as</l>
-                        <l>The glitter of her jewels rose to meet <del xml:id="del-26" hand="TEliot">it,</del> it,</l>
+                        <l>Reflecting light upon the table <del xml:id="del-27" hand="TEliot">where</del> as</l>
+                        <l>The glitter of her jewels rose to meet <del xml:id="del-28" hand="TEliot">it,</del> it,</l>
                         <l>From satin cases poured in rich profusion;</l>
-                        <l>In vials of ivory and coloured glass</l>
+                        <l n="10">In vials of ivory and coloured glass</l>
                         <l>Unstopped, lurked her strange synthetic perfumes</l>
                         <l>Unguent, powdered, or liquid -troubled, confused</l>
                         <l>And drowned the sense in odours; stirred by the air</l>
                         <l>That freshened from the window, these ascended,</l>
-                        <l>Fattening the <hi xml:id="highlight-2a" rend="highlight" hand="Pound">candles flames, <hi xml:id="highlight-2b" rend="highlight" hand="Pound"><del xml:id="del-27" hand="Pound">which were</del></hi></hi> <hi xml:id="highlight-2c" rend="highlight" hand="Pound">prolonged,</hi></l>
-                        <l><del xml:id="del-28" hand="Pound">And</del> flung their smoke into the laquenaria,</l>
+                        <l n="15">Fattening the <hi xml:id="hi-18" rend="circledExceptBelow" hand="Pound">candles flames, <hi xml:id="hi-19" rend="squared underline" hand="Pound">which were</hi></hi> <hi xml:id="hi-19" rend="squaredExceptAbove" hand="Pound">prolonged,</hi></l>
+                        <l><del xml:id="del-27" hand="Pound">And</del> flung their smoke into the laquenaria,</l>
                         <l>Stirring the pattern on the coffered ceiling.</l>
-                        <l><hi xml:id="highlight-3" rend="highlight" hand="Pound">Upon the hearth</hi> huge sea-wood fed with copper</l>
+                        <l><hi xml:id="hi-20" rend="squared" hand="Pound">Upon the hearth</hi> huge sea-wood fed with copper</l>
                         <l>Burned green and orange, framed by the coloured stone,</l>
-                        <l>In which sad light a carved dolphin swam;</l>
-                        <l>Above the antique mantel was displayed</l>
-                        <l>In pigment, <del xml:id="del-29" hand="Pound">but so lively, <hi xml:id="highlight-4" rend="highlight" hand="Pound">you had thought</hi></del></l>
-                        <l>A window gave upon the sylvan scene,</l>
+                        <hi xml:id="hi-21"><l n="20">In which sad light a carved dolphin swam;<add xml:id="add-28" hand="Pound">&gt;</add></l>
+                        <hi xml:id="hi-22"><l>Above the antique mantel was displayed</l>
+                        <l>In pigment, <add xml:id="add-29" hand="Pound">&lt;</add><del xml:id="del-28" hand="Pound">but so lively, <hi xml:id="hi-23" rend="squared" hand="Pound">you had thought</hi></del></l>
+                        <l>A window gave upon the sylvan scene,</l></hi></hi>
                         <l>The change of Philomel, by the barbarous king</l>
-                        <l>So rudely forced, yet <del xml:id="del-30" hand="TEliot">still</del> there the nightingale</l>
-                        <l>Filled all the desert with <hi xml:id="highlight-5" rend="highlight" hand="Pound">inviolable</hi> voice</l>
+                        <l n="25">So rudely forced, yet <del xml:id="del-29" hand="TEliot">still</del> there the nightingale</l>
+                        <l>Filled all the desert with <hi xml:id="hi-24" rend="circled" hand="Pound">inviolable</hi> voice</l>
                         <l>And still she cried (and still the world pursues)</l>
-                        <l>Jug Jug, into <del xml:id="del-31a" hand="Pound">the</del> dirty <del xml:id="del-31b" hand="Pound">ear of death;</del> <add xml:id="add-16" hand="TEliot"><del xml:id="del-31c" hand="Pound">lust;</del></add></l>
-                        <l><del xml:id="del-32" hand="Pound">And other tales, from the</del> old stumps and bloody ends of time</l>
-                        <l>Were told upon the walls, <del xml:id="del-33" hand="Pound">where</del> staring forms</l>
+                        <l>Jug Jug, into <del xml:id="del-30a" hand="Pound">the</del> dirty ear <del xml:id="del-30b" hand="Pound">of death;</del> <add xml:id="add-28" hand="TEliot"><del xml:id="del-31" hand="Pound">lust;</del></add></l>
+                        <l><del xml:id="del-32" hand="Pound"><hi xml:id="hi-25" rend="squaredExceptRight" hand="Pound">And</hi> other tales, from the</del> old stumps and bloody ends of <hi xml:id="hi-25" rend="squaredExceptLeft" hand="Pound">time</hi></l>
+                        <l n="30">Were told upon the walls, <del xml:id="del-33" hand="Pound">where</del> staring forms</l>
                         <l>Leaned out, <del xml:id="del-34a" hand="Pound">and</del> hushed the room <del xml:id="del-34b" hand="Pound">and</del> closed it <del xml:id="del-35" hand="Pound">in.</del></l>
-                        <l><hi xml:id="highlight-6" rend="highlight" hand="Pound"><del xml:id="del-36" hand="Pound">There</del></hi> were footsteps on the stair,</l>
+                        <l><hi xml:id="hi-26" rend="circled" hand="Pound"><del xml:id="del-36" hand="Pound">There</del></hi> were footsteps on the stair,</l>
                         <l>Under the firelight, under the brush, her hair</l>
-                        <l>Spread out in <del xml:id="del-37" hand="Pound">little</del> fiery points <del xml:id="del-38" hand="Pound">of will,</del></l>
-                        <l>Glowed into words, then would be savagely still.</l>
+                        <l>Spread out in <del xml:id="del-37" hand="Pound">little</del> fiery points <del xml:id="del-38" hand="Pound"><hi xml:id="hi-27" rend="squared">of will,</hi></del></l>
+                        <l n="35">Glowed into words, then would be savagely still.</l>
                     </lg>
                     <lg type="stanza" n="9" xml:id="stanza09">
                         <l>"My nerves are bad tonight. Yes, bad. Stay with me.</l>
@@ -333,7 +333,7 @@
                         <l>"I never know what you are thinking. Think".</l>
                     </lg>
                     <lg type="stanza" n="10" xml:id="stanza10">
-                        <l>I think we met first in rats' alley,</l>
+                        <l n="40">I think we met first in rats' alley,</l>
                         <l>Ehere the dead men lost their bones.</l>
                     </lg>
                     <lg type="stanza" n="11" xml:id="stanza11">
