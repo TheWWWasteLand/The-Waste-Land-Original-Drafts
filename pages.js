@@ -11,11 +11,7 @@ window.onload = function() {
     add[i].classList.add('hidden');
     if (add[i].getAttribute('place') == 'above') {
       var strLength = add[i].innerText.length;
-      if (strLength == 1) {
-        var newLength = 1;
-        var padd = '1.3em';
-      }
-      else if (strLength > 1 && strLength < 4) {
+      if (strLength > 1 && strLength < 4) {
         var newLength = 0.8 * strLength;
         var padd = '1.3em';
       }
@@ -47,6 +43,9 @@ window.onload = function() {
         var chs = parseInt(add[i].getAttribute('rend').match(regex));
         var marginleft = (0 - ((strLength + chs) * 0.53)) + 'em';
         var paddright = ((chs * 0.53) + 0.5) + 'em';
+        if (strLength == 1) {
+          marginleft = (0 - ((strLength + chs) * 0.8)) + 'em';
+        }
         if (add[i].getAttribute('place').includes('below')) {
           paddright = ((strLength + chs) * 0.53) + 'em';
         }
