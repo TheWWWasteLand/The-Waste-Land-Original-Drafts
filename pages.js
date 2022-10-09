@@ -336,6 +336,7 @@ function deletions(el) {
 /* tei-note */ 
 
 function note(el) {
+  console.log(el);
   el.classList.toggle('hidden');
 }
 
