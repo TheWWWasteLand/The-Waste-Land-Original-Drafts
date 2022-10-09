@@ -44,7 +44,8 @@ window.onload = function() {
         var marginleft = (0 - ((strLength + chs) * 0.53)) + 'em';
         var paddright = ((chs * 0.53) + 0.5) + 'em';
         if (strLength == 1) {
-          marginleft = (0 - ((strLength + chs) * 0.55)) + 'em';
+          marginleft = (0 - ((strLength + chs) * 0.6)) + 'em';
+          paddright = ((chs * 0.6) + 0.5) + 'em';
         }
         if (add[i].getAttribute('place').includes('below')) {
           paddright = ((strLength + chs) * 0.53) + 'em';
