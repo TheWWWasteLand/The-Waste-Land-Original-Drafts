@@ -19,11 +19,11 @@ window.onload = function() {
         var newLength = 0.55 * strLength;
         var padd = '0.5em'; 
       }
-      else if (strLength > 7 && strLength < 11) {
+      else if (strLength > 6 && strLength < 11) {
         var newLength = 0.45 * strLength;
         var padd = '1.3em';
       }
-      else if (strLength > 11 && strLength < 14) {
+      else if (strLength > 10 && strLength < 15) {
         var newLength = 0.35 * strLength;
         var padd = '0.6em';
       }
