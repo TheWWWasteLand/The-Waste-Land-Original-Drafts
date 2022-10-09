@@ -142,7 +142,6 @@ function nextPage() {
   else if (three.getAttribute('style') == "display: block;") {
     three.style.display="none";
     four.style.display="block";
-    document.getElementById('carbonCopy').classList.toggle('hidden');
   }
   else if (four.getAttribute('style') == "display: block;") {
     four.style.display="none";
