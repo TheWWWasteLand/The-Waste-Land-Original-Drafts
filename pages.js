@@ -298,12 +298,12 @@ function finalVer() {
     for (let i = 7; i < 10; i++) {
       note(notes[i]);
     }
-    var a = 2
+    var a = 0
     for (let g = 0; g < graphs.length; g++) {
-      console.log(a);
-      if (graphs[g].parentNode.nodeName != "TEI-FIGURE" && a < 4) {
-        console.log(graphs[i]);
-        graphs[g].classList.toggle('hidden');
+      if (graphs[g].parentNode.nodeName != "TEI-FIGURE" &&) {        
+        if (a > 1 && a < 4) {
+          graphs[g].classList.toggle('hidden');
+        }
         a = a + 1;
       } 
     }
