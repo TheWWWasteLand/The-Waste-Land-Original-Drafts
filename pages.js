@@ -277,10 +277,12 @@ function finalVer() {
     for (let i = 4; i < 7; i++) {
       note(notes[i]);
     }
-    for (let g = 0; g < 3; g++) {
-      if (graphs[g].parentNode.nodeName != "TEI-FIGURE") {
+    var a = 0
+    for (let g = 0; g < graphs.length; g++) {
+      if (graphs[g].parentNode.nodeName != "TEI-FIGURE" && a < 2) {
         graphs[g].classList.toggle('hidden');
-      }
+        a = a + 1;
+      } 
     }
   }
   else if (four.getAttribute('style') == "display: block;") {
@@ -296,10 +298,12 @@ function finalVer() {
     for (let i = 7; i < 10; i++) {
       note(notes[i]);
     }
-    for (let g = 3; g < 6; g++) {
-      if (graphs[g].parentNode.nodeName != "TEI-FIGURE") {
+    var a = 2
+    for (let g = 0; g < graphs.length; g++) {
+      if (graphs[g].parentNode.nodeName != "TEI-FIGURE" && a < 4) {
         graphs[g].classList.toggle('hidden');
-      }
+        a = a + 1;
+      } 
     }
   }
   else if (five.getAttribute('style') == 'display: block;') {
