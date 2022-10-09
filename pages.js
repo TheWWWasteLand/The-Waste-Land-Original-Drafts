@@ -348,6 +348,9 @@ function highlight(el) {
   else if (el.getAttribute('rend') == 'squared') {
     el.classList.toggle('squared');
   }
+  else if (el.getAttribute('rend') == 'squaredExceptAbove' || el.getAttribute('rend') == 'squaredExceptLeft' || el.getAttribute('rend') == 'squaredExceptRight') {
+    el.classList.toggle(el.getAttribute('rend'));
+  }   
   else if (el.getAttribute('rend') == 'borderRight') {
     el.classList.toggle('rightBorder');
   }
