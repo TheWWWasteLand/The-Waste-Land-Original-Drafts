@@ -290,10 +290,10 @@
                     <subst xml:id="sub-10"><del xml:id="del-26" hand="TEliot">IN THE CAGE.</del><add place="above" xml:id="add-26" hand="TEliot">A Game of Chess.</add></subst>
                     </head>
                     <lg type="stanza" n="8" xml:id="stanza08">
-                        <hi xml:id="hi-16" rend="borderRight" pound="Pound"><l n="1">The Chair she sat in, like a burnished throne</l>
+                        <hi xml:id="hi-16" rend="borderRight" hand="Pound"><l n="1">The Chair she sat in, like a burnished throne</l>
                         <l>Glowed on the marble, where the swinging glass</l>
                         <l>Held up by standards wrought with golden vines</l></hi>
-                        <l>From which <hi xml:id="hi-17" rend="circled" hand="Pound">one</hi><add xml:id="add-27" hand="Pound" place="margin-left" rend="14">a</add> tender Cupidon peeped out</l>
+                        <l>From which <hi xml:id="hi-17" rend="circled" hand="Pound">one</hi><add xml:id="add-27" hand="Pound" place="margin-left" rend="13">a </add> tender Cupidon peeped out</l>
                         <l n="5">(Another hid his eyes behind his wing)</l>
                         <l>Doubled the flames of seven-branched candelabra</l>
                         <l>Reflecting light upon the table <del xml:id="del-27" hand="TEliot">where</del> as</l>
