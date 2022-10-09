@@ -286,6 +286,9 @@ function finalVer() {
     for (let i = 29; i < 48; i++) {
       deletions(dels[i]);
     }
+    for (let i = 18; i < 34; i++) {
+      highlight(his[i]);
+    }
   }
   else if (five.getAttribute('style') == 'display: block;') {
   }
@@ -340,6 +343,9 @@ function highlight(el) {
   }
   else if (el.getAttribute('rend') == 'squared') {
     el.classList.toggle('squared');
+  }
+  else if (el.getAttribute('rend') == 'borderRight') {
+    el.classList.toggle('rightBorder');
   }
 }
 
