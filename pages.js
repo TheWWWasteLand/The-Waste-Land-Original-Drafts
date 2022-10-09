@@ -15,7 +15,7 @@ window.onload = function() {
         var newLength = 1;
         var padd = '1.3em';
       }
-      else if (strLength > 1 && < 4) {
+      else if (strLength > 1 && strLength < 4) {
         var newLength = 0.8 * strLength;
         var padd = '1.3em';
       }
