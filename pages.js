@@ -222,7 +222,7 @@ function finalVer() {
   }
   else if (one.getAttribute('style') == "display: block;") {
     for (let i = 0; i < 13; i++) {
-      dels[i].classList.toggle('line-del');
+      deletions(dels[i]);
     }
     for (let i = 1; i < 12; i++) {
       additions(adds[i]); 
@@ -243,14 +243,10 @@ function finalVer() {
       }
     }
     for (let i = 12; i < 17; i++) {
-      dels[i].classList.toggle('line-del');
-      if (dels[i].getAttribute('rend') == "central-deletion") {
-        dels[i].classList.toogle('line-del');
-        dels[i].classList.toggle('central-del');
-      }
+      deletions(dels[i]);
     }
     for (let i = 12; i < 15; i++) {
-      additions(adds[i];
+      additions(adds[i]);
     }
     var element =  document.getElementById('back-1');
     if (element) {
@@ -267,7 +263,7 @@ function finalVer() {
   }
   else if (three.getAttribute('style') == "display: block;") {
     for (let i = 15; i < 26; i++) {
-      adds[i].classList.toggle('hidden');
+      additions(adds[i]);
     }
     for (let i = 5; i < 18; i++) {
       if (his[i].getAttribute('rend') == 'circled' || his[i].getAttribute('rend') == 'circledExceptLeft' || his[i].getAttribute('rend') == 'circledExceptRight') {
@@ -281,7 +277,7 @@ function finalVer() {
       }
     }
     for (let i = 17; i < 29; i++) {
-      dels[i].classList.toggle('line-del');
+      deletions(dels[i]);
     }
     document.getElementById('note-5').classList.toggle('hidden');
     document.getElementById('note-6').classList.toggle('hidden');
@@ -293,7 +289,9 @@ function finalVer() {
     }
   }
   else if (four.getAttribute('style') == "display: block;") {
-      
+    for (let i = 26; i < 32; i++) {
+      additions(adds[i]);
+    }
   }
   else if (five.getAttribute('style') == 'display: block;') {
   }
@@ -321,6 +319,15 @@ function additions(el) {
   }
 }
 
+/* tei-del */
+
+function deletions(el) {
+  el.classList.toggle('line-del');
+  if (el.getAttribute('rend') == "central-deletion") {
+    el.classList.toogle('line-del');
+    el.classList.toggle('central-del');
+  }
+}
 
 /* sections and pages menu */
 
