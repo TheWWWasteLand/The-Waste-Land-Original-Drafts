@@ -23,7 +23,11 @@ window.onload = function() {
         var newLength = 0.45 * strLength;
         var padd = '1.3em';
       }
-      else if (strLength > 11) {
+      else if (strLength > 11 && strLength < 14) {
+        var newLength = 0.35 * strLength;
+        var padd = '0.6em';
+      }
+      else if (strLength > 14) {
         var newLength = 0.45 * strLength;
         var padd = '0.6em';
       }
