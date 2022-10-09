@@ -100,7 +100,7 @@ tei-add {
  font-weight: bolder;
 }
 
-tei-del > tei-add {
+tei-del > tei-add, tei-add > tei-del {
  text-decoration: line-through;
 }
 
