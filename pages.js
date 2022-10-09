@@ -300,7 +300,9 @@ function finalVer() {
     }
     var a = 2
     for (let g = 0; g < graphs.length; g++) {
+      console.log(a);
       if (graphs[g].parentNode.nodeName != "TEI-FIGURE" && a < 4) {
+        console.log(graphs[i]);
         graphs[g].classList.toggle('hidden');
         a = a + 1;
       } 
