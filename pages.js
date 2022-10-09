@@ -225,7 +225,7 @@ function finalVer() {
       dels[i].classList.toggle('line-del');
     }
     for (let i = 1; i < 12; i++) {
-      additions(this); 
+      additions(adds[i]); 
     }
     document.getElementById('hi-1').classList.toggle('highlight');
     document.getElementById('stanza01').classList.toggle('total-del');
