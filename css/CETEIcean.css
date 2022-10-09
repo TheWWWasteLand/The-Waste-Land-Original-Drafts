@@ -1172,6 +1172,24 @@ tei-body tei-div {
    border-radius: 0.5px;
 }
 
+.squaredExceptAbove {
+   border: solid 3px !important;
+   border-radius: 0.5px;  
+   border-top: none !important;
+}
+
+.squaredExceptLeft {
+   border: solid 3px !important;
+   border-radius: 0.5px;  
+   border-left: none !important;
+}
+
+.squaredExceptRight {
+   border: solid 3px !important;
+   border-radius: 0.5px;  
+   border-right: none !important;
+}
+
 .rightBorder {
    border-right: solid 3px !important;
    display: inline-block;
