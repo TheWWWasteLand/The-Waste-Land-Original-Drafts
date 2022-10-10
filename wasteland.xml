@@ -345,92 +345,90 @@
                     <lg type="stanza" n="13" xml:id="stanza13">
                         <l>"What is that noise now? What is the wind doing?"</l>
                     </lg>
+                    <note xml:id="note-10" hand="Pound" rend="diagonal">
+                        <p><hi xml:id="hi-28" rend="underline" hand="Pound">3 lines</hi><lb/>
+                        Too       tum-pum<lb/>
+                                  at a stretch<lb/>
+                    </note>
+                    <note xml:id="note-11" hand="Pound" rend="diagonal">
+                        <lg>
+                            <l>"one"</l>
+                            <l>wee</l>
+                            <l>red</l>
+                            <l>mouse</l>
+                        </lg>
+                    </note>
+                    <note xml:id="note-12" hand="VEliot" rend="vertical">
+                        <lg>
+                            <l>Don't see  what you had in mind</l>
+                            <l>here</l>
+                        </lg>
+                    </note>
+                    <note xml:id="note-13" hand="Pound" rend="diagonal">
+                        <lg>
+                            <l>space</l>
+                            <l>_\_\_\</l>
+                        </lg>
+                    </note>
+                    <note xml:id="note-14" hand="Pound" rend="diagonal">
+                        <lg>
+                            <l>had is the weekest point</l>
+                        </lg>
+                    </note>
+                    <note xml:id="note-15" hand="Pound" rend="diagonal">
+                        <lg>
+                            <l>1921</l>
+                        </lg>
+                    </note>
+                    <note xml:id="note-16" hand="Pound">
+                        <lg>
+                            <l>too penty</l>
+                        </lg>
+                    </note>
+                    <note xml:id="note-17" hand="VEliot" rend="vertical">
+                        <lg> 
+                            <l>WONDERFUL</l>
+                        </lg>
+                    </note>
+                    <note xml:id="note-18" hand="Pound">
+                        <lg>
+                            <l>Dogmatic</l>
+                            <l>deduction</l>
+                            <l>but</l>
+                            <l>wobbly</l>
+                            <l>as</l>
+                            <l>well</l>
+                        </lg>
+                    </note>
+                    <note xml:id="note-19" hand="Pound" rend="vertical">
+                        <lg>
+                            <l>Re this</l>
+                            <l>point</l>
+                        </lg>
+                    </note>
+                    <note xml:id="note-20" hand="Pound" rend="diagonal">
+                        <lg>
+                            <l>photography</l>
+                            <l>?</l>
+                        </lg>
+                    </note>
+                    <note xml:id="note-21" hand="Pound">
+                        <lg>
+                            <l>Il cherchaitpour</l>
+                            <l>des sentiments</l>
+                            <l>pour les</l>
+                            <l>accomoder</l>
+                            <l>a</l>
+                            <l>son</l>
+                            <l>vocabulaire.</l>
+                        </lg>
+                    </note>
+                    <note xml:id="note-22" hand="Pound">
+                        <lg>
+                            <l>Beddoes</l>
+                        </lg>
+                    </note>
                 </lg>
-                <note xml:id="note-10" hand="Pound" rend="diagonal">
-                    <lg>
-                        <l><hi xml:id="hi-28" rend="underline" hand="Pound">3 lines</hi></l>
-                        <l>Too       tum-pum</l>
-                        <l>          at a stretch</l>
-                    </lg>
-                </note>
-                <note xml:id="note-11" hand="Pound" rend="diagonal">
-                    <lg>
-                        <l>"one"</l>
-                        <l>wee</l>
-                        <l>red</l>
-                        <l>mouse</l>
-                    </lg>
-                </note>
-                <note xml:id="note-12" hand="VEliot" rend="vertical">
-                    <lg>
-                        <l>Don't see  what you had in mind</l>
-                        <l>here</l>
-                    </lg>
-                </note>
-                <note xml:id="note-13" hand="Pound" rend="diagonal">
-                    <lg>
-                        <l>space</l>
-                        <l>_\_\_\</l>
-                    </lg>
-                </note>
-                <note xml:id="note-14" hand="Pound" rend="diagonal">
-                    <lg>
-                        <l>had is the weekest point</l>
-                    </lg>
-                </note>
-                <note xml:id="note-15" hand="Pound" rend="diagonal">
-                    <lg>
-                        <l>1921</l>
-                    </lg>
-                </note>
-                <note xml:id="note-16" hand="Pound">
-                    <lg>
-                        <l>too penty</l>
-                    </lg>
-                </note>
-                <note xml:id="note-17" hand="VEliot" rend="vertical">
-                    <lg> 
-                        <l>WONDERFUL</l>
-                    </lg>
-                </note>
-                <note xml:id="note-18" hand="Pound">
-                    <lg>
-                        <l>Dogmatic</l>
-                        <l>deduction</l>
-                        <l>but</l>
-                        <l>wobbly</l>
-                        <l>as</l>
-                        <l>well</l>
-                    </lg>
-                </note>
-                <note xml:id="note-19" hand="Pound" rend="vertical">
-                    <lg>
-                        <l>Re this</l>
-                        <l>point</l>
-                    </lg>
-                </note>
-                <note xml:id="note-20" hand="Pound" rend="diagonal">
-                    <lg>
-                        <l>photography</l>
-                        <l>?</l>
-                    </lg>
-                </note>
-                <note xml:id="note-21" hand="Pound">
-                    <lg>
-                        <l>Il cherchaitpour</l>
-                        <l>des sentiments</l>
-                        <l>pour les</l>
-                        <l>accomoder</l>
-                        <l>a</l>
-                        <l>son</l>
-                        <l>vocabulaire.</l>
-                    </lg>
-                </note>
-                <note xml:id="note-22" hand="Pound">
-                    <lg>
-                        <l>Beddoes</l>
-                    </lg>
-                </note>
             </div>
             <div xml:id="page-6">
                 <figure><graphic url="https://thewwwasteland.github.io/images/6.jpg" xml:id="page-5"/>
