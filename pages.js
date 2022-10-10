@@ -107,7 +107,7 @@ document.onkeydown = checkKey;
 function checkKey(e) {
 
     e = e || window.event;
-    var key = e.keyCode;  
+    var key = parseInt(e.keyCode);  
     console.log(key);
     switch (key) {
       case '39':
