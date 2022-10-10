@@ -1253,6 +1253,12 @@ img[data-origid=pound-6-hi-pic] {
     margin-top: -0.3em;
 }
 
+#pound-8-hi-pic {
+    height: 11em;
+    margin-bottom: -10em;
+    margin-left: -5em;
+}
+
 [rend=largerFirstLetter] {
  display: block;
  font-size: 75%;
