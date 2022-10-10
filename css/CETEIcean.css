@@ -1224,17 +1224,33 @@ img[data-origid=pound-2-hi-pic] {
     height: 3em;
 }
 
+img[data-origid=pound-4-hi-pic] {
+    height: 12.5em;
+    margin-bottom: -10.5em;
+    margin-left: 0em;
+    margin-top: -0.2em;
+}
+
+img[data-origid=pound-5-hi-pic] {
+    height: 10.5em;
+    margin-bottom: -9em;
+    margin-left: -5.5em;
+    margin-right: -1em;
+    margin-top: -0.4em;
+}
+
 img[data-origid=pound-6-hi-pic] {
-   height: 7em;
-   margin-bottom: -6em;
-   margin-left: 1.5em;
+    height: 7em;
+    margin-bottom: -6em;
+    margin-left: 0.5em;
 }
 
 #pound-7-hi-pic {
-   height: 5.4em;
-   margin-bottom: -4em;
-   margin-left: -2.6em;
-   margin-top: -0.3em;
+    max-width: 8.5em;
+    max-height: 5.4em;
+    margin-bottom: -4em;
+    margin-left: -2.6em;
+    margin-top: -0.3em;
 }
 
 [rend=largerFirstLetter] {
