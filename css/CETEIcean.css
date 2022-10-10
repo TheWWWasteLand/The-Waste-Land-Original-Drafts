@@ -1217,6 +1217,19 @@ img[data-origid=pound-2-hi-pic] {
    margin-left: 18.5em;
 }
 
+img[data-origid=pound-4-hi-pic] {
+   height: 7em;
+   margin-bottom: -6em;
+   margin-left: 1.5em;
+}
+
+#pound-5-hi-pic {
+   height: 5.4em;
+   margin-bottom: -4em;
+   margin-left: -2.6em;
+   margin-top: -0.3em;
+}
+
 #pound-3-hi {
     position: relative;
     margin-bottom: -3em;
