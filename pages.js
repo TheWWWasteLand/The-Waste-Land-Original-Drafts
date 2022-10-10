@@ -107,8 +107,9 @@ document.onkeydown = checkKey;
 function checkKey(e) {
 
     e = e || window.event;
-
-    switch (e.keyCode) {
+    var key = e.keyCode;  
+    console.log(key);
+    switch (key) {
       case '39':
         nextPage();
         break;
