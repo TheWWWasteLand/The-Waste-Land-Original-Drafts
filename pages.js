@@ -100,7 +100,7 @@ window.onload = function() {
   }
 };
 
-/* keyboard - turning pages */
+/* keyboard shortcuts */
 
 document.onkeydown = checkKey;
 
@@ -108,11 +108,18 @@ function checkKey(e) {
 
     e = e || window.event;
 
-    if (e.keyCode == '39') {
+    switch (e.keyCode) {
+      case '39':
         nextPage();
-    }
-    else if (e.keyCode == '37') {
+        break;
+      case '37':
         prevPage();
+        break;
+      case '38':
+        zoomin();
+        break;
+      case '40':
+        zoomout();
     }
 };
 
