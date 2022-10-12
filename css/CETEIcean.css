@@ -1232,11 +1232,10 @@ img[data-origid=pound-4-hi-pic] {
 }
 
 img[data-origid=pound-5-hi-pic] {
-    height: 10.5em;
-    margin-bottom: -9em;
-    margin-left: -5.5em;
+    height: 8.5em;
+    margin-bottom: -7.2em;
+    margin-left: -4.3em;
     margin-right: -1em;
-    margin-top: -0.4em;
 }
 
 img[data-origid=pound-6-hi-pic] {
@@ -1309,6 +1308,14 @@ tei-del {
     top: -40em;
     left: 26em;
 }
+
+#note-10 {
+    position: relative;
+    top: -85em;
+    left: 22em;
+    line-height: 1em;
+}
+
 .line-del {
    text-decoration: line-through;
    text-decoration-thickness: 2px;
@@ -1550,7 +1557,7 @@ input:checked + .slider:before {
     top: -15em;
 }
 
-tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal {
+tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal, tei-note[rend~=diagonal] > p {
     transform: rotate(-35deg);
 }
 .vertical {
