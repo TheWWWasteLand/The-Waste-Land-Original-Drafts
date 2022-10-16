@@ -351,18 +351,18 @@
                                   at a stretch</p>
                     </note>
                     <note xml:id="note-11" hand="Pound" rend="diagonal">
-                        <lg>
-                            <l>"one"</l>
-                            <l>wee</l>
-                            <l>red</l>
-                            <l>mouse</l>
-                        </lg>
+                        <p>
+                            "one"<lb/>
+                            wee<lb/>
+                            red<lb/>
+                            mouse
+                        </p>
                     </note>
                     <note xml:id="note-12" hand="VEliot" rend="vertical">
-                        <lg>
-                            <l>Don't see  what you had in mind</l>
-                            <l>here</l>
-                        </lg>
+                        <p>
+                            Don't see  what you had in mind<lb/>
+                            here
+                        </p>
                     </note>
                     <note xml:id="note-13" hand="Pound" rend="diagonal">
                         <lg>
