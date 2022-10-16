@@ -11,7 +11,10 @@ window.onload = function() {
     add[i].classList.add('hidden');
     if (add[i].getAttribute('place') == 'above') {
       var strLength = add[i].innerText.length;
-      if (strLength > 1 && strLength < 4) {
+      if (strLength == 1) {
+        var newLength = 0.55;
+      }
+      else if (strLength > 1 && strLength < 4) {
         var newLength = 0.6 * strLength;
         var padd = '1.3em';
       }
@@ -269,7 +272,6 @@ function finalVer() {
       arrow.setAttribute('id', 'back-1');
       document.getElementById('poemPage02').appendChild(arrow);
     }
-    document.getElementById('pound-1-hi').classList.toggle('hidden');
     note(document.getElementById('note-4'));
   }
   else if (three.getAttribute('style') == "display: block;") {
@@ -361,7 +363,7 @@ function note(el) {
 /* te-hi */ 
 
 function highlight(el) {
-  if (el.getAttribute('rend') == 'circled' || el.getAttribute('rend') == 'circledExceptLeft' || el.getAttribute('rend') == 'circledExceptRight' || el.getAttribute('rend') == 'circledExceptBelow') {
+  if (el.getAttribute('rend') == 'circled' || el.getAttribute('rend') == 'circledExceptLeft' || el.getAttribute('rend') == 'circledExceptRight' || el.getAttribute('rend') == 'circledExceptAbove' || el.getAttribute('rend') == 'circledExceptBelow') {
     el.classList.toggle('highlight');
   }
   else if (el.getAttribute('rend') == 'underline') {
