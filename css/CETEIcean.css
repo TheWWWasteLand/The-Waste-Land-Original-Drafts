@@ -1311,8 +1311,14 @@ tei-del {
 
 #note-10 {
     position: relative;
-    top: -85em;
+    top: -80em;
     left: 22em;
+    line-height: 1em;
+}
+#note-11 {
+    position: relative;
+    top: -80em;
+    left: 31em;
     line-height: 1em;
 }
 
@@ -1557,7 +1563,7 @@ input:checked + .slider:before {
     top: -15em;
 }
 
-tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal, tei-note[rend~=diagonal] > p {
+tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal, tei-note[rend~=diagonal] > tei-p {
     transform: rotate(-35deg);
 }
 .vertical {
