@@ -94,10 +94,10 @@ window.onload = function() {
         var databefore = "";
         var c = 0
         while (c < final) {
-          databefore = databefore + "-";
+          databefore = databefore + " ";
           c = c + 1;
         }
-        databefore = databefore + " ";
+        databefore = databefore + "*";
         notes[a].setAttribute('data-before', databefore);
       }
     }  
