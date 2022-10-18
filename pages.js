@@ -1,6 +1,6 @@
 window.onload = function() {
   const add = document.getElementsByTagName("tei-add");
-  const note = document.getElementsByTagName("tei-note");
+  const notes = document.getElementsByTagName("tei-note");
   const graphs = document.getElementsByTagName("tei-graphic");
   for (let g = 0; g < graphs.length; g++) {
     if (graphs[g].parentNode.nodeName != "TEI-FIGURE") {
@@ -85,11 +85,11 @@ window.onload = function() {
       }
     }   
   }
-  for (let a = 0; a < note.length; a++) {
-    note[a].classList.add('hidden');
-    if (note[a].hasAttribute('rend')) {
-        if (note[a].getAttribute('rend').includes("linkingStar")) {
-          var strLength = note[a].innerText.length;
+  for (let a = 0; a < notes.length; a++) {
+    notes[a].classList.add('hidden');
+    if (notes[a].hasAttribute('rend')) {
+        if (notes[a].getAttribute('rend').includes("linkingStar")) {
+          var strLength = notes[a].innerText.length;
           var final = strLength * 0.4;
           var databefore = "";
           var c = 0
@@ -98,7 +98,7 @@ window.onload = function() {
             c = c + 1;
           }
           databefore = databefore + "*";
-          note[a].setAttribute('data-before', databefore);
+          notes[a].setAttribute('data-before', databefore);
         }
   }
   const line = document.getElementsByTagName("tei-l");
