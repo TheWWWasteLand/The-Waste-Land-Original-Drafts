@@ -87,6 +87,19 @@ window.onload = function() {
   }
   for (let a = 0; a < note.length; a++) {
     note[a].classList.add('hidden');
+    if (note[a].hasAttribute('rend') {
+        if (note[a].getAttribute('rend').includes("linkingStar")) {
+          var strLength = note[a].innerText.length;
+          var final = strLength * 0.4;
+          var databefore = "";
+          var c = 0
+          while (c < final) {
+            databefore = databefore + "-";
+            c = c + 1;
+          }
+          databefore = databefore + "*";
+          note[a].setAttribute('data-before', databefore);
+        }
   }
   const line = document.getElementsByTagName("tei-l");
   for (let b = 0; b < line.length; b++) {
