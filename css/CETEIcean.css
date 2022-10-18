@@ -698,6 +698,9 @@ tei-node {
 tei-note tei-del {
    text-decoration: line-through;
 }
+tei-note[rend~=linkingStar]::before {
+   content: attr(data-before);
+}
 tei-note[rend=central-deletion] {
     background-image: url('https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/central-deletion.png');
 }
