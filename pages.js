@@ -97,7 +97,7 @@ window.onload = function() {
           databefore = databefore + "-";
           c = c + 1;
         }
-        databefore = databefore + "*";
+        databefore = databefore + " ";
         notes[a].setAttribute('data-before', databefore);
       }
     }  
