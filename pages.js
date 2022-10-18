@@ -87,7 +87,7 @@ window.onload = function() {
   }
   for (let a = 0; a < note.length; a++) {
     note[a].classList.add('hidden');
-    if (note[a].hasAttribute('rend') {
+    if (note[a].hasAttribute('rend')) {
         if (note[a].getAttribute('rend').includes("linkingStar")) {
           var strLength = note[a].innerText.length;
           var final = strLength * 0.4;
