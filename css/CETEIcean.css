@@ -1324,6 +1324,12 @@ tei-del {
     left: 29em;
     line-height: 1em;
 }
+#note-12::before {
+ position: absolute;
+ transform: rotate(-90deg);
+ margin-left: 13em;
+ margin-top: -75em;
+}
 
 .line-del {
    text-decoration: line-through;
