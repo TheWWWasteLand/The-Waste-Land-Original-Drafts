@@ -88,18 +88,19 @@ window.onload = function() {
   for (let a = 0; a < notes.length; a++) {
     notes[a].classList.add('hidden');
     if (notes[a].hasAttribute('rend')) {
-        if (notes[a].getAttribute('rend').includes("linkingStar")) {
-          var strLength = notes[a].innerText.length;
-          var final = strLength * 0.4;
-          var databefore = "";
-          var c = 0
-          while (c < final) {
-            databefore = databefore + "-";
-            c = c + 1;
-          }
-          databefore = databefore + "*";
-          notes[a].setAttribute('data-before', databefore);
+      if (notes[a].getAttribute('rend').includes("linkingStar")) {
+        var strLength = notes[a].innerText.length;
+        var final = strLength * 0.4;
+        var databefore = "";
+        var c = 0
+        while (c < final) {
+          databefore = databefore + "-";
+          c = c + 1;
         }
+        databefore = databefore + "*";
+        notes[a].setAttribute('data-before', databefore);
+      }
+    }  
   }
   const line = document.getElementsByTagName("tei-l");
   for (let b = 0; b < line.length; b++) {
