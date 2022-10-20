@@ -326,7 +326,7 @@ function finalVer() {
     var a = 0
     for (let g = 0; g < graphs.length; g++) {
       if (graphs[g].parentNode.nodeName != "TEI-FIGURE") {        
-        if (a > 3 && a < 9) {
+        if (a > 2 && a < 9) {
           graphs[g].classList.toggle('hidden');
         }
         a = a + 1;
