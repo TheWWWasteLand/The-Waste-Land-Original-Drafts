@@ -319,7 +319,7 @@ function finalVer() {
     for (let i = 18; i < 35; i++) {
       highlight(his[i]);
     }
-    for (let i = 7; i < 10; i++) {
+    for (let i = 7; i < 20; i++) {
       note(notes[i]);
     }
     var a = 0
