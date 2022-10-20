@@ -345,12 +345,12 @@
                     <lg type="stanza" n="13" xml:id="stanza13">
                         <l>"What is that noise now? What is the wind doing?"</l>
                     </lg>
-                    <note xml:id="note-10" hand="Pound" rend="diagonal">
+                    <note xml:id="note-8" hand="Pound" rend="diagonal">
                         <p><hi xml:id="hi-30" rend="underline" hand="Pound">3 lines</hi><lb/>
                         Too       tum-pum<lb/>
                                   at a stretch</p>
                     </note>
-                    <note xml:id="note-11" hand="Pound" rend="diagonal">
+                    <note xml:id="note-9" hand="Pound" rend="diagonal">
                         <p>
                             "one"<lb/>
                             wee<lb/>
@@ -358,7 +358,7 @@
                             mouse
                         </p>
                     </note>
-                    <note xml:id="note-12" hand="VEliot" rend="vertical linkingStar">
+                    <note xml:id="note-10" hand="VEliot" rend="vertical linkingStar">
                         <p>
                             Don't see  what you had in mind<lb/>
                                     here
