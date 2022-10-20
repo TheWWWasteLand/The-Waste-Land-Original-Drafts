@@ -1360,6 +1360,10 @@ tei-del {
  top: -10em;
  left: 18em;
 }
+#note-15 {
+ position: relative;
+ left: -2em;
+}
 
 .line-del {
    text-decoration: line-through;
