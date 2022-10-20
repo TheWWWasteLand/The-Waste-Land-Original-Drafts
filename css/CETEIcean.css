@@ -1342,9 +1342,8 @@ tei-del {
     text-decoration: line-through;
     white-space: pre;
     transform: rotate(-90deg);
-    margin-left: 4em;
-    margin-top: 9em;
-}
+    margin-left: -9.5em;
+    margin-top: 5em;
 }
 
 .line-del {
