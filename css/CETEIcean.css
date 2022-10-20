@@ -1087,6 +1087,10 @@ tei-l[n="1"] > span, tei-l[n="5"] > span {
 
 /* TOTALLY NEW CSS */
 
+[rend~=doubleLetterSpacing] {
+ letter-spacing: 0.5em;
+}
+
 body {
   background-color: #fff !important;
   border-radius: 3px;
