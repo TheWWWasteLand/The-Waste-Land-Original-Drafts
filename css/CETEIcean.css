@@ -1328,12 +1328,13 @@ tei-del {
     line-height: 1em;
 }
 #note-12 {
-    position: relative;
-    margin-left: 4em;
-    margin-top: 9em;
-    display: block;
-    white-space: pre;
+  position: relative;
+  margin-left: 20em;
+  margin-top: -71em;
+  display: block;
+  white-space: pre;
 }
+
 
 #note-12::before {
     position: absolute;
