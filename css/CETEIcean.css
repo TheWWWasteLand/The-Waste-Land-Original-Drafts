@@ -1328,9 +1328,11 @@ tei-del {
     line-height: 1em;
 }
 #note-12 {
- position:relative;
- margin-left: 13em;
- margin-top: -75em;
+    position: relative;
+    margin-left: 15em;
+    margin-top: -71em;
+    display: block;
+    white-space: pre;
 }
 
 .line-del {
