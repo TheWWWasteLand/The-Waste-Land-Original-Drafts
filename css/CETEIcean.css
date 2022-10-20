@@ -1618,6 +1618,7 @@ input:checked + .slider:before {
 
 tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal, tei-note[rend~=diagonal] > tei-p {
     transform: rotate(-25deg);
+    padding:0;
 }
 tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical {
     transform: rotate(-90deg);
