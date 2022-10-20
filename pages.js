@@ -90,10 +90,9 @@ window.onload = function() {
     if (notes[a].hasAttribute('rend')) {
       if (notes[a].getAttribute('rend').includes("linkingStar")) {
         var strLength = notes[a].innerText.length;
-        var final = strLength * 0.4;
         var databefore = "";
         var c = 0
-        while (c < final) {
+        while (c < strLength) {
           databefore = databefore + " ";
           c = c + 1;
         }
