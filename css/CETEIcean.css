@@ -1329,10 +1329,11 @@ tei-del {
 }
 #note-12 {
   position: relative;
-  margin-left: 20em;
+  margin-left: 20.5em;
   margin-top: -71em;
   display: block;
   white-space: pre;
+  line-height:1em;
 }
 
 
