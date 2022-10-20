@@ -1603,25 +1603,25 @@ input:checked + .slider:before {
     text-decoration-style: double;
 }
 #note-5 {
-    display: block;
+    display: inline-block;
     position: relative;
-    left: 16em;
-    top: calc(-7em - 20vw);
+    left: 467px;
+    top: -303px;
 }
 
 #note-6 {
-    display: block;
+    display: inline-block;
     position: relative;
-    left: 20em;
-    top: calc(-13em - 20vw);
+    top: -181px;
+    left: 368px;
     line-height: 1em;
 }
 
 #note-7 {
-    display: block;
+    display: inline-block;
     position: relative;
-    left: 21em;
-    top: -15em;
+    left: 149px;
+    top: -138px;
 }
 
 tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal, tei-note[rend~=diagonal] > tei-p {
