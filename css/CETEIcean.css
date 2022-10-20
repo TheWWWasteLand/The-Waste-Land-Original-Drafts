@@ -1347,6 +1347,15 @@ tei-del {
     margin-top: 5em;
 }
 
+#note-13 {
+ left: -7.3em;
+ position: relative;
+ top: -5em;
+ border-bottom: 1px solid;
+ border-right: 1px solid;
+ display: inline-block;
+}
+
 .line-del {
    text-decoration: line-through;
    text-decoration-thickness: 2px;
