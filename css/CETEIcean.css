@@ -1335,6 +1335,15 @@ tei-del {
     white-space: pre;
 }
 
+#note-12::before {
+    position: absolute;
+    content: attr(data-before);
+    text-decoration: line-through;
+    white-space: pre;
+    transform: rotate(-90deg);
+    margin-left: -4em;
+}
+
 .line-del {
    text-decoration: line-through;
    text-decoration-thickness: 2px;
