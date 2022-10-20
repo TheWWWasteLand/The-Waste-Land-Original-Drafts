@@ -1319,36 +1319,39 @@ tei-del {
     left: 400px;
 }
 
+#note-8 {
+    position: relative;
+    top: -1145px;
+    left: 300px;
+    line-height: 1em;
+    display: inline-block;
+}
+#note-9 {
+    position: relative;
+    top: -1068px;
+    left: 307px;
+    line-height: 1em;
+    display: inline-block;
+}
+
 #note-10 {
-    position: relative;
-    top: -90em;
-    left: 20em;
-    line-height: 1em;
-}
-#note-11 {
-    position: relative;
-    top: -90em;
-    left: 29em;
-    line-height: 1em;
-}
-#note-12 {
   position: relative;
-  margin-left: 20.5em;
-  margin-top: -71em;
-  display: block;
+  margin-left: 290px;
+  top: -935px;
+  display: inline-block;
   white-space: pre;
-  line-height:1em;
+  line-height: 1em;
 }
 
 
-#note-12::before {
-    position: absolute;
-    content: attr(data-before);
-    text-decoration: line-through;
-    white-space: pre;
-    transform: rotate(-90deg);
-    margin-left: -9.5em;
-    margin-top: 5em;
+#note-10::before {
+  position: absolute;
+  content: attr(data-before);
+  text-decoration: line-through;
+  white-space: pre;
+  transform: rotate(-90deg);
+  margin-left: -166px;
+  margin-top: 60px;
 }
 
 #note-13 {
@@ -1606,7 +1609,7 @@ input:checked + .slider:before {
     display: inline-block;
     position: relative;
     left: 467px;
-    top: -303px;
+    top: -349px;
 }
 
 #note-6 {
@@ -1625,7 +1628,7 @@ input:checked + .slider:before {
 }
 
 tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal, tei-note[rend~=diagonal] > tei-p {
-    transform: rotate(-35deg);
+    transform: rotate(-25deg);
 }
 tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical {
     transform: rotate(-90deg);
