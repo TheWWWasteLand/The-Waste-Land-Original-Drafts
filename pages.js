@@ -96,7 +96,7 @@ window.onload = function() {
           databefore = databefore + " ";
           c = c + 1;
         }
-        databefore = databefore + "*";
+        databefore = databefore + "X";
         notes[a].setAttribute('data-before', databefore);
       }
     }  
