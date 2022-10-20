@@ -698,12 +698,6 @@ tei-node {
 tei-note tei-del {
    text-decoration: line-through;
 }
-tei-note[rend~=linkingStar]::before {
-   content: attr(data-before);
-   text-decoration: line-through;
-   white-space: pre;
-}
-}
 tei-note[rend=central-deletion] {
     background-image: url('https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/central-deletion.png');
 }
@@ -1343,17 +1337,6 @@ tei-del {
   display: inline-block;
   white-space: pre;
   line-height: 1em;
-}
-
-
-#note-10::before {
-  position: absolute;
-  content: attr(data-before);
-  text-decoration: line-through;
-  white-space: pre;
-  transform: rotate(-90deg);
-  margin-left: -166px;
-  margin-top: 60px;
 }
 
 #note-11 {
