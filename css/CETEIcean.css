@@ -1328,10 +1328,12 @@ tei-del {
 }
 #note-9 {
     position: relative;
-    top: -1068px;
-    left: 307px;
+    top: -1048px;
+    left: 346px;
     line-height: 1em;
     display: inline-block;
+    width: 0.1px;
+    height: 0.1px;
 }
 
 #note-10 {
