@@ -1358,22 +1358,22 @@ tei-del {
   display: inline-block;
 }
 #note-12 {
- position: relative;
- top: -893px;
- left: 207px;
- display: inline-block;
- transform: rotate(0deg);
+  position: absolute;
+  top: 619px;
+  left: 435px;
+  display: inline-block;
+  transform: rotate(-10deg);
 }
 #note-13 {
-  position: relative;
-  left: -328px;
+  position: absolute;
+  left: 71px;
   display: inline-block;
-  top: -835px;
+  top: 681px;
 }
-#note-16 {
- top: 3em;
- position: relative;
- left: 20em;
+#note-14 {
+  top: 725px;
+  position: absolute;
+  left: 419px;
 }
 #note-17 {
  left: 8em;
