@@ -696,6 +696,9 @@ tei-musicNotation:before {
 tei-node {
   display: none;
 }
+tei-note{
+ white-space: nowrap;
+}
 tei-note tei-del {
    text-decoration: line-through;
 }
@@ -1048,7 +1051,6 @@ html > body {
   padding: 0;
 }
 html {
-  overflow: scroll;
   margin: 0;
   padding: 0;
   margin-left: 28px;
