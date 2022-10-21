@@ -1419,13 +1419,14 @@ tei-lg[type=stanza] {
     width: 25em;
 }
 tei-lg[type=poemPage] {
-    height: calc(100vh - 127px);
-    overflow: scroll;
-    position: absolute;
-    margin-left: 40vw;
-    padding-left: 7.5em;
-    margin-top: -3.5em;
-    padding-top: 5em;
+      height: calc(100vh - 127px);
+      overflow: scroll;
+      position: absolute;
+      margin-left: 40vw;
+      padding-left: 7.5em;
+      margin-top: -3.5em;
+      padding-top: 5em;
+      width: calc(100% - 40vw - 127px);
 }
 #poemPage05 {
     margin-left: 52vw;
