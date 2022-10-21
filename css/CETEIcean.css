@@ -469,6 +469,7 @@ tei-head {
   font-weight: normal;
   text-align: center;
   margin-left: -18vw;
+  white-space: nowrap;
 }
 #page-i tei-head {
   padding-top: 2em;
