@@ -4,7 +4,6 @@ window.onload = function() {
   const graphs = document.getElementsByTagName("tei-graphic");
   for (let g = 0; g < graphs.length; g++) {
     if (graphs[g].parentNode.nodeName != "TEI-FIGURE") {
-      document.body.appendChild(graphs[g]);
       graphs[g].classList.add('hidden');
     }
   }
@@ -114,6 +113,7 @@ window.onload = function() {
         line[b].innerHTML = '<span>' + span + '</span>' + text;
       }
     }
+    document.body.appendChild(notes[a]);
   }
 };
 
