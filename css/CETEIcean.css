@@ -1403,6 +1403,19 @@ tei-del {
   left: 450px;
   top: 1020px;
 }
+#note-19 {
+   position: absolute;
+   display: inline-block;
+   line-height: 0.8em;
+   left: 20px;
+   top: 1212px;
+}
+#note-20 {
+   position: absolute;
+   display: inline-block;
+   left: 389px;
+   top: 1181px;
+}
 
 .line-del {
    text-decoration: line-through;
