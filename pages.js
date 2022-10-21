@@ -440,7 +440,7 @@ $(document).ready(function(){
     for (i = 0; i < $("tei-note").length; i++) {
       var x = $("tei-note")[0].css("left");
       var leftPx = "calc(300px + " + x + ")";
-      $("tei-note")[0].css({"left": leftPx);
+      $("tei-note")[0].css({"left": leftPx});
     }
   });
 });
