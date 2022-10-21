@@ -1350,9 +1350,9 @@ tei-del {
 }
 
 #note-11 {
-  left: 31px;
+  left: 40px;
   position: absolute;
-  margin-top: -718px;
+  margin-top: -732px;
   border-bottom: 1px solid;
   border-right: 1px solid;
   display: inline-block;
@@ -1375,14 +1375,18 @@ tei-del {
   position: absolute;
   left: 419px;
 }
-#note-17 {
- left: 8em;
- position: relative;
+#note-15 {
+  left: 448px;
+  position: absolute;
+  top: 932px;
+  display: inline-block;
 }
-#note-18 {
- position: relative;
- left: 500px;
- top: 100px;
+#note-16 {
+   position: absolute;
+   left: 544px;
+   top: 898px;
+   display: inline-block;
+   line-height: 1em;
 }
 
 .line-del {
