@@ -393,20 +393,20 @@
                         </p>
                     </note>
                     <note xml:id="note-17" hand="Pound" rend="vertical">
-                        <lg>
-                            <l>Re this</l>
-                            <l>point</l>
-                        </lg>
+                        <p>
+                            Re this<lb/>
+                            point
+                        </p>
                     </note>
                     <note xml:id="note-18" hand="Pound" rend="diagonal">
-                        <lg>
-                            <l>photography</l>
-                            <l>?</l>
-                        </lg>
+                        <p>
+                            photography<lb/>
+                            ?
+                        </p>
                     </note>
-                    <note xml:id="note-19" hand="Pound">
+                    <note xml:id="note-19" hand="Pound" rend="vertical">
                         <lg>
-                            <l>Il cherchaitpour</l>
+                            <l>Il cherchait</l>
                             <l>des sentiments</l>
                             <l>pour les</l>
                             <l>accomoder</l>
@@ -416,9 +416,9 @@
                         </lg>
                     </note>
                     <note xml:id="note-20" hand="Pound">
-                        <lg>
-                            <l>Beddoes</l>
-                        </lg>
+                        <p>
+                            Beddoes
+                        </p>
                     </note>
                 </lg>
             </div>
