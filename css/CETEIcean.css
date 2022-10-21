@@ -1332,12 +1332,21 @@ tei-del {
 }
 
 #note-10 {
-  position: relative;
-  margin-left: 290px;
-  top: -935px;
+  position: absolute;
+  margin-left: 281px;
+  top: 377px;
   display: inline-block;
   white-space: pre;
   line-height: 1em;
+}
+
+#note-10::before {
+   position: absolute;
+   content: attr(data-before);
+   text-decoration: line-through;
+   transform: rotate(-90deg);
+   left: -163px;
+   margin-top: 69px;
 }
 
 #note-11 {
