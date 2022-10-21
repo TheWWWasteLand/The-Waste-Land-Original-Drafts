@@ -1350,9 +1350,9 @@ tei-del {
 }
 
 #note-11 {
-  left: -105px;
-  position: relative;
-  top: -955px;
+  left: 31px;
+  position: absolute;
+  margin-top: -718px;
   border-bottom: 1px solid;
   border-right: 1px solid;
   display: inline-block;
