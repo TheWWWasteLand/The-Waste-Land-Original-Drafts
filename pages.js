@@ -437,11 +437,11 @@ $(document).ready(function(){
     $(".zoom-button").hide();
     $("[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "300px"});
     $("#button-notes-list").css({"left": "65.5px", "width": "calc(100vw - 124.5px)"});
-    for (i = 0; i < $("tei-note").length; i++) {
-      var x = $("tei-note")[0].css("left");
+    $("tei-note").each(function(){
+      var x = $(this).css("left");
       var leftPx = "calc(300px + " + x + ")";
-      $("tei-note")[0].css({"left": leftPx});
-    }
+      $(this).css({"left": leftPx});
+    });
   });
 });
 
