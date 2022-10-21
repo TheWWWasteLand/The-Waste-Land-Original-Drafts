@@ -1390,6 +1390,19 @@ tei-del {
    display: inline-block;
    line-height: 1em;
 }
+#note-17 {
+ position: absolute;
+ display: inline-block;
+ line-height: 1em;
+ left: 30px;
+ top: 980px;
+}
+#note-18 {
+  display: inline-block;
+  position: absolute;
+  left: 450px;
+  top: 1020px;
+}
 
 .line-del {
    text-decoration: line-through;
