@@ -425,7 +425,7 @@ tei-filedesc > tei-extent {
 /* f */
 tei-figure {
   display: block;
-  position: absolute;
+  position: fixed;
   text-align: left;
   float:left;
   height: calc(100vh - 137px);
@@ -1088,7 +1088,6 @@ tei-l[n="1"] > span, tei-l[n="5"] > span {
 body {
   background-color: #fff !important;
   border-radius: 3px;
-  height: 85vh;
   -webkit-box-shadow: 0px 0px 6px 0px #000000;
   -moz-box-shadow: 0px 0px 6px 0px #000000;
   -o-box-shadow: 0px 0px 6px 0px #000000;
@@ -1158,7 +1157,6 @@ li img {
 }
 tei-body tei-div {
     display: none;
-    height: 82.5vh;
     margin-top: -40px;
     padding-top: 40px;
 }
@@ -1412,16 +1410,15 @@ tei-graphic {
 }
     
 tei-lg {
+    position: absolute;
     display: block;
     padding-bottom: 1.5em;
 }
 tei-lg[type=stanza] {
-    max-width: 25em;
+    width: 25em;
 }
 tei-lg[type=poemPage] {
     margin-left: 40vw;
-    height: calc(100vh - 127px);
-    overflow: scroll;
     padding-left: 7.5em;
     margin-top: -3.5em;
     padding-top: 5em;
