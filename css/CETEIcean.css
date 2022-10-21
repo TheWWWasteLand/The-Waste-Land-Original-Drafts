@@ -1301,10 +1301,10 @@ tei-del {
     display: inline-block;
 }
 #note-3 {
-    display: block;
-    position: relative;
-    top: 700px;
-    left: 389px;
+   position: relative;
+   top: -465px;
+   left: 410px;
+   display: inline-block;
 }
 
 #note-4 {
