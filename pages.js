@@ -100,7 +100,6 @@ window.onload = function() {
         notes[a].setAttribute('data-before', databefore);
       }
     }
-    document.body.appendChild(notes[a]);
   }
   const line = document.getElementsByTagName("tei-l");
   for (let b = 0; b < line.length; b++) {
