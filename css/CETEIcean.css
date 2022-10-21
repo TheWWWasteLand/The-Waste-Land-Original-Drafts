@@ -1427,6 +1427,7 @@ tei-lg[type=poemPage] {
       margin-top: -3.5em;
       padding-top: 5em;
       width: calc(100% - 40vw - 127px);
+      background-color: #fff;
 }
 #poemPage05 {
     margin-left: 52vw;
