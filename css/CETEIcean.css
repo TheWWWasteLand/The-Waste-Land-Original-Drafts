@@ -1315,16 +1315,16 @@ tei-del {
 }
 
 #note-8 {
-    position: relative;
-    top: -1145px;
-    left: 300px;
+    position: absolute;
+    top: 93px;
+    left: 420px;
     line-height: 1em;
     display: inline-block;
 }
 #note-9 {
-    position: relative;
-    top: -1048px;
-    left: 346px;
+    position: absolute;
+    top: 225px;
+    left: 548px;
     line-height: 1em;
     display: inline-block;
     width: 0.1px;
