@@ -1600,24 +1600,25 @@ input:checked + .slider:before {
 }
 #note-5 {
     display: inline-block;
-    position: relative;
-    left: 467px;
-    top: -349px;
+    position: absolute;
+    left: 575px;
+    top: 453px;
 }
 
 #note-6 {
     display: inline-block;
-    position: relative;
-    top: -181px;
-    left: 368px;
+    position: absolute;
+    top: 500px;
+    left: 535px;
     line-height: 1em;
+    transform: rotate(-15deg);
 }
 
 #note-7 {
     display: inline-block;
-    position: relative;
-    left: 149px;
-    top: -138px;
+    position: absolute;
+    left: 401px;
+    top: 675px;
 }
 
 tei-note[rend~=diagonal], tei-add[rend~=diagonal], .diagonal, tei-note[rend~=diagonal] > tei-p {
