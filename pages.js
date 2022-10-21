@@ -439,7 +439,7 @@ $(document).ready(function(){
     $("#button-notes-list").css({"left": "65.5px", "width": "calc(100vw - 124.5px)"});
     for (i = 0; i < $("tei-note").length; i++) {
       var x = $("tei-note")[0].css("left");
-      var leftPx = "calc(300px + " x + ")";
+      var leftPx = "calc(300px + " + x + ")";
       $("tei-note")[0].css({"left": leftPx);
     }
   });
