@@ -1411,7 +1411,6 @@ tei-graphic {
 }
     
 tei-lg {
-    position: absolute;
     display: block;
     padding-bottom: 1.5em;
 }
@@ -1419,6 +1418,7 @@ tei-lg[type=stanza] {
     width: 25em;
 }
 tei-lg[type=poemPage] {
+    position: absolute;
     margin-left: 40vw;
     padding-left: 7.5em;
     margin-top: -3.5em;
