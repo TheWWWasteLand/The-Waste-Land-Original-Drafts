@@ -1281,20 +1281,21 @@ tei-del {
 }
 
 #note-1 {
-    position:relative;
+    position: absolute;
     text-decoration: line-through;
     text-decoration-color: #ef476f;
     text-align:right;
-    left: 366px;
-    top: -22px;
+    left: 470px;
+    top: 299px;
+    display: inline-block;
     line-height: 0.8em;
 }        
 
 #note-2 {
-    position: relative;
+    position: absolute;
     text-align: right;
-    top: 168px;
-    left: 397px;
+    top: 342px;
+    left: 498px;
     line-height: 1.5em;
     display: inline-block;
 }
