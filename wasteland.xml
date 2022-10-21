@@ -379,10 +379,10 @@
                     <note xml:id="note-14" hand="Pound">
                         too penty
                     </note>
-                    <note xml:id="note-17" hand="VEliot" rend="vertical doubleLetterSpacing"> 
+                    <note xml:id="note-15" hand="VEliot" rend="vertical doubleLetterSpacing"> 
                         <p>WONDERFUL</p>
                     </note>
-                    <note xml:id="note-18" hand="Pound">
+                    <note xml:id="note-16" hand="Pound">
                         <p>
                             Dogmatic<lb/>
                             deduction<lb/>
@@ -392,19 +392,19 @@
                             well
                         </p>
                     </note>
-                    <note xml:id="note-19" hand="Pound" rend="vertical">
+                    <note xml:id="note-17" hand="Pound" rend="vertical">
                         <lg>
                             <l>Re this</l>
                             <l>point</l>
                         </lg>
                     </note>
-                    <note xml:id="note-20" hand="Pound" rend="diagonal">
+                    <note xml:id="note-18" hand="Pound" rend="diagonal">
                         <lg>
                             <l>photography</l>
                             <l>?</l>
                         </lg>
                     </note>
-                    <note xml:id="note-21" hand="Pound">
+                    <note xml:id="note-19" hand="Pound">
                         <lg>
                             <l>Il cherchaitpour</l>
                             <l>des sentiments</l>
@@ -415,7 +415,7 @@
                             <l>vocabulaire.</l>
                         </lg>
                     </note>
-                    <note xml:id="note-22" hand="Pound">
+                    <note xml:id="note-20" hand="Pound">
                         <lg>
                             <l>Beddoes</l>
                         </lg>
