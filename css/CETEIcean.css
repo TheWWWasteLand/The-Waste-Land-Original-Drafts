@@ -1753,6 +1753,10 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
 }
 
 .loader {
+  position: absolute;
+  z-index: 1;
+  left: calc(50% - 80px);
+  top: calc(50% - 30px);
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid #3498db;
