@@ -439,7 +439,7 @@ function TEliot() {
 
 $(document).ready(function(){
   $('.loader').fadeOut();
-  $('tei-tei').show();
+  $('tei-tei').css({opacity: 1});
   $("#finalV").click(function(){
     $(".switch").show();
   });
