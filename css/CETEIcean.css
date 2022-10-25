@@ -40,10 +40,10 @@ tei-del[hand=Pound], tei-hi[hand=Pound], tei-rdg[hand=Pound] {
     text-decoration-color: #118ab2 !important;
     border-color: #118ab2 !important;
 }
-tei-add[hand=Pound], tei-note[hand=Pound] {
+tei-add[hand=Pound], tei-note[hand=Pound] tei-p {
     color: #118ab2;
     text-decoration-color:  #118ab2;
-    background-color: rgba(17, 138, 178, 0.2);
+    background-color: rgba(17, 138, 178, 0.1);
 }
 tei-del[hand=VEliot], tei-hi[hand=VEliot], tei-rdg[hand=VEliot] {
     text-decoration-color: #06d6a0 !important;
@@ -1164,6 +1164,8 @@ tei-body tei-div {
     display: none;
     margin-top: -40px;
     padding-top: 40px;
+    -webkit-box-shadow: 0px 2px 4px 4px #F5F7FA; 
+    box-shadow: 0px 2px 4px 4px #F5F7FA;
 }
 .arrows {
     opacity: 0.5
@@ -1471,8 +1473,6 @@ tei-lg[type=poemPage] {
       padding-top: 5em;
       width: calc(100% - 40vw - 127px);
       background-color: #fff;
-      -webkit-box-shadow: 0px 2px 4px 4px #F5F7FA; 
-      box-shadow: 0px 2px 4px 4px #F5F7FA;
 }
 #poemPage05 {
     margin-left: 52vw;
