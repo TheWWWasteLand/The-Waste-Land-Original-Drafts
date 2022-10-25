@@ -972,7 +972,7 @@ tei-surplus>*:last-child:after {
 }
 /* t */
 tei-tei {
-  display: block;
+  display: none;
 }
 tei-table {
   display: block;
