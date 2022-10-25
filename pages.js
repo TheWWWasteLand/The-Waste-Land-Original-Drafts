@@ -114,6 +114,8 @@ window.onload = function() {
       }
     }
   }
+  document.getElementsByClassName('loader')[0].style.display ="none";
+  document.getElementsByTagName('tei-tei')[0].style.opacity = "1";
 };
 
 /* keyboard shortcuts */
@@ -438,10 +440,6 @@ function TEliot() {
 /* jQuery */
 
 $(document).ready(function(){
-  $("img").on("load", function(){
-    $('.loader').fadeOut();
-    $('tei-tei').css({opacity: 1});
-  });
   $("#finalV").click(function(){
     $(".switch").show();
   });
