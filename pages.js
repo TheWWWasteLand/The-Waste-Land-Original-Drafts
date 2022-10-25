@@ -438,6 +438,8 @@ function TEliot() {
 /* jQuery */
 
 $(document).ready(function(){
+  $('.loader').fadeOut();
+  $('tei-tei').show();
   $("#finalV").click(function(){
     $(".switch").show();
   });
@@ -494,7 +496,4 @@ function zoomout () {
 }
   
     
-$(window).ready(function(){
-     $('.loader').fadeOut();
-     $('tei-tei').show();
-});
+
