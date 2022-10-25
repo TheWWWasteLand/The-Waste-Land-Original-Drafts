@@ -114,18 +114,9 @@ window.onload = function() {
       }
     }
   }
-  var a = document.getElementsByTagName('tei-tei').length
-  while (a < 2) {
-    if (document.getElementsByTagName('tei-tei').length == 0) {
-      var a = 0;
-    }
-    else {
-      a = 2;
-      document.getElementsByClassName('loader')[0].style.display ="none";
-      const tei = document.getElementsByTagName('tei-tei');
-      document.getElementsByTagName('tei-tei')[0].classList.add("loaded");
-    }
-    console.log(a);
+  document.getElementsByClassName('loader')[0].style.display ="none";
+  const tei = document.getElementsByTagName('tei-tei');
+  document.getElementsByTagName('tei-tei')[0].classList.add("loaded");
   }
 };
 
