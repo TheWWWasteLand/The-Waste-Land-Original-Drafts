@@ -311,13 +311,13 @@ function finalVer() {
     }
   }
   else if (four.getAttribute('style') == "display: block;") {
-    for (let i = 26; i < 32; i++) {
+    for (let i = 26; i < 31; i++) {
       additions(adds[i]);
     }
-    for (let i = 29; i < 48; i++) {
+    for (let i = 29; i < 49; i++) {
       deletions(dels[i]);
     }
-    for (let i = 18; i < 32; i++) {
+    for (let i = 18; i < 33; i++) {
       highlight(his[i]);
     }
     for (let i = 7; i < 20; i++) {
@@ -334,13 +334,13 @@ function finalVer() {
     }
   }
   else if (five.getAttribute('style') == 'display: block;') {
-    for (let i = 32; i < 40; i++) {
+    for (let i = 31; i < 40; i++) {
       additions(adds[i]);
     }
-    for (let i = 48; i < 55; i++) {
+    for (let i = 49; i < 55; i++) {
       deletions(dels[i]);
     }
-    for (let i = 32; i < 35; i++) {
+    for (let i = 33; i < 35; i++) {
       highlight(his[i]);
     }
   }
