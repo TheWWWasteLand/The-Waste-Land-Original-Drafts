@@ -494,4 +494,7 @@ function zoomout () {
 }
   
     
-  
+$(window).ready(function(){
+     $('#loading').fadeOut();
+     $('tei-tei').fadeIn();
+});
