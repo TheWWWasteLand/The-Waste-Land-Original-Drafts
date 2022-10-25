@@ -438,7 +438,7 @@ function TEliot() {
 /* jQuery */
 
 $(document).ready(function(){
-  $("img").load(function(){
+  $("img").on("load", function(){
     $('.loader').fadeOut();
     $('tei-tei').css({opacity: 1});
   });
