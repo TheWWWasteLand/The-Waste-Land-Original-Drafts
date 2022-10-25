@@ -458,7 +458,7 @@ $(document).ready(function(){
 
 function zoomin() {
   const figures = document.getElementsByTagName("tei-graphic");
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < figures.length; i++) {
     var img = figures[i].childNodes[0];
     var style = window.getComputedStyle(img);
     var width = style.getPropertyValue('max-width');
