@@ -973,7 +973,6 @@ tei-surplus>*:last-child:after {
 /* t */
 tei-tei {
   display: block;
-  opacity: 0.2;
 }
 tei-table {
   display: block;
@@ -1058,6 +1057,7 @@ tei-witdetail {
 html > body {
   margin: 0;
   padding: 0;
+  opacity: 0.2;
 }
 html {
   margin: 0;
@@ -1764,6 +1764,7 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
   height: 120px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
+  opacity: 1 !important;
 }
 
 /* Safari */
