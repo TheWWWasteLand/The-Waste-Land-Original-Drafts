@@ -1,5 +1,5 @@
 /* keyboard shortcuts */
-
+ 
 document.onkeydown = checkKey;
 
 function checkKey(e) {
