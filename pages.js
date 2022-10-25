@@ -114,10 +114,14 @@ window.onload = function() {
       }
     }
   }
-  document.getElementsByClassName('loader')[0].style.display ="none";
-  const tei = document.getElementsByTagName('tei-tei');
-  console.log(tei);
-  document.getElementsByTagName('tei-tei')[0].classList.add("loaded");
+  var delayInMilliseconds = 1000; //1 second
+  setTimeout(function() {
+    document.getElementsByClassName('loader')[0].style.display ="none";
+    const tei = document.getElementsByTagName('tei-tei');
+    console.log(tei);
+    document.getElementsByTagName('tei-tei')[0].classList.add("loaded");
+  //your code to be executed after 1 second
+  }, delayInMilliseconds);
 };
 
 /* keyboard shortcuts */
