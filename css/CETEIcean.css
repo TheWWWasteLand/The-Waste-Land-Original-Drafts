@@ -43,7 +43,7 @@ tei-del[hand=Pound], tei-hi[hand=Pound], tei-rdg[hand=Pound] {
 tei-add[hand=Pound], tei-note[hand=Pound] {
     color: #118ab2;
     text-decoration-color:  #118ab2;
-    background-color: rgba(17, 138, 178, 0);
+    background-color: rgba(17, 138, 178, 0.2);
 }
 tei-del[hand=VEliot], tei-hi[hand=VEliot], tei-rdg[hand=VEliot] {
     text-decoration-color: #06d6a0 !important;
