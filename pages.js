@@ -438,8 +438,10 @@ function TEliot() {
 /* jQuery */
 
 $(document).ready(function(){
-  $('.loader').fadeOut();
-  $('tei-tei').css({opacity: 1});
+  $("img").load(function(){
+    $('.loader').fadeOut();
+    $('tei-tei').css({opacity: 1});
+  });
   $("#finalV").click(function(){
     $(".switch").show();
   });
