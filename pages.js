@@ -317,7 +317,7 @@ function finalVer() {
     for (let i = 29; i < 48; i++) {
       deletions(dels[i]);
     }
-    for (let i = 18; i < 35; i++) {
+    for (let i = 18; i < 32; i++) {
       highlight(his[i]);
     }
     for (let i = 7; i < 20; i++) {
@@ -334,6 +334,15 @@ function finalVer() {
     }
   }
   else if (five.getAttribute('style') == 'display: block;') {
+    for (let i = 32; i < 40; i++) {
+      additions(adds[i]);
+    }
+    for (let i = 48; i < 55; i++) {
+      deletions(dels[i]);
+    }
+    for (let i = 32; i < 35; i++) {
+      highlight(his[i]);
+    }
   }
   else if (six.getAttribute('style') == 'display: block;') {
   }
