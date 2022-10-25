@@ -458,32 +458,37 @@ $(document).ready(function(){
 
 function zoomin() {
   const figures = document.getElementsByTagName("tei-graphic");
+  var a = 0
   for (let i = 0; i < figures.length; i++) {
-    var img = figures[i].childNodes[0];
-    var style = window.getComputedStyle(img);
-    var width = style.getPropertyValue('max-width');
-    if (width != '300%') {
-      var value = parseInt(width);
-      var newDim = value + 50;
-      var finalValue = newDim + '%'
-      img.style.maxWidth = finalValue;
-      img.style.maxHeight = finalValue;
+    if (figures[i].hasAttribute("type")) {
+      var img = figures[i].childNodes[0];
+      var style = window.getComputedStyle(img);
+      var width = style.getPropertyValue('max-width');
+      if (width != '300%') {
+        var value = parseInt(width);
+        var newDim = value + 50;
+        var finalValue = newDim + '%'
+        img.style.maxWidth = finalValue;
+        img.style.maxHeight = finalValue;
+      }  
     }
   }
 }
       
 function zoomout () {
   const figures = document.getElementsByTagName("tei-graphic");
-  for (let i = 0; i < 8; i++) {
-    var img = figures[i].childNodes[0];
-    var style = window.getComputedStyle(img);
-    var width = style.getPropertyValue('max-width');
-    if (width != '100%') {
-      var value = parseInt(width);
-      var newDim = value - 50;
-      var finalValue = newDim + '%'
-      img.style.maxWidth = finalValue;
-      img.style.maxHeight = finalValue;
+  for (let i = 0; i < figures.length; i++) {
+    if (figures[i].hasAttribute("type")) {
+      var img = figures[i].childNodes[0];
+      var style = window.getComputedStyle(img);
+      var width = style.getPropertyValue('max-width');
+      if (width != '100%') {
+        var value = parseInt(width);
+        var newDim = value - 50;
+        var finalValue = newDim + '%'
+        img.style.maxWidth = finalValue;
+        img.style.maxHeight = finalValue;
+      }
     }
   }
 }
