@@ -495,6 +495,6 @@ function zoomout () {
   
     
 $(window).ready(function(){
-     $('#loading').fadeOut();
+     $('.loader').fadeOut();
      $('tei-tei').fadeIn();
 });
