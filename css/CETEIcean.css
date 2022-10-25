@@ -973,7 +973,7 @@ tei-surplus>*:last-child:after {
 /* t */
 tei-tei {
   display: block;
-  opacity: 0.4;
+  opacity: 0.2;
 }
 tei-table {
   display: block;
@@ -1771,4 +1771,13 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+.loaded {
+ animation: loaded 1s forwards;
+}
+
+@keyframes loaded {
+ from {opacity: 0.2}
+ to {opacity: 1}
 }
