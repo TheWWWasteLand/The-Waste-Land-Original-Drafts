@@ -114,14 +114,17 @@ window.onload = function() {
       }
     }
   }
-  var delayInMilliseconds = 1000; //1 second
-  setTimeout(function() {
-    document.getElementsByClassName('loader')[0].style.display ="none";
-    const tei = document.getElementsByTagName('tei-tei');
-    console.log(tei);
-    document.getElementsByTagName('tei-tei')[0].classList.add("loaded");
-  //your code to be executed after 1 second
-  }, delayInMilliseconds);
+  while (document.getElementsByTagName('tei-tei').length < 2) {
+    if (document.getElementsByTagName('tei-tei').length == 0) {
+      var a = 0;
+    }
+    else {
+      document.getElementsByClassName('loader')[0].style.display ="none";
+      const tei = document.getElementsByTagName('tei-tei');
+      console.log(tei);
+      document.getElementsByTagName('tei-tei')[0].classList.add("loaded");
+    }
+  }
 };
 
 /* keyboard shortcuts */
