@@ -47,7 +47,7 @@
             <titlePage>
                 <pb xml:id="wasteland-i" n="i"/>
                 <div xml:id="page-i" >
-                    <figure><graphic url="https://thewwwasteland.github.io/images/1.jpg" xml:id="page-i"/>
+                    <figure><graphic url="https://thewwwasteland.github.io/images/1.jpg" xml:id="page-i" type="page"/>
                     </figure>
                     <head>
                         THE WASTE LAND<lb/>
@@ -69,7 +69,7 @@
         <body>
             <pb xml:id="wasteland-1" n="1"/>
             <div xml:id="page-2">
-                <figure><graphic url="https://thewwwasteland.github.io/images/2.jpg" xml:id="page-1"/>
+                <figure><graphic url="https://thewwwasteland.github.io/images/2.jpg" xml:id="page-1" type="page"/>
                 </figure>
                 <lg type="poemPage" n="1" xml:id="poemPage01">
                     <head>
@@ -153,7 +153,7 @@
             </div>
             <pb xml:id="wasteland-2" n="2"/>
             <div xml:id="page-3">
-                <figure><graphic url="https://thewwwasteland.github.io/images/3.jpg" xml:id="page-2"/>
+                <figure><graphic url="https://thewwwasteland.github.io/images/3.jpg" xml:id="page-2" type="page"/>
                 </figure>
                 <lg type="poemPage" n="2" xml:id="poemPage02">
                     <head>
@@ -227,7 +227,7 @@
                 </lg>
             </div>
             <div xml:id="page-4">
-                <figure><graphic url="https://thewwwasteland.github.io/images/4.jpg" xml:id="page-3"/>
+                <figure><graphic url="https://thewwwasteland.github.io/images/4.jpg" xml:id="page-3" type="page"/>
                 </figure>
                 <lg type="poemPage" n="3" xml:id="poemPage03">
                     <head>
@@ -281,7 +281,7 @@
                 </lg>
             </div>
                         <div xml:id="page-5">
-                <figure><graphic url="https://thewwwasteland.github.io/images/5.jpg" xml:id="page-4"/>
+                <figure><graphic url="https://thewwwasteland.github.io/images/5.jpg" xml:id="page-4" type="page"/>
                 </figure>
                 <lg type="poemPage" n="4" xml:id="poemPage04">
                     <head>
@@ -423,7 +423,7 @@
                 </lg>
             </div>
             <div xml:id="page-6">
-                <figure><graphic url="https://thewwwasteland.github.io/images/6.jpg" xml:id="page-5"/>
+                <figure><graphic url="https://thewwwasteland.github.io/images/6.jpg" xml:id="page-5" type="page"/>
                 </figure>
                 <lg type="poemPage" n="5" xml:id="poemPage05">
                     <head>
@@ -566,7 +566,7 @@
                 </note>
             </div>
             <div xml:id="page-7">
-                <figure><graphic url="https://thewwwasteland.github.io/images/7.jpg" xml:id="page-6"/>
+                <figure><graphic url="https://thewwwasteland.github.io/images/7.jpg" xml:id="page-6" type="page"/>
                 </figure>
            
                 <lg type="poemPage" n="6" xml:id="poemPage06">
