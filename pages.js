@@ -114,9 +114,6 @@ window.onload = function() {
       }
     }
   }
-  document.getElementsByClassName('loader')[0].style.display ="none";
-  const tei = document.getElementsByTagName('tei-tei');
-  document.getElementsByTagName('tei-tei')[0].classList.add("loaded");
 };
 
 /* keyboard shortcuts */
