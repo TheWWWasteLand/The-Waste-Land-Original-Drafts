@@ -972,7 +972,8 @@ tei-surplus>*:last-child:after {
 }
 /* t */
 tei-tei {
-  display: none;
+  display: block;
+  opacity: 0.4;
 }
 tei-table {
   display: block;
