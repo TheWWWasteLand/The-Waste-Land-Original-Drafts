@@ -9,7 +9,7 @@ window.onload = function() {
   }
   for (let i = 0; i < add.length; i++) {
     add[i].classList.add('hidden');
-    if (add[i].getAttribute('place') == 'above') {
+    if (add[i].getAttribute('place') == 'above' || add[i].getAttribute('place') == 'doubleAbove') {
       var strLength = add[i].innerText.length;
       if (strLength == 1) {
         var newLength = 0.55;
