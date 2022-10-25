@@ -425,21 +425,21 @@
             <div xml:id="page-6">
                 <figure><graphic url="https://thewwwasteland.github.io/images/6.jpg" xml:id="page-5"/>
                 </figure>
-                <head>
-                    2
-                </head>
                 <lg type="poemPage" n="5" xml:id="poemPage05">
+                    <head>
+                        2
+                    </head>
                     <lg type="stanza" n="14" xml:id="stanza14">
                         <l>                                                                 Carrying</l>
-                        <l>Away the <hi xml:id="highlight-7" rend="highlight" hand="Pound">little</hi> light dead people.</l>
+                        <l>Away the <hi xml:id="hi-31" rend="circled" hand="Pound">little</hi> light dead people.</l>
                     </lg>
                     <lg type="stanza" n="15" xml:id="stanza15">
-                        <l>"<del xml:id="del-40a" hand="TEliot">Do</del> <subst xml:id="sub-10"><del xml:id="del-40b" hand="Pound">y</del><add xml:id="add-17" hand="Pound">Y</add></subst>ou know nothing? Do you see nothing? Do you remember</l>
+                        <l>"<del xml:id="del-42a" hand="TEliot">Do</del> <subst xml:id="sub-12"><del xml:id="del-42b" hand="Pound">y</del><add xml:id="add-30" hand="Pound" place="inline">Y</add></subst>ou know nothing? Do you see nothing? Do you remember</l>
                         <l>"Nothing?"</l>
                     </lg>
                     <lg type="stanza" n="16" xml:id="stanza16">
                         <l>                 I remember</l>
-                        <l>The hyacinth garden. Those are pearls that were his eyes, <hi xml:id="highlight-8" rend="highlight" hand="Pound"><del xml:id="del-41" hand="Pound">yes!</del></hi></l>
+                        <l>The hyacinth garden. Those are pearls that were his eyes, <hi xml:id="hi-32" rend="squared" hand="Pound"><del xml:id="del-43" hand="Pound">yes!</del></hi></l>
                     </lg>
                     <lg type="stanza" n="17" xml:id="stanza17">
                         <l>"Are you alive, or not? Is there nothing in your head?"</l>
@@ -457,14 +457,14 @@
                         <l>"What shall we ever do?"</l>
                     </lg>
                     <lg type="stanza" n="19" xml:id="stanza19">
-                        <l>                                   The hot water <add xml:id="add-18" hand="VEliot" place="above">bottle</add>at ten.</l>
-                        <l>And if it rains, the <hi xml:id="highlight-9" rend="highlight" hand="Pound">closed carriage</hi> at four.</l>
+                        <l>                                   The hot water <add xml:id="add-32" hand="VEliot" place="above" rend="circumflex">bottle</add>at ten.</l>
+                        <l>And if it rains, the <hi xml:id="hi-33" rend="squared" hand="Pound">closed carriage</hi> at four.</l>
                         <l>And we shall play a game of chess:</l>
                         <l>The ivory men make company between us</l>
                         <l>Pressing lidless eyes and waiting for a knock upon the door.</l>
                     </lg>
                     <lg type="stanza" n="20" xml:id="stanza20">
-                        <l>When Lil's husband was <subst xml:id="sub-11"><del xml:id="del-42a" hand="VEliot">coming back out of the <hi xml:id="highlight-10" hand="VEliot" rend="highlight">Transport Corps</hi></del><add xml:id="add-19a" hand="Pound" place="above">demobbed</add><add xml:id="add-19b" hand="TEliot" place="above"><del xml:id="del-42b" hand="TEliot">Discharge out of the army</del>??</add></subst></l>
+                        <l>When Lil's husband was <subst xml:id="sub-11"><del xml:id="del-44" hand="VEliot">coming back out of the <hi xml:id="hi-34" hand="VEliot" rend="circled">Transport Corps</hi></del><add xml:id="add-33" hand="Pound" place="above">demobbed</add><add xml:id="add-34" hand="TEliot" place="doubleAbove"><del xml:id="del-45" hand="TEliot">Discharge out of the army</del>??</add></subst></l>
                         <l>I didn't mince my words, I said to her myself,</l>
                         <l>HURRY UP PLEASE IT'S TIME</l>
                         <l>"Now Albert's coming back, make yourself a bit smart.</l>
@@ -568,10 +568,11 @@
             <div xml:id="page-7">
                 <figure><graphic url="https://thewwwasteland.github.io/images/7.jpg" xml:id="page-6"/>
                 </figure>
-                <head>
-                    3
-                </head>
+           
                 <lg type="poemPage" n="6" xml:id="poemPage06">
+                    <head>
+                    3
+                    </head>
                     <lg type="stanza" n="21" xml:id="stanza21">
                         <l><subst xml:id="sub-12"><del xml:id="del-49" hand="VEliot">"You want to keep him at home, I suppose".</del><add xml:id="add-23" hand="VEliot"><ref xml:id="ref-1" target="note-36" hand="VEliot">*</ref></add></subst></l>
                         <l>HURRY UP PLEASE IT'S TIME.</l>
@@ -595,73 +596,6 @@
                         <l>  dont want to have children</l>
                     </lg>
                 </note>
-            </div>
-            <div xml:id="page-8">
-                <figure><graphic url="https://thewwwasteland.github.io/images/8.jpg" xml:id="page-7"/>
-                </figure>
-                <p>
-                    <head>
-                        HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/>
-                        <lb/>
-                        <rdg><subst><del hand="TEliot">IN THE CAGE.</del><add place="above" hand="TEliot">A Game of Chess.</add></subst></rdg>
-                    </head>
-                </p>
-                <lg>
-                    <l>The Chair she sat in, like a burnished throne</l>
-                    <l>Glowed on the marble, where the swinging glass</l>
-                    <l>Held up by standards wrought with golden vines</l>
-                    <l>From which one tender Cupidon peeped out</l>
-                    <l>(Another hid his eyes behind his wing)</l>
-                    <l>Doubled the flames of seven-branched candelabra</l>
-                    <l>Reflecting light upon the table where as</l>
-                    <l>The glitter of her jewels rose to meet it, it,</l>
-                    <l>From satin cases poured in rich profusion;</l>
-                    <l>In vials of ivory and coloured glass</l>
-                    <l>Unstopped, lurked her strange synthetic perfumes</l>
-                    <l>Unguent, powdered, or liquid -troubled, confused</l>
-                    <l>And drowned the sense in odours; stirred by the air</l>
-                    <l>That freshened from the window, these ascended,</l>
-                    <l>Fattening the candles flames, which wereprolonged,</l>
-                    <l>And flung their smoke into the laquenaria,</l>
-                    <l>Stirring the pattern on the coffered ceiling.</l>
-                    <l>Upon the hearth huge sea-wood fed with copper</l>
-                    <l>Burned green and orange, framed by the coloured stone,</l>
-                    <l>In which sad light a carved dolphin swam;</l>
-                    <l>Above the antique mantel was displayed</l>
-                    <l>In pigment, but so lively, you had thought</l>
-                    <l>A window gave upon the sylvan scene,</l>
-                    <l>The change of Philomel, by the barbarous king</l>
-                    <l>So rudely forced, yet still there the nightingale</l>
-                    <l>Filled all the desert with inviolable voice</l>
-                    <l>And still she cried (and still the world pursues)</l>
-                    <l>Jug Jug, into the dirty ear of death;</l>
-                    <l>And other tales, from the old stumps and bloody ends of time</l>
-                    <l>Were told upon the walls, where staring forms</l>
-                    <l>Leaned out, and hushed the room and closed it in.</l>
-                    <l>There were footsteps on the stair,</l>
-                    <l>Under the firelight, under the brush, her hair</l>
-                    <l>Spread out in little fiery points of will,</l>
-                    <l>Glowed into words, then would be savagely still.</l>
-                </lg>
-                <lg>
-                    <l>"My nerves are bad tonight. Yes, bad. Stay with me.</l>
-                    <l>"Speak to me. Why do you never speak. Speak.</l>
-                    <l>"What are you thinking of? What thinking? Think What?</l>
-                    <l>"I never know what you are thinking. Think".</l>
-                </lg>
-                <lg>
-                    <l>I think we met first in rats' alley,</l>
-                    <l>Ehere the dead men lost their bones.</l>
-                </lg>
-                <lg>
-                    <l>"What is that noise?"</l>
-                </lg>
-                <lg>
-                    <l>                      The wind under the door.</l>
-                </lg>
-                <lg>
-                    <l>"What is that noise now? What is the wind doing?"</l>
-                </lg>
             </div>
         </body>
     </text>
