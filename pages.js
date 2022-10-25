@@ -123,6 +123,7 @@ window.onload = function() {
       const tei = document.getElementsByTagName('tei-tei');
       console.log(tei);
       document.getElementsByTagName('tei-tei')[0].classList.add("loaded");
+      break;
     }
   }
 };
