@@ -91,11 +91,11 @@
     </ul>
   </div>
   <script>
-    window.onload = function() {
+    window.addEventListener('load', function() {
       document.getElementsByClassName('loader')[0].style.display ="none";
       const tei = document.getElementsByTagName('tei-tei');
       document.getElementsByTagName('tei-tei')[0].classList.add("loaded");
-    }
+    });
   </script>
 </body>
 </html>
