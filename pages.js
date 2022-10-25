@@ -114,17 +114,18 @@ window.onload = function() {
       }
     }
   }
-  while (document.getElementsByTagName('tei-tei').length < 2) {
+  var a = document.getElementsByTagName('tei-tei').length
+  while (a < 2) {
     if (document.getElementsByTagName('tei-tei').length == 0) {
       var a = 0;
     }
     else {
+      a = 2;
       document.getElementsByClassName('loader')[0].style.display ="none";
       const tei = document.getElementsByTagName('tei-tei');
-      console.log(tei);
       document.getElementsByTagName('tei-tei')[0].classList.add("loaded");
-      break;
     }
+    console.log(a);
   }
 };
 
