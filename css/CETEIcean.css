@@ -25,18 +25,17 @@
 tei-del[hand=TEliot] {
     text-decoration-color: #ef476f;
 }
-tei-rdg[hand=TEliot] {
-    text-decoration-color: #ef476f;
-}
+
 tei-add[hand=TEliot], tei-note[hand=TEliot] {
     color: #ef476f;
     text-decoration-color:  #ef476f;
+    background-color: rgba(239, 71, 111, 0.05);
 }
 tei-hi[hand=TEliot] {
     text-decoration-color:  #ef476f;
     border-color: #ef476f !important;
 }
-tei-del[hand=Pound], tei-hi[hand=Pound], tei-rdg[hand=Pound] {
+tei-del[hand=Pound], tei-hi[hand=Pound] {
     text-decoration-color: #118ab2 !important;
     border-color: #118ab2 !important;
 }
@@ -45,7 +44,7 @@ tei-add[hand=Pound], tei-note[hand=Pound] {
     text-decoration-color:  #118ab2;
     background-color: rgba(17, 138, 178, 0.1);
 }
-tei-del[hand=VEliot], tei-hi[hand=VEliot], tei-rdg[hand=VEliot] {
+tei-del[hand=VEliot], tei-hi[hand=VEliot] {
     text-decoration-color: #06d6a0 !important;
 }
 tei-add[hand=VEliot], tei-note[hand=VEliot] {
