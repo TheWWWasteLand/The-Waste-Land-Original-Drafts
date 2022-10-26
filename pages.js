@@ -23,8 +23,8 @@ window.onload = function() {
         var padd = '0.5em'; 
       }
       else if (strLength > 6 && strLength < 11) {
-        var newLength = 0.45 * strLength;
-        var padd = '1.3em';
+        var newLength = 0.5 * strLength;
+        var padd = '1em';
       }
       else if (strLength > 10 && strLength < 17) {
         var newLength = 0.4 * strLength;
