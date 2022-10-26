@@ -441,6 +441,8 @@ function TEliot() {
 $(document).ready(function(){
   $("#finalV").click(function(){
     $(".switch").show();
+    $(".blue").hide();
+    $(".green").hide();
   });
   $("#textOnly").click(function(){
     $("tei-figure").hide();
