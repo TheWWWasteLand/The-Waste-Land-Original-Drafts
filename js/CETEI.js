@@ -773,6 +773,11 @@ var CETEI = (function () {
         window.dispatchEvent(ceteiceanLoad);
         return this.dom;
       }
+      var my_awesome_script = document.createElement('script');
+
+      my_awesome_script.setAttribute('src','pages.js');
+
+      document.head.appendChild(my_awesome_script);
     }
 
     /* 
