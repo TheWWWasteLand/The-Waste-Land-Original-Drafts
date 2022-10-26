@@ -163,6 +163,12 @@ function nextPage() {
     i.style.display="none";
     one.style.display="block";
     document.getElementById('prev').style.display="block";
+    if (one.getAttribute('class').includes('finalActivation') {
+      document.getElementById("TEswitch").style.display = 'inline-block' ;
+    }
+    else {
+      document.getElementById("TEswitch").style.display = 'none' ;
+    }
   }
   else if (one.getAttribute('style') == "display: block;") {
     one.style.display="none";
@@ -441,7 +447,8 @@ function TEliot() {
   four = document.getElementById('page-5');
   five = document.getElementById('page-6')
   if (i.getAttribute('style') != "display: none;") {
-    document.getElementById("add-i").classList.toggle('hidden');
+    document.getElementById("TEswitch").style.display = 'inline-block' ;
+    finalVer();
   }
   else if (one.getAttribute('style') != "display: none;") {
     finalVer();
