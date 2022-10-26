@@ -114,6 +114,12 @@ window.onload = function() {
       }
     }
   }
+  if (document.getElementsByTagName('tei-tei').length == 0) {
+    location.reload();
+  }
+  else {
+    document.getElementsByClassName('loader')[0].style.display = "none";
+  }
 };
 
 /* keyboard shortcuts */
