@@ -252,7 +252,6 @@ function finalVer() {
   if (i.getAttribute('style') != "display: none;") {
     additions(document.getElementById("add-i"));
     document.getElementById("TEswitch").style.display = 'inline-block' ;
-    document.getElementsByClassName('blue')[0].style.display="inline-block";
     document.getElementsByClassName('green')[0].style.display="none";
   }
   else if (one.getAttribute('style') == "display: block;") {
@@ -272,6 +271,9 @@ function finalVer() {
     }
   }
   else if (two.getAttribute('style') == "display: block;") {
+    document.getElementById("TEswitch").style.display = 'inline-block' ;
+    document.getElementById("EPswitch").style.display = 'inline-block' ;
+    document.getElementsByClassName('green')[0].style.display="none";
     for (let i = 1; i < 6; i++) {
       highlight(his[i]);
     }
