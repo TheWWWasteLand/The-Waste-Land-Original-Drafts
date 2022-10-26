@@ -47,7 +47,7 @@
             <titlePage>
                 <pb xml:id="wasteland-i" n="i"/>
                 <div xml:id="page-i" >
-                    <figure><graphic url="https://thewwwasteland.github.io/images/1.jpg" xml:id="page-i" type="page"/>
+                    <figure><graphic url="https://thewwwasteland.github.io/images/1.jpg" xml:id="page-i-pic" type="page"/>
                     </figure>
                     <head>
                         THE WASTE LAND<lb/>
