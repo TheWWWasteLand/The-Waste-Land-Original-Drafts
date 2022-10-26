@@ -1494,7 +1494,7 @@ tei-lg[type=poemPage] {
     margin-top: 4em;
 }
 
-#poemPage03 tei-head:first-child {
+#poemPage03 tei-head:first-child, #poemPage05 tei-head:first-child{
     line-height: 3.5em;
 }
 
