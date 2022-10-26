@@ -251,8 +251,13 @@ function finalVer() {
   const notes = document.getElementsByTagName("tei-note");
   if (i.getAttribute('style') != "display: none;") {
     additions(document.getElementById("add-i"));
-    document.getElementById("TEswitch").style.display = 'inline-block' ;
-    document.getElementsByClassName('green')[0].style.display="none";
+    i.classList.toggle('finalActivation');
+    if (i.getAttribute('class').includes('finalActivation')) {
+      document.getElementById("TEswitch").style.display = 'inline-block' ;
+    }
+    else {
+      document.getElementById("TEswitch").style.display = 'none' ;
+    } 
   }
   else if (one.getAttribute('style') == "display: block;") {
     document.getElementById("TEswitch").style.display = 'inline-block' ;
@@ -446,9 +451,6 @@ function TEliot() {
 /* jQuery */
 
 $(document).ready(function(){
-  $("#finalV").click(function(){
-    $(".switch").show();
-  });
   $("#textOnly").click(function(){
     $("tei-figure").hide();
     $(".zoom-button").hide();
