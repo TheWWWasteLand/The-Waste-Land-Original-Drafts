@@ -1,5 +1,5 @@
 window.onerror = function() {
-    location.reload(true);
+    window.location.href = window.location.href;
 }
 
 window.onload = function() {
