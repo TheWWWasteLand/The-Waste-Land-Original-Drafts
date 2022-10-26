@@ -115,7 +115,7 @@ window.onload = function() {
     }
   }
   if (document.getElementsByTagName('tei-tei').length == 0) {
-    location.reload();
+    location.reload(true);
   }
   else {
     document.getElementsByClassName('loader')[0].style.display = "none";
