@@ -252,8 +252,13 @@ function finalVer() {
   if (i.getAttribute('style') != "display: none;") {
     additions(document.getElementById("add-i"));
     document.getElementById("TEswitch").style.display = 'inline-block' ;
+    document.getElementsByClassName('blue')[0].style.display="inline-block";
+    document.getElementsByClassName('green')[0].style.display="none";
   }
   else if (one.getAttribute('style') == "display: block;") {
+    document.getElementById("TEswitch").style.display = 'inline-block' ;
+    document.getElementsByClassName('blue')[0].style.display="none";
+    document.getElementsByClassName('green')[0].style.display="none";
     for (let i = 0; i < 13; i++) {
       deletions(dels[i]);
     }
@@ -441,8 +446,6 @@ function TEliot() {
 $(document).ready(function(){
   $("#finalV").click(function(){
     $(".switch").show();
-    $(".blue").hide();
-    $(".green").hide();
   });
   $("#textOnly").click(function(){
     $("tei-figure").hide();
