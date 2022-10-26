@@ -1525,10 +1525,10 @@ tei-lg[type=poemPage] {
 .slider:before {
   position: absolute;
   content: "";
-  height: 14px;
-  width: 14px;
-  left: 0px;
-  bottom: 2.5px;
+  height: 13.5px;
+  width: 13.5px;
+  left: 1px;
+  bottom: 2.75px;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
