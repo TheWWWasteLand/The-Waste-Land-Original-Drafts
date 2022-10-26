@@ -163,7 +163,7 @@ function nextPage() {
     i.style.display="none";
     one.style.display="block";
     document.getElementById('prev').style.display="block";
-    if (one.getAttribute('class').includes('finalActivation') {
+    if (one.getAttribute('class').includes('finalActivation')) {
       document.getElementById("TEswitch").style.display = 'inline-block' ;
     }
     else {
