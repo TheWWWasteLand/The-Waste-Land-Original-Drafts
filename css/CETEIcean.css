@@ -1272,10 +1272,10 @@ img[data-origid=pound-6-hi-pic] {
     margin-left: -5em;
 }
 
-[rend=largerFirstLetter] {
- display: block;
+#add-i {
+ display: inline-block;
  font-size: 75%;
- padding-left: 20em;
+ margin-left: 10em;
  margin-top: -1em;
 }
 
