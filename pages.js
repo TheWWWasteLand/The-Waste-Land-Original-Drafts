@@ -1,3 +1,7 @@
+window.onerror = function() {
+    location.reload(true);
+}
+
 window.onload = function() {
   const add = document.getElementsByTagName("tei-add");
   const notes = document.getElementsByTagName("tei-note");
