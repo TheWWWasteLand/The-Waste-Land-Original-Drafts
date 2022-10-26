@@ -1,4 +1,6 @@
 window.onload = function() {
+  document.getElementsByClassName('loader')[0].style.display ="none";
+  document.body.classList.add("loaded");
   const add = document.getElementsByTagName("tei-add");
   const notes = document.getElementsByTagName("tei-note");
   const graphs = document.getElementsByTagName("tei-graphic");
@@ -114,8 +116,6 @@ window.onload = function() {
       }
     }
   }
-  document.getElementsByClassName('loader')[0].style.display ="none";
-  document.body.classList.add("loaded");
 };
 
 /* keyboard shortcuts */
