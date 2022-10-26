@@ -115,6 +115,7 @@ window.onload = function() {
     }
   }
   document.getElementsByClassName('loader')[0].style.display = "none";
+  document.getElementsByTagName('tei-tei')[0].classList.add('loaded');
 };
 
 /* keyboard shortcuts */
