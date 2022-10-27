@@ -29,7 +29,7 @@ tei-del[hand=TEliot] {
 tei-add[hand=TEliot], tei-note[hand=TEliot] {
     color: #ef476f;
     text-decoration-color:  #ef476f;
-    background-color: rgba(239, 71, 111, 0.1);
+    background-color: #fceef0;
 }
 tei-hi[hand=TEliot] {
     text-decoration-color:  #ef476f;
@@ -42,7 +42,7 @@ tei-del[hand=Pound], tei-hi[hand=Pound] {
 tei-add[hand=Pound], tei-note[hand=Pound],  tei-note[hand=Pound] tei-p {
     color: #118ab2;
     text-decoration-color:  #118ab2;
-    background-color: rgba(17, 138, 178, 0.1);
+    background-color: #ebf3f7;
 }
 tei-del[hand=VEliot], tei-hi[hand=VEliot] {
     text-decoration-color: #06d6a0 !important;
