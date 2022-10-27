@@ -1,7 +1,3 @@
-window.onerror = function() {
-    window.location.href = window.location.href;
-}
-
 window.onload = function() {
   const add = document.getElementsByTagName("tei-add");
   const notes = document.getElementsByTagName("tei-note");
