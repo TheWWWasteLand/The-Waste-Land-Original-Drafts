@@ -423,6 +423,9 @@ function highlight(el) {
   else if (el.getAttribute('rend') == 'underline') {
     el.classList.toggle('underline');
   }
+  else if (el.getAttribute('rend') == 'doubleUnderline') {
+    el.classList.toggle('doubleUnderline');
+  }
   else if (el.getAttribute('rend') == 'squared') {
     el.classList.toggle('squared');
   }
