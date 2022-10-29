@@ -1057,6 +1057,7 @@ tei-witdetail {
 html > body {
   margin: 0;
   padding: 0;
+  opacity: 0.2;
 }
 html {
   margin: 0;
