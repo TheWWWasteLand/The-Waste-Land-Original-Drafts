@@ -8,7 +8,7 @@ document.onreadystatechange = function() {
         document.querySelector(
           ".loader").style.display = "none";
         document.querySelector(
-          "tei.tei").style.visibility = "visible";
+          "tei-tei").style.visibility = "visible";
     }
 };
 
