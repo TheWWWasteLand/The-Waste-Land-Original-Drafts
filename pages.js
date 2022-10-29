@@ -344,7 +344,7 @@ function finalVer() {
     for (let i = 29; i < 49; i++) {
       deletions(dels[i]);
     }
-    for (let i = 18; i < 33; i++) {
+    for (let i = 18; i < 35; i++) {
       highlight(his[i]);
     }
     for (let i = 7; i < 20; i++) {
@@ -361,13 +361,13 @@ function finalVer() {
     }
   }
   else if (five.getAttribute('style') == 'display: block;') {
-    for (let i = 31; i < 42; i++) {
+    for (let i = 31; i < 39; i++) {
       additions(adds[i]);
     }
-    for (let i = 49; i < 58; i++) {
+    for (let i = 49; i < 64; i++) {
       deletions(dels[i]);
     }
-    for (let i = 33; i < 38; i++) {
+    for (let i = 35; i < 38; i++) {
       highlight(his[i]);
     }
   }
