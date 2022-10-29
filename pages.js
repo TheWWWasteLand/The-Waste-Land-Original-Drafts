@@ -1,14 +1,14 @@
 document.onreadystatechange = function() {
     if (document.readyState !== "complete") {
         document.querySelector(
-          "tei-tei").style.visibility = "hidden";
+          "body").style.opacity = "0.2";
         document.querySelector(
           ".loader").style.visibility = "visible";
     } else {
         document.querySelector(
           ".loader").style.display = "none";
         document.querySelector(
-          "tei-tei").style.visibility = "visible";
+          "body").classList.add("loaded");
     }
 };
 
