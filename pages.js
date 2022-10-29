@@ -1,3 +1,18 @@
+document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector(
+          "tei-tei").style.visibility = "hidden";
+        document.querySelector(
+          ".loader").style.visibility = "visible";
+    } else {
+        document.querySelector(
+          ".loader").style.display = "none";
+        document.querySelector(
+          "tei.tei").style.visibility = "visible";
+    }
+};
+
+
 window.onload = function() {
   const add = document.getElementsByTagName("tei-add");
   const notes = document.getElementsByTagName("tei-note");
@@ -114,8 +129,6 @@ window.onload = function() {
       }
     }
   }
-  document.getElementsByClassName('loader')[0].style.display = "none";
-  document.getElementsByTagName('tei-tei')[0].classList.add('loaded');
 };
 
 /* keyboard shortcuts */
