@@ -370,6 +370,9 @@ function finalVer() {
     for (let i = 35; i < 38; i++) {
       highlight(his[i]);
     }
+    for (let i = 20; i < 33; i++) {
+      note(notes[i]);
+    }
   }
   else if (six.getAttribute('style') == 'display: block;') {
   }
