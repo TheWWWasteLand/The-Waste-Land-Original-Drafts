@@ -1426,6 +1426,28 @@ tei-del {
    top: 1181px;
 }
 
+#note-21 {
+  position: absolute;
+  display: inline-block;
+  top: 155px;
+  left: 410px;
+}
+
+#note-22 {
+ position: absolute;
+ display: inline-block;
+ top: 230px;
+ left: 580px;
+}
+
+#note-23 {
+  position: absolute;
+  display: inline-block;
+  top: 320px;
+  left: 430px;
+}
+
+
 .line-del {
    text-decoration: line-through;
    text-decoration-thickness: 2px;
