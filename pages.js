@@ -367,13 +367,13 @@ function finalVer() {
     }
   }
   else if (five.getAttribute('style') == 'display: block;') {
-    for (let i = 31; i < 40; i++) {
+    for (let i = 31; i < 42; i++) {
       additions(adds[i]);
     }
-    for (let i = 49; i < 55; i++) {
+    for (let i = 49; i < 58; i++) {
       deletions(dels[i]);
     }
-    for (let i = 33; i < 35; i++) {
+    for (let i = 33; i < 38; i++) {
       highlight(his[i]);
     }
   }
