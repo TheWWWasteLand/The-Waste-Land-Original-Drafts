@@ -973,7 +973,6 @@ tei-surplus>*:last-child:after {
 /* t */
 tei-tei {
   display: block;
-  opacity: 0.2;
 }
 tei-table {
   display: block;
