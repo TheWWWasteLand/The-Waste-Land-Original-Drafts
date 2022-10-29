@@ -177,12 +177,6 @@ function nextPage() {
     i.style.display="none";
     one.style.display="block";
     document.getElementById('prev').style.display="block";
-    if (one.getAttribute('class').includes('finalActivation')) {
-      document.getElementById("TEswitch").style.display = 'inline-block' ;
-    }
-    else {
-      document.getElementById("TEswitch").style.display = 'none' ;
-    }
   }
   else if (one.getAttribute('style') == "display: block;") {
     one.style.display="none";
