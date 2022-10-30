@@ -152,6 +152,10 @@ function checkKey(e) {
         break;
       case '40':
         zoomout();
+        break;
+      case '70':
+        finalVer();
+        break;
     }
 };
 
@@ -479,6 +483,9 @@ $(document).ready(function(){
     $("#button-notes-list").css({"left": "65.5px", "width": "calc(100vw - 124.5px)"});
     $("tei-note").each(function(){
       var x = $(this).css("left");
+      if ($(this).parent().attr('id') == 'poemPage05') {
+          console.log($(this));
+      }
       var leftPx = "calc(190px + " + x + ")";
       $(this).css({"left": leftPx});
     });
