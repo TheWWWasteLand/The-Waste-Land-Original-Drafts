@@ -532,7 +532,12 @@
                             Yes
                         </p>
                     </note>
-                    <note xml:id="note-29" hand="VEliot" rend="linkingArrow">
+                    <note xml:id="note-29" hand="Pound">
+                        <p>
+                            ?
+                        </p>
+                    </note>
+                    <note xml:id="note-30" hand="VEliot" rend="linkingArrow">
                         <p>
                             Perhaps<lb/>
                             better not so<lb/>
@@ -540,7 +545,7 @@
                             this later.<lb/>
                         </p>
                     </note>
-                    <note xml:id="note-30" hand="VEliot">
+                    <note xml:id="note-31" hand="VEliot">
                         <p>
                                  Or<lb/>
                             If you don't like<lb/>
@@ -548,13 +553,13 @@
                             on with it<lb/>
                         </p>
                     </note>
-                    <note xml:id="note-31" hand="VEliot">
+                    <note xml:id="note-32" hand="VEliot">
                         <p>
                             <del xml:id="del-50" hand="VEliot">stuff</del><lb/>
                             pills
                         </p>
                     </note>
-                    <note xml:id="note-32" hand="TEliot">
+                    <note xml:id="note-33" hand="TEliot" rend="diagonal">
                         <p>
                             I want to<lb/>
                             avoid trying<lb/>
