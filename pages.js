@@ -367,7 +367,7 @@ function finalVer() {
     for (let i = 49; i < 64; i++) {
       deletions(dels[i]);
     }
-    for (let i = 35; i < 38; i++) {
+    for (let i = 35; i < 42; i++) {
       highlight(his[i]);
     }
     for (let i = 20; i < 34; i++) {
