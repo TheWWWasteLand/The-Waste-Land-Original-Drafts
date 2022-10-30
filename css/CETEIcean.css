@@ -1447,6 +1447,43 @@ tei-del {
   left: 430px;
 }
 
+#note-24 {
+    position: absolute;
+    display: inline-block;
+    letter-spacing: 0.5em;
+    top: 430px;
+    left: -126px;
+}
+
+#note-25 {
+    position: absolute;
+    display: inline-block;
+    top: 590px;
+    left: 366px;
+}
+
+#note-26 {
+    position: absolute;
+    display: inline-block;
+    top: 233px;
+    letter-spacing: 0.5em;
+    left: 71px;
+}
+
+#note-27 {
+    position: absolute;
+    top: 451px;
+    left: 57px;
+    letter-spacing: 0.5em;
+}
+
+#note-28 {
+    top: 641px;
+    left: 115px;
+    position: absolute;
+    display: inline-block;
+    letter-spacing: 0.5em;
+} 
 
 .line-del {
    text-decoration: line-through;
