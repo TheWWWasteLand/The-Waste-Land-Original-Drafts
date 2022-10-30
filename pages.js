@@ -484,9 +484,11 @@ $(document).ready(function(){
     $("tei-note").each(function(){
       var x = $(this).css("left");
       if ($(this).parent().attr('id') == 'poemPage05') {
-          console.log($(this));
+          var leftPx = "calc(120px + " + x + ")";
       }
-      var leftPx = "calc(190px + " + x + ")";
+      else {
+          var leftPx = "calc(190px + " + x + ")";
+      }
       $(this).css({"left": leftPx});
     });
   });
