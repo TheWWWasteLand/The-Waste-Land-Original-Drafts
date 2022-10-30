@@ -475,17 +475,7 @@ function singlePage() {
     $(".zoom-button").hide();
     $("[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "300px"});
     $("#button-notes-list").css({"left": "65.5px", "width": "calc(100vw - 124.5px)"});
-    $("tei-lg").show();
-    $("tei-note").each(function(){
-      var x = $(this).css("left");
-      if ($(this).parent().attr('id') == 'poemPage05') {
-          var leftPx = "calc(120px + " + x + ")";
-      }
-      else {
-          var leftPx = "calc(190px + " + x + ")";
-      }
-      $(this).css({"left": leftPx});
-    });
+    $("tei-div").show();
 }
 
 /* jQuery */
