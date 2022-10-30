@@ -1482,6 +1482,40 @@ tei-del {
     display: inline-block;
     letter-spacing: 0.5em;
 } 
+#note-29 {
+    position: absolute;
+    display: inline-block;
+    top: 664px;
+    left: 524px;
+    font-size: 200%;
+}
+#note-30 {
+    position: absolute;
+    display: inline-block;
+    left: -20px;
+    top: 716px;
+}
+#note-31 {
+    display: inline-block;
+    position: absolute;
+    left: -20px;
+    top: 982px;
+}
+
+#note-32 {
+    display: inline-block;
+    position: absolute;
+    left: 91px;
+    top: 1121px;
+}
+
+#note-33 {
+    display: inline-block;
+    position: absolute;
+    left: 567px;
+    top: 788px;
+    line-height: 1em;
+}
 
 .line-del {
    text-decoration: line-through;
