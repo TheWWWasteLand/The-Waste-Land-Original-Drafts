@@ -201,10 +201,7 @@ function nextPage() {
   else if (five.getAttribute('style') == "display: block;") {
     five.style.display="none";
     six.style.display="block";
-  }
-  else if (six.getAttribute('style') == "display: block;") {
-    six.style.display="none";
-    seven.style.display="block";
+    document.getElementById('next').style.display="none";
   }
 };
 
@@ -242,10 +239,7 @@ function prevPage() {
   else if (six.getAttribute('style') == "display: block;") {
     six.style.display="none";
     five.style.display="block";
-  }
-  else if (seven.getAttribute('style') == "display: block;") {
-    seven.style.display="none";
-    six.style.display="block";
+    document.getElementById('next').style.display="block";
   }
 };
 
