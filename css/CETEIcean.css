@@ -487,6 +487,10 @@ tei-head {
     margin-left:40vw;
     white-space: pre;
     line-height: 0.8em;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 263px;
+}
 }
 tei-lg > tei-head {
     text-align: center;
