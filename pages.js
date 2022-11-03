@@ -475,7 +475,11 @@ function singlePage() {
     $(".zoom-button").hide();
     $("[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "300px"});
     $("#button-notes-list").css({"left": "65.5px", "width": "calc(100vw - 124.5px)"});
-    $("tei-div").show();
+    var a = 0;
+    $("tei-div").each(function(){
+        var a = a + 700
+        var b = (a).toString() + "px" 
+        $(this).css({"display": "block"; "height": "100%"; "margin-top" : b});     
 }
 
 /* jQuery */
