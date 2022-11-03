@@ -479,7 +479,8 @@ function singlePage() {
     $("tei-div").each(function(){
         var a = a + 700
         var b = (a).toString() + "px" 
-        $(this).css({"display": "block", "height": "100%", "margin-top" : b});     
+        $(this).css({"display": "block", "height": "100%", "margin-top" : b}); 
+    });
 }
 
 /* jQuery */
