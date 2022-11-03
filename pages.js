@@ -477,7 +477,8 @@ function singlePage() {
     $("#button-notes-list").css({"left": "65.5px", "width": "calc(100vw - 124.5px)"});
     var a = 0;
     $("tei-div").each(function(){
-        var a = a + 700
+        var a = a + 700;
+        console.log(a);
         var b = (a).toString() + "px" ;
         console.log(b);
         $(this).css({"display": "block", "height": "100%", "margin-top" : b}); 
