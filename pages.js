@@ -482,6 +482,9 @@ function singlePage() {
         x = x + 1;
         var b = (a).toString() + "px" ;
         $(this).css({"display": "block", "height": "100%", "margin-top" : b});
+        if (x == 7) {
+            $(this).css({"padding-bottom": "295px"});
+        }
     });
 }
 
