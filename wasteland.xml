@@ -579,28 +579,29 @@
                     3
                     </head>
                     <lg type="stanza" n="21" xml:id="stanza21">
-                        <l><subst xml:id="sub-12"><del xml:id="del-49" hand="VEliot">"You want to keep him at home, I suppose".</del><add xml:id="add-23" hand="VEliot"><ref xml:id="ref-1" target="note-36" hand="VEliot">*</ref></add></subst></l>
+                        <l n="90"><subst xml:id="sub-15"><del xml:id="del-51" hand="VEliot">"You want to keep him at home, I suppose".</del><add xml:id="add-38" hand="VEliot"><ref xml:id="ref-1" target="note-35" hand="VEliot">*</ref></add></subst></l>
                         <l>HURRY UP PLEASE IT'S TIME.</l>
                         <l>Well thtat Sunday Albert was home, they had a hot gammon,</l>
                         <l>And they asked me in to dinner, to get the beauty of it hot-</l>
                         <l>HURRY UP PLEASE IT'S TIME.</l>
-                        <l>HURRY UP PLEASE IT'S TIME.</l>
-                        <l>Goo<del xml:id="del-50a" hand="VEliot">d</del> night, Bill.   Goo<del xml:id="del-50b" hand="VEliot">d</del> night, Lou.   Goo<del xml:id="del-50c" hand="VEliot">d</del> night, George. Goo<del xml:id="del-50d" hand="VEliot">d</del> night.</l>
-                        <l>Ta ta.   <del xml:id="del-51" hand="VEliot">Good night.   Good night.</del></l>
+                        <l n="95">HURRY UP PLEASE IT'S TIME.</l>
+                        <l>Goo<del xml:id="del-52a" hand="VEliot">d</del> night, Bill.   Goo<del xml:id="del-52b" hand="VEliot">d</del> night, Lou.   Goo<del xml:id="del-52c" hand="VEliot">d</del> night, George. Goo<del xml:id="del-52d" hand="VEliot">d</del> night.</l>
+                        <l>Ta ta.   <del xml:id="del-53" hand="VEliot">Good night.   Good night.</del></l>
                         <l>Good night, ladies, good night, sweet ladies, good night, good night.</l>
                     </lg>
+                    <note xml:id="note-34" hand="VEliot">
+                        <p>
+                            Splendid last lines
+                        </p>
+                    </note>
+                    <note xml:id="note-35" hand="VEliot">
+                        <p>
+                            * What you get married for if you<lb/>
+                             dont want to have children
+                        </p>
+                    </note>
                 </lg>
-                <note xml:id="note-35" hand="VEliot">
-                    <lg>
-                        <l>Splendid last lines</l>
-                    </lg>
-                </note>
-                <note xml:id="note-36" hand="VEliot">
-                    <lg>
-                        <l>* What you get married for if you</l>
-                        <l>  dont want to have children</l>
-                    </lg>
-                </note>
+                
             </div>
         </body>
     </text>
