@@ -1843,11 +1843,11 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
   position: fixed;
   text-align: left;
   float:left;
-  height: calc(100vh - 154px);
-  width: calc(40vw - 20px);
+  height: calc(100vh - 156px);
+  width: calc(40vw - 17px);
   top: 85px;
-  left: 70px;
-  z-index:800;
+  left: 62px;
+  z-index: 800;
 }
 
 .zoom-button > img {
