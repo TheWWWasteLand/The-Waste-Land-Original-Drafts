@@ -560,6 +560,7 @@ function thumbs() {
         var img = figures[i].childNodes[0];
         arr.push(img);
       }
+    }
     for (let a = 0; a < arr.length; a++) {
       bg.appendChild(arr[a]);
     }
