@@ -548,5 +548,20 @@ function zoomout () {
   }
 }
   
-    
+/*thumbnails*/
+
+function thumbs() {
+    const bg = document.getElementsByClassName('zoom-button')[0];
+    bg.style.backgroundcolor = 'rgba((69,80,95,0.85)';
+    const figures = document.getElementsByTagName("tei-graphic");
+    var arr = []
+    for (let i = 0; i < figures.length; i++) {
+      if (figures[i].hasAttribute("type")) {
+        var img = figures[i].childNodes[0];
+        arr.push(img);
+      }
+    for (let a = 0; a < arr.length; a++) {
+      bg.appendChild(arr[a]);
+    }
+      
 
