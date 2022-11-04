@@ -574,7 +574,7 @@ function thumbs() {
           var id = "thumb-" + a.toString();
           image.setAttribute('src', url);
           image.setAttribute('id', id);
-          image.setAttribute('onlick', 'thumbSearch(this)');
+          image.setAttribute('onlick', 'thumbSearch()');
           image.classList.add('thumbnail');
           bg.appendChild(image);
         }
@@ -593,8 +593,9 @@ function thumbs() {
     }
 }
 
-function thumbSearch(el) {
-      console.log("x");
+function thumbSearch() {
+      var text = "sometexta caso";
+      console.log("text");
       var id = el.getAttribute('id');
       var reg = /\d+/;
       var n = id.match(reg);
