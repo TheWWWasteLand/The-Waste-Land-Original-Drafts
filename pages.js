@@ -610,13 +610,12 @@ function goToPage(num) {
     for (let i = 0; i < pageList.length; i++) {
         var style = window.getComputedStyle(pageList[i]);
         var display = style.getPropertyValue('display');
+        console.log(display);
         if (display == "inline-block" && i != num) {
             pageList[i].style.display == "none";
-            console.log(i);
         }
         if (i == num) {
             pageList[i].style.display == "inline-block";
-            console.log(i);
         }    
     }
 }
