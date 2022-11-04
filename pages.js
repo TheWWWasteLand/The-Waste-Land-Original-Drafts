@@ -519,7 +519,7 @@ $(document).ready(function(){
     $("tei-quote").hide();  
     $("tei-head").hide();
     $("#button-notes-list").hide();
-    $("tei-figure").css({"width": "calc(100vw - 126px)"};
+    $("tei-figure").css({"width": "calc(100vw - 126px)"});
   });
 });
 
