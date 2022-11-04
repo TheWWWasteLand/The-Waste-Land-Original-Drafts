@@ -1861,6 +1861,16 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
     z-index:800;
 }
 
+.thumbnail {
+    position: relative !important;
+    top: 10px;
+    max-width: 300px !important;
+    max-height: 300px !important;
+    width: 15% !important;
+    opacity: 1 !important;
+    margin-left: 20px;
+}
+
 .thumb {
     left: 75px;
 }
