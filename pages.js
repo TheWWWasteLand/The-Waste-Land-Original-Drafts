@@ -638,18 +638,18 @@ function goToPage(num) {
             console.log(pageList[i]);
             console.log("me");
         }
-        if (i == 0) {
+    }
+    if (num == 0) {
             document.getElementById('prev').style.display="none";
-        }
-        else {
-            document.getElementById('prev').style.display="block";
-        }
-        if (i == pageList.length) {
-            document.getElementById('next').style.display="none";
-        }
-        else {
-            document.getElementById('next').style.display="block";
-        }
+    }
+    else {
+        document.getElementById('prev').style.display="block";
+    }
+    if (num == pageList.length) {
+        document.getElementById('next').style.display="none";
+    }
+    else {
+        document.getElementById('next').style.display="block";
     }
 }
     
