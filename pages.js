@@ -608,7 +608,9 @@ function thumbSearch(el) {
 function goToPage(num) {
     const pageList = document.getElementsByTagName('tei-div');
     for (let i = 0; i < pageList.length; i++) {
-        if (pageList[i].style.display == "inline-block" && i != num) {
+        var style = window.getComputedStyle(pageList[i]);
+        var display = style.getPropertyValue('display');
+        if (display == "inline-block" && i != num) {
             pageList[i].style.display == "none";
             console.log(i);
         }
