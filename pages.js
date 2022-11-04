@@ -580,6 +580,7 @@ function thumbs() {
         const thumbs = document.getElementsByClassName('thumbnail');
         console.log(thumbs.length);
         for (let idx = 0; idx < thumbs.length; idx++) {
+            console.log(thumbs[idx]);
             bg.removeChild(thumbs[idx]);
         }
         zoomOut.style.display = 'inline-block';
