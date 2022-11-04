@@ -552,21 +552,30 @@ function zoomout () {
 
 function thumbs() {
     const bg = document.getElementsByClassName('zoom-button')[0];
-    bg.style.backgroundColor = 'rgba(69, 80, 95, 0.85)';
-    const figures = document.getElementsByTagName("tei-graphic");
-    var arr = []
-    for (let i = 0; i < figures.length; i++) {
-      if (figures[i].hasAttribute("type")) {
-        var img = figures[i].childNodes[0];
-        arr.push(img);
-      }
+    if (document.getElementsByClassName('thumbnail').length == 0) {
+        bg.style.backgroundColor = 'rgba(69, 80, 95, 0.9)';
+        bg.style.overflow = 'auto';
+        const figures = document.getElementsByTagName("tei-graphic");
+        var arr = []
+        for (let i = 0; i < figures.length; i++) {
+          if (figures[i].hasAttribute("type")) {
+            var img = figures[i].childNodes[0];
+            arr.push(img);
+          }
+        }
+        for (let a = 0; a < arr.length; a++) {
+          var image = document.createElement("img");
+          var url = arr[a].getAttribute('src');
+          image.setAttribute('src', url);
+          image.classList.add('thumbnail');
+          bg.appendChild(image);
+        }
     }
-    for (let a = 0; a < arr.length; a++) {
-      var image = document.createElement("img");
-      var url = arr[a].getAttribute('src');
-      image.setAttribute('src', url);
-      image.classList.add('thumbnail');
-      bg.appendChild(image);
+    else {
+        const thumbs = document.getElementsByClassName('thumbnail');
+        for (let idx = 0; idx < thumbs.length; idx++) {
+            bg.removeChild(thumbs[idx]);
+        }
     }
 }
       
