@@ -562,7 +562,11 @@ function thumbs() {
       }
     }
     for (let a = 0; a < arr.length; a++) {
-      bg.appendChild(arr[a]);
+      var image = document.createElement("img");
+      var url = arr[a].getAttribute('src');
+      image.setAttribute('src' = url);
+      image.classList.add('thumbnail');
+      bg.appendChild(image);
     }
 }
       
