@@ -576,7 +576,7 @@ function thumbs() {
           image.setAttribute('id', id);
           image.onclick = (function (el) {
                 return function () {
-                    thumbSearch(el);
+                    thumbSearch(this);
                 };
             })(this);
 
