@@ -574,7 +574,12 @@ function thumbs() {
           var id = "thumb-" + a.toString();
           image.setAttribute('src', url);
           image.setAttribute('id', id);
-          image.setAttribute('onlick', 'thumbSearch()');
+          image.onclick = (function (this) {
+                return function () {
+                    thumbSearch(this);
+                };
+            })(this);
+
           image.classList.add('thumbnail');
           bg.appendChild(image);
         }
