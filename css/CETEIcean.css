@@ -1852,8 +1852,8 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
 }
 
 .zoom-button > img {
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 32px;
+    max-height: 32px;
     display: inline-block;
     position: fixed;
     bottom: 90px;
@@ -1862,14 +1862,14 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
 }
 
 .thumb {
-    left: 120px;
+    left: 75px;
 }
 .zoom-in {
     left: 140px;
 }
 
-.zoom-out {
-    left: 160px;   
+.zoomout {
+    left: 110px;   
 }
 
 .zoom-button:hover > img {
