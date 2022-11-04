@@ -582,6 +582,10 @@ function thumbs() {
 
           image.classList.add('thumbnail');
           bg.appendChild(image);
+          const text = document.createElement("DIV");
+          var numeration = a + 1;
+          text.innerHTML = numeration.toString();
+          bg.appendChild(text);
         }
         zoomOut.style.display = 'none';
         zoomIn.style.display = 'none';
