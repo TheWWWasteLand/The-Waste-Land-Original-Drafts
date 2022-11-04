@@ -580,6 +580,7 @@ function thumbs() {
         const thumbs = document.getElementsByClassName('thumbnail');
         console.log(thumbs.length);
         for (let i = 0; i < thumbs.length; i++) {
+            console.log(i);
             console.log(thumbs[i]);
             bg.removeChild(thumbs[i]);
         }
