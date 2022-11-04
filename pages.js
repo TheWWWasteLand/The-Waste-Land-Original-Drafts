@@ -599,13 +599,25 @@ function thumbs() {
 }
 
 function thumbSearch(el) {
-      console.log(el);
-      console.log("text");
       var id = el.getAttribute('id');
       var reg = /\d+/;
       var n = id.match(reg);
-      console.log(n);
+      goToPage(n);
 }
+
+function goToPage(num) {
+    const pageList = document.getElementsByTagName('tei-div');
+    for (let i = 0; i < pageList.length; i++) {
+        if (pageList[i].style.display == "inline-block" && i != num) {
+            pageList[i].style.display == "none";
+        }
+        if (i == num) {
+            pageList[i].style.display == "inline-block";
+        }    
+    }
+}
+    
+        
 
     
       
