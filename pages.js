@@ -579,10 +579,9 @@ function thumbs() {
     else {
         const thumbs = document.getElementsByClassName('thumbnail');
         console.log(thumbs.length);
-        for (let i = 0; i < thumbs.length; i++) {
-            console.log(i);
-            console.log(thumbs[i]);
-            bg.removeChild(thumbs[i]);
+        while (thumbs.length > 0) {
+            console.log(thumbs[0]);
+            bg.removeChild(thumbs[0]);
         }
         zoomOut.style.display = 'inline-block';
         zoomIn.style.display = 'inline-block';
