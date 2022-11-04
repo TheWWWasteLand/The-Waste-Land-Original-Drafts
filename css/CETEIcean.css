@@ -1863,7 +1863,7 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
 
 .thumb {
     left: 120px;
-
+}
 .zoom-in {
     left: 140px;
 }
