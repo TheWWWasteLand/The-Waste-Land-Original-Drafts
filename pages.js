@@ -592,14 +592,12 @@ function thumbs() {
     }
 }
 
-$(document).ready(function(){
-    $(".thumbnail").click(function(){
-        var id = $(this).attr('id');
-        var reg = /\d+/;
-        var n = id.match(reg);
-        console.log(n);
-    })
+$(".thumbnail").click(function(){
+    var id = $(this).attr('id');
+    var reg = /\d+/;
+    var n = id.match(reg);
+    console.log(n);
 })
-        
+    
       
 
