@@ -608,16 +608,15 @@ function thumbSearch(el) {
 function goToPage(num) {
     const pageList = document.getElementsByTagName('tei-div');
     for (let i = 0; i < pageList.length; i++) {
-        console.log(pageList[i]);
         var style = window.getComputedStyle(pageList[i]);
-        console.log(style);
         var display = style.getPropertyValue('display');
-        console.log(display);
         if (display == "block" && i != num) {
-            pageList[i].style.display == "none";
+            pageList[i].style.display == "none !important";
+            console.log("done");
         }
         if (i == num) {
-            pageList[i].style.display == "block";
+            pageList[i].style.display == "block !important";
+            console.log("me");
         }    
     }
 }
