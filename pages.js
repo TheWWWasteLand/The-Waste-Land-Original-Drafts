@@ -510,13 +510,6 @@ $(document).ready(function(){
       $(this).css({"left": leftPx});
     });
   });
-  $(".thumbnail").click(function(){
-      console.log("x");
-      var id = $(this).attr('id');
-      var reg = /\d+/;
-      var n = id.match(reg);
-      console.log(n);
-  });
 });
 
 /* zoom */
@@ -581,6 +574,7 @@ function thumbs() {
           var id = "thumb-" + a.toString();
           image.setAttribute('src', url);
           image.setAttribute('id', id);
+          image.setAttribute('onlick', 'thumbSearch(this)');
           image.classList.add('thumbnail');
           bg.appendChild(image);
         }
@@ -597,6 +591,14 @@ function thumbs() {
         zoomOut.style.display = 'inline-block';
         zoomIn.style.display = 'inline-block';
     }
+}
+
+function thumbSearch(el) {
+      console.log("x");
+      var id = el.getAttribute('id');
+      var reg = /\d+/;
+      var n = id.match(reg);
+      console.log(n);
 }
 
     
