@@ -510,6 +510,13 @@ $(document).ready(function(){
       $(this).css({"left": leftPx});
     });
   });
+  $(".thumbnail").click(function(){
+      console.log("x");
+      var id = $(this).attr('id');
+      var reg = /\d+/;
+      var n = id.match(reg);
+      console.log(n);
+  });
 });
 
 /* zoom */
@@ -592,13 +599,6 @@ function thumbs() {
     }
 }
 
-$(".thumbnail").click(function(){
-    console.log("x");
-    var id = $(this).attr('id');
-    var reg = /\d+/;
-    var n = id.match(reg);
-    console.log(n);
-})
     
       
 
