@@ -599,7 +599,7 @@ function thumbs() {
 }
 
 function thumbSearch(el) {
-      var text = "sometexta caso";
+      console.log(el);
       console.log("text");
       var id = el.getAttribute('id');
       var reg = /\d+/;
