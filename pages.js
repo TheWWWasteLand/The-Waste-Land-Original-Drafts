@@ -552,7 +552,7 @@ function zoomout () {
 
 function thumbs() {
     const bg = document.getElementsByClassName('zoom-button')[0];
-    bg.style.backgroundColor = 'rgba(69, 80, 95, 0.85) !important';
+    bg.style.backgroundColor = 'rgba(69, 80, 95, 0.85)';
     const figures = document.getElementsByTagName("tei-graphic");
     var arr = []
     for (let i = 0; i < figures.length; i++) {
