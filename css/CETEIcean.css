@@ -1127,7 +1127,7 @@ tei-text {
   z-index: 100;
   margin-left: -4.5em !important;
   margin-top: -1em !important;
-  padding-left: calc(50% - 130px);
+  padding-left: calc(50% - 180px);
   padding-top: 1em;
   padding-right: 1em;
   padding-bottom: 0.2em;
@@ -1146,7 +1146,7 @@ tei-text {
   cursor: pointer;
 }
 .low-bar {
-    padding-left: calc(50% - 300px);
+    padding-left: calc(50% - 280px);
     height: 55px;
     margin-left: -4.5em !important;
     position: fixed;
