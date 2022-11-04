@@ -574,9 +574,9 @@ function thumbs() {
           var id = "thumb-" + a.toString();
           image.setAttribute('src', url);
           image.setAttribute('id', id);
-          image.onclick = (function (this) {
+          image.onclick = (function (el) {
                 return function () {
-                    thumbSearch(this);
+                    thumbSearch(el);
                 };
             })(this);
 
@@ -598,7 +598,7 @@ function thumbs() {
     }
 }
 
-function thumbSearch() {
+function thumbSearch(el) {
       var text = "sometexta caso";
       console.log("text");
       var id = el.getAttribute('id');
