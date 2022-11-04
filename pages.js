@@ -512,6 +512,20 @@ $(document).ready(function(){
   });
 });
 
+/* photo only */ 
+$(document).ready(function(){
+  $("#imgOnly").click(function(){
+    $("tei-lg").hide();
+    $("tei-quote").hide();  
+    $("tei-head").hide();
+    $("#button-notes-list").hide();
+    $("tei-figure").css({"width": "calc(100vw - 126px)"};
+  });
+});
+
+
+
+
 /* zoom */
 
 function zoomin() {
@@ -623,7 +637,19 @@ function goToPage(num) {
             pageList[i].style.display = "block";
             console.log(pageList[i]);
             console.log("me");
-        }    
+        }
+        if (i == 0) {
+            document.getElementById('prev').style.display="none";
+        }
+        else {
+            document.getElementById('prev').style.display="block";
+        }
+        if (i == pageList.length) {
+            document.getElementById('next').style.display="none";
+        }
+        else {
+            document.getElementById('next').style.display="block";
+        }
     }
 }
     
