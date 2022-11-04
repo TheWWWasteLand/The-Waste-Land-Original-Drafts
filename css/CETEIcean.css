@@ -1865,9 +1865,10 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
     top: 10px;
     max-width: 300px !important;
     max-height: 300px !important;
-    width: 15% !important;
+    width: 22.5% !important;
     opacity: 1 !important;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .thumb {
