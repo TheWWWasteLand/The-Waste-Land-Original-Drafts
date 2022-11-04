@@ -645,7 +645,7 @@ function goToPage(num) {
     else {
         document.getElementById('prev').style.display="block";
     }
-    if (num == pageList.length) {
+    if (num == (pageList.length - 1)) {
         document.getElementById('next').style.display="none";
     }
     else {
