@@ -611,12 +611,12 @@ function goToPage(num) {
         var style = window.getComputedStyle(pageList[i]);
         var display = style.getPropertyValue('display');
         if (display == "block" && i != num) {
-            pageList[i].style.display == "none !important";
+            pageList[i].style.display = "none";
             console.log(pageList[i]);
             console.log("done");
         }
         if (i == num) {
-            pageList[i].style.display == "block !important";
+            pageList[i].style.display = "block";
             console.log(pageList[i]);
             console.log("me");
         }    
