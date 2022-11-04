@@ -41,21 +41,19 @@
   <div id="button-notes-list">
     <ul>
       <li>T. S. Eliot 
-        <label class="switch" id="TEswitch">
-          <input type="checkbox" checked>
-          <span class="slider round red"  onclick="TEliot()"></span>
-        </label></li>
+        <div class="switch" id="TEswitch">
+          <span onclick="TEliot()">HIDE</span>
+        </div>
+      </li>
       <li>Ezra Pound
-        <label class="switch" onclick="Pound()" id="EPswitch">
-          <input type="checkbox" checked>
-          <span class="slider round blue"></span>
-        </label>
+        <div class="switch" id="EPswitch">
+          <span onclick="Pound()">HIDE</span>
+        </div>
       </li>
       <li>Viviene Eliot
-        <label class="switch" onclick="VEliot()" id="VEswitch">
-          <input type="checkbox" checked>
-          <span class="slider round green"></span>
-        </label>
+        <div class="switch" id="VEswitch">
+          <span onclick="VEliot()">HIDE</span>
+        </div>
       </li>
     </ul>
   </div>
