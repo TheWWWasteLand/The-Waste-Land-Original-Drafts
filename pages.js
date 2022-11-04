@@ -606,15 +606,15 @@ function thumbSearch(el) {
 }
 
 function goToPage(num) {
-    console.log(num);
     const pageList = document.getElementsByTagName('tei-div');
     for (let i = 0; i < pageList.length; i++) {
-        console.log(i);
         if (pageList[i].style.display == "inline-block" && i != num) {
             pageList[i].style.display == "none";
+            console.log(i);
         }
         if (i == num) {
             pageList[i].style.display == "inline-block";
+            console.log(i);
         }    
     }
 }
