@@ -470,6 +470,9 @@ function TEliot() {
   }
 };  
 
+
+/* singlePage */
+
 function singlePage() {
     $("tei-figure").hide();
     $(".zoom-button").hide();
@@ -488,7 +491,7 @@ function singlePage() {
     });
 }
 
-/* jQuery */
+/* text only */
 
 $(document).ready(function(){
   $("#textOnly").click(function(){
@@ -568,7 +571,9 @@ function thumbs() {
         for (let a = 0; a < arr.length; a++) {
           var image = document.createElement("img");
           var url = arr[a].getAttribute('src');
+          var id = "thumb-" + a.toString();
           image.setAttribute('src', url);
+          image.setAttribute('id', id);
           image.classList.add('thumbnail');
           bg.appendChild(image);
         }
@@ -578,14 +583,23 @@ function thumbs() {
     }
     else {
         const thumbs = document.getElementsByClassName('thumbnail');
-        console.log(thumbs.length);
         while (thumbs.length > 0) {
-            console.log(thumbs[0]);
             bg.removeChild(thumbs[0]);
         }
+        bg.style.backgroundColor = 'rgba(69, 80, 95, 0)';
         zoomOut.style.display = 'inline-block';
         zoomIn.style.display = 'inline-block';
     }
 }
+
+$(document).ready(function(){
+    $(".thumbnail").click(function(){
+        var id = $(this).attr('id');
+        var reg = /\d+/;
+        var n = id.match(reg);
+        console.log(n);
+    })
+})
+        
       
 
