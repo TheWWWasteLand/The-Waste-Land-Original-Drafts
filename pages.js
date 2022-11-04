@@ -601,7 +601,7 @@ function thumbs() {
 function thumbSearch(el) {
       var id = el.getAttribute('id');
       var reg = /\d+/;
-      var n = (id.match(reg))[0];
+      var n = (id.match(reg))[0].toString();
       goToPage(n);
 }
 
