@@ -612,10 +612,12 @@ function goToPage(num) {
         var display = style.getPropertyValue('display');
         if (display == "block" && i != num) {
             pageList[i].style.display == "none !important";
+            console.log(pageList[i]);
             console.log("done");
         }
         if (i == num) {
             pageList[i].style.display == "block !important";
+            console.log(pageList[i]);
             console.log("me");
         }    
     }
