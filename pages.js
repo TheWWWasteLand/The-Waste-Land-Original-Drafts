@@ -552,6 +552,8 @@ function zoomout () {
 
 function thumbs() {
     const bg = document.getElementsByClassName('zoom-button')[0];
+    const zoomIn = document.getElementsByClassName('zoom-in')[0];
+    const zoomOut = document.getElementsByClassName('zoomout')[0];
     if (document.getElementsByClassName('thumbnail').length == 0) {
         bg.style.backgroundColor = 'rgba(69, 80, 95, 0.9)';
         bg.style.overflow = 'auto';
@@ -570,12 +572,18 @@ function thumbs() {
           image.classList.add('thumbnail');
           bg.appendChild(image);
         }
+        zoomOut.style.display = 'none';
+        zoomIn.style.display = 'none';
+        
     }
     else {
         const thumbs = document.getElementsByClassName('thumbnail');
+        console.log(thumbs.length);
         for (let idx = 0; idx < thumbs.length; idx++) {
             bg.removeChild(thumbs[idx]);
         }
+        zoomOut.style.display = 'inline-block';
+        zoomIn.style.display = 'inline-block';
     }
 }
       
