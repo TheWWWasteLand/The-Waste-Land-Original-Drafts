@@ -1869,6 +1869,7 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
     opacity: 1 !important;
     margin-left: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .thumb {
