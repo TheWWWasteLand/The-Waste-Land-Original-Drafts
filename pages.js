@@ -611,11 +611,11 @@ function goToPage(num) {
         var style = window.getComputedStyle(pageList[i]);
         var display = style.getPropertyValue('display');
         console.log(display);
-        if (display == "inline-block" && i != num) {
+        if (display == "block" && i != num) {
             pageList[i].style.display == "none";
         }
         if (i == num) {
-            pageList[i].style.display == "inline-block";
+            pageList[i].style.display == "block";
         }    
     }
 }
