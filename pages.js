@@ -267,17 +267,8 @@ function finalVer() {
   if (i.getAttribute('style') != "display: none;") {
     additions(document.getElementById("add-i"));
     i.classList.toggle('finalActivation');
-    if (i.getAttribute('class').includes('finalActivation')) {
-      document.getElementById("TEswitch").style.display = 'inline-block' ;
-    }
-    else {
-      document.getElementById("TEswitch").style.display = 'none' ;
-    } 
   }
   else if (one.getAttribute('style') == "display: block;") {
-    document.getElementById("TEswitch").style.display = 'inline-block' ;
-    document.getElementsByClassName('blue')[0].style.display="none";
-    document.getElementsByClassName('green')[0].style.display="none";
     for (let i = 0; i < 13; i++) {
       deletions(dels[i]);
     }
@@ -291,9 +282,6 @@ function finalVer() {
     }
   }
   else if (two.getAttribute('style') == "display: block;") {
-    document.getElementById("TEswitch").style.display = 'inline-block' ;
-    document.getElementById("EPswitch").style.display = 'inline-block' ;
-    document.getElementsByClassName('green')[0].style.display="none";
     for (let i = 1; i < 6; i++) {
       highlight(his[i]);
     }
@@ -450,25 +438,6 @@ function sec() {
 function page() {
   document.getElementById('pageList').classList.toggle('hidden');
 };
-
-/* shows/hides T. Eliot notes */
-
-function TEliot() {
-  var i, one, two, three, four, five;;
-  i = document.getElementById('page-i');
-  one = document.getElementById('page-2');
-  two = document.getElementById('page-3');
-  three = document.getElementById('page-4');
-  four = document.getElementById('page-5');
-  five = document.getElementById('page-6')
-  if (i.getAttribute('style') != "display: none;") {
-    document.getElementById("TEswitch").style.display = 'inline-block' ;
-    finalVer();
-  }
-  else if (one.getAttribute('style') != "display: none;") {
-    finalVer();
-  }
-};  
 
 
 /* singlePage */
