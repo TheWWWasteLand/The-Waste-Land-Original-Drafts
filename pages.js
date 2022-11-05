@@ -458,6 +458,16 @@ function singlePage() {
             $(this).css({"padding-bottom": "295px"});
         }
     });
+    $("tei-del").remove();
+    $("tei-add").each(function(){
+       var parents = $(this).parents();
+       for (let i = 0; i < parents.length; i++) {
+           if (parents[i].attr('type') == "poemPage") {
+               var textOriginal = parents[i].text();
+               console.log(textOriginal);
+           }
+       }
+    });
 }
 
 /* text only */
