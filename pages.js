@@ -466,7 +466,7 @@ function singlePage() {
                var textOriginal = $(this).text();
                console.log(textOriginal);
            }
-       }
+       });
     });
 }
 
