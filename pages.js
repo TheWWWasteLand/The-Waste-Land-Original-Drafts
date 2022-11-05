@@ -469,6 +469,7 @@ function singlePage() {
                    $(this).removeAttr("place");
                    $(this).attr("place", "inline");
                    $(this).css({"background-color": "#f5b3c2", "display": "inline-block"});
+                   $(this).toggleClass("hidden");
                });
                var htmlOriginal = $(this).html();
            }
