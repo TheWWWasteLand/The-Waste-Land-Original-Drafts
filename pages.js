@@ -462,10 +462,15 @@ function singlePage() {
     $("tei-add").each(function(){
        var parents = $(this).parents();
        parents.each(function(){
-           console.log($(this));
            if ($(this).prop("nodeName") == "TEI-L") {
-               var textOriginal = $(this).text();
-               console.log(textOriginal);
+               var adds = $(this).find("tei-add");
+               adds.each(function(){
+                   $(this).removeAttr("rend");
+                   $(this).removeAttr("place");
+                   $(this).attr("place", "inline");
+                   $(this).css({"background-color": "#f5b3c2"});
+               });
+               var htmlOriginal = $(this).html();
            }
        });
     });
