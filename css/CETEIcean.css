@@ -162,6 +162,10 @@ tei-add[place=margin-right][rend=linking-line]::before {
   white-space: pre;
   text-decoration: line-through;
 }
+tei-add[place=inline] {
+  margin: 0px !important;
+  padding: 0px !important;
+}
 tei-add[place=margin-right-inline] {
   display: inline-block;
 }
