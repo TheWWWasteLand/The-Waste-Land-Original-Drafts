@@ -468,7 +468,7 @@ function singlePage() {
                    $(this).removeAttr("rend");
                    $(this).removeAttr("place");
                    $(this).attr("place", "inline");
-                   $(this).css({"background-color": "#f5b3c2", "display": "inline-block", "padding": "0 !important", "margin": "0!important"});
+                   $(this).css({"background-color": "#f5b3c2", "display": "inline-block", "padding": "0px !important", "margin": "0 !important"});
                    $(this).toggleClass("hidden");
                });
                var htmlOriginal = $(this).html();
