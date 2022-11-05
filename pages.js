@@ -462,6 +462,7 @@ function singlePage() {
     $("tei-add").each(function(){
        var parents = $(this).parents();
        parents.each(function(){
+           console.log($(this));
            if ($(this).attr('id') == "poemPage") {
                var textOriginal = $(this).text();
                console.log(textOriginal);
