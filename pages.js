@@ -463,7 +463,7 @@ function singlePage() {
        var parents = $(this).parents();
        parents.each(function(){
            console.log($(this));
-           if ($(this).attr('id') == "poemPage") {
+           if ($(this).attr('type') == "poemPage") {
                var textOriginal = $(this).text();
                console.log(textOriginal);
            }
