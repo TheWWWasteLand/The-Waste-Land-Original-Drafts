@@ -18,11 +18,11 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                <msIdentifier>
-                    <settlement>New York</settlement>
-                    <repository>Public Library</repository>
-                    <idno type="Bod">Cup.410.g.63</idno>
-                </msIdentifier>
+                    <msIdentifier>
+                        <settlement>New York</settlement>
+                        <repository>Public Library</repository>
+                        <idno type="Bod">Cup.410.g.63</idno>
+                    </msIdentifier>
                     <msContents>
                         <msItem>
                             <title>The Waste Land</title>
@@ -30,6 +30,19 @@
                             <date>1922</date>
                         </msItem>
                     </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="TEliot" scribe="ThomasEliot" scope="major">
+                                Thomas Eliot's hand that wrote the whole typescript and most of the annotations.
+                            </handNote>
+                            <handNote xml:id="Pound" scribe="EzraPound" scope="minor">
+                                Ezra Pound's wrote many corrections and notes.
+                            </handNote>
+                            <handNote xml:id="VEliot" scribe="VivienneEliot" scope="minor">
+                                Vivienne Eliot's wrote a few corrections and notes.
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -61,7 +74,7 @@
   sion, - he cried out twice, a cry that was no more than a<lb/>
   breath -<lb/>
                  'The horror!   The horror!'"<lb/>
-                                                                <add xml:id="add-i" hand="TEliot" rend="largerFirstLetter">CONRAD.</add></p>
+                                              <add xml:id="add-i" hand="TEliot" rend="largerFirstLetter">CONRAD.</add></p>
                     </quote>  
                 </div>
             </titlePage>
