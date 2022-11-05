@@ -461,9 +461,9 @@ function singlePage() {
     $("tei-del").remove();
     $("tei-add").each(function(){
        var parents = $(this).parents();
-       for (let i = 0; i < parents.length; i++) {
-           if (parents[i].attr('type') == "poemPage") {
-               var textOriginal = parents[i].text();
+       parents.each(function(){
+           if ($(this).attr('id') == "poemPage") {
+               var textOriginal = $(this).text();
                console.log(textOriginal);
            }
        }
