@@ -475,6 +475,19 @@ function singlePage() {
            }
        });
     });
+    $("tei-delSpan").each(function(){
+      var target = $(this).attr("spanTo");
+      var siblings = $(this).siblings();
+      var a = 0;
+      siblings.each(function() {
+         a = a + 1; 
+         if ($(this).attr('id') == target) {
+           for (let b = 0; b < a; b++) {
+             siblings[b].text("");
+           }
+         }
+      });
+    });
 }
 
 /* text only */
