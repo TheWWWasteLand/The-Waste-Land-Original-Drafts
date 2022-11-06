@@ -499,6 +499,8 @@ function singlePage() {
                }
                else if ($(this).find(target).length == 1) {
                    var string = '<anchor xml:id="' + target + '"/>';
+                   console.log(string);
+                   console.log($(this).html());
                    var idx = $(this).html().indexOf(string);
                    console.log(idx);
                }
