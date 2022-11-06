@@ -505,6 +505,7 @@ function singlePage() {
                    var idx = text.indexOf(string);
                    console.log(idx);
                    var newString = text.substring(idx);
+                   $(this).html(newString);
                }
              });
          }
