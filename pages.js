@@ -498,7 +498,8 @@ function singlePage() {
                    $(this).hide();
                }
                else if ($(this).find(target).length == 1) {
-                   var string = '<tei-anchor xml:id="' + target + '" id ="' + target + '"data-origname="anchor" data-empty="" data-processed="">';
+                   var newtarget = target.substring(1);
+                   var string = '<tei-anchor xml:id="' + newtarget + '" id ="' + newtarget + '"data-origname="anchor" data-empty="" data-processed="">';
                    console.log(string);
                    console.log($(this).html());
                    var idx = $(this).html().indexOf(string);
