@@ -90,7 +90,7 @@
                         <lb/>
                         THE BURIAL OF THE DEAD.
                     </head>
-                    <delSpan xml:id="delSpan-01" hand="TEliot" rend="diagonalStrike rightToLeft"/>
+                    <delSpan xml:id="delSpan-01" hand="TEliot" spanTo="delSpan-01End" rend="diagonalStrike rightToLeft"/>
                     <lg type="stanza" n="1" xml:id="stanza01">
                         <l n="1">First we had a couple of feelers down at Tom's place</l>
                         <l>There was old Tom, boiled to eyes, blind,</l>
@@ -147,6 +147,7 @@
                         <l>And Mr. Donovan holding the watch.</l>
                         <l>So I got out to see the sunrise, and walked home.</l> 
                     </lg>
+                    <anchor xml:id="delSpan-01End"/>
                     <note id="note-1" hand="TEliot"><del><lg>
                         <l>Meet me in the shadow of the <lb/> watermelon Vine</l>
                         <l>Eva Iva Uva Emmaline</l>
