@@ -231,7 +231,7 @@
                     </metamark>
                     
                     <lg type="stanza" n="5" xml:id="stanza05">
-                        <l>Madame Sosostris, famous clairvoyant<add xml:id="add-14" plac&="above" rend="superscript" hand="TEliot">e</add>,</l>
+                        <l>Madame Sosostris, famous clairvoyant<add xml:id="add-14" place="above" rend="superscript" hand="TEliot">e</add>,</l>
                         <l>Had a bad cold, nevertheless</l>
                         <l>Is known to be the wisest woman in Europe,</l>
                         <l>With a wicked pack of cards. Here, said she,</l>
