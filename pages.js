@@ -478,7 +478,7 @@ function singlePage() {
     $("tei-delSpan").each(function(){
       var x = $(this);
       var target = $(this).attr("spanTo");
-      var siblings = $(this).siblings();
+      var siblings = $(this).nextAll();
       var a = 0;
       siblings.each(function() {
          if ($(this).attr('id') == target) {
