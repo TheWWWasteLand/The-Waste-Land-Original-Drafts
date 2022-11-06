@@ -211,22 +211,27 @@
                             <l>I will show you fear in a handful of dust.</l>
                     </lg>
                     <head>  *  *  *  * </head>
-                    <metamark function="transpostion" place="around" rend="circled arrow" hand="TEliot" target="#target-2"><hi xml:id="hi-4" rend="circled" hand="TEliot"><lg type="stanza" n="4" xml:id="stanza04">
-                        <l n="85"><del xml:id="del-13">Mein</del> Frisch <subst xml:id="sub-6"><del xml:id="del-14" hand="TEliot">schwebt</del><add xml:id="add-12" hand="TEliot" place="above">weht</add></subst> der Wind </l>
-                        <l>           Der Heimat zu,</l>
-                        <l>           Mein Irisch' Kind,</l>
-                        <l>           Wo weilest du?</l>
-                        <l>"You fave me hyacinths first a year ago; </l>
-                        <l n="90">"They called me the hyacinth girl".</l>
-                        <l>- Yet when we came back, late, from the hyacinth garden,</l>
-                        <l>Your arms full, and your hair wet, <hi xml:id="hi-5a" rend="underline" hand="Pound">I could not</hi></l>
-                        <l><hi xml:id="hi-5b" rend="underline" hand="Pound">Speak</hi>, and my eyes failed, I was neither</l>
-                        <l>Living nor dead, and I knew nothing,</l>
-                        <l n="95">Looking into the heart of light, the silence.</l>
-                    </lg></hi></metamark>
-                    <add xml:id="add-13" place="margin-right" hand="TEliot" rend="linking-line">Öd' und leer das Meer.</add>
+                    <metamark function="transpostion" place="around" rend="circled arrow" hand="TEliot" target="#target-2">
+                        <lg type="stanza" n="4" xml:id="stanza04">
+                            <hi xml:id="hi-4" rend="circled" hand="TEliot">
+                                <l n="85"><del xml:id="del-13">Mein</del> Frisch <subst xml:id="sub-6"><del xml:id="del-14" hand="TEliot">schwebt</del><add xml:id="add-12" hand="TEliot" place="above">weht</add></subst> der Wind </l>
+                                <l>           Der Heimat zu,</l>
+                                <l>           Mein Irisch' Kind,</l>
+                                <l>           Wo weilest du?</l>
+                                <l>"You fave me hyacinths first a year ago; </l>
+                                <l n="90">"They called me the hyacinth girl".</l>
+                                <l>- Yet when we came back, late, from the hyacinth garden,</l>
+                                <l>Your arms full, and your hair wet, <hi xml:id="hi-5a" rend="underline" hand="Pound">I could not</hi></l>
+                                <l><hi xml:id="hi-5b" rend="underline" hand="Pound">Speak</hi>, and my eyes failed, I was neither</l>
+                                <l>Living nor dead, and I knew nothing,</l>
+                                <l n="95">Looking into the heart of light, the silence.</l>
+                            </hi>
+                            <add xml:id="add-13" place="margin-right" hand="TEliot" rend="linking-line">Öd' und leer das Meer.</add>
+                        </lg>
+                    </metamark>
+                    
                     <lg type="stanza" n="5" xml:id="stanza05">
-                        <l>Madame Sosostris, famous clairvoyant<add xml:id="add-14" place="above" rend="superscript" hand="TEliot">e</add>,</l>
+                        <l>Madame Sosostris, famous clairvoyant<add xml:id="add-14" plac&="above" rend="superscript" hand="TEliot">e</add>,</l>
                         <l>Had a bad cold, nevertheless</l>
                         <l>Is known to be the wisest woman in Europe,</l>
                         <l>With a wicked pack of cards. Here, said she,</l>
