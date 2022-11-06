@@ -490,7 +490,7 @@ function singlePage() {
                else if ($(this).next().attr('id') != target) {
                    $(this).hide();
                }
-           }
+           });
          }
       });
     });
