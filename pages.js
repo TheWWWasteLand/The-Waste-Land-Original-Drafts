@@ -506,6 +506,7 @@ function singlePage() {
                    console.log(idx);
                    var newString = text.substring(idx);
                    $(this).html(newString);
+                   return false;
                }
              });
          }
