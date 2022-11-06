@@ -466,14 +466,14 @@ function singlePage() {
     $("tei-add").each(function(){
        var parents = $(this).parents();
        parents.each(function(){
-           if ($(this).prop("nodeName") == "TEI-L" || $(this).prop("nodeName") == "TEI-HEAD") {
+           if ($(this).prop("nodeName") == "TEI-L" || $(this).prop("nodeName") == "TEI-HEAD" || $(this).prop("nodeName") == "TEI-LG") {
                var adds = $(this).find("tei-add");
                adds.each(function(){
                    $(this).removeAttr("rend");
                    $(this).removeAttr("place");
                    $(this).attr("place", "inline");
                    $(this).css({"background-color": "#f5b3c2", "display": "inline-block", "padding": "0px !important", "margin": "0 !important"});
-                   $(this).toggleClass("hidden");
+                   $(this).removeClass("hidden");
                });
                var htmlOriginal = $(this).html();
            }
