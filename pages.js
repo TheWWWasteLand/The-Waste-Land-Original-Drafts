@@ -502,7 +502,7 @@ function singlePage() {
                    var idx = $(this).indexOf(string);
                    console.log(idx);
                }
-            )};
+             });
          }
       });
     });
