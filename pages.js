@@ -498,7 +498,8 @@ function singlePage() {
                    $(this).hide();
                }
                else if ($(this).find(target).length == 1) {
-                   var string = '<anchor xml:id="' + target + '"/>';
+                   delSpan-02End" id="delSpan-02End" data-origname="anchor" data-empty="" data-processed="">
+                   var string = '<tei-anchor xml:id="' + target + '" id ="' + target + '"data-origname="anchor" data-empty="" data-processed="">';
                    console.log(string);
                    console.log($(this).html());
                    var idx = $(this).html().indexOf(string);
