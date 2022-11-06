@@ -485,7 +485,7 @@ function singlePage() {
            siblings.each(function() {
                if ($(this).next().attr('id') == target) {
                    $(this).hide();
-                   break;
+                   return false;
                }
                else if ($(this).next().attr('id') != target) {
                    $(this).hide();
