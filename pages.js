@@ -443,9 +443,9 @@ function page() {
 /* singlePage */
 
 function singlePage() {
-    $("tei-l").each(function{
+    $("tei-l").each(function(){
         $(this).removeAttr("n");
-    }   
+    });  
     $("tei-figure").hide();
     $(".zoom-button").hide();
     $("[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "300px", "height": "auto", "overflow":"auto", "-webkit-box-shadow": "2px 4px 4px 0px #999", "box-shadow":" 2px 4px 4px 0px #999"});
