@@ -492,6 +492,18 @@ function singlePage() {
                }
            });
          }
+         else {
+             siblings.each(function() {
+               if ($(this).find(target).length == 0) {
+                   $(this).hide();
+               }
+               else if ($(this).find(target).length == 1) {
+                   var string = '<anchor xml:id="' + target + '"/>';
+                   var idx = $(this).indexOf(string);
+                   console.log(idx);
+               }
+            )};
+         }
       });
     });
 }
