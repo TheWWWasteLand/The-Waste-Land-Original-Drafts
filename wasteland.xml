@@ -226,7 +226,7 @@
                     </lg></hi></metamark>
                     <add xml:id="add-13" place="margin-right" hand="TEliot" rend="linking-line">Öd' und leer das Meer.</add>
                     <lg type="stanza" n="5" xml:id="stanza05">
-                        <l>Madame Sosostris, famous clairvoyant,<add xml:id="add-14" place="above" rend="superscript" hand="TEliot">e</add></l>
+                        <l>Madame Sosostris, famous clairvoyant<add xml:id="add-14" place="above" rend="superscript" hand="TEliot">e</add>,</l>
                         <l>Had a bad cold, nevertheless</l>
                         <l>Is known to be the wisest woman in Europe,</l>
                         <l>With a wicked pack of cards. Here, said she,</l>
@@ -254,7 +254,7 @@
                         <l>Which I am forbidden to see. <hi xml:id="hi-8" hand="Pound" rend="squared">I look in vain</hi><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el.png" xml:id="pound-1-hi"/></l>
                         <l>For the Hanged Man. Fear death by water.</l>
                         <l>I see crowds of people, walking round in a ring.</l>
-                        <l n="110"><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el-2.png" xml:id="pound-2-hi"/><del xml:id="del-17" hand="Pound">(I John saw these things, and heard them)</del>.</l>
+                        <l n="110"><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el-2.png" xml:id="pound-2-hi"/><del xml:id="del-17" hand="Pound">(I John saw these things, and heard them).</del></l>
                         <l>Thank you. If you see dear Mrs. Equitone,</l>
                         <l>Tell her I bring the horoscope myself,</l>
                         <l>One must be so careful these days.</l>
