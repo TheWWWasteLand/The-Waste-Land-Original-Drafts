@@ -450,6 +450,9 @@ function singlePage() {
     $("tei-l").each(function(){
         $(this).removeAttr("n");
     });  
+    $("#add-16").hide();
+    $("#add-24").hide();
+    $("#add-27").hide();
     $("tei-l span").hide();
     $("tei-figure").hide();
     $(".zoom-button").hide();
