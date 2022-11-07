@@ -443,6 +443,10 @@ function page() {
 /* singlePage */
 
 function singlePage() {
+    const case1 = $("#hi-4 tei-l:first-child");
+    var textCase1 = $("#hi-4 tei-l:first-child").html();
+    var newTextCase1 = "          " + textCase1;
+    case1.html(newTextCase1);
     $("tei-l").each(function(){
         $(this).removeAttr("n");
     });  
@@ -519,10 +523,6 @@ function singlePage() {
          }
       });
     });
-    const case1 = $("#hi-4 tei-l:first-child");
-    var textCase1 = $("#hi-4 tei-l:first-child").text();
-    var newTextCase1 = "          " + textCase1;
-    case1.text(newTextCase1);
 }
 
 /* text only */
