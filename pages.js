@@ -464,20 +464,21 @@ function singlePage() {
     });
     $("tei-del").remove();
     $("tei-add").each(function(){
-       if ($(this).attr("cause") == "sign") {
-           console.log($(this));
-           $(this).hide();
-       }
        var parents = $(this).parents();
        parents.each(function(){
            if ($(this).prop("nodeName") == "TEI-L" || $(this).prop("nodeName") == "TEI-HEAD" || $(this).prop("nodeName") == "TEI-LG") {
                var adds = $(this).find("tei-add");
                adds.each(function(){
-                   $(this).removeAttr("rend");
-                   $(this).removeAttr("place");
-                   $(this).attr("place", "inline");
-                   $(this).css({"background-color": "#f5b3c2", "display": "inline-block", "padding": "0px !important", "margin": "0 !important"});
-                   $(this).removeClass("hidden");
+                   if ($(this).attr("cause") == "sign") {
+                       $(this).hide();
+                   }
+                   else {
+                       $(this).removeAttr("rend");
+                       $(this).removeAttr("place");
+                       $(this).attr("place", "inline");
+                       $(this).css({"background-color": "#f5b3c2", "display": "inline-block", "padding": "0px !important", "margin": "0 !important"});
+                       $(this).removeClass("hidden");
+                   }
                });
                var htmlOriginal = $(this).html();
            }
