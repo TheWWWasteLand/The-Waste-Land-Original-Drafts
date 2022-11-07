@@ -167,6 +167,9 @@ tei-add[place=inline] {
   padding: 0px !important;
   line-height: inherit !important;
 }
+tei-add[place=inline]::after {
+  white-space: normal!important;
+}
 tei-add[place=margin-right-inline] {
   display: inline-block;
 }
