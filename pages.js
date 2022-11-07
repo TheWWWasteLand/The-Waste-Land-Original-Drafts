@@ -453,6 +453,7 @@ function singlePage() {
     $("#add-16").hide();
     $("#add-24").hide();
     $("#add-27").hide();
+    $("#add-32").hide();
     $("tei-l span").hide();
     $("tei-figure").hide();
     $(".zoom-button").hide();
@@ -479,7 +480,7 @@ function singlePage() {
                    if ($(this).attr("cause") == "sign") {
                        $(this).hide();
                    }
-                   else if ($(this).attr('id') != "add-16" && $(this).attr('id') != "add-24" && $(this).attr('id') != "add-27") {
+                   else if ($(this).attr('id') != "add-16" && $(this).attr('id') != "add-24" && $(this).attr('id') != "add-27" && $(this).attr('id') != "add-32") {
                        $(this).removeAttr("rend");
                        $(this).removeAttr("place");
                        $(this).attr("place", "inline");
