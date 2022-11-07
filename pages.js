@@ -464,6 +464,9 @@ function singlePage() {
     });
     $("tei-del").remove();
     $("tei-add").each(function(){
+       if ($(this).attr("cause") == "sign") {
+           $(this).hide();
+       }
        var parents = $(this).parents();
        parents.each(function(){
            if ($(this).prop("nodeName") == "TEI-L" || $(this).prop("nodeName") == "TEI-HEAD" || $(this).prop("nodeName") == "TEI-LG") {
