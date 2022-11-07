@@ -465,6 +465,7 @@ function singlePage() {
     $("tei-del").remove();
     $("tei-add").each(function(){
        if ($(this).attr("cause") == "sign") {
+           console.log($(this));
            $(this).hide();
        }
        var parents = $(this).parents();
@@ -507,10 +508,8 @@ function singlePage() {
                else if ($(this).find(target).length == 1) {
                    var newtarget = target.substring(1);
                    var string = '<tei-anchor xml:id="' + newtarget + '" id="' + newtarget + '" data-origname="anchor" data-empty="" data-processed="">';
-                   console.log(string);
                    var text = $(this).html();
                    var idx = text.indexOf(string);
-                   console.log(idx);
                    var newString = text.substring(idx);
                    $(this).html(newString);
                    return false;
@@ -660,13 +659,9 @@ function goToPage(num) {
         var display = style.getPropertyValue('display');
         if (display == "block" && i != num) {
             pageList[i].style.display = "none";
-            console.log(pageList[i]);
-            console.log("done");
         }
         if (i == num) {
             pageList[i].style.display = "block";
-            console.log(pageList[i]);
-            console.log("me");
         }
     }
     if (num == 0) {
