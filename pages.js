@@ -240,40 +240,64 @@ function prevPage() {
   five = document.getElementById('page-6');
   six = document.getElementById('page-7');
   seven = document.getElementById('page-8');
+  const comparison = document.getElementById('singlePageDIV');
   if (one.getAttribute('style') == "display: block;") {
     one.style.display="none";
     i.style.display="block";
     document.getElementById('prev').style.display="none";
+    if (comparison) {
+        prevComparison("#singlePageDIV #page-i", "#singlePageDIV #page-2");
+    }
   }
   else if (two.getAttribute('style') == "display: block;") {
     two.style.display="none";
     one.style.display="block";
+    if (comparison) {
+        prevComparison("#singlePageDIV #page-2", "#singlePageDIV #page-3");
+    }
   }
   else if (three.getAttribute('style') == "display: block;") {
     three.style.display="none";
     two.style.display="block";
+    if (comparison) {
+        prevComparison("#singlePageDIV #page-3", "#singlePageDIV #page-4");
+    }
   }
   else if (four.getAttribute('style') == "display: block;") {
     four.style.display="none";
     three.style.display="block";
+    if (comparison) {
+        prevComparison("#singlePageDIV #page-4", "#singlePageDIV #page-5");
+    }
   }
   else if (five.getAttribute('style') == "display: block;") {
     five.style.display="none";
     four.style.display="block";
+    if (comparison) {
+        prevComparison("#singlePageDIV #page-5", "#singlePageDIV #page-6");
+    }
   }
   else if (six.getAttribute('style') == "display: block;") {
     six.style.display="none";
     five.style.display="block";
     document.getElementById('next').style.display="block";
+    if (comparison) {
+        prevComparison("#singlePageDIV #page-6", "#singlePageDIV #page-7");
+    }
   }
 };
 
 function nextComparison(del, add) {
-    console.log(add);
     $(del).hide();
     $(del).addClass('hidden');
     $(add).show();
-    $(add).addClass('show');
+    $(add).css({"display": "block !important"});
+}
+
+function prevComparison(add, del) {
+    $(del).hide();
+    $(del).addClass('hidden');
+    $(add).show();
     $(add).css({"display": "block !important"});
 }
 
