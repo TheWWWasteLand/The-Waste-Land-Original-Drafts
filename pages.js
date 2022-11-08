@@ -255,9 +255,11 @@ function prevPage() {
 };
 
 function nextComparison(del, add) {
-    console.log(del);
+    console.log(add);
     $(del).hide();
     $(del).addClass('hidden');
+    $(add).show();
+    $(add).addClass('show');
     $(add).css({"display": "block !important"});
 }
 
