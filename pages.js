@@ -159,6 +159,9 @@ function checkKey(e) {
       case '80':
         singlePage();
         break;
+      case '67':
+        comparison();
+        break;
     }
 };
 
@@ -439,13 +442,22 @@ function page() {
   document.getElementById('pageList').classList.toggle('hidden');
 };
 
+/*comparison*/
+
+function comparison() {
+    $("body").append("<div id='singlePageDIV'></div>");
+    $("tei-figure").hide();
+    $(".zoom-button").hide();
+    const tei = $("tei-tei");
+    tei.clone().appendTo("#singlePageDIV");
+    
+}
+
+
 
 /* singlePage */
 
 function singlePage() {
-    $("body").append("<div id='singlePageDIV'></div>");
-    const tei = $("tei-tei");
-    tei.clone().appendTo("#singlePageDIV");
     const case1 = $("#hi-4 tei-l:first-child");
     var textCase1 = $("#hi-4 tei-l:first-child").html();
     var newTextCase1 = "          " + textCase1;
