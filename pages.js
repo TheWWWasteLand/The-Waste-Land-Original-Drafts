@@ -177,6 +177,7 @@ function nextPage() {
   seven = document.getElementById('page-8');
   pageList = document.getElementById('pageList');
   secList = document.getElementById('secList');
+  const comparison = document.getElementById('singlePageDIV');
   if (pageList.getAttribute("class") != "hidden") {
     pageList.classList.toggle('hidden');
   }
@@ -187,6 +188,9 @@ function nextPage() {
     i.style.display="none";
     one.style.display="block";
     document.getElementById('prev').style.display="block";
+    if (comparison) {
+        nextComparison("#singlePageDIV #page-i", "#singlePageDIV #page-i")
+    }
   }
   else if (one.getAttribute('style') == "display: block;") {
     one.style.display="none";
@@ -249,6 +253,10 @@ function prevPage() {
   }
 };
 
+function nextComparison(del, add) {
+    $(del).hide();
+    $(add).show();
+}
 
 /* show final version */
 
