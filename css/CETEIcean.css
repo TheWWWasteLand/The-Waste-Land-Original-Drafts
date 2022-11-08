@@ -488,17 +488,16 @@ tei-head {
 }
 #page-i tei-head {
   padding-top: 2em;
-  margin-left: calc(40vw + 5em);
+  margin-left: calc(50vw - 10em - 70px);
   width: 20em;
 }
 #page-i > tei-quote > tei-p {
-    margin-left:40vw;
+    margin-left: calc(50vw - 10em - 70px);
     white-space: pre;
     line-height: 0.8em;
     overflow-x: auto;
     overflow-y: hidden;
     padding-bottom: 263px;
-}
 }
 tei-lg > tei-head {
     text-align: center;
