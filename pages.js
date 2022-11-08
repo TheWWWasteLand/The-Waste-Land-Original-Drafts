@@ -443,8 +443,9 @@ function page() {
 /* singlePage */
 
 function singlePage() {
+    $("body").append("<div id='singlePageDIV'></div>");
     const tei = $("tei-tei");
-    tei.clone().appendTo("body");
+    tei.clone().appendTo("#singlePageDIV");
     const case1 = $("#hi-4 tei-l:first-child");
     var textCase1 = $("#hi-4 tei-l:first-child").html();
     var newTextCase1 = "          " + textCase1;
