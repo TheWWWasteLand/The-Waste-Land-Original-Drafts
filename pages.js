@@ -190,7 +190,7 @@ function nextPage() {
     document.getElementById('prev').style.display="block";
     if (comparison) {
         console.log("exists");
-        nextComparison("#singlePageDIV #page-i", "#singlePageDIV #page-i");
+        nextComparison("#singlePageDIV #page-i", "#singlePageDIV #page-2");
     }
   }
   else if (one.getAttribute('style') == "display: block;") {
