@@ -1848,3 +1848,21 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
  from {opacity: 0.2}
  to {opacity: 1}
 }
+
+/*compare*/
+
+#singlePageDIV {
+    display: inline-block;
+    position: fixed;
+    text-align: left;
+    float: left;
+    height: calc(100vh - 139px);
+    width: calc(40vw - 1px);
+    margin-top: -608.5px;
+    border: solid 0.5px #C8CBCE;
+}
+
+#singlePageDIV tei-head, #singlePageDIV tei-lg, #singlePageDIV tei-p {
+   margin-left: 0px;
+} 
+ 
