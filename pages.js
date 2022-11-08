@@ -290,6 +290,7 @@ function prevPage() {
 function nextComparison(del, add) {
     $(del).hide();
     $(del).addClass('hidden');
+    $(add).removeClass('hidden');
     $(add).show();
     $(add).css({"display": "block"});
 }
@@ -297,6 +298,7 @@ function nextComparison(del, add) {
 function prevComparison(add, del) {
     $(del).hide();
     $(del).addClass('hidden');
+    $(add).removeClass('hidden');
     $(add).show();
     $(add).css({"display": "block"});
 }
