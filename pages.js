@@ -255,7 +255,9 @@ function prevPage() {
 };
 
 function nextComparison(del, add) {
+    console.log(del);
     $(del).hide();
+    $(del).addClass('hidden');
     $(add).show();
 }
 
