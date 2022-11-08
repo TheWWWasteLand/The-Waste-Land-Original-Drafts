@@ -189,30 +189,44 @@ function nextPage() {
     one.style.display="block";
     document.getElementById('prev').style.display="block";
     if (comparison) {
-        console.log("exists");
         nextComparison("#singlePageDIV #page-i", "#singlePageDIV #page-2");
     }
   }
   else if (one.getAttribute('style') == "display: block;") {
     one.style.display="none";
     two.style.display="block";
+    if (comparison) {
+        nextComparison("#singlePageDIV #page-2", "#singlePageDIV #page-3");
+    }
   }
   else if (two.getAttribute('style') == "display: block;") {
     two.style.display="none";
     three.style.display="block";
+    if (comparison) {
+        nextComparison("#singlePageDIV #page-3", "#singlePageDIV #page-4");
+    }
   }
   else if (three.getAttribute('style') == "display: block;") {
     three.style.display="none";
     four.style.display="block";
+    if (comparison) {
+        nextComparison("#singlePageDIV #page-4", "#singlePageDIV #page-5");
+    }
   }
   else if (four.getAttribute('style') == "display: block;") {
     four.style.display="none";
     five.style.display="block";
+    if (comparison) {
+        nextComparison("#singlePageDIV #page-5", "#singlePageDIV #page-6");
+    }
   }
   else if (five.getAttribute('style') == "display: block;") {
     five.style.display="none";
     six.style.display="block";
     document.getElementById('next').style.display="none";
+    if (comparison) {
+        nextComparison("#singlePageDIV #page-6", "#singlePageDIV #page-7");
+    }
   }
 };
 
