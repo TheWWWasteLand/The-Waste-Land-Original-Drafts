@@ -258,7 +258,7 @@ function nextComparison(del, add) {
     console.log(del);
     $(del).hide();
     $(del).addClass('hidden');
-    $(add).css({"display": "block"});
+    $(add).css({"display": "block !important"});
 }
 
 /* show final version */
