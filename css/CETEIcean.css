@@ -1863,6 +1863,6 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
 }
 
 #singlePageDIV tei-head, #singlePageDIV tei-lg, #singlePageDIV tei-p {
-   margin-left: 0px;
+   margin-left: 0px!important;
 } 
  
