@@ -443,6 +443,8 @@ function page() {
 /* singlePage */
 
 function singlePage() {
+    const tei = $("tei-tei");
+    tei.clone().appendTo("body");
     const case1 = $("#hi-4 tei-l:first-child");
     var textCase1 = $("#hi-4 tei-l:first-child").html();
     var newTextCase1 = "          " + textCase1;
@@ -460,7 +462,7 @@ function singlePage() {
     $("[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "300px", "height": "auto", "overflow":"auto", "-webkit-box-shadow": "2px 4px 4px 0px #999", "box-shadow":" 2px 4px 4px 0px #999"});
     $("#button-notes-list").css({"left": "65.5px", "width": "calc(100vw - 124.5px)"});
     var x = 0;
-    var list = [60, 80, 1265, 1235, 700, 1140, 1200]; 
+    var list = [60, -30, 90, 1235, 650, 1130, 1190]; 
     $("tei-div").each(function(){
         var a = list[x];
         x = x + 1;
