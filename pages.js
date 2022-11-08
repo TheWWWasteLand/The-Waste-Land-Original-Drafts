@@ -189,7 +189,8 @@ function nextPage() {
     one.style.display="block";
     document.getElementById('prev').style.display="block";
     if (comparison) {
-        nextComparison("#singlePageDIV #page-i", "#singlePageDIV #page-i")
+        console.log("exists");
+        nextComparison("#singlePageDIV #page-i", "#singlePageDIV #page-i");
     }
   }
   else if (one.getAttribute('style') == "display: block;") {
