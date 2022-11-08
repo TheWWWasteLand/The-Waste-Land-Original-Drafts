@@ -291,14 +291,14 @@ function nextComparison(del, add) {
     $(del).hide();
     $(del).addClass('hidden');
     $(add).show();
-    $(add).css({"display": "block !important"});
+    $(add).css({"display": "block"});
 }
 
 function prevComparison(add, del) {
     $(del).hide();
     $(del).addClass('hidden');
     $(add).show();
-    $(add).css({"display": "block !important"});
+    $(add).css({"display": "block"});
 }
 
 /* show final version */
