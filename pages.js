@@ -497,6 +497,9 @@ function page() {
 /*comparison*/
 
 function comparison() {
+    if ($("tei-lg").css("display") == "none") {
+        photo();
+    }
     const compare = $('#singlePageDIV').length;
     if (compare > 0) {
         $("tei-figure").show();
@@ -705,7 +708,7 @@ $(document).ready(function(){
   $("#compareTexts").click(function(){
       comparison();
   });
-  $("#compareTexts").click(function(){
+  $("#imgtext").click(function(){
       reset();
   });
 });
