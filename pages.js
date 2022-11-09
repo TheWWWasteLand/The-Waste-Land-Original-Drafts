@@ -497,8 +497,8 @@ function page() {
 /*comparison*/
 
 function comparison() {
-    const compare = $('#singlePageDIV');
-    if (compare) {
+    const compare = $('#singlePageDIV').length;
+    if (compare > 0) {
         $("tei-figure").show();
         $(".zoom-button").show();
         compare.remove();
