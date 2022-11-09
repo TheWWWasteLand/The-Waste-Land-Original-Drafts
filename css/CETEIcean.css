@@ -495,7 +495,6 @@ tei-head {
 body > tei-tei #page-i tei-div tei-quote > tei-p {
     white-space: pre;
     line-height: 0.8em;
-    overflow-x: auto;
     overflow-y: hidden;
     padding-bottom: 263px;
 }
