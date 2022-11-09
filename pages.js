@@ -514,6 +514,18 @@ function comparison() {
     }
 }
 
+/*reset*/
+
+function reset() {
+    const compare = $('#singlePageDIV').length;
+    if (compare > 0) {
+        comparison();
+    }
+    if ($("tei-figure").css('width') == "calc(100vw - 126px)") {
+        photo();
+    }
+}
+    
 
 
 /* singlePage */
@@ -627,17 +639,39 @@ $(document).ready(function(){
 });
 
 /* photo only */ 
-$(document).ready(function(){
-  $("#imgOnly").click(function(){
-    const compare = $('#singlePageDIV').length;
-    if (compare > 0) {
-        comparison();
-    }   
+    
+function photo() {
+  const compare = $('#singlePageDIV').length;
+  if (compare > 0) {
+      comparison();
+  }
+  if ($("tei-figure").css('width') == "calc(100vw - 126px)") {
+    $("tei-lg").show();
+    $("tei-quote").show();  
+    $("tei-head").show();
+    $("#button-notes-list").show();
+    $("tei-figure").css({"width": "40vw"});
+    return false;
+  }
+  else {
     $("tei-lg").hide();
     $("tei-quote").hide();  
     $("tei-head").hide();
     $("#button-notes-list").hide();
     $("tei-figure").css({"width": "calc(100vw - 126px)"});
+    return false;
+  }
+}
+    
+$(document).ready(function(){
+  $("#imgOnly").click(function(){
+      photo();
+  });
+  $("#compareTexts").click(function(){
+      comparison();
+  });
+  $("#compareTexts").click(function(){
+      reset();
   });
 });
 
