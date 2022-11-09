@@ -1873,3 +1873,9 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
 #singlePageDIV tei-lg[type=poemPage] {
     box-shadow: -2px 1px 4px 0px #999;
 }
+
+#singlePageDIV #page-i tei-head {
+    margin-top: -3.55em;
+    margin-left: 2em !important;
+    z-index: 0;
+}
