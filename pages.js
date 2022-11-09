@@ -629,9 +629,9 @@ $(document).ready(function(){
 /* photo only */ 
 $(document).ready(function(){
   $("#imgOnly").click(function(){
-    const compare = $('#singlePageDIV');
-    if (compare) {
-        comparison()
+    const compare = $('#singlePageDIV').length;
+    if (compare > 0) {
+        comparison();
     }   
     $("tei-lg").hide();
     $("tei-quote").hide();  
