@@ -645,8 +645,8 @@ function photo() {
   if (compare > 0) {
       comparison();
   }
-  console.log($("tei-figure").css('width'));
-  if ($("tei-figure").css('width') == "calc(100vw - 126px)") {
+  console.log($("tei-figure").css('display'));
+  if ($("tei-lg").css('display') == "none") {
     $("tei-lg").show();
     $("tei-quote").show();  
     $("tei-head").show();
