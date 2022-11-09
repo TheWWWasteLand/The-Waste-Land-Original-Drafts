@@ -546,8 +546,41 @@ function comparison() {
                 var htmlOriginal = $(this).html();
             }
         });
-    });
-        return false;
+        $("#singlePageDIV tei-delSpan").each(function(){
+          var x = $(this);
+          var target = $(this).attr("spanTo");
+          var siblings = $(this).nextAll();
+          var a = 0;
+          siblings.each(function() {
+             if ($(this).attr('id') == target) {
+               siblings.each(function() {
+                   if ($(this).next().attr('id') == target) {
+                       $(this).hide();
+                       return false;
+                   }
+                   else if ($(this).next().attr('id') != target) {
+                       $(this).hide();
+                   }
+               });
+             }
+             else {
+                 siblings.each(function() {
+                   if ($(this).find(target).length == 0) {
+                       $(this).hide();
+                   }
+                   else if ($(this).find(target).length == 1) {
+                       var newtarget = target.substring(1);
+                       var string = '<tei-anchor xml:id="' + newtarget + '" id="' + newtarget + '" data-origname="anchor" data-empty="" data-processed="">';
+                       var text = $(this).html();
+                       var idx = text.indexOf(string);
+                       var newString = text.substring(idx);
+                       $(this).html(newString);
+                       return false;
+                   }
+                 });
+             }
+          });
+        });
     }
 }
 
