@@ -492,7 +492,7 @@ tei-head {
   padding-top: 2em;
   width: 20em;
 }
-#page-i tei-div tei-quote > tei-p {
+body > tei-tei #page-i tei-div tei-quote > tei-p {
     white-space: pre;
     line-height: 0.8em;
     overflow-x: auto;
