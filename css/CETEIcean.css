@@ -493,7 +493,7 @@ tei-head {
   padding-top: 2em;
   width: 20em;
 }
-#page-i > tei-quote > tei-p {
+#page-i tei-div tei-quote > tei-p {
     white-space: pre;
     line-height: 0.8em;
     overflow-x: auto;
@@ -511,7 +511,7 @@ tei-div.textpart {
   display: none;
 }
 tei-div > tei-div > tei-head {
-  font-size: 155%;
+  font-size: 100%;
 }
 tei-div > tei-div > tei-div > tei-head {
   font-size: 140%;
@@ -1624,7 +1624,7 @@ body > tei-tei #page-i tei-div {
     height: calc(100vh - 178px);
 }
 
-#page-i > tei-quote {
+#page-i tei-quote {
     margin-top: 4em;
 }
 
