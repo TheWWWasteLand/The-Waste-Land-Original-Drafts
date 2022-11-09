@@ -498,12 +498,19 @@ function page() {
 /*comparison*/
 
 function comparison() {
-    $("body").append("<div id='singlePageDIV'></div>");
-    $("tei-figure").hide();
-    $(".zoom-button").hide();
-    const tei = $("tei-tei");
-    tei.clone().appendTo("#singlePageDIV");
-    
+    const compare = $('#singlePageDIV');
+    if (compare) {
+        $("tei-figure").show();
+        $(".zoom-button").show();
+        compare.remove();
+    }
+    else {
+        $("body").append("<div id='singlePageDIV'></div>");
+        $("tei-figure").hide();
+        $(".zoom-button").hide();
+        const tei = $("tei-tei");
+        tei.clone().appendTo("#singlePageDIV");  
+    }
 }
 
 
@@ -621,6 +628,10 @@ $(document).ready(function(){
 /* photo only */ 
 $(document).ready(function(){
   $("#imgOnly").click(function(){
+    const compare = $('#singlePageDIV');
+    if (compare) {
+        comparison()
+    }   
     $("tei-lg").hide();
     $("tei-quote").hide();  
     $("tei-head").hide();
