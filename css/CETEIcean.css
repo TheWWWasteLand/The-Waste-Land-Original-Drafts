@@ -141,6 +141,10 @@ tei-add[place~=footer]::after {
   position: absolute;
 }
 
+body > tei-tei #add-13 {
+ width: 110%;
+}
+
 #add-24::after {
   top: -4.8em;
   left: -3em;
