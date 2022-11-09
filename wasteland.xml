@@ -62,12 +62,13 @@
                 <div xml:id="page-i" >
                     <figure><graphic url="https://thewwwasteland.github.io/images/1.jpg" xml:id="page-i-pic" type="page"/>
                     </figure>
-                    <head>
-                        THE WASTE LAND<lb/>
-                        By<lb/>
-                        T. S. Eliot
-                    </head>
-                    <quote>
+                    <div>
+                        <head>
+                            THE WASTE LAND<lb/>
+                            By<lb/>
+                            T. S. Eliot
+                        </head>
+                        <quote>
                             <p>"Did he live his life again in every detail of desire, tempta-<lb/>
   tion, and surrender during that supreme moment of complete<lb/>
   knowledge? He cried in a whisper at some image, at some vi-<lb/>
@@ -75,7 +76,8 @@
   breath -<lb/>
                  'The horror!   The horror!'"<lb/>
                                               <add xml:id="add-i" hand="TEliot" rend="largerFirstLetter">CONRAD.</add></p>
-                    </quote>  
+                        </quote>
+                    </div>
                 </div>
             </titlePage>
         </front>
