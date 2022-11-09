@@ -139,7 +139,6 @@ function checkKey(e) {
 
     e = e || window.event;
     var key = e.keyCode.toString();  
-    console.log(key);
     switch (key) {
       case '39':
         nextPage();
@@ -503,13 +502,15 @@ function comparison() {
         $("tei-figure").show();
         $(".zoom-button").show();
         compare.remove();
+        return false;
     }
     else {
         $("body").append("<div id='singlePageDIV'></div>");
         $("tei-figure").hide();
         $(".zoom-button").hide();
         const tei = $("tei-tei");
-        tei.clone().appendTo("#singlePageDIV");  
+        tei.clone().appendTo("#singlePageDIV");
+        return false;
     }
 }
 
