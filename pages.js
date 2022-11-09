@@ -510,6 +510,40 @@ function comparison() {
         $(".zoom-button").hide();
         const tei = $("tei-tei");
         tei.clone().appendTo("#singlePageDIV");
+        const case1 = $("#singlePageDIV #hi-4 tei-l:first-child");
+        var textCase1 = $("#singlePageDIV #hi-4 tei-l:first-child").html();
+        var newTextCase1 = "          " + textCase1;
+        case1.html(newTextCase1);
+        $("#singlePageDIV tei-l").each(function(){
+            $(this).removeAttr("n");
+        });  
+        $("#singlePageDIV #add-16").hide();
+        $("#singlePageDIV #add-24").hide();
+        $("#singlePageDIV #add-27").hide();
+        $("#singlePageDIV #add-32").hide();
+        $("#singlePageDIV tei-l span").hide();
+        $("#singlePageDIV tei-del").remove();
+        $("#singlePageDIV tei-add").each(function(){
+        var parents = $(this).parents();
+        parents.each(function(){
+            if ($(this).prop("nodeName") == "TEI-L" || $(this).prop("nodeName") == "TEI-HEAD" || $(this).prop("nodeName") == "TEI-LG") {
+                var adds = $(this).find("tei-add");
+                adds.each(function(){
+                    if ($(this).attr("cause") == "sign") {
+                        $(this).hide();
+                    }
+                    else if ($(this).attr('id') != "add-16" && $(this).attr('id') != "add-24" && $(this).attr('id') != "add-27" && $(this).attr('id') != "add-32") {
+                        $(this).removeAttr("rend");
+                        $(this).removeAttr("place");
+                        $(this).attr("place", "inline");
+                        $(this).css({"background-color": "#f5b3c2", "display": "inline-block", "padding": "0px !important", "margin": "0 !important"});
+                        $(this).removeClass("hidden");
+                    }
+                });
+                var htmlOriginal = $(this).html();
+            }
+        });
+    });
         return false;
     }
 }
