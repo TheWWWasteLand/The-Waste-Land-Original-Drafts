@@ -491,11 +491,9 @@ tei-head {
 }
 #page-i tei-head {
   padding-top: 2em;
-  margin-left:calc(40vw + 5em);
   width: 20em;
 }
 #page-i > tei-quote > tei-p {
-    margin-left: 40vw;
     white-space: pre;
     line-height: 0.8em;
     overflow-x: auto;
@@ -1615,9 +1613,15 @@ tei-lg[type=poemPage] {
     padding-left: 12.5em;
 }
 
-#page-i {
+body > tei-tei #page-i {
     display: block;
-    height: calc(100vh - 176px);
+    overflow: scroll;
+    padding-top: 55px;
+    position: fixed;
+    left: calc(40vw + 64px);
+    width: calc((100% - 40vw) - 127px);
+    background-color: rgb(255, 255, 255);
+    height: calc(100vh - 178px);
 }
 
 #page-i > tei-quote {
@@ -1855,13 +1859,8 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
 /*compare*/
 
 #singlePageDIV {
-    display: inline-block;
     position: fixed;
-    text-align: left;
-    float: left;
     height: calc(100vh - 139px);
-    width: calc(40vw - 1px);
-    margin-top: -608.5px;
     border: solid 0.5px #C8CBCE;
 }
 
@@ -1883,11 +1882,15 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
 }
 
 #singlePageDIV #page-i {
-     display: block;
+    display: block;
     position: fixed;
     overflow: scroll;
-    width: 23.5em;
-    top: 86.5px;
-    padding-top: 100px;
+    width: calc(40vw - 0.5px);
+    top: 86px;
+    padding-top: 165px;
+    height: calc(100vh - 141px);
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid rgb(200, 203, 206);
+    box-shadow: rgb(153 153 153) -2px 1px 4px 0px;
 }
 
