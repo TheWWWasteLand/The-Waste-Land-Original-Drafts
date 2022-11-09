@@ -581,7 +581,8 @@ function comparison() {
              }
           });
         });
-    }
+    });
+  }
 }
 
 /*reset*/
