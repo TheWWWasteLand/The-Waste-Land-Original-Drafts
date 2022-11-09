@@ -1867,6 +1867,6 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
 } 
 #singlePageDIV tei-lg {
     width: calc(40vw - 1px);
-    box-shadow: none;
+    box-shadow: -2px 1px 4px 0px #999;
     top: calc(100% + 2.5px);
 } 
