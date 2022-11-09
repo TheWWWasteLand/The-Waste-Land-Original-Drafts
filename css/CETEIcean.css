@@ -486,7 +486,6 @@ tei-head {
   font-family: Arvo, sans-serif;
   font-weight: normal;
   text-align: center;
-  margin-left: -18vw;
   white-space: nowrap;
 }
 #page-i tei-head {
