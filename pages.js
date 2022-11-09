@@ -529,7 +529,7 @@ function comparison() {
         $("#singlePageDIV tei-add").each(function(){
         var parents = $(this).parents();
         parents.each(function(){
-            if ($(this).prop("nodeName") == "TEI-L" || $(this).prop("nodeName") == "TEI-HEAD" || $(this).prop("nodeName") == "TEI-LG") {
+            if ($(this).prop("nodeName") == "TEI-L" || $(this).prop("nodeName") == "TEI-HEAD" || $(this).prop("nodeName") == "TEI-LG"  || $(this).prop("nodeName") == "TEI-P") {
                 var adds = $(this).find("tei-add");
                 adds.each(function(){
                     if ($(this).attr("cause") == "sign") {
