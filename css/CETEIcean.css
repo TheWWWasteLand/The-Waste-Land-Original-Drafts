@@ -1613,7 +1613,7 @@ tei-lg[type=poemPage] {
     padding-left: 12.5em;
 }
 
-body > tei-tei #page-i {
+body > tei-tei #page-i tei-div {
     display: block;
     overflow: scroll;
     padding-top: 55px;
