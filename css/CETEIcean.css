@@ -1893,3 +1893,8 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
     box-shadow: rgb(153 153 153) -2px 1px 4px 0px;
 }
 
+#singlePageDIV tei-p {
+    white-space: pre;
+    line-height: 1em;
+}
+
