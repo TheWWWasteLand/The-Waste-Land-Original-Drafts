@@ -1881,3 +1881,13 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
     margin-left: 2em !important;
     z-index: 0;
 }
+
+#singlePageDIV #page-i {
+     display: block;
+    position: fixed;
+    overflow: scroll;
+    width: 23.5em;
+    top: 86.5px;
+    padding-top: 100px;
+}
+
