@@ -521,7 +521,7 @@ function reset() {
     if (compare > 0) {
         comparison();
     }
-    if ($("tei-figure").css('width') == "calc(100vw - 126px)") {
+    if ($("tei-figure").css('display') == "none") {
         photo();
     }
 }
