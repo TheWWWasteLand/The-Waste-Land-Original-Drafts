@@ -555,7 +555,7 @@ function reset() {
     if (compare > 0) {
         comparison();
     }
-    if ($("tei-figure").css('display') == "none") {
+    if ($("tei-lg").css('display') == "none") {
         photo();
     }
 }
