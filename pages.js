@@ -501,7 +501,7 @@ function comparison() {
     if (compare > 0) {
         $("tei-figure").show();
         $(".zoom-button").show();
-        compare.remove();
+        $('#singlePageDIV').remove();
         return false;
     }
     else {
