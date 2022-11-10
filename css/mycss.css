@@ -3,6 +3,10 @@ body {
     font-weight: 500;
 }
 
+.white-body {
+    background-color: #f7f7f7;
+}
+
 .nav-item {
     border-left: 1px solid rgba(81, 79, 91, 0.792);
     border-right: 1px solid rgba(81, 79, 91, 0.792);
@@ -207,4 +211,22 @@ header p {
 .tech img {
     width: 60%; 
     margin-left: 20%;
+}
+
+/* documentation */
+
+#menu-left {
+    position: fixed;
+    top: 200px;
+    left: 20px;
+    border-right: 1px solid #aaaaaa;
+    padding-right: 35px;
+    height: calc(100vh - 200px);
+}
+
+.blue-title {
+    color: #548fc3;
+    top: 119px;
+    position: absolute;
+    left: 45px;
 }
