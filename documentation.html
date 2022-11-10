@@ -43,6 +43,114 @@
                     </ul>
                 </div>
                 <div id="displayed-content">
+                    <div id="tei-documentation">
+                        &lt;teiHeader&gt;
+    &lt;teiHeader&gt;
+        &lt;fileDesc&gt;
+            &lt;titleStmt&gt;
+                &lt;title&gt;The Waste Land SDE&lt;/title&gt;
+                &lt;author&gt;T. S. Eliot&lt;/author&gt;
+                &lt;respStmt&gt;
+                    &lt;resp&gt;Edited by&lt;/resp&gt;
+                    &lt;name&gt;Sebastiano Giacomini&lt;/name&gt;
+                &lt;/respStmt&gt;
+            &lt;/titleStmt&gt;
+            &lt;editionStmt&gt;First edition, &lt;date&gt;1922&lt;/date&gt;
+            &lt;/editionStmt&gt;
+            &lt;publicationStmt&gt;&lt;publisher&gt;University of Bologna&lt;/publisher&gt;
+                &lt;availability status="unknown"&gt;
+                  &lt;p&gt;This work is the property of the University of Bologna.   It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.
+&lt;/p&gt;
+                &lt;/availability&gt;
+            &lt;/publicationStmt&gt;
+            &lt;sourceDesc&gt;
+                &lt;msDesc&gt;
+                &lt;msIdentifier&gt;
+                    &lt;settlement&gt;New York&lt;/settlement&gt;
+                    &lt;repository&gt;Public Library&lt;/repository&gt;
+                    &lt;idno type="Bod"&gt;Cup.410.g.63&lt;/idno&gt;
+                &lt;/msIdentifier&gt;
+                    &lt;msContents&gt;
+                        &lt;msItem&gt;
+                            &lt;title&gt;The Waste Land&lt;/title&gt;
+                            &lt;author&gt;T. S. Eliot&lt;/author&gt;
+                            &lt;date&gt;1922&lt;/date&gt;
+                        &lt;/msItem&gt;
+                    &lt;/msContents&gt;
+                &lt;/msDesc&gt;
+            &lt;/sourceDesc&gt;
+        &lt;/fileDesc&gt;
+        &lt;profileDesc&gt;
+            &lt;langUsage&gt;
+                &lt;language ident="en"&gt;English&lt;/language&gt;
+                &lt;language ident="la"&gt;Latin&lt;/language&gt;
+                &lt;language ident="fr"&gt;French&lt;/language&gt;
+                &lt;language ident="de"&gt;German&lt;/language&gt;
+            &lt;/langUsage&gt;
+        &lt;/profileDesc&gt;
+    &lt;/teiHeader&gt;
+
+
+
+&lt;text&gt;
+At the same level as the &lt;teiHeader&gt;, users will find the &lt;text&gt; element, whose inner elements correspond to the actual content of the source typescript. The current SDE aims at providing the users with an easy-to-use product, thus, the original pagination of Eliot’s drafts has been kept unchanged. As first consequence, the content of the &lt;text&gt; element has been split into a &lt;front&gt; element and the &lt;body&gt; part.
+&lt;front&gt; 
+Let’s now focus on the former element (&lt;front&gt;), whose structure looks like this:
+&lt;front&gt;
+  &lt;titlePage&gt;
+    &lt;pb/&gt;
+    &lt;div&gt;
+      &lt;facsimile&gt;
+        &lt;graphic/&gt;
+      &lt;/facsimile&gt;
+	&lt;head&gt;
+	&lt;/head&gt;
+	&lt;quote&gt;
+	&lt;/quote&gt;
+    &lt;/div&gt;
+  &lt;/titlePage&gt;
+&lt;/front&gt;
+The front of the typescript consists of a single title page, marked by the corresponding tag (&lt;titlePage&gt;). From now on, each page beginning is highlighted by the &lt;pb/&gt; tag, while the actual content of a page is placed inside the &lt;div&gt; element. This last tag always contains a digital reproduction (&lt;facsimile&gt;) of the original source: the URL of the picture is expressed by the attribute @url of the (&lt;graphic/&gt;) element. The text of the title page is then articulated into the main heading (THE WASTE LAND / By / T. S. Eliot) and an introductory quotation. The former is introduced by the &lt;head&gt; element, the latter is marked as &lt;quote&gt;.
+
+
+
+
+
+
+
+
+&lt;body&gt;
+The &lt;body&gt; element encloses the text of the poem: its stanzas and lines. The following schema shows the general structure of this part.
+&lt;body&gt;
+  &lt;!--page n--&gt;
+  &lt;pb/&gt;
+  &lt;div&gt;
+    &lt;facsimile&gt;
+      &lt;graphic/&gt;
+    &lt;/facsimile&gt;
+    &lt;lg type=“poemPage”&gt;
+    &lt;/lg&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+The structure highlighted in red is reused for each page of the poem. Specifically, the first four elements (&lt;pb/&gt;, &lt;div&gt;, &lt;facsimile&gt;, &lt;graphic/&gt;) are devoted to pagination and coincide with the opening tags of the &lt;titlePage&gt;. However, the main element of this section is &lt;lg type=“poemPage”&gt;, i.e., the element containing the headings, the stanzas/lines, and the notes written by T.S. Eliot, Ezra Pound, and Vivienne Eliot. At this level, the &lt;lg&gt; element always presents two attributes: @n (page number) and @type (in this case, the attribute always assumes the value poemPage). The &lt;lg type=“poemPage”&gt; element usually includes the following direct children:
+-	&lt;lg&gt;: at this level, the line group elements identify the stanzas of the poem. Therefore, the opening tag must include the attributes @n (stanza number) and @type (in this case, the attribute always assumes the value stanza).  
+-	&lt;head&gt;: the poem is made up of several sections, each of them having its own title. Moreover, some pages of the typescript present an opening numeration, which is also included inside the element &lt;head&gt;.
+-	&lt;note&gt;: the most peculiar feature of the Waste Land Original Drafts is the remarkable number of annotations later written by the author, his colleague Ezra Pound, and his wife Vivienne Eliot. While introducing notes, it is crucial to pinpoint the major difference between &lt;note&gt; elements and some other types of intervention in the text, like &lt;add&gt; instances: we generally identify as &lt;add&gt; those additional notes produced within the body of the text (e.g.: overwritten corrections, inline annotations, external additions of text whose exact location in the poem is made explicit by graphic or written signals), whereas &lt;note&gt; elements refer to annotations located elsewhere in the document, outside the original body of the text. 
+The set of possible children of the &lt;lg type=“poemPage”&gt; element also comprises some other tags, which generally enclose a large portion of text. Let’s consider the following example: an entire stanza is included within a circle. In this case, the element &lt;lg type=“stanza”&gt; is nested inside the &lt;hi&gt; tag. These are the other possible inner elements (some other tags will be examined in the final section Other transcription elements):
+-	&lt;delSpan&gt;: it marks the beginning of a longer portion of text deleted, i.e., all the deletions which are longer than a single verse. This element is characterized by the following attributes: @hand  (the author of the deletion), @spanTo (a reference to the end point of the deletion span)
+-	&lt;metamark&gt;: any kind of signal expressing how the document should be read. For instance, it can be used for a stanza/line/word whose new location inside the text is pointed by an arrow. This element is characterized by the following attributes: @hand (the author of the signal), @place (the place inside the text), @rend (the shape/aspect of the signal), and @target (the target of the signal)
+&lt;lg type=“stanza”&gt;
+This element is always nested inside a &lt;lg type=“poemPage”&gt; element. The main components of each stanza are lines, marked by the tag &lt;l&gt;. In order to facilitate access to the text, the lines have been numbered five by five through the attribute @n (line number). 
+Other transcription elements:
+This gentle introduction to the Waste Land Original Drafts XML/TEI encoding is based on some other transcription elements, whose position inside the XML structure might vary depending on the exact location (original typescript) and also with regard to how the editor decided to interpret them. For instance, the &lt;add&gt; element might be included inside a &lt;l&gt; element when the addition concerns the line itself. On the other side, it might happen that a whole new verse is added at the end of a given stanza: in this case, the &lt;add&gt; element is nested inside a &lt;lg&gt;. Moreover, an addition might occur inside a &lt;note&gt;. Here is a list of these transcription elements:
+-	&lt;add&gt;: the addition of a portion of text. This element is characterized by the following attributes: @hand (the author of the addition), @place (the place inside the text, e.g.: margin-left, overwritten, etc.)
+-	&lt;anchor&gt;: the anchor point element marks a specific point within a text. For instance, it might be required to identify the end of a &lt;delSpan&gt;.
+-	&lt;del&gt;: the deletion of a portion of text. This element is characterized by the attribute @hand, expressing the author of the deletion.
+-	&lt;hi&gt;: this element marks a portion of text that is graphically distinct from the surrounding text. It takes the following attributes: @hand (the author of the marker), @rend (the shape/aspect of the marker).
+-	&lt;subst&gt;: this element marks a group of one or more deletions and one or additions. 	
+ 
+
+                    </div>
                 </div>
             </section>
         </main>
