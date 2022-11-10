@@ -230,3 +230,13 @@ header p {
     position: absolute;
     left: 45px;
 }
+
+#menu-left ul {
+    list-style: none;
+}
+
+#menu-left ul li::before {
+    content: "+ ";
+    color: #548fc3;
+    font-weight: bolder;
+}
