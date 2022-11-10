@@ -1107,15 +1107,6 @@ tei-l[n="1"] > span, tei-l[n="5"] > span {
 [rend~=doubleLetterSpacing] {
  letter-spacing: 0.5em;
 }
-
-body {
-  background-color: #fff !important;
-  border-radius: 3px;
-  -webkit-box-shadow: 0px 0px 6px 0px #000000;
-  -moz-box-shadow: 0px 0px 6px 0px #000000;
-  -o-box-shadow: 0px 0px 6px 0px #000000;
-  box-shadow: 0px 0px 6px 0px #000000;
-}
 tei-p{
   display: block;
   padding-left: 3em
