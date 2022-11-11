@@ -222,6 +222,7 @@ header p {
     border-right: 1px solid #aaaaaa;
     padding-right: 35px;
     height: calc(100vh - 200px);
+    color: black;
 }
 
 .blue-title {
@@ -245,7 +246,8 @@ header p {
     display: block;
     margin-left: 330px;
     margin-right: 50px;
-    margin-top: 200px
+    margin-top: 200px;
+    color:black;
 }
 
 .hidden {
@@ -257,4 +259,12 @@ h5 {
    text-decoration: underline;
    text-decoration-color: #548fc3;
    padding-bottom: 18px;
+}
+
+.em {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bolder;
 }
