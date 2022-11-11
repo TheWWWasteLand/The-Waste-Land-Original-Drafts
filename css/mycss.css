@@ -218,17 +218,17 @@ header p {
 #menu-left {
     position: fixed;
     top: 200px;
-    left: 20px;
+    left: 50px;
     border-right: 1px solid #aaaaaa;
-    padding-right: 35px;
+    padding-right: 05px;
     height: calc(100vh - 200px);
 }
 
 .blue-title {
     color: #548fc3;
     top: 119px;
-    position: absolute;
-    left: 45px;
+    position: fixed;
+    left: 70px;
 }
 
 #menu-left ul {
@@ -239,4 +239,11 @@ header p {
     content: "+ ";
     color: #548fc3;
     font-weight: bolder;
+}
+
+#displayed-content > div {
+    display: block;
+    margin-left: 330px;
+    margin-right: 50px;
+    margin-top: 200px
 }
