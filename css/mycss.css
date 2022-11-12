@@ -268,3 +268,9 @@ h5 {
 .bold {
     font-weight: bolder;
 }
+
+.apice {
+    font-size: 0.8em;
+    vertical-align: super;
+    margin-left: 0.2em;
+}
