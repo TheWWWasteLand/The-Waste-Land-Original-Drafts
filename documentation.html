@@ -68,13 +68,19 @@
 							<li><span class="bold">Intervention classification</span> (further details available here: <a href="#tei-documentation">TEI/XML econding</a>): each revision has been classified on the basis of its philological meaning. In particular, the manuscript mainly shows deletions, corrections, and notes. Deletions are usually easily identifiable, while some issues might arise while trying distinguish corrections and notes out the body of the text. The results of this disambiguation task can be better analysed by looking through the TEI/XML encoded text (available <a href="xml-text.html">here</a>).   	
 						</ul>
 						<h5>Web technologies</h5>
-						<p>The last crucial aspect of this introduction concerns the technologies involved in the realization of the present edition. The clear ambition behind this project is that of producing a valuable resource whose content could be easily accessed by as many scholars and enthusiasts as possible. The World Wide Web effectively meets with this need, though the present text is not immediately available in the HTML format. Indeed, a primary role is played by the <span class="bold">XML-TEI</span> source file, whose content coincides with a transcription of the whole document - including metadata and implicit features - encoded according to the TEI guidelines. Recurring to this paradigmatic markup garantees two main advantages:</p>
+						<p>The last crucial aspect of this introduction concerns the technologies involved in the realization of the present edition. The clear ambition behind this project is that of producing a valuable resource whose content could be easily accessed by as many scholars and enthusiasts as possible. The World Wide Web effectively meets with this need, though the present text is not immediately available in the HTML format. Indeed, a primary role is played by the <span class="bold">XML-TEI</span> source file, whose content coincides with a transcription of the whole document - including metadata and implicit features - encoded according to the TEI guidelines. Resorting to this paradigmatic markup garantees two main advantages:</p>
 						<ul>
 							<li>A unique source file, which directly contains a diplomatic edition, enables multiple outputs.</li>
 							<li>The markup enriches the text with some hidden information - for instance, through attributes - that would be lost otherwise.</li>
 						</ul>
 						<p>However, the TEI encoded text must be then converted into an HTML file. This task could be fulfilled in many different ways and adopting many different tools. With regard to the present edition, the conversion relies on <span class="bold">CETEIcean</span>, a JavaScript Library that allows the editor to load, customize and visualize the TEI document.</p>  
-		    
+						<p>As explained by the creator of the CETEIcean library, there are several reasons why to choose it:</p>
+						<ul>
+							<li>Using web technologies for web publication, since XSLT/XQuery are not sufficient, by themselves.</li>
+							<li>Semantics: shared text model between TEI and its publication</li>
+							<li>Preservation: server-side software can be omitted</li>
+						</ul>
+						<p>The first point is of major importance since editors are free to customize their products according to their specifical needs (CSS and JS). This aspect becomes even more relevant while dealing with complex sources and multi-layered editions, like in this case.</p> 
 					</div>
 				<div id="tei-documentation" class="hidden">
                         &lt;teiHeader&gt;
