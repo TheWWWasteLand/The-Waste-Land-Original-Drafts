@@ -37,13 +37,13 @@
                 <h3 class="blue-title">Documentation</h3>
                 <div id="menu-left">
                     <ul>
-                        <li>Edition Criteria</li>
+                        <li>Introduction to the edition</li>
                         <li>TEI/XML econding</li>
                         <li>Bibiliography</li>
                     </ul>
                 </div>
                 <div id="displayed-content">
-					<div id="edition-criteria">
+					<div id="introduction">
 						<h5>Towards a scholarly digital edition</h5>
 						<p>As abundantly claimed by many scholars and masters in the field of Digital Humanities, <span class="em">a digitised edition is not a digital edition</span><span class="apice">1</span>. <span class="bold">The WWWasteLand Digital Edition</span> adhere to this tenet, therefore, it cannot be concevied as the mere transposition of a poem's drafts from an analog support to a digital environment. Then, how can we define this project?</p>
 						<p>Transcribing a text into a digital format is an <span class="bold">analytical activity</span> that <span class="em">leads to the selection of some of the features connected with the object or domain which are considered relevant by the researcher</span></span><span class="apice">2</span>. With respect to the present edition, the "object" coincides with the <span class="bold">T. S. Eliot</span>'s original manuscript of "The Waste Land", bearing extensive editing changes by <span class="bold">Ezra Pound</span> and some other annotations by <span class="bold">Vivienne Eliot</span>, while the "features which are relevant to the researcher" will be introduced in the following paragraphs. However, the selection process is the first fundamental step towards the production of a scholarly edition, given its inherent necessity of underliying a <span class="em bold">criterion</span><span class="apice">3</span>.</p>
@@ -58,15 +58,23 @@
 						<p>On the basis of these premises and definitions, the present edition has been organized trying to reproduce the creative of the "The Waste Land" original drafts. Accordingly, the critical text fully coincides with the original one with regard to both the spelling and the page-layout. All the abbreviations, the diacritics, the whitespaces, and the punctuation have been kept unaltered, as well as the position of notes, revisions, and graphic elements. The only exception regards overwritten corrections: in order to avoid any case of unclear spelling, the text has been rendered as an inline revision. Graphics have been reproduced as similar as possible to the original ones: the same criterion has been followed for text decorations, font sizes, and font styles.</p>
 						<p>As stated above, a major issue regards the several levels of interventions on the text. In order to better tackle this problem, three important solutions have been adopoted:</p>
 						<ul>
-							<li><p><span class="bold">Multilayered structure</span>: the edition offers four layers of analysis coinciding with four different representations of the manuscript:<br> 
+							<li><span class="bold">Multilayered structure</span>: the edition offers four layers of analysis coinciding with four different representations of the manuscript:<br> 
 								1) A default critic text coinciding with the original text of the typescript.<br>
 								2) A faithful reproduction of the whole document, including hand-written annotations, corrections, and graphic signs.<br>
 								3) An updated version of the default critic text corrected according to the hand-written interventations.<br>
-								4) A facsimile, that is, a picture of the original manuscript.</p>
+								4) A facsimile, that is, a picture of the original manuscript.
 							</li>
 							<li><span class="bold">Colours</span>: each intervention is marked using a different colour depending on its attribution to one of the three hands (T. S. Eliot, Vivienne Eliot, Ezra Pound).</li>
 							<li><span class="bold">Intervention classification</span> (further details available here: <a href="#tei-documentation">TEI/XML econding</a>): each revision has been classified on the basis of its philological meaning. In particular, the manuscript mainly shows deletions, corrections, and notes. Deletions are usually easily identifiable, while some issues might arise while trying distinguish corrections and notes out the body of the text. The results of this disambiguation task can be better analysed by looking through the TEI/XML encoded text (available <a href="xml-text.html">here</a>).   	
 						</ul>
+						<h5>Web technologies</h5>
+						<p>The last crucial aspect of this introduction concerns the technologies involved in the realization of the present edition. The clear ambition behind this project is that of producing a valuable resource whose content could be easily accessed by as many scholars and enthusiasts as possible. The World Wide Web effectively meets with this need, though the present text is not immediately available in the HTML format. Indeed, a primary role is played by the <span class="bold">XML-TEI</span> source file, whose content coincides with a transcription of the whole document - including metadata and implicit features - encoded according to the TEI guidelines. Recurring to this paradigmatic markup garantees two main advantages:</p>
+						<ul>
+							<li>A unique source file, which directly contains a diplomatic edition, enables multiple outputs.</li>
+							<li>The markup enriches the text with some hidden information - for instance, through attributes - that would be lost otherwise.</li>
+						</ul>
+						<p>However, the TEI encoded text must be then converted into an HTML file. This task could be fulfilled in many different ways and adopting many different tools. With regard to the present edition, the conversion relies on <span class="bold">CETEIcean</span>, a JavaScript Library that allows the editor to load, customize and visualize the TEI document.</p>  
+		    
 					</div>
 				<div id="tei-documentation" class="hidden">
                         &lt;teiHeader&gt;
