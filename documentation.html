@@ -87,7 +87,7 @@
 					</div>
 				<div id="tei-div" class="hidden">
 					<h5>General structure</h5>
-					<p>The TEI markup follows the general rules and the syntax of the XML markup language. The overall structure of a unitary text is:<7p>
+					<p>The TEI markup follows the general rules and the syntax of the XML markup language. The overall structure of a unitary text is:</p>
 					<div class="code-box">
 <code>&lt;TEI xmlns="http://www.tei-c.org/ns/1.0"&gt;</code>
 <code>  &lt;teiHeader&gt;</code>
@@ -107,11 +107,21 @@
 					<p>This is the skeleton of our diplomatic edition, whose content can be clearly divided into two major sections:</p>
 					<ul>
 						<li><span class="bold">teiHeader</span>: introduces the manuscript, the edition, and their metadata.</li>
-						<li><span class="bold">Text</span>: contains the actual text the diplomatic edition.</li>
+						<li><span class="bold">text</span>: contains the actual text the diplomatic edition.</li>
 					</ul>					
 					<h5>&lt;teiHeader&gt;</h5>
 					<p>With regard to the present edition, the teiHeader contains both a full bibliographic description of an electronic file (<code>&lt;fileDesc&gt;</code>) and a presentation of all the non-bibliographic information (<code>&lt;profileDesc&gt;</code>)</p>
-                        
+                        		<ul>
+						<li><span class="bold">&lt;fileDesc&gt;</span>: includes information about:</li>
+						<ul>
+							<li><span class="bold">The title (<code>&lt;titleStmt&gt;</code>)</span>: presents the actual title (<code>&lt;title&gt;</code>) and the name of the author (<code>&lt;author&gt;</code>)</li>
+							<li><span class="bold">The edition (<code>&lt;editionStmt&gt;</code>)</span>: includes information about the first edition and a statement of responsibility for the intellectual content of the edition (<code>&lt;respStmt&gt;</code>)
+							<li><span class="bold">The publication (<code>&lt;publicationStmt&gt;</code>)</span>: introduces the publisher (<code>&lt;title&gt;</code>) and the license (<code>&lt;p&gt;</code>)
+							<li><span class="bold">The source (<code>&lt;sourceDesc&gt;</code>)</span>: provides a description of the source document which is nested inside the more specific <code>&lt;msDesc&gt;</code> element:</li>
+							<ul>
+								<li><span class="bold">&lt;msIdentifier&gt;</span>: presents the city (<code>&lt;settlement&gt;</code>) and the repository (<code>&lt;repository&gt;</code>) where the manuscript is located, together with the catalogue number (<code>&lt;idno&gt;</code>)
+						</ul>
+							<li><span class="bold">&lt;profileDesc&gt;</span></li>
     &lt;teiHeader&gt;
         &lt;fileDesc&gt;
             &lt;titleStmt&gt;
@@ -125,17 +135,15 @@
             &lt;editionStmt&gt;First edition, &lt;date&gt;1922&lt;/date&gt;
             &lt;/editionStmt&gt;
             &lt;publicationStmt&gt;&lt;publisher&gt;University of Bologna&lt;/publisher&gt;
-                &lt;availability status="unknown"&gt;
                   &lt;p&gt;This work is the property of the University of Bologna.   It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.
 &lt;/p&gt;
-                &lt;/availability&gt;
             &lt;/publicationStmt&gt;
             &lt;sourceDesc&gt;
                 &lt;msDesc&gt;
                 &lt;msIdentifier&gt;
                     &lt;settlement&gt;New York&lt;/settlement&gt;
                     &lt;repository&gt;Public Library&lt;/repository&gt;
-                    &lt;idno type="Bod"&gt;Cup.410.g.63&lt;/idno&gt;
+                    &lt;idno&gt;Cup.410.g.63&lt;/idno&gt;
                 &lt;/msIdentifier&gt;
                     &lt;msContents&gt;
                         &lt;msItem&gt;
