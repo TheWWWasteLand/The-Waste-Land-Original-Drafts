@@ -846,14 +846,11 @@ function thumbSearch(el) {
       var id = el.getAttribute('id');
       var reg = /\d+/;
       var n = (id.match(reg))[0].toString();
-      console.log(n);
       goToPage(n);
 }
 
 function goToPage(num) {
-    if (num != 0) {
-        num = (parseInt(num) + 1).toString();
-    }
+    num = (parseInt(num) + 1).toString();
     const pageList = document.getElementsByTagName('tei-div');
     for (let i = 0; i < pageList.length; i++) {
         var style = window.getComputedStyle(pageList[i]);
