@@ -867,7 +867,7 @@ function goToPage(num) {
             console.log(num)
         }
     }
-    if (num == 0) {
+    if (num == 1) {
             document.getElementById('prev').style.display="none";
     }
     else {
