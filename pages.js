@@ -851,26 +851,28 @@ function thumbSearch(el) {
 function goToPage(num) {
     const pageList = document.getElementsByTagName('tei-div');
     for (let i = 0; i < pageList.length; i++) {
-        var style = window.getComputedStyle(pageList[i]);
-        var display = style.getPropertyValue('display');
-        if (display == "block" && i != num) {
-            pageList[i].style.display = "none";
+        if (i != 1) {
+            var style = window.getComputedStyle(pageList[i]);
+            var display = style.getPropertyValue('display');
+            if (display == "block" && i != num) {
+                pageList[i].style.display = "none";
+            }
+            if (i == num) {
+                pageList[i].style.display = "block";
+            }
         }
-        if (i == num) {
-            pageList[i].style.display = "block";
+        if (num == 0) {
+                document.getElementById('prev').style.display="none";
         }
-    }
-    if (num == 0) {
-            document.getElementById('prev').style.display="none";
-    }
-    else {
-        document.getElementById('prev').style.display="block";
-    }
-    if (num == (pageList.length - 1)) {
-        document.getElementById('next').style.display="none";
-    }
-    else {
-        document.getElementById('next').style.display="block";
+        else {
+            document.getElementById('prev').style.display="block";
+        }
+        if (num == (pageList.length - 1)) {
+            document.getElementById('next').style.display="none";
+        }
+        else {
+            document.getElementById('next').style.display="block";
+        }
     }
 }
     
