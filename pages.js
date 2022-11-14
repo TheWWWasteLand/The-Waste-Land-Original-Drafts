@@ -860,9 +860,14 @@ function goToPage(num) {
         var display = style.getPropertyValue('display');
         if (display == "block" && i != num) {
             pageList[i].style.display = "none";
+            console.log("nope");
+            console.log(num);
+            
         }
         if (i == num) {
             pageList[i].style.display = "block";
+            console.log("yep");
+            console.log(num)
         }
     }
     if (num == 0) {
