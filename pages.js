@@ -878,7 +878,6 @@ function goToPage(num) {
         document.getElementById('next').style.display="block";
     }
 }
-}
     
         
 
