@@ -4,12 +4,12 @@
             <titleStmt>
                 <title>The Waste Land SDE</title>
                 <author>T. S. Eliot</author>
+            </titleStmt>
+            <editionStmt>First edition, <date>1922</date>
                 <respStmt> 
                     <resp>Edited by</resp>
                     <name>Sebastiano Giacomini</name>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>First edition, <date>1922</date>
             </editionStmt>
             <publicationStmt><publisher>University of Bologna</publisher>
                 <availability status="unknown">
@@ -21,7 +21,7 @@
                     <msIdentifier>
                         <settlement>New York</settlement>
                         <repository>Public Library</repository>
-                        <idno type="Bod">Cup.410.g.63</idno>
+                        <idno>Cup.410.g.63</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
