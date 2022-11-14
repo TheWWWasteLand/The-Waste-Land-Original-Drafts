@@ -718,6 +718,7 @@ function photo() {
   }
   console.log($("tei-figure").css('display'));
   if ($("tei-lg").css('display') == "none") {
+    $("tei-div tei-div").show();
     $("tei-lg").show();
     $("tei-quote").show();  
     $("tei-head").show();
@@ -726,6 +727,7 @@ function photo() {
     return false;
   }
   else {
+    $("tei-div tei-div").hide();
     $("tei-lg").hide();
     $("tei-quote").hide();  
     $("tei-head").hide();
@@ -849,31 +851,33 @@ function thumbSearch(el) {
 }
 
 function goToPage(num) {
+    if (num != 0) {
+        num = num + 1;
+    }
     const pageList = document.getElementsByTagName('tei-div');
     for (let i = 0; i < pageList.length; i++) {
-        if (i != 1) {
-            var style = window.getComputedStyle(pageList[i]);
-            var display = style.getPropertyValue('display');
-            if (display == "block" && i != num) {
-                pageList[i].style.display = "none";
-            }
-            if (i == num) {
-                pageList[i].style.display = "block";
-            }
+        var style = window.getComputedStyle(pageList[i]);
+        var display = style.getPropertyValue('display');
+        if (display == "block" && i != num) {
+            pageList[i].style.display = "none";
         }
-        if (num == 0) {
-                document.getElementById('prev').style.display="none";
-        }
-        else {
-            document.getElementById('prev').style.display="block";
-        }
-        if (num == (pageList.length - 1)) {
-            document.getElementById('next').style.display="none";
-        }
-        else {
-            document.getElementById('next').style.display="block";
+        if (i == num) {
+            pageList[i].style.display = "block";
         }
     }
+    if (num == 0) {
+            document.getElementById('prev').style.display="none";
+    }
+    else {
+        document.getElementById('prev').style.display="block";
+    }
+    if (num == (pageList.length - 1)) {
+        document.getElementById('next').style.display="none";
+    }
+    else {
+        document.getElementById('next').style.display="block";
+    }
+}
 }
     
         
