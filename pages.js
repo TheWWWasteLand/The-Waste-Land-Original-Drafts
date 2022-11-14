@@ -852,7 +852,7 @@ function thumbSearch(el) {
 
 function goToPage(num) {
     if (num != 0) {
-        num = num + 1;
+        num = (parseInt(num) + 1).toString();
     }
     const pageList = document.getElementsByTagName('tei-div');
     for (let i = 0; i < pageList.length; i++) {
