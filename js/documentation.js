@@ -1,9 +1,11 @@
 $(document).ready(function(){
   $("#menu-left li").click(function(){
-    $(".activeSec").hide();
     var id = $(this).attr('id');
-    console.log(id);
     var newId = id + "-div";
-    console.log(newId);
+    var actualId = "#" + newId;
+    $(".activeSec").addClass("hidden");
+    $(".activeSec").removeClass("activeSec");
+    $(actualId).removeClass('hidden');
+    $(actualId).addClass('activeSec');
   });
 });
