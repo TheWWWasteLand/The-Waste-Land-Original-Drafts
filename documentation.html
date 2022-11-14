@@ -86,7 +86,32 @@
 						<p>The first point is of major importance since editors are free to customize their products according to their specifical needs (CSS and JS). This aspect becomes even more relevant while dealing with complex sources and multi-layered editions, like in this case.</p> 
 					</div>
 				<div id="tei-div" class="hidden">
-                        &lt;teiHeader&gt;
+					<h5>General structure</h5>
+					<p>The TEI markup follows the general rules and the syntax of the XML markup language. The overall structure of a unitary text is:<7p>
+					<div class="code-box">
+<code>&lt;TEI xmlns="http://www.tei-c.org/ns/1.0"&gt;</code>
+<code>  &lt;teiHeader&gt;</code>
+<code class="comment">&lt;!-- ... --&gt;</code>
+<code>  &lt;/teiHeader&gt;</code>
+<code>  &lt;text&gt;</code>
+<code>    &lt;front&gt;</code>
+<code class="comment">&lt;!-- front matter of copy text, if any, goes here --&gt;</code>
+<code>    &lt;/front&gt;</code>
+<code>    &lt;body&gt;</code>
+<code class="comment">&lt;!-- body of copy text goes here --&gt;</code>
+<code>    &lt;/body&gt;</code>	
+<code>  &lt;/text&gt;</code>
+<code>&lt;/TEI&gt;</code>
+					</div>
+					<br>
+					<p>This is the skeleton of our diplomatic edition, whose content can be clearly divided into two major sections:</p>
+					<ul>
+						<li><span class="bold">teiHeader</span>: introduces the manuscript, the edition, and their metadata.</li>
+						<li><span class="bold">Text</span>: contains the actual text the diplomatic edition.</li>
+					</ul>					
+					<h5>&lt;teiHeader&gt;</h5>
+					<p>With regard to the present edition, the teiHeader contains both a full bibliographic description of an electronic file (<code>&lt;fileDesc&gt;</code>) and a presentation of all the non-bibliographic information (<code>&lt;profileDesc&gt;</code>)</p>
+                        
     &lt;teiHeader&gt;
         &lt;fileDesc&gt;
             &lt;titleStmt&gt;
