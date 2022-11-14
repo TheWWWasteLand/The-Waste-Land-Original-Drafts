@@ -15,8 +15,10 @@
         <link href="css/mycss.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="js/documentation.js"></script>
     </head>
     <body class="d-flex flex-column h-100 white-body">
         <main class="flex-shrink-0">
@@ -37,13 +39,14 @@
                 <h3 class="blue-title">Documentation</h3>
                 <div id="menu-left">
                     <ul>
-                        <li>Introduction to the edition</li>
-                        <li>TEI/XML econding</li>
+                        <li id="intro">Introduction to the edition</li>
+                        <li id="tei">TEI/XML econding</li>
+			
                         <li>Bibiliography</li>
                     </ul>
                 </div>
                 <div id="displayed-content">
-					<div id="introduction">
+					<div id="intro-div">
 						<h5>Towards a scholarly digital edition</h5>
 						<p>As abundantly claimed by many scholars and masters in the field of Digital Humanities, <span class="em">a digitised edition is not a digital edition</span><span class="apice">1</span>. <span class="bold">The WWWasteLand Digital Edition</span> adhere to this tenet, therefore, it cannot be concevied as the mere transposition of a poem's drafts from an analog support to a digital environment. Then, how can we define this project?</p>
 						<p>Transcribing a text into a digital format is an <span class="bold">analytical activity</span> that <span class="em">leads to the selection of some of the features connected with the object or domain which are considered relevant by the researcher</span></span><span class="apice">2</span>. With respect to the present edition, the "object" coincides with the <span class="bold">T. S. Eliot</span>'s original manuscript of "The Waste Land", bearing extensive editing changes by <span class="bold">Ezra Pound</span> and some other annotations by <span class="bold">Vivienne Eliot</span>, while the "features which are relevant to the researcher" will be introduced in the following paragraphs. However, the selection process is the first fundamental step towards the production of a scholarly edition, given its inherent necessity of underliying a <span class="em bold">criterion</span><span class="apice">3</span>.</p>
@@ -82,7 +85,7 @@
 						</ul>
 						<p>The first point is of major importance since editors are free to customize their products according to their specifical needs (CSS and JS). This aspect becomes even more relevant while dealing with complex sources and multi-layered editions, like in this case.</p> 
 					</div>
-				<div id="tei-documentation" class="hidden">
+				<div id="tei-div" class="hidden">
                         &lt;teiHeader&gt;
     &lt;teiHeader&gt;
         &lt;fileDesc&gt;
