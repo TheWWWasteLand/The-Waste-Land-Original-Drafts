@@ -275,3 +275,19 @@ h5 {
     vertical-align: super;
     margin-left: 0.2em;
 }
+
+.code-box {
+    width: 90%;
+    box-shadow: 0 0.2rem 0.5rem #d8d8d8,0 0 0.0625rem #d8d8d8!important;
+    border-radius: 0.25rem;
+    border-left: 0.2rem solid;
+    border-color: #74a9d4;
+    margin: 1.5625em auto;
+    background-color: #f3f3f3;
+    padding: 0 0.75rem 0.8rem;
+    white-space: pre-wrap;
+}
+
+code {
+    color: #555;
+}
