@@ -143,9 +143,9 @@
 <code>      &lt;/facsimile&gt;</code>
 <code>      &lt;div&gt;</code>
 <code>        &lt;head&gt;</code>
-<code>	  &lt;/head&gt;</code>
-<code>	  &lt;quote&gt;</code>
-<code>	  &lt;/quote&gt;</code>
+<code>  &lt;/head&gt;</code>
+<code>	&lt;quote&gt;</code>
+<code>	&lt;/quote&gt;</code>
 <code>      &lt;/div&gt;</code>
 <code>    &lt;/div&gt;</code>
 <code>  &lt;/titlePage&gt;</code>
@@ -166,14 +166,16 @@
 <code>    &lt;lg type=“poemPage”&gt;</code>
 <code>    &lt;/lg&gt;</code>
 <code>  &lt;/div&gt;</code>
+<code class="comment">  &lt;!--page n + 1--&gt;</code>
 <code>&lt;/body&gt;</code>
 					</div>
 					<br>
-The structure highlighted in red is reused for each page of the poem. Specifically, the first four elements (&lt;pb/&gt;, &lt;div&gt;, &lt;facsimile&gt;, &lt;graphic/&gt;) are devoted to pagination and coincide with the opening tags of the &lt;titlePage&gt;. However, the main element of this section is &lt;lg type=“poemPage”&gt;, i.e., the element containing the headings, the stanzas/lines, and the notes written by T.S. Eliot, Ezra Pound, and Vivienne Eliot. At this level, the &lt;lg&gt; element always presents two attributes: @n (page number) and @type (in this case, the attribute always assumes the value poemPage). The &lt;lg type=“poemPage”&gt; element usually includes the following direct children:
--	&lt;lg&gt;: at this level, the line group elements identify the stanzas of the poem. Therefore, the opening tag must include the attributes @n (stanza number) and @type (in this case, the attribute always assumes the value stanza).  
--	&lt;head&gt;: the poem is made up of several sections, each of them having its own title. Moreover, some pages of the typescript present an opening numeration, which is also included inside the element &lt;head&gt;.
--	&lt;note&gt;: the most peculiar feature of the Waste Land Original Drafts is the remarkable number of annotations later written by the author, his colleague Ezra Pound, and his wife Vivienne Eliot. While introducing notes, it is crucial to pinpoint the major difference between &lt;note&gt; elements and some other types of intervention in the text, like &lt;add&gt; instances: we generally identify as &lt;add&gt; those additional notes produced within the body of the text (e.g.: overwritten corrections, inline annotations, external additions of text whose exact location in the poem is made explicit by graphic or written signals), whereas &lt;note&gt; elements refer to annotations located elsewhere in the document, outside the original body of the text. 
-The set of possible children of the &lt;lg type=“poemPage”&gt; element also comprises some other tags, which generally enclose a large portion of text. Let’s consider the following example: an entire stanza is included within a circle. In this case, the element &lt;lg type=“stanza”&gt; is nested inside the &lt;hi&gt; tag. These are the other possible inner elements (some other tags will be examined in the final section Other transcription elements):
+					<p>This structure is reused for each page of the poem (with the obvious exception of the <code>&lt;body&gt;</code> tag). Specifically, the first four elements (<code>&lt;pb/&gt;</code>, <code>&lt;div&gt;</code>, <code>&lt;facsimile&gt;</code>, <code>&lt;graphic/&gt;</code>) are devoted to pagination and coincide with the opening tags of the <code>&lt;titlePage&gt;</code>. However, the main element of this section is <span class="bold"><code>&lt;lg type=“poemPage”&gt;</code></span>, i.e., the element containing the headings, the stanzas/lines, and the corrections/notes produced by T.S. Eliot, Ezra Pound, and Vivienne Eliot. At this level, the <code>&lt;lg&gt;</code> element always presents two attributes: <code>@n</code> (page number) and <code>@type</code> (in this case, the attribute always assumes the value <span class"em"><code>poemPage</code></span>). <code>The &lt;lg type=“poemPage”&gt;</code> element usually includes the following direct children:</li>
+					<ul>
+						<li><span class="bold"><code>&lt;lg&gt;</code></span>: at this level, the line group elements identify the <span class="bold">stanzas</span> of the poem. Therefore, the opening tag must include the attributes <code>@n</code> (stanza number) and <code>@type</code> (in this case, the attribute always assumes the value <span class"em"><code>stanza</code></span>).</li>  
+						<li><span class="bold"><code>&lt;head&gt;</code></span>: the poem is made up of several sections, each of them having its own title. Moreover, some pages of the manuscript-typescript present an opening numeration, which is included inside the element <code>&lt;head&gt;</code>, too.</li>
+						<li><span class="bold"><code>&lt;note&gt;</code></span>: the most peculiar feature of the Waste Land original drafts is the remarkable number of annotations later written by the author, by his colleague Ezra Pound, and by his wife Vivienne Eliot. While introducing notes, it is crucial to pinpoint the major difference between <code>&lt;note&gt;</code> elements and some other types of intervention in the text, like <code>&lt;add&gt;</code> instances: we generally identify as <code>&lt;add&gt;</code> those additional portions of text introduced within the body of the text (e.g.: overwritten corrections, inline revisions, external additions of text whose exact location in the poem is made explicit by graphic or written signs), whereas <code>&lt;note&gt;</code> elements refer to annotations located elsewhere in the document, outside the original body of the text. Morover, <code>&lt;note&gt;</code> elements never modify the base text.</li>
+					</ul>
 -	&lt;delSpan&gt;: it marks the beginning of a longer portion of text deleted, i.e., all the deletions which are longer than a single verse. This element is characterized by the following attributes: @hand  (the author of the deletion), @spanTo (a reference to the end point of the deletion span)
 -	&lt;metamark&gt;: any kind of signal expressing how the document should be read. For instance, it can be used for a stanza/line/word whose new location inside the text is pointed by an arrow. This element is characterized by the following attributes: @hand (the author of the signal), @place (the place inside the text), @rend (the shape/aspect of the signal), and @target (the target of the signal)
 &lt;lg type=“stanza”&gt;
