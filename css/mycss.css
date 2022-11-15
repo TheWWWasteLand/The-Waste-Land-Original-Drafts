@@ -308,3 +308,18 @@ code {
     color: #74a9d4;
 }
 
+.key {
+    height: 1.6em;
+    width: 1.6em;
+    color: rgba(0,0,0,0.7);
+    border-radius: 0.4em;
+    line-height: 1.6em;
+    letter-spacing: 1px;
+    margin: 0.4em;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 1em;
+    background-color: #1111;
+    border: 1pt solid #4444;
+    display: inline-block;
+}
