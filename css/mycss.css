@@ -323,3 +323,7 @@ code {
     border: 1pt solid #4444;
     display: inline-block;
 }
+#surf-div img {
+    width: calc(100vw - 425px);
+    margin-bottom: 15px;
+}
