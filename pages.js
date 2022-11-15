@@ -246,7 +246,7 @@ function prevPage() {
   if (one.getAttribute('style') == "display: block;") {
     one.style.display="none";
     i.style.display="block";
-    iCont.style.display="none";
+    iCont.style.display="block";
     document.getElementById('prev').style.display="none";
     if (comparison) {
         prevComparison("#singlePageDIV #page-i", "#singlePageDIV #page-2");
