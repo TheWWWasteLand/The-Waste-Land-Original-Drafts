@@ -262,6 +262,13 @@ h5 {
    padding-bottom: 18px;
 }
 
+h6 {
+    color: #548fc3;
+    text-decoration: underline;
+    text-decoration-color: #548fc3;
+    padding-bottom: 18px;
+}
+
 .em {
     font-style: italic;
 }
