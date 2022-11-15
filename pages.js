@@ -869,6 +869,7 @@ function goToPage(num) {
     }
     if (num == 1) {
             document.getElementById('prev').style.display="none";
+            pageList[0].display = "block";
     }
     else {
         document.getElementById('prev').style.display="block";
