@@ -35,7 +35,7 @@
                             <handNote xml:id="TEliot" scribe="ThomasEliot" scope="major">
                                 Thomas Eliot's hand that wrote the whole typescript and most of the annotations.
                             </handNote>
-                            <handNote xml:id="Pound" scribe="EzraPound" scope="minor">
+                            <handNote xml:id="Pound" scribe="EzraPound" scope="major">
                                 Ezra Pound's wrote many corrections and notes.
                             </handNote>
                             <handNote xml:id="VEliot" scribe="VivienneEliot" scope="minor">
