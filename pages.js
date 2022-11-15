@@ -165,8 +165,9 @@ function checkKey(e) {
 };
 
 function nextPage() {
-  var i, one, two, three, four, five, six, seven, pageList, secList;
+  var i, iCont, one, two, three, four, five, six, seven, pageList, secList;
   i = document.getElementById('page-i');
+  iCont = document.getElementById('page-i-content');
   one = document.getElementById('page-2');
   two = document.getElementById('page-3');
   three = document.getElementById('page-4');
@@ -185,6 +186,7 @@ function nextPage() {
   }
   if (i.getAttribute('style') != "display: none;") {
     i.style.display="none";
+    iCont.style.display="none";
     one.style.display="block";
     document.getElementById('prev').style.display="block";
     if (comparison) {
@@ -230,8 +232,9 @@ function nextPage() {
 };
 
 function prevPage() {
-  var i, one, two, three, four, five, six, seven;
+  var i, iCont, one, two, three, four, five, six, seven;
   i = document.getElementById('page-i');
+  iCont = document.getElementById('page-i-content');
   one = document.getElementById('page-2');
   two = document.getElementById('page-3');
   three = document.getElementById('page-4');
@@ -243,6 +246,7 @@ function prevPage() {
   if (one.getAttribute('style') == "display: block;") {
     one.style.display="none";
     i.style.display="block";
+    iCont.style.display="none";
     document.getElementById('prev').style.display="none";
     if (comparison) {
         prevComparison("#singlePageDIV #page-i", "#singlePageDIV #page-2");
@@ -321,7 +325,6 @@ function finalVer() {
   const notes = document.getElementsByTagName("tei-note");
   if (i.getAttribute('style') != "display: none;") {
     additions(document.getElementById("add-i"));
-    i.classList.toggle('finalActivation');
   }
   else if (one.getAttribute('style') == "display: block;") {
     for (let i = 0; i < 13; i++) {
