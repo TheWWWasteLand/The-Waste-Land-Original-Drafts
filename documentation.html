@@ -112,16 +112,22 @@
 					<h5>&lt;teiHeader&gt;</h5>
 					<p>With regard to the present edition, the teiHeader contains both a full bibliographic description of an electronic file (<code>&lt;fileDesc&gt;</code>) and a presentation of all the non-bibliographic information (<code>&lt;profileDesc&gt;</code>)</p>
                         		<ul>
-						<li><span class="bold">&lt;fileDesc&gt;</span>: includes information about:</li>
-						<ul>
-							<li><span class="bold">The title (<code>&lt;titleStmt&gt;</code>)</span>: presents the actual title (<code>&lt;title&gt;</code>) and the name of the author (<code>&lt;author&gt;</code>)</li>
-							<li><span class="bold">The edition (<code>&lt;editionStmt&gt;</code>)</span>: includes information about the first edition and a statement of responsibility for the intellectual content of the edition (<code>&lt;respStmt&gt;</code>)
-							<li><span class="bold">The publication (<code>&lt;publicationStmt&gt;</code>)</span>: introduces the publisher (<code>&lt;title&gt;</code>) and the license (<code>&lt;p&gt;</code>)
-							<li><span class="bold">The source (<code>&lt;sourceDesc&gt;</code>)</span>: provides a description of the source document which is nested inside the more specific <code>&lt;msDesc&gt;</code> element:</li>
+						<li><span class="bold">&lt;fileDesc&gt;</span>: includes information about:
 							<ul>
-								<li><span class="bold">&lt;msIdentifier&gt;</span>: presents the city (<code>&lt;settlement&gt;</code>) and the repository (<code>&lt;repository&gt;</code>) where the manuscript is located, together with the catalogue number (<code>&lt;idno&gt;</code>)
-						</ul>
-							<li><span class="bold">&lt;profileDesc&gt;</span></li>
+								<li><span class="bold">The title (<code>&lt;titleStmt&gt;</code>)</span>: presents the actual title of the edition (<code>&lt;title&gt;</code>) and the name of the author (<code>&lt;author&gt;</code>)</li>
+								<li><span class="bold">The edition (<code>&lt;editionStmt&gt;</code>)</span>: includes information about the first edition and a statement of responsibility for the intellectual content of the edition (<code>&lt;respStmt&gt;</code>)
+								<li><span class="bold">The publication (<code>&lt;publicationStmt&gt;</code>)</span>: introduces the publisher (<code>&lt;title&gt;</code>) and possible restrictions on its use or distribution (<code>&lt;availability&gt;</code>)
+								<li><span class="bold">The source (<code>&lt;sourceDesc&gt;</code>)</span>: provides a description of the source document which is nested inside the more specific <code>&lt;msDesc&gt;</code> element:
+								<ul>
+									<li><span class="bold">&lt;msIdentifier&gt;</span>: presents the city (<code>&lt;settlement&gt;</code>) and the repository (<code>&lt;repository&gt;</code>) where the manuscript is located, along with its catalogue number (<code>&lt;idno&gt;</code>)</li>
+									<li><span class="bold">&lt;msContents&gt;</span>: describes the intellectual content of the manuscript. Since we are dealing with a single poem, the content coincides with a single <code>&lt;msItem&gt;</code>, providing information about the title (<code>&lt;title&gt;</code>), the author's name (<code>&lt;author&gt;</code>) and the date of creation (<code>&lt;date&gt;</code>) of the original work.</li>
+									<li><span class="bold">&lt;physDesc&gt;</span>: encloses a physical description of the manuscript. Given the relevance of the revision process, a special focus is devoted to the analysis of the hands (<code>&lt;handDesc&gt;</code>). The element <code>&lt;handDesc&gt;</code> contains a different <code>&lt;handNote&gt;</code> element for each of the hands involved. The <code>&lt;handNote&gt;</code> tag presents some important attributes: <code>@xml:id</code>, later recalled for identifying the ownership of a revision; <code>@scribe</code>, providing the name of the contributor; <code>@scope</code>, specifying how widely a certain hand is used in the manuscript.
+								</ul>
+								</li>
+							</ul>
+						</li>
+						<li><span class="bold">&lt;profileDesc&gt;</span></li>
+					</ul>
     &lt;teiHeader&gt;
         &lt;fileDesc&gt;
             &lt;titleStmt&gt;
