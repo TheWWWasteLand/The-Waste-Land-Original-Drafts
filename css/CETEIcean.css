@@ -1889,3 +1889,6 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
     line-height: 1em;
 }
 
+li.right:hover {
+    background-color: #4f6f84;
+}
