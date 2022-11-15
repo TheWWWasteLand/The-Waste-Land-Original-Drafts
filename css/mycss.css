@@ -291,3 +291,13 @@ h5 {
 code {
     color: #555;
 }
+
+.comment {
+    font-style: italic;
+    color: #999999;
+}
+
+#displayed-content a {
+    color: #74a9d4;
+}
+
