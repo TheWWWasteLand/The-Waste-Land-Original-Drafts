@@ -62,7 +62,7 @@
                 <div xml:id="page-i" >
                     <figure><graphic url="https://thewwwasteland.github.io/images/1.jpg" xml:id="page-i-pic" type="page"/>
                     </figure>
-                    <div>
+                    <div xml:id="page-i-content">
                         <head>
                             THE WASTE LAND<lb/>
                             By<lb/>
