@@ -112,7 +112,7 @@
 					<h5>&lt;teiHeader&gt;</h5>
 					<p>With regard to the present edition, the teiHeader contains both a full bibliographic description of an electronic file (<code>&lt;fileDesc&gt;</code>) and a presentation of all the non-bibliographic information (<code>&lt;profileDesc&gt;</code>)</p>
                         		<ul>
-						<li><span class="bold">&lt;fileDesc&gt;</span>: includes information about:
+						<li><span class="bold">&lt;fileDesc&gt;</span>: includes some information about:
 							<ul>
 								<li><span class="bold">The title (<code>&lt;titleStmt&gt;</code>)</span>: presents the actual title of the edition (<code>&lt;title&gt;</code>) and the name of the author (<code>&lt;author&gt;</code>)</li>
 								<li><span class="bold">The edition (<code>&lt;editionStmt&gt;</code>)</span>: includes information about the first edition and a statement of responsibility for the intellectual content of the edition (<code>&lt;respStmt&gt;</code>)
@@ -126,72 +126,29 @@
 								</li>
 							</ul>
 						</li>
-						<li><span class="bold">&lt;profileDesc&gt;</span></li>
+						<li><span class="bold"><code>&lt;profileDesc&gt;</code></span>: contains some information about the languages used in the manuscript inside the <code>&lt;langUsage&gt;</code> element. Each language is introduced by a <code>&lt;language&gt;</code> element, whose opening tag includes the attribute <code>&lt;ident&gt;</code>, supplying a language code constructed as defined in <a href="https://www.rfc-editor.org/info/bcp47">BCP 47</a></li>
+						
 					</ul>
-    &lt;teiHeader&gt;
-        &lt;fileDesc&gt;
-            &lt;titleStmt&gt;
-                &lt;title&gt;The Waste Land SDE&lt;/title&gt;
-                &lt;author&gt;T. S. Eliot&lt;/author&gt;
-                &lt;respStmt&gt;
-                    &lt;resp&gt;Edited by&lt;/resp&gt;
-                    &lt;name&gt;Sebastiano Giacomini&lt;/name&gt;
-                &lt;/respStmt&gt;
-            &lt;/titleStmt&gt;
-            &lt;editionStmt&gt;First edition, &lt;date&gt;1922&lt;/date&gt;
-            &lt;/editionStmt&gt;
-            &lt;publicationStmt&gt;&lt;publisher&gt;University of Bologna&lt;/publisher&gt;
-                  &lt;p&gt;This work is the property of the University of Bologna.   It may be used freely by individuals for research, teaching and personal use as long as this statement of availability is included in the text.
-&lt;/p&gt;
-            &lt;/publicationStmt&gt;
-            &lt;sourceDesc&gt;
-                &lt;msDesc&gt;
-                &lt;msIdentifier&gt;
-                    &lt;settlement&gt;New York&lt;/settlement&gt;
-                    &lt;repository&gt;Public Library&lt;/repository&gt;
-                    &lt;idno&gt;Cup.410.g.63&lt;/idno&gt;
-                &lt;/msIdentifier&gt;
-                    &lt;msContents&gt;
-                        &lt;msItem&gt;
-                            &lt;title&gt;The Waste Land&lt;/title&gt;
-                            &lt;author&gt;T. S. Eliot&lt;/author&gt;
-                            &lt;date&gt;1922&lt;/date&gt;
-                        &lt;/msItem&gt;
-                    &lt;/msContents&gt;
-                &lt;/msDesc&gt;
-            &lt;/sourceDesc&gt;
-        &lt;/fileDesc&gt;
-        &lt;profileDesc&gt;
-            &lt;langUsage&gt;
-                &lt;language ident="en"&gt;English&lt;/language&gt;
-                &lt;language ident="la"&gt;Latin&lt;/language&gt;
-                &lt;language ident="fr"&gt;French&lt;/language&gt;
-                &lt;language ident="de"&gt;German&lt;/language&gt;
-            &lt;/langUsage&gt;
-        &lt;/profileDesc&gt;
-    &lt;/teiHeader&gt;
-
-
-
-&lt;text&gt;
-At the same level as the &lt;teiHeader&gt;, users will find the &lt;text&gt; element, whose inner elements correspond to the actual content of the source typescript. The current SDE aims at providing the users with an easy-to-use product, thus, the original pagination of Eliot’s drafts has been kept unchanged. As first consequence, the content of the &lt;text&gt; element has been split into a &lt;front&gt; element and the &lt;body&gt; part.
-&lt;front&gt; 
-Let’s now focus on the former element (&lt;front&gt;), whose structure looks like this:
-&lt;front&gt;
-  &lt;titlePage&gt;
-    &lt;pb/&gt;
-    &lt;div&gt;
-      &lt;facsimile&gt;
-        &lt;graphic/&gt;
-      &lt;/facsimile&gt;
-	&lt;head&gt;
-	&lt;/head&gt;
-	&lt;quote&gt;
-	&lt;/quote&gt;
-    &lt;/div&gt;
-  &lt;/titlePage&gt;
-&lt;/front&gt;
-The front of the typescript consists of a single title page, marked by the corresponding tag (&lt;titlePage&gt;). From now on, each page beginning is highlighted by the &lt;pb/&gt; tag, while the actual content of a page is placed inside the &lt;div&gt; element. This last tag always contains a digital reproduction (&lt;facsimile&gt;) of the original source: the URL of the picture is expressed by the attribute @url of the (&lt;graphic/&gt;) element. The text of the title page is then articulated into the main heading (THE WASTE LAND / By / T. S. Eliot) and an introductory quotation. The former is introduced by the &lt;head&gt; element, the latter is marked as &lt;quote&gt;.
+					<h5>&lt;text&gt;</h5>
+					<p>At the same level as the <code>&lt;teiHeader&gt;</code>, readers can find the <code>&lt;text&gt;</code> element, whose inner tags depict the actual content of the source manuscript-typescript. The current SDE aims to provide the users with an easy-to-use product, thus, the original pagination of Eliot’s drafts has been kept unchanged. Consequently, the content of the <code>&lt;text&gt;</code> element has been split into a <span class="bold"><code>&lt;front&gt;</code></span> element and the <span class="bold"><code>&lt;body&gt;</code></span> part. From now on, each <code>&lt;div&gt;</code> element will mark the beginning and the end of a single page, with the exception of a <code>&lt;div&gt;</code> directly nested inside another <code>&lt;div&gt;</code> element.</p>
+					<p>Let us now focus on the &lt;front&gt; element of the present edition, whose specific structure looks like this:</p>
+<code>&lt;front&gt;</code>
+<code>  &lt;titlePage&gt;</code>
+<code>    &lt;pb/&gt;</code>
+<code>    &lt;div&gt;</code>
+<code>      &lt;facsimile&gt;</code>
+<code>        &lt;graphic/&gt;</code>
+<code>      &lt;/facsimile&gt;</code>
+<code>      &lt;div&gt;</code>
+<code>	      &lt;head&gt;</code>
+<code>	      &lt;/head&gt;</code>
+<code>	      &lt;quote&gt;</code>
+<code>	      &lt;/quote&gt;</code>
+<code>      &lt;/div&gt;</code>
+<code>    &lt;/div&gt;</code>
+<code>  &lt;/titlePage&gt;</code>
+<code>&lt;/front&gt;</code>
+				        <p>The front of the typescript consists of a single title page, marked by the corresponding tag (<code>&lt;titlePage&gt;</code>). Each page beginning is highlighted by the <code>&lt;pb/&gt;</code> tag, while the actual content of a page is placed inside the <code>&lt;div&gt;</code>. This last tag always contains a digital reproduction (<code>&lt;facsimile&gt;</code>) of the original source: the URL of the picture is expressed by the <code>&lt;@url&gt;</code> attribute of the (&lt;graphic/&gt;) element. The text of the title page is then articulated into the main heading (<span class="el">THE WASTE LAND / By / T. S. Eliot</span>) and an introductory quotation. The former is introduced by the <code>&lt;head&gt;</code> element, the latter is marked as a <code>&lt;quote&gt;</code>.</p>
 
 
 
