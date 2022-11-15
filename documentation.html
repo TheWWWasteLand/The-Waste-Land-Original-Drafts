@@ -41,7 +41,7 @@
                     <ul>
                         <li id="intro">Introduction to the edition</li>
                         <li id="tei">TEI/XML econding</li>
-			
+		        <li id="surf">Surfing the edition</li>
                         <li>Bibiliography</li>
                     </ul>
                 </div>
@@ -85,7 +85,7 @@
 						</ul>
 						<p>The first point is of major importance since editors are free to customize their products according to their specifical needs (CSS and JS). This aspect becomes even more relevant while dealing with complex sources and multi-layered editions, like in this case.</p> 
 					</div>
-				<div id="tei-div" class="hidden">
+					<div id="tei-div" class="hidden">
 					<h5>General structure</h5>
 					<p>The TEI markup follows the general rules and the syntax of the XML markup language. The overall structure of a unitary text is:</p>
 					<div class="code-box">
@@ -188,7 +188,15 @@
 						<li><span class="bold"><code>&lt;metamark&gt;</code></span>: any kind of signal expressing how the document should be read. For instance, it can be used for a stanza/line/word whose new location inside the text is pointed by an arrow. This element is characterized by the following attributes: <code>@hand</code> (the author of the signal), <code>@place</code> (the place inside the text), <code>@rend</code> (the shape/aspect of the signal), and <code>@target</code> (the target of the signal).
 						<li><span class="bold"><code>&lt;subst&gt;</code></span>: this element marks a group of one or more deletions and one or additions. Thus, it must contain at least one <code>&lt;del&gt;</code> and an <code>&lt;add&gt;</code>.
 					</ul>
-                    </div>
+                    			</div>
+	    	    			<div id="surf-div" class="hidden">
+						<h5>One poem, four approaches</h5>
+						<p>In the first section of the present documentation, it emerged the relevance of approaching the same work from different perspectives. Accordingly, users have been provided with four different modalities of accessing the text:</p>
+						<p>The default perspective of the present edition consists of a facsimile of the source document and a transcription of the original text of the typescript:</p>
+						<img>
+						<p>Users might be interested in visualizing the corrections and the notes produced on the manuscript-typescript. To visualize the interventions, users can either click on the button <span class="em">Show annotations</span> or press the <span class="key">F</span> key. The new will look like this:</p>
+						
+	    				</div>
                 </div>
             </section>
         </main>
