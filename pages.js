@@ -638,25 +638,24 @@ function singlePage() {
     });
     $("#onlytextDIV tei-del").remove();
     $("#onlytextDIV tei-add").each(function(){
-       var parents = $(this).parents();
-       parents.each(function(){
-           if ($(this).prop("nodeName") == "TEI-L" || $(this).prop("nodeName") == "TEI-HEAD" || $(this).prop("nodeName") == "TEI-LG") {
-               var adds = $(this).find("tei-add");
-               adds.each(function(){
-                   if ($(this).attr("cause") == "sign") {
-                       $(this).hide();
-                   }
-                   else if ($(this).attr('id') != "add-16" && $(this).attr('id') != "add-24" && $(this).attr('id') != "add-27" && $(this).attr('id') != "add-32") {
-                       $(this).removeAttr("rend");
-                       $(this).removeAttr("place");
-                       $(this).attr("place", "inline");
-                       $(this).css({"background-color": "#f5b3c2", "display": "inline-block", "padding": "0px !important", "margin": "0 !important"});
-                       $(this).removeClass("hidden");
-                   }
-               });
-               var htmlOriginal = $(this).html();
-           }
-       });
+        var parents = $(this).parents();
+        parents.each(function(){
+            if ($(this).prop("nodeName") == "TEI-L" || $(this).prop("nodeName") == "TEI-HEAD" || $(this).prop("nodeName") == "TEI-LG"  || $(this).prop("nodeName") == "TEI-P") {
+                var adds = $(this).find("tei-add");
+                adds.each(function(){
+                    if ($(this).attr("cause") == "sign") {
+                        $(this).hide();
+                    }
+                    else if ($(this).attr('id') != "add-16" && $(this).attr('id') != "add-24" && $(this).attr('id') != "add-27" && $(this).attr('id') != "add-32") {
+                        $(this).removeAttr("rend");
+                        $(this).removeAttr("place");
+                        $(this).attr("place", "inline");
+                        $(this).css({"background-color": "#f5b3c2", "display": "inline-block", "padding": "0px !important", "margin": "0 !important"});
+                        $(this).removeClass("hidden");
+                    }
+                });
+                var htmlOriginal = $(this).html();
+            }
     });
     $("#onlytextDIV tei-delSpan").each(function(){
       var x = $(this);
@@ -692,6 +691,7 @@ function singlePage() {
              });
          }
       });
+    });
     });
 }
 
