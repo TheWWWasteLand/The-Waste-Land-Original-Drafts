@@ -695,20 +695,7 @@ function singlePage() {
 
 $(document).ready(function(){
   $("#textOnly").click(function(){
-    $("tei-figure").hide();
-    $(".zoom-button").hide();
-    $("[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "300px"});
-    $("#button-notes-list").css({"left": "65.5px", "width": "calc(100vw - 124.5px)"});
-    $("tei-note").each(function(){
-      var x = $(this).css("left");
-      if ($(this).parent().attr('id') == 'poemPage05') {
-          var leftPx = "calc(120px + " + x + ")";
-      }
-      else {
-          var leftPx = "calc(190px + " + x + ")";
-      }
-      $(this).css({"left": leftPx});
-    });
+    singlePage();
   });
 });
 
@@ -862,7 +849,6 @@ function goToPage(num) {
             pageList[i].style.display = "none";
             console.log("nope");
             console.log(num);
-            
         }
         if (i == num) {
             pageList[i].style.display = "block";
