@@ -605,25 +605,29 @@ function reset() {
 /* singlePage */
 
 function singlePage() {
-    const case1 = $("#hi-4 tei-l:first-child");
-    var textCase1 = $("#hi-4 tei-l:first-child").html();
+    $("body > tei-tei").hide();
+    $("body").append("<div id='onlytextDIV'></div>");
+    const tei = $("tei-tei");
+    tei.clone().appendTo("#onlytextDIV");
+    const case1 = $("#onlytextDIV #hi-4 tei-l:first-child");
+    var textCase1 = $("#onlytextDIV #hi-4 tei-l:first-child").html();
     var newTextCase1 = "          " + textCase1;
     case1.html(newTextCase1);
-    $("tei-l").each(function(){
+    $("#onlytextDIV tei-l").each(function(){
         $(this).removeAttr("n");
     });  
-    $("#add-16").hide();
-    $("#add-24").hide();
-    $("#add-27").hide();
-    $("#add-32").hide();
-    $("tei-l span").hide();
-    $("tei-figure").hide();
-    $(".zoom-button").hide();
+    $("#onlytextDIV #add-16").hide();
+    $("#onlytextDIV #add-24").hide();
+    $("#onlytextDIV #add-27").hide();
+    $("#onlytextDIV #add-32").hide();
+    $("#onlytextDIV tei-l span").hide();
+    $("#onlytextDIV tei-figure").hide();
+    $("#onlytextDIV .zoom-button").hide();
     $("[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "300px", "height": "auto", "overflow":"auto", "-webkit-box-shadow": "2px 4px 4px 0px #999", "box-shadow":" 2px 4px 4px 0px #999"});
-    $("#button-notes-list").css({"left": "65.5px", "width": "calc(100vw - 124.5px)"});
+    $("#button-notes-list").hide();
     var x = 0;
     var list = [60, -30, 90, 1235, 650, 1130, 1190]; 
-    $("tei-div").each(function(){
+    $("#onlytextDIV tei-div").each(function(){
         var a = list[x];
         x = x + 1;
         var b = (a).toString() + "px" ;
@@ -632,8 +636,8 @@ function singlePage() {
             $(this).css({"padding-bottom": "295px"});
         }
     });
-    $("tei-del").remove();
-    $("tei-add").each(function(){
+    $("#onlytextDIV tei-del").remove();
+    $("#onlytextDIV tei-add").each(function(){
        var parents = $(this).parents();
        parents.each(function(){
            if ($(this).prop("nodeName") == "TEI-L" || $(this).prop("nodeName") == "TEI-HEAD" || $(this).prop("nodeName") == "TEI-LG") {
@@ -654,7 +658,7 @@ function singlePage() {
            }
        });
     });
-    $("tei-delSpan").each(function(){
+    $("#onlytextDIV tei-delSpan").each(function(){
       var x = $(this);
       var target = $(this).attr("spanTo");
       var siblings = $(this).nextAll();
