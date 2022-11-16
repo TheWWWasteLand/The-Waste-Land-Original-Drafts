@@ -605,7 +605,6 @@ function reset() {
 /* singlePage */
 
 function singlePage() {
-    $("body > tei-tei").hide();
     $("body").append("<div id='onlytextDIV'></div>");
     const tei = $("tei-tei");
     tei.clone().appendTo("#onlytextDIV");
@@ -613,6 +612,7 @@ function singlePage() {
     var textCase1 = $("#onlytextDIV #hi-4 tei-l:first-child").html();
     var newTextCase1 = "          " + textCase1;
     case1.html(newTextCase1);
+    $("body > tei-tei").hide();
     $("#onlytextDIV tei-l").each(function(){
         $(this).removeAttr("n");
     });  
