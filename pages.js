@@ -626,7 +626,7 @@ function singlePage() {
     $("[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "300px", "height": "auto", "overflow":"auto", "-webkit-box-shadow": "2px 4px 4px 0px #999", "box-shadow":" 2px 4px 4px 0px #999"});
     $("#button-notes-list").hide();
     var x = 0;
-    var list = [60, -30, 90, 1235, 650, 1130, 1190]; 
+    var list = [60, -30, 90, 1235, 650, 1130, 1190, 1100]; 
     $("#onlytextDIV tei-div").each(function(){
         var a = list[x];
         x = x + 1;
