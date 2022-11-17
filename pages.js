@@ -728,13 +728,6 @@ function singlePage() {
     }
 }
 
-/* text only */
-
-$(document).ready(function(){
-  $("#textOnly").click(function(){
-    singlePage();
-  });
-});
 
 /* photo only */ 
     
@@ -777,6 +770,14 @@ $(document).ready(function(){
   });
   $("#imgtext").click(function(){
       reset();
+  });
+  $("#textOnly").click(function(){
+      singlePage();
+  });
+  $("#pageList li").click(function(){
+      var number = $(this).text;
+      var num = (parseInt(number) - 1).toString();
+      goToPage(number);
   });
 });
 
@@ -911,6 +912,8 @@ function goToPage(num) {
         document.getElementById('next').style.display="block";
     }
 }
+
+
     
         
 
