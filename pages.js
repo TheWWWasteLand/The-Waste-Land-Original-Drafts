@@ -500,6 +500,10 @@ function page() {
 /*comparison*/
 
 function comparison() {
+    const single = $('#onlytextDIV').length;
+    if (single > 0) {
+        singlePage();
+    }
     if ($("tei-lg").css("display") == "none") {
         photo();
     }
@@ -591,6 +595,10 @@ function comparison() {
 /*reset*/
 
 function reset() {
+    const single = $('#onlytextDIV').length;
+    if (single > 0) {
+        singlePage();
+    }
     const compare = $('#singlePageDIV').length;
     if (compare > 0) {
         comparison();
@@ -605,11 +613,19 @@ function reset() {
 /* singlePage */
 
 function singlePage() {
+    const compare = $('#singlePageDIV').length;
+    if (compare > 0) {
+        comparison();
+    }
+    if ($("tei-lg").css('display') == "none") {
+        photo();
+    }
     const single = $('#onlytextDIV').length;
     if (single > 0) {
         $("body > tei-tei").show();
         $(".zoom-button").show();
         $('#onlytextDIV').remove();
+        $("#button-notes-list").show();
         return false;
     }
     else {
@@ -631,10 +647,11 @@ function singlePage() {
         $("#onlytextDIV tei-l span").hide();
         $("#onlytextDIV tei-figure").hide();
         $(".zoom-button").hide();
-        $("#onlytextDIV tei-lg[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "20vw", "height": "auto", "overflow":"auto", "-webkit-box-shadow": "2px 4px 4px 0px #999", "box-shadow":" 2px 4px 4px 0px #999"});
+        $("#onlytextDIV tei-titlepage > tei-div").css({"padding-left": "30vw"});
+        $("#onlytextDIV tei-lg[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "25vw", "padding-right": "22vw", "height": "auto", "overflow":"auto", "-webkit-box-shadow": "2px 4px 4px 0px #999", "box-shadow":" 2px 4px 4px 0px #999"});
         $("#button-notes-list").hide();
         var x = 0;
-        var list = [60, -30, 90, 105, 765, 650, 1140, 880]; 
+        var list = [60, -30, 90, 105, 765, 650, 1140, 1190]; 
         $("#onlytextDIV tei-div").each(function(){
             var a = list[x];
             x = x + 1;
