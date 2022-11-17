@@ -1756,7 +1756,7 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
   width: calc(40vw - 17px);
   top: 85px;
   left: 62px;
-  z-index: 800;
+  z-index: 100;
 }
 
 .zoom-button > img {
