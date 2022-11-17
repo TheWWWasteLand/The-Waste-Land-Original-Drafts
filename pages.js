@@ -543,7 +543,7 @@ function comparison() {
                     if ($(this).attr("cause") == "sign") {
                         $(this).hide();
                     }
-                    else if ($(this).attr('id') != "add-16" && $(this).attr('id') != "add-24" && $(this).attr('id') != "add-27" && $(this).attr('id') != "add-32") {
+                    else if ($(this).attr('id') != "add-16" && $(this).attr('id') != "add-24" && $(this).attr('id') != "add-27" && $(this).attr('id') != "add-32" && $(this).attr('id') != "add-34") {
                         $(this).removeAttr("rend");
                         $(this).removeAttr("place");
                         $(this).attr("place", "inline");
@@ -673,7 +673,7 @@ function singlePage() {
                         if ($(this).attr("cause") == "sign") {
                             $(this).hide();
                         }
-                        else if ($(this).attr('id') != "add-16" && $(this).attr('id') != "add-24" && $(this).attr('id') != "add-27" && $(this).attr('id') != "add-32") {
+                        else if ($(this).attr('id') != "add-16" && $(this).attr('id') != "add-24" && $(this).attr('id') != "add-27" && $(this).attr('id') != "add-32" && $(this).attr('id') != "add-34") {
                             $(this).removeAttr("rend");
                             $(this).removeAttr("place");
                             $(this).attr("place", "inline");
