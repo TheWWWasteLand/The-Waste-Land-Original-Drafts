@@ -152,14 +152,17 @@ function checkKey(e) {
       case '40':
         zoomout();
         break;
-      case '70':
+      case '65':
         finalVer();
         break;
-      case '80':
+      case '84':
         singlePage();
         break;
       case '67':
         comparison();
+        break;
+      case '70':
+        photo();
         break;
     }
 };
@@ -627,9 +630,11 @@ function singlePage() {
         $(".zoom-button").show();
         $('#onlytextDIV').remove();
         $("#button-notes-list").show();
+        document.getElementById('next').style.display="block";
         return false;
     }
     else {
+        document.getElementById('next').style.display="none";
         $("body").append("<div id='onlytextDIV'></div>");
         const tei = $("tei-tei");
         tei.clone().appendTo("#onlytextDIV");
