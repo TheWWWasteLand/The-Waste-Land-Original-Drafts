@@ -896,7 +896,7 @@ function goToPage(num) {
     num = (parseInt(num) + 1).toString();
     const span = "      <span class='bolder'>+</span>";
     var newString = num + span;
-    document.getElementById("pageNumber").innerHTML(newString);
+    document.getElementById("pageNumber").innerHTML = newString;
     const pageList = document.getElementsByTagName('tei-div');
     for (let i = 0; i < pageList.length; i++) {
         var style = window.getComputedStyle(pageList[i]);
