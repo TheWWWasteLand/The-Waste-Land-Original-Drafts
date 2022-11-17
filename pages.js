@@ -777,7 +777,7 @@ $(document).ready(function(){
   $("#pageList li").click(function(){
       var number = $(this).text;
       var num = (parseInt(number) - 1).toString();
-      goToPage(number);
+      goToPage(num);
   });
 });
 
