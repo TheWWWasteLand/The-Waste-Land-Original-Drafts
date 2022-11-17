@@ -776,7 +776,9 @@ $(document).ready(function(){
   });
   $("#pageList li").click(function(){
       var number = $(this).text;
+      console.log(number);
       var num = (parseInt(number) - 1);
+      console.log(num);
       goToPage(num);
   });
   $("#secList li").click(function(){
@@ -894,6 +896,7 @@ function thumbSearch(el) {
 
 function goToPage(num) {
     num = (parseInt(num) + 1).toString();
+    console.log(num);
     const span = "      <span class='bolder'>+</span>";
     var newString = num + span;
     document.getElementById("pageNumber").innerHTML = newString;
