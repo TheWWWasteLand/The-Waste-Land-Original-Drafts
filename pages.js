@@ -775,7 +775,7 @@ $(document).ready(function(){
       singlePage();
   });
   $("#pageList li").click(function(){
-      var number = $(this).text;
+      var number = $(this).text();
       console.log(number);
       var num = (parseInt(number) - 1);
       console.log(num);
