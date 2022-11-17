@@ -1892,3 +1892,9 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
 li.right:hover {
     background-color: #4f6f84;
 }
+
+#onlytextDIV {
+    background-color: white;
+    -webkit-box-shadow: 6px 4px 12px 0px #999;
+    box-shadow: 6px 4px 12px 0px #999;
+}
