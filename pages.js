@@ -605,94 +605,103 @@ function reset() {
 /* singlePage */
 
 function singlePage() {
-    $("body").append("<div id='onlytextDIV'></div>");
-    const tei = $("tei-tei");
-    tei.clone().appendTo("#onlytextDIV");
-    const case1 = $("#onlytextDIV #hi-4 tei-l:first-child");
-    var textCase1 = $("#onlytextDIV #hi-4 tei-l:first-child").html();
-    var newTextCase1 = "          " + textCase1;
-    case1.html(newTextCase1);
-    $("body > tei-tei").hide();
-    $("#onlytextDIV tei-l").each(function(){
-        $(this).removeAttr("n");
-    });  
-    $("#onlytextDIV #add-16").hide();
-    $("#onlytextDIV #add-24").hide();
-    $("#onlytextDIV #add-27").hide();
-    $("#onlytextDIV #add-32").hide();
-    $("#onlytextDIV tei-l span").hide();
-    $("#onlytextDIV tei-figure").hide();
-    $(".zoom-button").hide();
-    $("[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "20vw", "height": "auto", "overflow":"auto", "-webkit-box-shadow": "2px 4px 4px 0px #999", "box-shadow":" 2px 4px 4px 0px #999"});
-    $("#button-notes-list").hide();
-    var x = 0;
-    var list = [60, -30, 90, 105, 765, 650, 1140, 880]; 
-    $("#onlytextDIV tei-div").each(function(){
-        var a = list[x];
-        x = x + 1;
-        var b = (a).toString() + "px" ;
-        $(this).css({"display": "block", "height": "100%", "margin-top" : b});
-        if (x == 7) {
-            $(this).css({"padding-bottom": "295px"});
-        }
-    });
-    $("#onlytextDIV tei-del").remove();
-    $("#onlytextDIV tei-add").each(function(){
-        var parents = $(this).parents();
-        parents.each(function(){
-            if ($(this).prop("nodeName") == "TEI-L" || $(this).prop("nodeName") == "TEI-HEAD" || $(this).prop("nodeName") == "TEI-LG"  || $(this).prop("nodeName") == "TEI-P") {
-                var adds = $(this).find("tei-add");
-                adds.each(function(){
-                    if ($(this).attr("cause") == "sign") {
-                        $(this).hide();
-                    }
-                    else if ($(this).attr('id') != "add-16" && $(this).attr('id') != "add-24" && $(this).attr('id') != "add-27" && $(this).attr('id') != "add-32") {
-                        $(this).removeAttr("rend");
-                        $(this).removeAttr("place");
-                        $(this).attr("place", "inline");
-                        $(this).css({"background-color": "#f5b3c2", "display": "inline-block", "padding": "0px !important", "margin": "0 !important"});
-                        $(this).removeClass("hidden");
-                    }
-                });
-                var htmlOriginal = $(this).html();
+    const single = $('#onlytextDIV').length;
+    if (single > 0) {
+        $("body > tei-tei").show();
+        $(".zoom-button").show();
+        $('#onlytextDIV').remove();
+        return false;
+    }
+    else {
+        $("body").append("<div id='onlytextDIV'></div>");
+        const tei = $("tei-tei");
+        tei.clone().appendTo("#onlytextDIV");
+        const case1 = $("#onlytextDIV #hi-4 tei-l:first-child");
+        var textCase1 = $("#onlytextDIV #hi-4 tei-l:first-child").html();
+        var newTextCase1 = "          " + textCase1;
+        case1.html(newTextCase1);
+        $("body > tei-tei").hide();
+        $("#onlytextDIV tei-l").each(function(){
+            $(this).removeAttr("n");
+        });  
+        $("#onlytextDIV #add-16").hide();
+        $("#onlytextDIV #add-24").hide();
+        $("#onlytextDIV #add-27").hide();
+        $("#onlytextDIV #add-32").hide();
+        $("#onlytextDIV tei-l span").hide();
+        $("#onlytextDIV tei-figure").hide();
+        $(".zoom-button").hide();
+        $("[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "20vw", "height": "auto", "overflow":"auto", "-webkit-box-shadow": "2px 4px 4px 0px #999", "box-shadow":" 2px 4px 4px 0px #999"});
+        $("#button-notes-list").hide();
+        var x = 0;
+        var list = [60, -30, 90, 105, 765, 650, 1140, 880]; 
+        $("#onlytextDIV tei-div").each(function(){
+            var a = list[x];
+            x = x + 1;
+            var b = (a).toString() + "px" ;
+            $(this).css({"display": "block", "height": "100%", "margin-top" : b});
+            if (x == 8) {
+                $(this).css({"padding-bottom": "295px"});
             }
-    });
-    $("#onlytextDIV tei-delSpan").each(function(){
-      var x = $(this);
-      var target = $(this).attr("spanTo");
-      var siblings = $(this).nextAll();
-      var a = 0;
-      siblings.each(function() {
-         if ($(this).attr('id') == target) {
-           siblings.each(function() {
-               if ($(this).next().attr('id') == target) {
-                   $(this).hide();
-                   return false;
-               }
-               else if ($(this).next().attr('id') != target) {
-                   $(this).hide();
-               }
-           });
-         }
-         else {
-             siblings.each(function() {
-               if ($(this).find(target).length == 0) {
-                   $(this).hide();
-               }
-               else if ($(this).find(target).length == 1) {
-                   var newtarget = target.substring(1);
-                   var string = '<tei-anchor xml:id="' + newtarget + '" id="' + newtarget + '" data-origname="anchor" data-empty="" data-processed="">';
-                   var text = $(this).html();
-                   var idx = text.indexOf(string);
-                   var newString = text.substring(idx);
-                   $(this).html(newString);
-                   return false;
-               }
-             });
-         }
-      });
-    });
-    });
+        });
+        $("#onlytextDIV tei-del").remove();
+        $("#onlytextDIV tei-add").each(function(){
+            var parents = $(this).parents();
+            parents.each(function(){
+                if ($(this).prop("nodeName") == "TEI-L" || $(this).prop("nodeName") == "TEI-HEAD" || $(this).prop("nodeName") == "TEI-LG"  || $(this).prop("nodeName") == "TEI-P") {
+                    var adds = $(this).find("tei-add");
+                    adds.each(function(){
+                        if ($(this).attr("cause") == "sign") {
+                            $(this).hide();
+                        }
+                        else if ($(this).attr('id') != "add-16" && $(this).attr('id') != "add-24" && $(this).attr('id') != "add-27" && $(this).attr('id') != "add-32") {
+                            $(this).removeAttr("rend");
+                            $(this).removeAttr("place");
+                            $(this).attr("place", "inline");
+                            $(this).css({"background-color": "#f5b3c2", "display": "inline-block", "padding": "0px !important", "margin": "0 !important"});
+                            $(this).removeClass("hidden");
+                        }
+                    });
+                    var htmlOriginal = $(this).html();
+                }
+        });
+        $("#onlytextDIV tei-delSpan").each(function(){
+          var x = $(this);
+          var target = $(this).attr("spanTo");
+          var siblings = $(this).nextAll();
+          var a = 0;
+          siblings.each(function() {
+             if ($(this).attr('id') == target) {
+               siblings.each(function() {
+                   if ($(this).next().attr('id') == target) {
+                       $(this).hide();
+                       return false;
+                   }
+                   else if ($(this).next().attr('id') != target) {
+                       $(this).hide();
+                   }
+               });
+             }
+             else {
+                 siblings.each(function() {
+                   if ($(this).find(target).length == 0) {
+                       $(this).hide();
+                   }
+                   else if ($(this).find(target).length == 1) {
+                       var newtarget = target.substring(1);
+                       var string = '<tei-anchor xml:id="' + newtarget + '" id="' + newtarget + '" data-origname="anchor" data-empty="" data-processed="">';
+                       var text = $(this).html();
+                       var idx = text.indexOf(string);
+                       var newString = text.substring(idx);
+                       $(this).html(newString);
+                       return false;
+                   }
+                 });
+             }
+          });
+        });
+        });
+    }
 }
 
 /* text only */
