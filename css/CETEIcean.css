@@ -1865,7 +1865,7 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
     height: calc(100vh - 141px);
 }
 
-#singlePageDIV #page-i tei-head {
+#singlePageDIV #page-i tei-head, #onlytextDIV #page-i tei-head {
     margin-top: -3.55em;
     margin-left: 2em !important;
     z-index: 0;
@@ -1888,7 +1888,12 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
     white-space: pre;
     line-height: 1em;
 }
-
+#onlytextDIV tei-p {
+    white-space: pre;
+    line-height: 0.8em;
+    overflow: hidden;
+    margin-left: -70px;
+}
 li.right:hover {
     background-color: #4f6f84;
 }
