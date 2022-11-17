@@ -784,12 +784,18 @@ $(document).ready(function(){
   $("#secList li").click(function(){
       if ($(this).attr('id') == "section0") {
           goToPage(0);
+          var newString = "Title page     <span class='bolder'>+</span>"
+          document.getElementById("sectionTitle").html(newString);
       }
       else if ($(this).attr('id') == "section1"){
           goToPage(1);
+          var newString = "1. The Burial of the Dead     <span class='bolder'>+</span>"
+          document.getElementById("sectionTitle").html(newString);
       }
       else if ($(this).attr('id') == "section2") {
           goToPage(4);
+          var newString = "2. The Cage / A Game of Chess     <span class='bolder'>+</span>"
+          document.getElementById("sectionTitle").html(newString);
       }
   });
 });
