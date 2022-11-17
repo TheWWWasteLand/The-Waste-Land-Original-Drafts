@@ -631,7 +631,7 @@ function singlePage() {
         $("#onlytextDIV tei-l span").hide();
         $("#onlytextDIV tei-figure").hide();
         $(".zoom-button").hide();
-        $("[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "20vw", "height": "auto", "overflow":"auto", "-webkit-box-shadow": "2px 4px 4px 0px #999", "box-shadow":" 2px 4px 4px 0px #999"});
+        $("#onlytextDIV tei-lg[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "20vw", "height": "auto", "overflow":"auto", "-webkit-box-shadow": "2px 4px 4px 0px #999", "box-shadow":" 2px 4px 4px 0px #999"});
         $("#button-notes-list").hide();
         var x = 0;
         var list = [60, -30, 90, 105, 765, 650, 1140, 880]; 
