@@ -734,6 +734,10 @@ $(document).ready(function(){
 /* photo only */ 
     
 function photo() {
+  const single = $('#onlytextDIV').length;
+  if (single > 0) {
+      singlePage();
+  }
   const compare = $('#singlePageDIV').length;
   if (compare > 0) {
       comparison();
