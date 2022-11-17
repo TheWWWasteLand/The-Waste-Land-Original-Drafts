@@ -776,8 +776,19 @@ $(document).ready(function(){
   });
   $("#pageList li").click(function(){
       var number = $(this).text;
-      var num = (parseInt(number) - 1).toString();
+      var num = (parseInt(number) - 1);
       goToPage(num);
+  });
+  $("#secList li").click(function(){
+      if ($(this).attr('id') == "section0") {
+          goToPage(0);
+      }
+      else if ($(this).attr('id') == "section1"){
+          goToPage(1);
+      }
+      else if ($(this).attr('id') == "section2") {
+          goToPage(4);
+      }
   });
 });
 
@@ -883,6 +894,9 @@ function thumbSearch(el) {
 
 function goToPage(num) {
     num = (parseInt(num) + 1).toString();
+    const span = "      <span class='bolder'>+</span>";
+    var newString = num + span;
+    document.getElementById("pageNumber").innerHTML(newString);
     const pageList = document.getElementsByTagName('tei-div');
     for (let i = 0; i < pageList.length; i++) {
         var style = window.getComputedStyle(pageList[i]);
