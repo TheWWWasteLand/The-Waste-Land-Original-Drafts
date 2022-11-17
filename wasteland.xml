@@ -478,7 +478,7 @@
                         <l>"What shall we ever do?"</l>
                     </lg>
                     <lg type="stanza" n="19" xml:id="stanza19">
-                        <l n="60">                                   The hot water <add xml:id="add-32" hand="VEliot" place="above" rend="circumflex">bottle</add>at ten.</l>
+                        <l n="60">                                   The hot water <add xml:id="add-32" hand="VEliot" place="above" rend="circumflex">bottle </add>at ten.</l>
                         <l>And if it rains, the <hi xml:id="hi-33" rend="squared" hand="Pound">closed carriage</hi> at four.</l>
                         <l>And we shall play a game of chess:</l>
                         <l>The ivory men make company between us</l>
