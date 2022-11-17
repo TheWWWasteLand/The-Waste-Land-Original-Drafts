@@ -531,6 +531,7 @@ function comparison() {
         $("#singlePageDIV #add-24").hide();
         $("#singlePageDIV #add-27").hide();
         $("#singlePageDIV #add-32").hide();
+        $("#singlePageDIV #add-34").hide();
         $("#singlePageDIV tei-l span").hide();
         $("#singlePageDIV tei-del").remove();
         $("#singlePageDIV tei-add").each(function(){
@@ -644,6 +645,7 @@ function singlePage() {
         $("#onlytextDIV #add-24").hide();
         $("#onlytextDIV #add-27").hide();
         $("#onlytextDIV #add-32").hide();
+        $("#onlytextDIV #add-34").hide();
         $("#onlytextDIV tei-l span").hide();
         $("#onlytextDIV tei-figure").hide();
         $(".zoom-button").hide();
