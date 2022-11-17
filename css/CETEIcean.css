@@ -1633,6 +1633,7 @@ body > tei-tei #page-i tei-div {
   background-color: white;
   border-radius: 3px;
   border: solid 0.5px #333;
+  z-index:1001;
 }
 #pageList li, #secList li {
     display: block;
