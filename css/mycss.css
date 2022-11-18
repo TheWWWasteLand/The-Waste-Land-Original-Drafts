@@ -43,6 +43,10 @@ header p {
     animation: textEntrance 3s forwards;
 }
 
+header a {
+    color: white !important;
+}
+
 @keyframes textEntrance {
     from {color: rgba(255, 255, 255, 0)}
     to {color: rgba(255, 255, 255, 0.8)}
@@ -157,7 +161,7 @@ header p {
 
 
 #poem > p, #project > p, #sources > p {
-    font-size: 1.2vw;
+    font-size: 16px;
     width: 55%;
     display: inline-block;
     text-align: justify;
