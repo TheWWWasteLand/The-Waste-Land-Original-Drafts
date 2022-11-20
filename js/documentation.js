@@ -7,5 +7,7 @@ $(document).ready(function(){
     $(".activeSec").removeClass("activeSec");
     $(actualId).removeClass('hidden');
     $(actualId).addClass('activeSec');
+    $(".activatedLink").removeClass("activeLink");
+    $(this).addClass("activatedLink");
   });
 });
