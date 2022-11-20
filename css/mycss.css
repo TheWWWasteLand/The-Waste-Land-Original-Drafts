@@ -20,10 +20,13 @@ header {
     background-image: url("../images/back.jpg");
     background-size: cover;
     height: 100vh;
-    animation: headerMove 10s forwards;
     background-position: center;
     background-attachment: fixed;
     text-shadow: 2px 2px black;	
+}
+
+.headerMove {
+    animation: headerMove 10s forwards;
 }
 
 header h1 {
