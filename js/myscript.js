@@ -20,3 +20,7 @@ function addClass(element, className) {
         element.className += " " + className;
     }
 }
+
+window.onload = function() {
+    document.getElementsByTagName("header")[0].classList.add('headerMove');
+}
