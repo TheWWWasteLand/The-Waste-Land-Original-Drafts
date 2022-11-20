@@ -364,6 +364,7 @@ div#menu-left li:hover, .activatedLink {
         position: relative !important;
         top: 190px !important;
         left: 30px !important;
+        border:none!important;
     }
     #displayed-content > div {
         display: block;
