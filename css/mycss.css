@@ -353,3 +353,27 @@ code {
     width: calc(100vw - 425px);
     margin-bottom: 15px;
 }
+
+div#menu-left li:hover, .activatedLink {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    #menu-left {
+        position: relative !important;
+        top: 190px !important;
+        left: 30px !important;
+    }
+    #displayed-content > div {
+        display: block;
+        margin-left: 50px !important;;
+        text-align: justify;
+        margin-right: 50px;
+        margin-top: 250px !important;;
+    }
+    h3.blue-title {
+        position:relative !important;
+    }
+}
+
