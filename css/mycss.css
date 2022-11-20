@@ -370,10 +370,13 @@ div#menu-left li:hover, .activatedLink {
         margin-left: 50px !important;;
         text-align: justify;
         margin-right: 50px;
-        margin-top: 250px !important;;
+        margin-top: -200px !important;;
     }
     h3.blue-title {
         position:relative !important;
+    }
+    #surf-div img {
+        width: calc(90vw - 50px) !important;
     }
 }
 
