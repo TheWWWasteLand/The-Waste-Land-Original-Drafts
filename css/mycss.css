@@ -170,7 +170,7 @@ header a {
     text-align: justify;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (max-width: 960px) {
     #poem > p, #project > p, #sources > p {
         font-size: 16px !important;
         width: 100% !important;
