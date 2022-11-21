@@ -833,6 +833,10 @@ tei-recordhist {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+tei-ref a {
+ text-decoration: none;
+ color: inherit;
+}
 tei-remarks {
   font-weight: bold;
 }
@@ -1286,7 +1290,10 @@ img[data-origid=pound-6-hi-pic] {
  margin-left: 10em;
  margin-top: -1em;
 }
-
+body > tei-tei #add-38 {
+    margin-left: -3.2em;
+    padding-right: 1.1em;
+}
 [rend=largerFirstLetter]::first-letter {
     font-size: 130%;
 }   
