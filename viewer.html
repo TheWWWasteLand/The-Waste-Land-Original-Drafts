@@ -80,8 +80,8 @@
     c.addBehaviors(behaviors);
     c.getHTML5('wasteland.xml', function(data) {
       document.body.appendChild(data);
+      modify();
     });
-    modify();
     document.onreadystatechange = function() {
       if (document.readyState !== "complete") {
           document.querySelector(
