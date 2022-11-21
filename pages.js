@@ -14,6 +14,22 @@ document.onreadystatechange = function() {
 
 
 window.onload = function() {
+  let c = new CETEI();
+  let behaviors = {
+    "tei": {
+      "l": function(e) {
+        if (e.hasAttribute("n")) {
+          let number = document.createElement("SPAN");
+          number.innerHTML = e.getAttribute("n");
+          return number;
+        }
+      }
+    }
+  };
+  c.addBehaviors(behaviors);
+  c.getHTML5('wasteland.xml', function(data) {
+  document.body.appendChild(data);
+  });
   const add = document.getElementsByTagName("tei-add");
   const notes = document.getElementsByTagName("tei-note");
   const graphs = document.getElementsByTagName("tei-graphic");
