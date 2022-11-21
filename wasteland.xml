@@ -197,7 +197,7 @@
                         <l>I read, much of the night, and go south in the winter.</l>
                     </lg>
                     <head>  *  *  *  * </head> 
-                    <anchor xml:id="target-2"/>
+                    <anchor xml:id="anchor-1"/>
                     <lg type="stanza" n="3" xml:id="stanza03">
                             <l>What are the roots that clutch, what branches grew</l>
                             <l>Out of this stony rubbish! Son of man,</l>
@@ -213,7 +213,7 @@
                             <l>I will show you fear in a handful of dust.</l>
                     </lg>
                     <head>  *  *  *  * </head>
-                    <metamark function="transpostion" place="around" rend="circled arrow" hand="TEliot" target="#target-2">
+                    <metamark function="transpostion" place="around" rend="circled arrow" hand="TEliot" target="#anchor-1">
                         <lg type="stanza" n="4" xml:id="stanza04">
                             <hi xml:id="hi-4" rend="circled" hand="TEliot">
                                 <l n="85"><del xml:id="del-13">Mein</del> Frisch <subst xml:id="sub-6"><del xml:id="del-14" hand="TEliot">schwebt</del><add xml:id="add-12" hand="TEliot" place="above">weht</add></subst> der Wind </l>
@@ -600,7 +600,7 @@
                     3
                     </head>
                     <lg type="stanza" n="21" xml:id="stanza21">
-                        <l n="90"><subst xml:id="sub-15"><del xml:id="del-51" hand="VEliot">"You want to keep him at home, I suppose".</del><add xml:id="add-38" hand="VEliot"><ref xml:id="ref-1" target="note-35" hand="VEliot">*</ref></add></subst></l>
+                        <l n="90"><subst xml:id="sub-15"><del xml:id="del-51" hand="VEliot">"You want to keep him at home, I suppose".</del><add xml:id="add-38" hand="VEliot"><anchor xml:id="anchor-2" hand="VEliot">*</ref></add></subst></l>
                         <l>HURRY UP PLEASE IT'S TIME.</l>
                         <l>Well thtat Sunday Albert was home, they had a hot gammon,</l>
                         <l>And they asked me in to dinner, to get the beauty of it hot-</l>
@@ -617,12 +617,11 @@
                     </note>
                     <note xml:id="note-35" hand="VEliot">
                         <p>
-                            * What you get married for if you<lb/>
+                            <ref xml:id="ref-1" target="#anchor-2">*</ref> What you get married for if you<lb/>
                              dont want to have children
                         </p>
                     </note>
-                </lg>
-                
+                </lg>   
             </div>
         </body>
     </text>
