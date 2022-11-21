@@ -143,6 +143,9 @@ function prevPage() {
     document.getElementById("pageNumber").innerHTML = newString;
     var newString2 = "i. Title page                                     <span class='bolder'>+</span>"
     document.getElementById("sectionTitle").innerHTML = newString2;
+    if (iCont.classList.contains('photoClass')) {
+        iCont.style.display="block";
+    }
   }
   else if (two.getAttribute('style') == "display: block;") {
     two.style.display="none";
@@ -484,7 +487,7 @@ function comparison() {
                     if ($(this).attr('xml:id') == "add-38") {
                         $("#singlePageDiv #ref-1").remove();
                         var txt = $("#note-35").text();
-                        var nTxt = txt.substring(2);
+                        var nTxt = txt.substring(57);
                         console.log(nTxt);
                         $(this).text(nTxt);
                         $(this).css({"white-space": "nowrap"});
@@ -645,7 +648,7 @@ function singlePage() {
                         if ($(this).attr('xml:id') == "add-38") {
                             $("#singlePageDiv #ref-1").remove();
                             var txt = $("#note-35").text();
-                            var nTxt = txt.substring(2);
+                            var nTxt = txt.substring(57);
                             console.log(nTxt);
                             $(this).text(nTxt);
                             $(this).css({"white-space": "nowrap"});
@@ -713,9 +716,11 @@ function photo() {
     $("tei-head").show();
     $("#button-notes-list").show();
     $("tei-figure").css({"width": "40vw"});
+    $("#page-i-content").removeClass("photoClass");
     return false;
   }
   else {
+    $("#page-i-content").addClass("photoClass");
     $("tei-div tei-div").hide();
     $("tei-lg").hide();
     $("tei-quote").hide();  
