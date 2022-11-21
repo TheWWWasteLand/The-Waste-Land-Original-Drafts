@@ -1144,7 +1144,7 @@ tei-text {
   cursor: pointer;
 }
 .low-bar {
-    padding-left: calc(50% - 280px);
+    padding-left: calc(50% - 340px);
     height: 55px;
     margin-left: -4.5em !important;
     position: fixed;
@@ -1666,13 +1666,13 @@ body > tei-tei #page-i tei-div {
 #pageList {
     position:absolute;
     bottom: 3em;
-    left: calc(50% - 107px);
+    left: calc(50% - 39px);
     width: 3.6em;
 }
 #secList {
     position:absolute;
     bottom: 3em;
-    left: calc(30vw - 4.3em);
+    left: calc(50% - 274px);
     width: 15em;
 }
 #pageList ul, #secList ul {
