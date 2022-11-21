@@ -229,19 +229,19 @@ function finalVer() {
       arrow.setAttribute('id', 'back-1');
       document.getElementById('poemPage02').appendChild(arrow);
     }
+    var element2 =  document.getElementById('pound-marks');
+    if (element2) {
+      element2.remove();
+    }
+    else {
+      const marks = document.createElement("img");
+      marks.setAttribute('src', 'https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/Pound-marks1.png');
+      marks.setAttribute('id', 'pound-marks');
+      document.getElementById('poemPage02').appendChild(marks);
+    }
     note(document.getElementById('note-4'));
   }
   else if (three.getAttribute('style') == "display: block;") {
-    var element =  document.getElementById('pound-marks');
-    if (element) {
-      element.remove();
-    }
-    else {
-      const arrow = document.createElement("img");
-      arrow.setAttribute('src', 'https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/Pound-marks1.png');
-      arrow.setAttribute('id', 'pound-marks');
-      document.getElementById('poemPage02').appendChild(arrow);
-    }
     for (let i = 15; i < 26; i++) {
       additions(adds[i]);
     }
@@ -662,17 +662,17 @@ $(document).ready(function(){
       if ($(this).attr('id') == "section0") {
           goToPage(0);
           var newString = "Title page     <span class='bolder'>+</span>"
-          document.getElementById("sectionTitle").html(newString);
+          $("#sectionTitle").html(newString);
       }
       else if ($(this).attr('id') == "section1"){
           goToPage(1);
           var newString = "1. The Burial of the Dead     <span class='bolder'>+</span>"
-          document.getElementById("sectionTitle").html(newString);
+          $("#sectionTitle").html(newString);
       }
       else if ($(this).attr('id') == "section2") {
           goToPage(4);
           var newString = "2. The Cage / A Game of Chess     <span class='bolder'>+</span>"
-          document.getElementById("sectionTitle").html(newString);
+          $("#sectionTitle").html(newString);
       }
   });
 });
@@ -779,37 +779,43 @@ function thumbSearch(el) {
 
 function goToPage(num) {
     num = (parseInt(num) + 1).toString();
-    console.log(num);
-    const span = "      <span class='bolder'>+</span>";
-    var newString = num + span;
-    document.getElementById("pageNumber").innerHTML = newString;
-    const pageList = document.getElementsByTagName('tei-div');
-    for (let i = 0; i < pageList.length; i++) {
-        var style = window.getComputedStyle(pageList[i]);
-        var display = style.getPropertyValue('display');
-        if (display == "block" && i != num) {
-            pageList[i].style.display = "none";
-            console.log("nope");
-            console.log(num);
-        }
-        if (i == num) {
-            pageList[i].style.display = "block";
-            console.log("yep");
-            console.log(num)
-        }
-    }
-    if (num == 1) {
-            document.getElementById('prev').style.display="none";
-            pageList[0].display = "block";
+    if (num == 2) {
+     goToPage("2");
+     prevPage(); 
     }
     else {
-        document.getElementById('prev').style.display="block";
-    }
-    if (num == (pageList.length - 1)) {
-        document.getElementById('next').style.display="none";
-    }
-    else {
-        document.getElementById('next').style.display="block";
+      console.log(num);
+      const span = "      <span class='bolder'>+</span>";
+      var newString = num + span;
+      document.getElementById("pageNumber").innerHTML = newString;
+      const pageList = document.getElementsByTagName('tei-div');
+      for (let i = 0; i < pageList.length; i++) {
+          var style = window.getComputedStyle(pageList[i]);
+          var display = style.getPropertyValue('display');
+          if (display == "block" && i != num) {
+              pageList[i].style.display = "none";
+              console.log("nope");
+              console.log(num);
+          }
+          if (i == num) {
+              pageList[i].style.display = "block";
+              console.log("yep");
+              console.log(num)
+          }
+      }
+      if (num == 1) {
+              document.getElementById('prev').style.display="none";
+              pageList[0].display = "block";
+      }
+      else {
+          document.getElementById('prev').style.display="block";
+      }
+      if (num == (pageList.length - 1)) {
+          document.getElementById('next').style.display="none";
+      }
+      else {
+          document.getElementById('next').style.display="block";
+      }
     }
 }
 
