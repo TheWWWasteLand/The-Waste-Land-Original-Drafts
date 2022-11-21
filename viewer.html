@@ -85,7 +85,7 @@
     document.onreadystatechange = function() {
       if (document.readyState !== "complete") {
           document.querySelector(
-            "body").style.opacity = "0.2";
+            "tei-tei").style.opacity = "0.2";
           document.querySelector(
             ".loader").style.visibility = "visible";
       } 
@@ -93,7 +93,7 @@
           document.querySelector(
             ".loader").style.display = "none";
           document.querySelector(
-            "body").classList.add("loaded");
+            "tei-tei").classList.add("loaded");
       }
     };
   </script>
