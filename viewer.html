@@ -85,15 +85,13 @@
     document.onreadystatechange = function() {
       if (document.readyState !== "complete") {
           document.querySelector(
-            "tei-tei").style.opacity = "0.2";
-          document.querySelector(
             ".loader").style.visibility = "visible";
       } 
       else {
           document.querySelector(
             ".loader").style.display = "none";
           document.querySelector(
-            "tei-tei").classList.add("loaded");
+            "body").classList.add("loaded");
       }
     };
   </script>
