@@ -1699,7 +1699,7 @@ body > tei-tei #page-i tei-div {
     text-decoration: underline;
     text-decoration-thickness: 1.5px;
 }
-.doubleUnderline {
+tei-note[rend=doubleUnderline], .doubleUnderline {
     text-decoration-line: underline;
     text-decoration-style: double;
 }
