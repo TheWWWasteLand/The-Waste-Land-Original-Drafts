@@ -983,6 +983,7 @@ tei-surplus>*:last-child:after {
 /* t */
 tei-tei {
   display: block;
+  opacity: 0.2;
 }
 tei-table {
   display: block;
@@ -1067,7 +1068,6 @@ tei-witdetail {
 html > body {
   margin: 0;
   padding: 0;
-  opacity: 0.2;
 }
 html {
   margin: 0;
