@@ -1571,6 +1571,13 @@ tei-graphic {
     top: -57em;
     height: 325px;
 }
+#pound-marks {
+    position: absolute;
+    display: inline-block;
+    top: 900px;
+    left: 360px;
+    width: 80px;
+}
 #marks-1 {
     position: relative;
     left: 7em;
@@ -1644,7 +1651,7 @@ body > tei-tei #page-i tei-div {
 #pageList {
     position:absolute;
     bottom: 3em;
-    left: calc(30vw + 11.8em - 1px);
+    left: calc(50% - 107px);
     width: 3.6em;
 }
 #secList {
