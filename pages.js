@@ -779,8 +779,8 @@ function thumbSearch(el) {
 
 function goToPage(num) {
     num = (parseInt(num) + 1).toString();
-    if (num == 2) {
-     goToPage("2");
+    if (num == 1) {
+     goToPage("1");
      prevPage(); 
     }
     else {
