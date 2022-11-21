@@ -35,6 +35,7 @@ function checkKey(e) {
 };
 
 function nextPage() {
+  finalVer();
   var i, iCont, one, two, three, four, five, six, seven, pageList, secList;
   i = document.getElementById('page-i');
   iCont = document.getElementById('page-i-content');
@@ -131,6 +132,7 @@ function prevPage() {
   seven = document.getElementById('page-8');
   const comparison = document.getElementById('singlePageDIV');
   const span = "      <span class='bolder'>+</span>";
+  finalVer();
   if (one.getAttribute('style') == "display: block;") {
     one.style.display="none";
     i.style.display="block";
@@ -558,23 +560,8 @@ function reset() {
 
 function singlePage() {
     const finalVersion = $('.activeFinalV');
-    var page = $("#pageNumber").text().charAt(0);
     if (finalVersion.length > 0) {
-      finalVersion.each(function(){
-        $(this).css({"display": "block"});
         finalVer();
-        $(this).css({"display": "none"});
-        goToPage(page);
-      });
-    }
-    const finalVersion2 = $('.activeFinalV');
-    var page = $("#pageNumber").text().charAt(0);
-    if (finalVersion2.length > 0) {
-      finalVersion2.each(function(){
-        $(this).css({"display": "block"});
-        finalVer();
-        $(this).css({"display": "none"});
-        goToPage(page);
       });
     }
     const compare = $('#singlePageDIV').length;
