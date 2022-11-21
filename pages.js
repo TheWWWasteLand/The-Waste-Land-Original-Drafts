@@ -341,7 +341,7 @@ function finalVer() {
     }
   }
   else if (six.getAttribute('style') == 'display: block;') {
-   for (let i = 61; i < 66; i++) {
+   for (let i = 61; i < 67; i++) {
       deletions(dels[i]);
    }
    for (let i = 39; i < 40; i++) {
