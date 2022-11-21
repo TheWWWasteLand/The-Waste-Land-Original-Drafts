@@ -379,6 +379,7 @@ function additions(el) {
 function deletions(el) {
   el.classList.toggle('line-del');
   if (el.getAttribute('rend') == "central-deletion") {
+    console.log("hi");
     el.classList.remove('line-del');
     el.classList.toggle('central-del');
   }
@@ -547,6 +548,16 @@ function singlePage() {
     var page = $("#pageNumber").text().charAt(0);
     if (finalVersion.length > 0) {
       finalVersion.each(function(){
+        $(this).css({"display": "block"});
+        finalVer();
+        $(this).css({"display": "none"});
+        goToPage(page);
+      });
+    }
+    const finalVersion2 = $('.activeFinalV');
+    var page = $("#pageNumber").text().charAt(0);
+    if (finalVersion2.length > 0) {
+      finalVersion2.each(function(){
         $(this).css({"display": "block"});
         finalVer();
         $(this).css({"display": "none"});
