@@ -1838,7 +1838,7 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
   100% { transform: rotate(360deg); }
 }
 
-.loaded {
+.loaded tei-tei {
  animation: loaded 1s forwards;
 }
 
