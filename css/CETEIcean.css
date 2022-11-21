@@ -1715,8 +1715,9 @@ tei-note[rend=doubleUnderline], .doubleUnderline {
 #note-5 {
     display: inline-block;
     position: absolute;
-    left: 575px;
-    top: 453px;
+    left: 555px;
+    top: 412px;
+    transform: rotate(338deg);
 }
 
 #note-6 {
