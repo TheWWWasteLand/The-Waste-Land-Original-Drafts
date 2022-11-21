@@ -232,6 +232,16 @@ function finalVer() {
     note(document.getElementById('note-4'));
   }
   else if (three.getAttribute('style') == "display: block;") {
+    var element =  document.getElementById('pound-marks');
+    if (element) {
+      element.remove();
+    }
+    else {
+      const arrow = document.createElement("img");
+      arrow.setAttribute('src', 'https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/Pound-marks1.png');
+      arrow.setAttribute('id', 'pound-marks');
+      document.getElementById('poemPage02').appendChild(arrow);
+    }
     for (let i = 15; i < 26; i++) {
       additions(adds[i]);
     }
