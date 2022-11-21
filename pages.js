@@ -661,7 +661,7 @@ $(document).ready(function(){
   $("#secList li").click(function(){
       if ($(this).attr('id') == "section0") {
           goToPage(0);
-          var newString = "Title page     <span class='bolder'>+</span>"
+          var newString = "i. Title page             <span class='bolder'>+</span>"
           $("#sectionTitle").html(newString);
       }
       else if ($(this).attr('id') == "section1"){
@@ -779,15 +779,16 @@ function thumbSearch(el) {
 
 function goToPage(num) {
     num = (parseInt(num) + 1).toString();
+    const span = "      <span class='bolder'>+</span>";
+    var newString = num + span;
+    document.getElementById("pageNumber").innerHTML = newString;
     if (num == 1) {
      goToPage("1");
-     prevPage(); 
+     prevPage();
+     document.getElementById("pageNumber").innerHTML = "1      <span class='bolder'>+</span>";
     }
     else {
       console.log(num);
-      const span = "      <span class='bolder'>+</span>";
-      var newString = num + span;
-      document.getElementById("pageNumber").innerHTML = newString;
       const pageList = document.getElementsByTagName('tei-div');
       for (let i = 0; i < pageList.length; i++) {
           var style = window.getComputedStyle(pageList[i]);
