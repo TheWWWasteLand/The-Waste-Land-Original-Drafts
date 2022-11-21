@@ -1,19 +1,4 @@
-document.onreadystatechange = function() {
-    if (document.readyState !== "complete") {
-        document.querySelector(
-          "body").style.opacity = "0.2";
-        document.querySelector(
-          ".loader").style.visibility = "visible";
-    } else {
-        document.querySelector(
-          ".loader").style.display = "none";
-        document.querySelector(
-          "body").classList.add("loaded");
-    }
-};
-
-
-window.onload = function() {
+function modify() {
   const add = document.getElementsByTagName("tei-add");
   const notes = document.getElementsByTagName("tei-note");
   const graphs = document.getElementsByTagName("tei-graphic");
