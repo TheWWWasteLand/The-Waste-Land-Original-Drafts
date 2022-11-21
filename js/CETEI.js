@@ -850,13 +850,13 @@ var CETEI = (function () {
 }());
 
 function modify() {
-  console.log("dajeee");
   const add = document.getElementsByTagName("tei-add");
   const notes = document.getElementsByTagName("tei-note");
   const graphs = document.getElementsByTagName("tei-graphic");
   for (let g = 0; g < graphs.length; g++) {
     if (graphs[g].parentNode.nodeName != "TEI-FIGURE") {
       graphs[g].classList.add('hidden');
+      console.log("dajeee");
     }
   }
   for (let i = 0; i < add.length; i++) {
