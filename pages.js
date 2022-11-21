@@ -483,7 +483,7 @@ function comparison() {
                     }
                     if ($(this).attr('xml:id') == "add-38") {
                         $("#singlePageDiv #ref-1").remove();
-                        var txt = $("#singlePageDiv #note-35 tei-p").text();
+                        var txt = $("#note-35").text();
                         console.log(txt);
                         $(this).text(txt);
                     }
