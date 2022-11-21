@@ -144,7 +144,7 @@ function prevPage() {
     var newString2 = "i. Title page                                     <span class='bolder'>+</span>"
     document.getElementById("sectionTitle").innerHTML = newString2;
     if (iCont.classList.contains('photoClass')) {
-        iCont.style.display="block";
+        iCont.style.display="none";
     }
   }
   else if (two.getAttribute('style') == "display: block;") {
