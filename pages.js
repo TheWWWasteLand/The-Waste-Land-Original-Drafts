@@ -325,17 +325,26 @@ function finalVer() {
     for (let i = 31; i < 39; i++) {
       additions(adds[i]);
     }
-    for (let i = 49; i < 64; i++) {
+    for (let i = 49; i < 61; i++) {
       deletions(dels[i]);
     }
     for (let i = 35; i < 42; i++) {
       highlight(his[i]);
     }
-    for (let i = 20; i < 34; i++) {
+    for (let i = 20; i < 33; i++) {
       note(notes[i]);
     }
   }
   else if (six.getAttribute('style') == 'display: block;') {
+   for (let i = 61; i < 66; i++) {
+      deletions(dels[i]);
+   }
+   for (let i = 39; i < 40; i++) {
+      additions(adds[i]);
+   }
+   for (let i = 33; i < 35; i++) {
+      note(notes[i]);
+   }
   }
 };
 
@@ -364,7 +373,7 @@ function additions(el) {
 function deletions(el) {
   el.classList.toggle('line-del');
   if (el.getAttribute('rend') == "central-deletion") {
-    el.classList.toggle('line-del');
+    el.classList.remove('line-del');
     el.classList.toggle('central-del');
   }
 }
