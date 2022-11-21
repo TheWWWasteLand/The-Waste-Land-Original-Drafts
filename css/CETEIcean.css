@@ -1559,7 +1559,10 @@ tei-del {
    text-decoration-thickness: 2px;
 }
 * {box-sizing: border-box;}
-
+.central-del {
+   text-decoration:none!important;
+   background-image: url('../images/pound-centralDel");
+}
 tei-graphic {
   position:relative;
 }
