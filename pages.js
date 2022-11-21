@@ -820,6 +820,7 @@ function goToPage(num) {
      goToPage("1");
      prevPage();
      document.getElementById("pageNumber").innerHTML = "1      <span class='bolder'>+</span>";
+     document.getElementById("page-i-content").display = "none";
     }
     else {
       console.log(num);
