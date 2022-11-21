@@ -721,8 +721,8 @@ tei-note{
 tei-note tei-del {
    text-decoration: line-through;
 }
-tei-note[rend=central-deletion] {
-    background-image: url('https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/central-deletion.png');
+tei-note tei-del[rend=central-deletion] {
+    background-image: url('https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-centralDel.png');
 }
 tei-notesstmt {
   display: none;
@@ -1562,7 +1562,7 @@ tei-del {
 * {box-sizing: border-box;}
 .central-del {
    text-decoration:none!important;
-   background-image: url('../images/pound-centralDel');
+   background-image: url('../images/pound-centralDel.png');
 }
 tei-graphic {
   position:relative;
