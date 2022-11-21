@@ -482,9 +482,9 @@ function comparison() {
                         $(this).removeClass("hidden");
                     }
                     if ($(this).attr('xml:id') == "add-38") {
-                        console.log("hi-38");
                         $("#singlePageDiv #ref-1").remove();
-                        var txt = $("#singlePageDiv #note-35").text();
+                        var txt = $("#singlePageDiv #note-35 tei-p").text();
+                        console.log(txt);
                         $(this).text(txt);
                     }
                      
