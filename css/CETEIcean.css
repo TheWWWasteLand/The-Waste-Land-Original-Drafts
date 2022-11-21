@@ -1290,7 +1290,7 @@ img[data-origid=pound-6-hi-pic] {
  margin-left: 10em;
  margin-top: -1em;
 }
-body > tei-tei [data-origid=add-38] {
+body > tei-tei tei-add[data-origid=add-38] {
     margin-left: -3.2em;
     padding-right: 1.1em;
 }
@@ -1566,14 +1566,15 @@ tei-del {
     left: 64px;
     top: 325px;
 }
-body > tei tei tei-hi#hi-33::before {
+activeFinalV #hi-33::before {
     white-space: pre;
     content: " ";
     display: inline-block;
     position: absolute;
     text-decoration: line-through;
     color: #118ab2;
-    left: 92px;
+    left: 93px;
+    top: 604px;
 }
 .line-del {
    text-decoration: line-through;
