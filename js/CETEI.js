@@ -856,7 +856,6 @@ function modify() {
   for (let g = 0; g < graphs.length; g++) {
     if (graphs[g].parentNode.nodeName != "TEI-FIGURE") {
       graphs[g].classList.add('hidden');
-      console.log("dajeee");
     }
   }
   for (let i = 0; i < add.length; i++) {
