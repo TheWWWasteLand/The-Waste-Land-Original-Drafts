@@ -502,6 +502,7 @@ body > tei-tei #page-i tei-div tei-quote > tei-p {
 tei-lg > tei-head {
     text-align: center;
     line-height: 2em;
+    margin-left: -11.5em
 }
 tei-body > tei-head {
   text-indent: -0.5em;
