@@ -1561,7 +1561,7 @@ tei-del {
 * {box-sizing: border-box;}
 .central-del {
    text-decoration:none!important;
-   background-image: url('../images/pound-centralDel");
+   background-image: url('../images/pound-centralDel');
 }
 tei-graphic {
   position:relative;
