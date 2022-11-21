@@ -850,6 +850,7 @@ var CETEI = (function () {
 }());
 
 function modify() {
+  console.log("dajeee");
   const add = document.getElementsByTagName("tei-add");
   const notes = document.getElementsByTagName("tei-note");
   const graphs = document.getElementsByTagName("tei-graphic");
