@@ -339,6 +339,7 @@ function finalVer() {
     for (let i = 20; i < 33; i++) {
       note(notes[i]);
     }
+    five.classList.toggle('activeFinalV');
   }
   else if (six.getAttribute('style') == 'display: block;') {
    for (let i = 61; i < 67; i++) {
@@ -351,7 +352,7 @@ function finalVer() {
       note(notes[i]);
    }
   }
-  five.classList.toggle('activeFinalV');
+  six.classList.toggle('activeFinalV');
 };
 
 /* tei-add */
