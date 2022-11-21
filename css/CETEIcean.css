@@ -723,6 +723,11 @@ tei-note tei-del {
 }
 tei-note tei-del[rend=central-deletion] {
     background-image: url('https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-centralDel.png');
+    text-decoration: underline!important;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+
 }
 tei-notesstmt {
   display: none;
