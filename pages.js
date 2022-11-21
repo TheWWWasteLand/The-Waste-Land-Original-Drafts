@@ -562,7 +562,6 @@ function singlePage() {
     const finalVersion = $('.activeFinalV');
     if (finalVersion.length > 0) {
         finalVer();
-      });
     }
     const compare = $('#singlePageDIV').length;
     if (compare > 0) {
