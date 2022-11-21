@@ -8,18 +8,6 @@
   <script src="js/CETEI.js"></script>
   <script>
     let c = new CETEI();
-    let behaviors = {
-      "tei": {
-        "l": function(e) {
-          if (e.hasAttribute("n")) {
-            let number = document.createElement("SPAN");
-            number.innerHTML = e.getAttribute("n");
-            return number;
-          }
-        }
-      }
-    };
-    c.addBehaviors(behaviors);
     c.getHTML5('wasteland.xml', function(data) {
     document.body.appendChild(data);
     });
