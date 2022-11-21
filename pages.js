@@ -723,15 +723,28 @@ function photo() {
     
 $(document).ready(function(){
   $("#imgOnly").click(function(){
+      if (document.getElementsByClassName('activeFinalV').length > 0) {
+       finalVer();
+      }
       photo();
   });
   $("#compareTexts").click(function(){
+      if (document.getElementsByClassName('activeFinalV').length > 0) {
+       finalVer();
+      }
       comparison();
+      
   });
   $("#imgtext").click(function(){
+      if (document.getElementsByClassName('activeFinalV').length > 0) {
+       finalVer();
+      }
       reset();
   });
   $("#textOnly").click(function(){
+      if (document.getElementsByClassName('activeFinalV').length > 0) {
+       finalVer();
+      }
       singlePage();
   });
   $("#pageList li").click(function(){
@@ -861,6 +874,9 @@ function thumbSearch(el) {
 }
 
 function goToPage(num) {
+    if (document.getElementsByClassName('activeFinalV').length > 0) {
+     finalVer();
+    }
     num = (parseInt(num) + 1).toString();
     const span = "      <span class='bolder'>+</span>";
     var newString = num + span;
