@@ -478,14 +478,16 @@ function comparison() {
                         $(this).removeAttr("rend");
                         $(this).removeAttr("place");
                         $(this).attr("place", "inline");
-                        $(this).css({"background-color": "#f5b3c2", "display": "inline-block", "padding": "0px !important", "margin": "0 !important"});
+                        $(this).css({"background-color": "#fcd2db", "display": "inline-block", "padding": "0px !important", "margin": "0 !important"});
                         $(this).removeClass("hidden");
                     }
                     if ($(this).attr('xml:id') == "add-38") {
                         $("#singlePageDiv #ref-1").remove();
                         var txt = $("#note-35").text();
-                        console.log(txt);
-                        $(this).text(txt);
+                        var nTxt = txt.substring(2);
+                        console.log(nTxt);
+                        $(this).text(nTxt);
+                        $(this).css({"white-space": "nowrap"});
                     }
                      
                 });
@@ -637,8 +639,16 @@ function singlePage() {
                             $(this).removeAttr("rend");
                             $(this).removeAttr("place");
                             $(this).attr("place", "inline");
-                            $(this).css({"background-color": "#f5b3c2", "display": "inline-block", "padding": "0px !important", "margin": "0 !important"});
+                            $(this).css({"background-color": "#fcd2db", "display": "inline-block", "padding": "0px !important", "margin": "0 !important"});
                             $(this).removeClass("hidden");
+                        }
+                        if ($(this).attr('xml:id') == "add-38") {
+                            $("#singlePageDiv #ref-1").remove();
+                            var txt = $("#note-35").text();
+                            var nTxt = txt.substring(2);
+                            console.log(nTxt);
+                            $(this).text(nTxt);
+                            $(this).css({"white-space": "nowrap"});
                         }
                     });
                     var htmlOriginal = $(this).html();
