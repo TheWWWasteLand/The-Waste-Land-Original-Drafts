@@ -1542,6 +1542,18 @@ tei-del {
     top: 29px;
     left: -121px;
 }
+#note-34 tei-p {
+    left: 246px;
+    position: absolute;
+    top: 293px;
+    letter-spacing: 0.1em;
+}
+#note-35 {
+    position: absolute;
+    left: 64px;
+    top: 325px;
+}
+ 
 .line-del {
    text-decoration: line-through;
    text-decoration-thickness: 2px;
@@ -1634,6 +1646,9 @@ body > tei-tei #page-i tei-div {
 .bolder {
   cursor: pointer;
   font-weight: 600;
+}
+#sectionTitle {
+ width: 16.5em;
 }
 #pageList, #secList {
   list-style-type: none;
