@@ -48,6 +48,7 @@ function nextPage() {
   pageList = document.getElementById('pageList');
   secList = document.getElementById('secList');
   const comparison = document.getElementById('singlePageDIV');
+  const span = "      <span class='bolder'>+</span>";
   if (pageList.getAttribute("class") != "hidden") {
     pageList.classList.toggle('hidden');
   }
@@ -62,6 +63,10 @@ function nextPage() {
     if (comparison) {
         nextComparison("#singlePageDIV #page-i", "#singlePageDIV #page-2");
     }
+    var newString = "2" + span;
+    document.getElementById("pageNumber").innerHTML = newString;
+    var newString2 = "1. The Burial of the Dead               <span class='bolder'>+</span>"
+    document.getElementById("sectionTitle").innerHTML = newString2;
   }
   else if (one.getAttribute('style') == "display: block;") {
     one.style.display="none";
@@ -69,6 +74,8 @@ function nextPage() {
     if (comparison) {
         nextComparison("#singlePageDIV #page-2", "#singlePageDIV #page-3");
     }
+    var newString = "3" + span;
+    document.getElementById("pageNumber").innerHTML = newString;
   }
   else if (two.getAttribute('style') == "display: block;") {
     two.style.display="none";
@@ -76,6 +83,8 @@ function nextPage() {
     if (comparison) {
         nextComparison("#singlePageDIV #page-3", "#singlePageDIV #page-4");
     }
+    var newString = "4" + span;
+    document.getElementById("pageNumber").innerHTML = newString;
   }
   else if (three.getAttribute('style') == "display: block;") {
     three.style.display="none";
@@ -83,6 +92,10 @@ function nextPage() {
     if (comparison) {
         nextComparison("#singlePageDIV #page-4", "#singlePageDIV #page-5");
     }
+    var newString = "5" + span;
+    document.getElementById("pageNumber").innerHTML = newString;
+    var newString2 = "2. The Cage / A Game of Chess     <span class='bolder'>+</span>"
+    document.getElementById("sectionTitle").innerHTML = newString2;
   }
   else if (four.getAttribute('style') == "display: block;") {
     four.style.display="none";
@@ -90,6 +103,8 @@ function nextPage() {
     if (comparison) {
         nextComparison("#singlePageDIV #page-5", "#singlePageDIV #page-6");
     }
+    var newString = "6" + span;
+    document.getElementById("pageNumber").innerHTML = newString;
   }
   else if (five.getAttribute('style') == "display: block;") {
     five.style.display="none";
@@ -98,6 +113,8 @@ function nextPage() {
     if (comparison) {
         nextComparison("#singlePageDIV #page-6", "#singlePageDIV #page-7");
     }
+    var newString = "7" + span;
+    document.getElementById("pageNumber").innerHTML = newString;
   }
 };
 
@@ -113,6 +130,7 @@ function prevPage() {
   six = document.getElementById('page-7');
   seven = document.getElementById('page-8');
   const comparison = document.getElementById('singlePageDIV');
+  const span = "      <span class='bolder'>+</span>";
   if (one.getAttribute('style') == "display: block;") {
     one.style.display="none";
     i.style.display="block";
@@ -121,6 +139,10 @@ function prevPage() {
     if (comparison) {
         prevComparison("#singlePageDIV #page-i", "#singlePageDIV #page-2");
     }
+    var newString = "1" + span;
+    document.getElementById("pageNumber").innerHTML = newString;
+    var newString2 = "i. Title page                                     <span class='bolder'>+</span>"
+    document.getElementById("sectionTitle").innerHTML = newString2;
   }
   else if (two.getAttribute('style') == "display: block;") {
     two.style.display="none";
@@ -128,6 +150,8 @@ function prevPage() {
     if (comparison) {
         prevComparison("#singlePageDIV #page-2", "#singlePageDIV #page-3");
     }
+    var newString = "2" + span;
+    document.getElementById("pageNumber").innerHTML = newString;
   }
   else if (three.getAttribute('style') == "display: block;") {
     three.style.display="none";
@@ -135,6 +159,8 @@ function prevPage() {
     if (comparison) {
         prevComparison("#singlePageDIV #page-3", "#singlePageDIV #page-4");
     }
+    var newString = "3" + span;
+    document.getElementById("pageNumber").innerHTML = newString;
   }
   else if (four.getAttribute('style') == "display: block;") {
     four.style.display="none";
@@ -142,6 +168,10 @@ function prevPage() {
     if (comparison) {
         prevComparison("#singlePageDIV #page-4", "#singlePageDIV #page-5");
     }
+    var newString = "4" + span;
+    document.getElementById("pageNumber").innerHTML = newString;
+    var newString2 = "1. The Burial of the Dead               <span class='bolder'>+</span>"
+    document.getElementById("sectionTitle").innerHTML = newString2;
   }
   else if (five.getAttribute('style') == "display: block;") {
     five.style.display="none";
@@ -149,6 +179,8 @@ function prevPage() {
     if (comparison) {
         prevComparison("#singlePageDIV #page-5", "#singlePageDIV #page-6");
     }
+    var newString = "5" + span;
+    document.getElementById("pageNumber").innerHTML = newString;
   }
   else if (six.getAttribute('style') == "display: block;") {
     six.style.display="none";
@@ -157,6 +189,8 @@ function prevPage() {
     if (comparison) {
         prevComparison("#singlePageDIV #page-6", "#singlePageDIV #page-7");
     }
+    var newString = "6" + span;
+    document.getElementById("pageNumber").innerHTML = newString;
   }
 };
 
