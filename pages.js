@@ -481,11 +481,11 @@ function comparison() {
                         $(this).css({"background-color": "#f5b3c2", "display": "inline-block", "padding": "0px !important", "margin": "0 !important"});
                         $(this).removeClass("hidden");
                     }
-                    if ($(this).attr('id') == "add-38") {
+                    if ($(this).attr('xml:id') == "add-38") {
                         console.log("hi-38");
                         $("#singlePageDiv #ref-1").remove();
                         var txt = $("#singlePageDiv #note-35").text();
-                        $("#singlePageDiv #add-38").text(txt);
+                        $(this).text(txt);
                     }
                      
                 });
@@ -874,13 +874,9 @@ function goToPage(num) {
           var display = style.getPropertyValue('display');
           if (display == "block" && i != num) {
               pageList[i].style.display = "none";
-              console.log("nope");
-              console.log(num);
           }
           if (i == num) {
               pageList[i].style.display = "block";
-              console.log("yep");
-              console.log(num)
           }
       }
       if (num == 1) {
