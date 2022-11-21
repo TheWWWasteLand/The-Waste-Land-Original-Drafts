@@ -661,12 +661,12 @@ $(document).ready(function(){
   $("#secList li").click(function(){
       if ($(this).attr('id') == "section0") {
           goToPage(0);
-          var newString = "i. Title page             <span class='bolder'>+</span>"
+          var newString = "i. Title page                                     <span class='bolder'>+</span>"
           $("#sectionTitle").html(newString);
       }
       else if ($(this).attr('id') == "section1"){
           goToPage(1);
-          var newString = "1. The Burial of the Dead     <span class='bolder'>+</span>"
+          var newString = "1. The Burial of the Dead               <span class='bolder'>+</span>"
           $("#sectionTitle").html(newString);
       }
       else if ($(this).attr('id') == "section2") {
