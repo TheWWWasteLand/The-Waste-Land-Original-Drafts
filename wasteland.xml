@@ -161,8 +161,8 @@
                         </lg>
                     </note>
                     <note xml:id="note-3" hand="TEliot">
-                        <line>real<lb/></line>
-                        <line>good(?)</line>
+                        <p>real<lb/>
+                        good(?)</p>
                     </note>
                 </lg>
                 
@@ -243,7 +243,7 @@
                         <l>The lady of situations,</l>
                     </lg>
                     <note xml:id="note-4" hand="Pound" rend="diagonal" place="margin-right">
-                        <line><hi xml:id="hi-6" rend="underline" hand="Pound"><del xml:id="del-16" rend="central-deletion" hand="Pound">Marianne</del></hi></line>
+                        <p><hi xml:id="hi-6" rend="underline" hand="Pound"><del xml:id="del-16" rend="central-deletion" hand="Pound">Marianne</del></hi></p>
                     </note>
                 </lg>
             </div>
@@ -286,7 +286,7 @@
                         <l n="130">"You! <hi xml:id="hi-13a" hand="TEliot" rend="underline">hypocrite lecteur</hi>,-<hi xml:id="hi-13b" hand="TEliot" rend="underline">mon semblable</hi>,-<hi xml:id="hi-13c" hand="TEliot" rend="underline">mon frère</hi>!"</l>
                     </lg>
                     <note xml:id="note-5" hand="Pound" rend="diagonal squared" style="font-size: 200%;">
-                        <hi xml:id="hi-14" hand="Pound" rend="squared"><line>J.J.</line></hi>
+                        <hi xml:id="hi-14" hand="Pound" rend="squared"><p>J.J.</p></hi>
                     </note>
                     <note xml:id="note-6" hand="Pound" rend="diagonal">
                         <p><hi xml:id="hi-15" rend="underline">Blake</hi><lb/>
