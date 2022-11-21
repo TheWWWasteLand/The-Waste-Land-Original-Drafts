@@ -600,7 +600,7 @@
                     3
                     </head>
                     <lg type="stanza" n="21" xml:id="stanza21">
-                        <l n="90"><subst xml:id="sub-15"><del xml:id="del-51" hand="VEliot">"You want to keep him at home, I suppose".</del><add xml:id="add-38" hand="VEliot"><anchor xml:id="anchor-2" hand="VEliot">*</ref></add></subst></l>
+                        <l n="90"><subst xml:id="sub-15"><del xml:id="del-51" hand="VEliot">"You want to keep him at home, I suppose".</del><add xml:id="add-38" hand="VEliot"><anchor xml:id="anchor-2" cause="sign" hand="VEliot"/>*</add></subst></l>
                         <l>HURRY UP PLEASE IT'S TIME.</l>
                         <l>Well thtat Sunday Albert was home, they had a hot gammon,</l>
                         <l>And they asked me in to dinner, to get the beauty of it hot-</l>
