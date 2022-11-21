@@ -1566,7 +1566,15 @@ tei-del {
     left: 64px;
     top: 325px;
 }
- 
+body > tei tei tei-hi#hi-33::before {
+    white-space: pre;
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    text-decoration: line-through;
+    color: #118ab2;
+    left: 92px;
+}
 .line-del {
    text-decoration: line-through;
    text-decoration-thickness: 2px;
