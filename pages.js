@@ -229,6 +229,7 @@ function finalVer() {
   const notes = document.getElementsByTagName("tei-note");
   if (i.getAttribute('style') != "display: none;") {
     additions(document.getElementById("add-i"));
+    i.classList.toggle('activeFinalV');
   }
   else if (one.getAttribute('style') == "display: block;") {
     for (let i = 0; i < 13; i++) {
@@ -242,6 +243,7 @@ function finalVer() {
     for (let i = 0; i < 3; i++) {
       note(notes[i]);
     }
+    one.classList.toggle('activeFinalV');
   }
   else if (two.getAttribute('style') == "display: block;") {
     for (let i = 1; i < 6; i++) {
@@ -274,6 +276,7 @@ function finalVer() {
       document.getElementById('poemPage02').appendChild(marks);
     }
     note(document.getElementById('note-4'));
+    two.classList.toggle('activeFinalV');
   }
   else if (three.getAttribute('style') == "display: block;") {
     for (let i = 15; i < 26; i++) {
@@ -297,6 +300,7 @@ function finalVer() {
         }
       } 
     }
+    three.classList.toggle('activeFinalV');
   }
   else if (four.getAttribute('style') == "display: block;") {
     for (let i = 26; i < 31; i++) {
@@ -320,6 +324,7 @@ function finalVer() {
         a = a + 1;
       } 
     }
+    four.classList.toggle('activeFinalV');
   }
   else if (five.getAttribute('style') == 'display: block;') {
     for (let i = 31; i < 39; i++) {
@@ -346,6 +351,7 @@ function finalVer() {
       note(notes[i]);
    }
   }
+  five.classList.toggle('activeFinalV');
 };
 
 /* tei-add */
@@ -537,6 +543,16 @@ function reset() {
 /* singlePage */
 
 function singlePage() {
+    const finalVersion = $('.activeFinalV');
+    var page = $("#pageNumber").text().charAt(0);
+    if (finalVersion.length > 0) {
+      finalVersion.each(function(){
+        $(this).css({"display": "block"});
+        finalVer();
+        $(this).css({"display": "none"});
+        goToPage(page);
+      });
+    }
     const compare = $('#singlePageDIV').length;
     if (compare > 0) {
         comparison();
