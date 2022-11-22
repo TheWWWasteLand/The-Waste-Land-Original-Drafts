@@ -878,6 +878,7 @@ function goToPage(num) {
     num = (parseInt(num) + 1).toString();
     if (document.getElementById("singlePageDIV")) {
       var x = getActivePage();
+      console.log(x);
       if (num > x) {
         console.log("x");
         while (num > x) {
