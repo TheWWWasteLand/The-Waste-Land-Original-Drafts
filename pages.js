@@ -941,7 +941,7 @@ function getActivePage() {
         if ($(this).css("display") != "block") {
             a = a + 1
         }
-        else if ($(this).css("display") == "block;") {
+        else if ($(this).css("display") == "block") {
             if (a = 0) {
             a = 1
             }
