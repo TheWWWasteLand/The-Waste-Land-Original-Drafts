@@ -937,6 +937,7 @@ function getActivePage() {
     var divs = $("#singlePageDIV tei-div");
     var a = 0
     divs.each(function(){
+        console.log($(this).attr("style"));
         if ($(this).attr("style") != "block;") {
             a = a + 1
         }
