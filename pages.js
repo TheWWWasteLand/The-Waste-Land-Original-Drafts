@@ -935,20 +935,19 @@ function goToPage(num) {
 };
  
 function getActivePage() {
- var divs = $("#singlePageDIV tei-div");
- var a = 0
- divs.each(function(){
-     console.log($(this).attr("style"));
-     if ($(this).attr("style") == "block;") {
-       if (a == 0) {
-         a = a + 1
-       }
-       return a
-     }
-     else {
-      a = a + 1
-     }      
- }); 
+    var divs = $("#singlePageDIV tei-div");
+    var a = 0
+    divs.each(function(){
+        if ($(this).attr("style") != "block;") {
+            a = a + 1
+        }
+        else if ($(this).attr("style") == "block;") {
+            if (a = 0) {
+            a = 1
+            }
+            return a
+        }      
+    }); 
 }
  
 
