@@ -152,6 +152,10 @@ function prevPage() {
     if (iCont.classList.contains('photoClass')) {
         iCont.style.display="none";
     }
+    const compare = document.getElementById('singlePageDIV');
+    if (compare) {
+      iCont.style.display="block";
+    }
   }
   else if (two.getAttribute('style') == "display: block;") {
     two.style.display="none";
@@ -874,10 +878,25 @@ function thumbSearch(el) {
 }
 
 function goToPage(num) {
+    num = (parseInt(num) + 1).toString();
+    if (document.getElementById("singlePageDIV")) {
+      var x = getActivePage();
+      if (num > x) {
+        while (num > x) {
+          nextPage();
+          x = x + 1;
+        }
+      else if (num < x) {
+        while (num < x) {
+          prevPage();
+          x = x - 1;
+        }
+      }
+      return false;
+    }
     if (document.getElementsByClassName('activeFinalV').length > 0) {
      finalVer();
     }
-    num = (parseInt(num) + 1).toString();
     const span = "      <span class='bolder'>+</span>";
     var newString = num + span;
     document.getElementById("pageNumber").innerHTML = newString;
@@ -913,7 +932,25 @@ function goToPage(num) {
           document.getElementById('next').style.display="block";
       }
     }
+};
+ 
+function getActivePage() {
+ var divs = $("#singlePageDIV tei-div");
+ var a = 0
+ divs.each(function(){
+     console.log($(this).attr("style"));
+     if($(this).attr("style") == "block;") {
+       if (a == 0) {
+         a = a + 1;
+       }
+       return a
+     }
+     else {
+      a = a + 1;
+     }      
+ }); 
 }
+ 
 
 
     
