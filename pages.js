@@ -935,17 +935,17 @@ function goToPage(num) {
  
 function getActivePage() {
     var divs = $("#singlePageDIV tei-div");
-    var a = 0
+    var a = 0;
     divs.each(function(){
         console.log($(this).css("display"));
         if ($(this).css("display") != "block") {
-            a = a + 1
+            a = a + 1;
+            console.log(a);
         }
         else if ($(this).css("display") == "block") {
-            if (a = 0) {
-            a = 1
+            if (a == 0) {
+             a = 1
             }
-            console.log(a);
             return a
         }      
     }); 
