@@ -877,15 +877,16 @@ function thumbSearch(el) {
 function goToPage(num) {
     num = (parseInt(num) + 1).toString();
     if (document.getElementById("singlePageDIV")) {
-      console.log("x");
       var x = getActivePage();
       if (num > x) {
+        console.log("x");
         while (num > x) {
           nextPage();
           x = x + 1;
         }
       }
       else if (num < x) {
+        console.log("x");
         while (num < x) {
           prevPage();
           x = x - 1;
@@ -935,22 +936,20 @@ function goToPage(num) {
  
 function getActivePage() {
     var divs = $("#singlePageDIV tei-div");
-    var a = 0;
+    var a = 0
     divs.each(function(){
         console.log($(this).css("display"));
-        if ($(this).css("display") != "block") {
-            a = a + 1;
-            console.log(a);
-        }
-        else if ($(this).css("display") == "block") {
+        if ($(this).css("display") == "block;") {
             if (a == 0) {
-             a = 1
+              a = a + 1
             }
             return a
+        }
+        else {
+            a = a + 1;
         }      
     }); 
 }
- 
 
 
     
