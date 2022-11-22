@@ -878,16 +878,13 @@ function goToPage(num) {
     num = (parseInt(num) + 1).toString();
     if (document.getElementById("singlePageDIV")) {
       var x = getActivePage();
-      console.log(x);
       if (num > x) {
-        console.log("x");
         while (num > x) {
           nextPage();
           x = x + 1;
         }
       }
       else if (num < x) {
-        console.log("x");
         while (num < x) {
           prevPage();
           x = x - 1;
@@ -907,7 +904,6 @@ function goToPage(num) {
      document.getElementById("pageNumber").innerHTML = "1      <span class='bolder'>+</span>";
     }
     else {
-      console.log(num);
       const pageList = document.getElementsByTagName('tei-div');
       for (let i = 0; i < pageList.length; i++) {
           var style = window.getComputedStyle(pageList[i]);
@@ -939,7 +935,6 @@ function getActivePage() {
     const divs = document.querySelectorAll("#singlePageDIV tei-div");
     var a = 0;
     for (let i = 0; i < divs.length; i++) {
-      console.log(divs[i].getAttribute('style'))
       if (divs[i].getAttribute('style') == "display: block;") {
         a = i;
       }
