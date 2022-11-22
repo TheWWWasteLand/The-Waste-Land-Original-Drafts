@@ -936,20 +936,18 @@ function goToPage(num) {
 };
  
 function getActivePage() {
-    var divs = $("#singlePageDIV tei-div");
-    var a = 0
-    divs.each(function(){
-        console.log($(this).css("display"));
-        if ($(this).css("display") == "block;") {
-            if (a == 0) {
-              a = a + 1
-            }
-            return a
-        }
-        else {
-            a = a + 1;
-        }      
-    }); 
+    const divs = document.querySelectorAll("#singlePageDIV tei-div");
+    var a = 0;
+    for (let i = 0; i < divs.length; i++) {
+      console.log(divs[i].getAttribute('style'))
+      if (divs[i].getAttribute('style') == "display: block;") {
+        a = i;
+      }
+    }
+    if (a == 0) {
+      a = a + 1
+    }
+    return a
 }
 
 
