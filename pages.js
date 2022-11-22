@@ -886,6 +886,7 @@ function goToPage(num) {
           nextPage();
           x = x + 1;
         }
+      }
       else if (num < x) {
         while (num < x) {
           prevPage();
