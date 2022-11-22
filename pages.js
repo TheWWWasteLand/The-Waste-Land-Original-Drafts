@@ -393,7 +393,6 @@ function additions(el) {
 function deletions(el) {
   el.classList.toggle('line-del');
   if (el.getAttribute('rend') == "central-deletion") {
-    console.log("hi");
     el.classList.remove('line-del');
     el.classList.toggle('central-del');
   }
@@ -498,7 +497,6 @@ function comparison() {
                         $("#singlePageDiv #ref-1").remove();
                         var txt = $("#note-35").text();
                         var nTxt = txt.substring(57);
-                        console.log(nTxt);
                         $(this).text(nTxt);
                         $(this).css({"white-space": "nowrap"});
                     }
@@ -643,7 +641,6 @@ function singlePage() {
                             $("#singlePageDiv #ref-1").remove();
                             var txt = $("#note-35").text();
                             var nTxt = txt.substring(57);
-                            console.log(nTxt);
                             $(this).text(nTxt);
                             $(this).css({"white-space": "nowrap"});
                         }
@@ -880,6 +877,7 @@ function thumbSearch(el) {
 function goToPage(num) {
     num = (parseInt(num) + 1).toString();
     if (document.getElementById("singlePageDIV")) {
+      console.log("x");
       var x = getActivePage();
       if (num > x) {
         while (num > x) {
@@ -946,6 +944,7 @@ function getActivePage() {
             if (a = 0) {
             a = 1
             }
+            console.log(a);
             return a
         }      
     }); 
