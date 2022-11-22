@@ -939,11 +939,11 @@ function getActivePage() {
  var a = 0
  divs.each(function(){
      console.log($(this).attr("style"));
-     if($(this).attr("style") == "block;") {
+     if ($(this).attr("style") == "block;") {
        if (a == 0) {
          a = a + 1;
        }
-       return a
+       return a;
      }
      else {
       a = a + 1;
