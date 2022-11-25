@@ -874,7 +874,7 @@ function modify() {
       var nodeList = divs[a].childNodes;
       for (let i = 0; i < nodeList.length; i++) {
         console.log(nodeList[i].nodeName);
-        if (nodeList[i].nodeName == "TEI-LG") {
+        if (nodeList[i].nodeName == "TEI-LG" || nodeList[i].nodeName == "TEI-HEAD") {
           var number = parseInt(a) - 1;
           var inner = nodeList[i].outerHTML;
           var newText = initial + number.toString() + "'>"+ inner + "</section>";
