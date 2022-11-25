@@ -875,7 +875,7 @@ function modify() {
         if (nodeList[i].nodeName == "#tei-lg") {
           var number = parseInt(index) - 1;
           var inner = nodeList[i].outerHTML;
-          var newText = initial + number.toString() "'>"+ inner + "</section>";
+          var newText = initial + number.toString() + "'>"+ inner + "</section>";
           nodeList.outerHTML = newText;
         }        
       }
