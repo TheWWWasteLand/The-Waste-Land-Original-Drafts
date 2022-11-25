@@ -1622,7 +1622,7 @@ tei-graphic {
     height: 50px;
 }
     
-tei-lg {
+tei-lg, section {
     display: block;
     padding-bottom: 1.5em;
 }
@@ -1630,7 +1630,7 @@ tei-lg[type=stanza] {
     width: 25em;
 }
 
-tei-lg[type=poemPage] {
+section {
       height: calc(100vh - 129px);
       overflow: scroll;
       position: absolute;
@@ -1907,7 +1907,7 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
    margin-left: 0px!important;
 } 
 
-#singlePageDIV tei-lg[type=poemPage] {
+#singlePageDIV section {
     box-shadow: -2px 1px 4px 0px #999;
     width: calc(40vw - 1px);
     top: 11px;
