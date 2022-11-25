@@ -856,16 +856,13 @@ function modify() {
   const divs = document.getElementsByTagName("tei-div");
   var initial = "<section id='poemPage0";
   for (let a = 0; a < divs.length; a ++) {
-    console.log(a);
     if (a == 0) {
       var nodeList = divs[a].childNodes;
       for (let i = 0; i < nodeList.length; i++) {
-        console.log(nodeList[i].nodeName);
         if (nodeList[i].nodeName == "TEI-LG" || nodeList[i].nodeName == "TEI-HEAD") {
           var inner = nodeList[i].outerHTML;
           var newText = "<section id='" + "page-i-content" + ">" + inner + "</section>";
           nodeList[i].outerHTML = newText;
-          console.log(newText);
           return false;
         }        
       }
@@ -873,13 +870,12 @@ function modify() {
     else if (a > 1) {
       var nodeList = divs[a].childNodes;
       for (let i = 0; i < nodeList.length; i++) {
-        console.log(nodeList[i].nodeName);
         if (nodeList[i].nodeName == "TEI-LG" || nodeList[i].nodeName == "TEI-HEAD") {
           var number = parseInt(a) - 1;
           var inner = nodeList[i].outerHTML;
           var newText = initial + number.toString() + "'>"+ inner + "</section>";
           nodeList[i].outerHTML = newText;
-          console.log(newText);
+          return false;
         }        
       }
     }  
