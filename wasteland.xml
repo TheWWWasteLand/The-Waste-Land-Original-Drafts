@@ -86,542 +86,530 @@
             <div xml:id="page-2">
                 <figure><graphic url="https://thewwwasteland.github.io/images/2.jpg" xml:id="page-1" type="page"/>
                 </figure>
-                <lg type="poemPage" n="1" xml:id="poemPage01">
-                    <head>
-                        HE DO THE POLICE IN DIFFERENT VOICES: Part I.<lb/>
-                        <lb/>
-                        THE BURIAL OF THE DEAD.
-                    </head>
-                    <delSpan xml:id="delSpan-01" hand="TEliot" spanTo="delSpan-01End" rend="diagonalStrike rightToLeft"/>
-                    <lg type="stanza" n="1" xml:id="stanza01">
-                        <l n="1">First we had a couple of feelers down at Tom's place</l>
-                        <l>There was old Tom, boiled to eyes, blind,</l>
-                        <l>(Don't you remember that time after a dance,</l>
-                        <l>Top hats and all, we and Silk Hat Harry,</l>
-                        <l n="5">And old Tom took us behind, brought out a bottle of fizz,</l>
-                        <l>With old Jane, Tom's Wife; and we got Joe to sing</l>
-                        <hi xml:id="hi-1" hand="TEliot" rend="circled"><l>"I'm proud of all the Irish blood that's in me,</l>
-                        <l>"There's not a man can say a word agin me").</l></hi>
-                        <l>Then we had dinner in good form, and a couple of Bengal lights.</l>
-                        <l n="10">When we got into the show, up in Row A,</l>
-                        <l>I tried to put my food in the drum, and didn't the girl squeal,</l>
-                        <l>She never did take to me, a nice guy-but rough;</l>
-                        <l>The next thing we were out in the street, Oh was it cold!</l>
-                        <l>When will you be good? Blew in to the Opera Exchange,</l>
-                        <l n="15">Sopped up some gin, sat in to the cork game,</l>
-                        <l>Mr. Fay was there, singing "The Maid of The Mill";</l>
-                        <l>Then we thought we'd breeze along and take a walk.</l>
-                        <l>Then we lost Steve.</l>
-                        <l><add xml:id="add-1" hand="TEliot" place="margin-left">-</add>("I turned up an hour later down at Myrtle's place.</l>
-                        <l n="20">What d'y' mean, she says, at two o'clock in the morning,</l>
-                        <l>I'm not busy here for guys like you;</l>
-                        <l>We've only had a raid last week, I've been warned twice.</l>
-                        <l><del xml:id="del-1" hand="TEliot">Sergeant, I said</del>, I've kept a decent house for twenty years,   <add xml:id="add-2" place="margin-right" hand="TEliot">she says</add></l>
-                        <l>There's three gents from the Buckingham Club upstairs now,</l>
-                        <l n="25">I'm going to retire and live on a farm, she says,</l>
-                        <l>There's no money in it now, what with the damage done,</l>
-                        <l>And the reputation the place gets, <subst xml:id="sub-1"><del xml:id="del-2" hand="TEliot" rend="overstrike">on account</del><add xml:id="add-3" place="above" hand="TEliot">off</add></subst> of a few bar-flies,</l>
-                        <l>I've kept a clean house for twenty years, she says,</l>
-                        <l>And the gents from Buckingham Club know they're safe here;</l>
-                        <l n="30">You was well introduced, but this is the last of you.</l>
-                        <l>Get me a woman, I said; you're too drunk, she said,</l>
-                        <l>But she gave me a bed, and a bath, and ham and eggs,</l>
-                        <l>And now you go get a shave, she said; <subst xml:id="sub-2"><del xml:id="del-3" hand="TEliot" rend="overstrike">I had a good laugh,</del> <add xml:id="add-4" hand="TEliot" place="inline"><del xml:id="del-4" hand="TEliot" rend="overstrike">couple of laughs (?)</del></add> <add xml:id="add-5" hand="TEliot" place="below"><del xml:id="del-5" hand="TEliot" rend="overstrike">good laugh</del></add></subst></l>
-                        <l>Myrtle <subst xml:id="sub-3"><del xml:id="del-6a" hand="TEliot" rend="overstrike">was</del> always a <del xml:id="del-6b" hand="TEliot" rend="overstrike">good sport").</del> <add xml:id="add-6" hand="TEliot" place="inline">treated me white.</add></subst></l>
-                        <l n="35"><add xml:id="add-7" hand="TEliot" place="margin-left">-</add>We'd just gone up the alley, a fly cop came along,</l>
-                        <l>Looking for trouble; committing a nuisance, he said,</l> 
-                        <l>You come on to the station. I'm sorry, I said,</l>
-                        <l>It's no use being sorry, he said; let me get my hat, I said.</l>                    
-                        <l>Well by a stroke of luck who came by but Mr.Donovan.</l>                    
-                        <l n="40">What's this, officer. You're new on this beat, aint you?</l>                    
-                        <delSpan xml:id="delSpan-02" hand="TEliot" spanTo="#delSpan-02End" rend="overstrike"/><l>I thought so. You know who I am? Yes, I do, <add xml:id="add-8" hand="TEliot" place="margin-right-inline" rend="linking-line"><del hand="TEliot">me?</del></add></l>                   
-                        <l>Said the fresh cop, very peevish.<anchor xml:id="delSpan-02End"/> Then let it alone,</l>                   
-                        <l>These gents are particular friends of mine.</l>                    
-                        <l>-Wasn't it luck? Then we wen to the German Club,</l>                    
-                        <l n="45"><subst xml:id="sub-4"><add xml:id="add-9" hand="TEliot" place="margin-left">Us</add><del xml:id="del-8" hand="TEliot" rend="overstrike">We</del></subst> and Mr. Donovan and his friend <subst xml:id="sub-5"><del xml:id="del-9" hand="TEliot" rend="overstrike">Joe Leahy,</del><add xml:id="add-10" hand="TEliot" place="margin-right-inline" rend="linking-line"><del xml:id="del-10" hand="TEliot" rend="overstrike">Heinie</del><add xml:id="add-11" hand="TEliot" place="above">Gus</add> Krutzsch</add></subst></l>             
-                        <l><del xml:id="del-11" hand="TEliot" rend="overstrike">Found it shut.</del> I want to get home, said the cabman,</l>
-                        <l>We all go the same way home, said Mr. Donavan,</l>                                     
-                        <l>Cheer up, Trixie and Stella; and put his foot through the window.</l>                                     
-                        <l>The next I know the old cab was hauled up on the avenue,</l>                                     
-                        <l n="50">And the cabman and little Ben Levin the tailor,</l>                                     
-                        <l>The one who read George Meredith,</l>                                     
-                        <l>Were running a hundred yards on a bet,</l>
-                        <l>And Mr. Donovan holding the watch.</l>
-                        <l>So I got out to see the sunrise, and walked home.</l> 
-                    </lg>
-                    <anchor xml:id="delSpan-01End"/>
-                    <note id="note-1" hand="TEliot"><del><lg>
-                        <l>Meet me in the shadow of the <lb/> watermelon Vine</l>
-                        <l>Eva Iva Uva Emmaline</l>
-                    </lg></del>
-                    </note>
-                    <note id="note-2" hand="TEliot"><lg>
-                            <l>Tease, Squeeze lovin &#38; wooin</l>
-                            <l>Say Kid what're y'<lb/> doin'</l>
-                        </lg>
-                    </note>
-                    <note xml:id="note-3" hand="TEliot">
-                        <p>real<lb/>
-                        good(?)</p>
-                    </note>
+                <head>
+                    HE DO THE POLICE IN DIFFERENT VOICES: Part I.<lb/>
+                    <lb/>
+                    THE BURIAL OF THE DEAD.
+                </head>
+                <delSpan xml:id="delSpan-01" hand="TEliot" spanTo="delSpan-01End" rend="diagonalStrike rightToLeft"/>
+                <lg type="stanza" n="1" xml:id="stanza01">
+                    <l n="1">First we had a couple of feelers down at Tom's place</l>
+                    <l>There was old Tom, boiled to eyes, blind,</l>
+                    <l>(Don't you remember that time after a dance,</l>
+                    <l>Top hats and all, we and Silk Hat Harry,</l>
+                    <l n="5">And old Tom took us behind, brought out a bottle of fizz,</l>
+                    <l>With old Jane, Tom's Wife; and we got Joe to sing</l>
+                    <hi xml:id="hi-1" hand="TEliot" rend="circled"><l>"I'm proud of all the Irish blood that's in me,</l>
+                    <l>"There's not a man can say a word agin me").</l></hi>
+                    <l>Then we had dinner in good form, and a couple of Bengal lights.</l>
+                    <l n="10">When we got into the show, up in Row A,</l>
+                    <l>I tried to put my food in the drum, and didn't the girl squeal,</l>
+                    <l>She never did take to me, a nice guy-but rough;</l>
+                    <l>The next thing we were out in the street, Oh was it cold!</l>
+                    <l>When will you be good? Blew in to the Opera Exchange,</l>
+                    <l n="15">Sopped up some gin, sat in to the cork game,</l>
+                    <l>Mr. Fay was there, singing "The Maid of The Mill";</l>
+                    <l>Then we thought we'd breeze along and take a walk.</l>
+                    <l>Then we lost Steve.</l>
+                    <l><add xml:id="add-1" hand="TEliot" place="margin-left">-</add>("I turned up an hour later down at Myrtle's place.</l>
+                    <l n="20">What d'y' mean, she says, at two o'clock in the morning,</l>
+                    <l>I'm not busy here for guys like you;</l>
+                    <l>We've only had a raid last week, I've been warned twice.</l>
+                    <l><del xml:id="del-1" hand="TEliot">Sergeant, I said</del>, I've kept a decent house for twenty years,   <add xml:id="add-2" place="margin-right" hand="TEliot">she says</add></l>
+                    <l>There's three gents from the Buckingham Club upstairs now,</l>
+                    <l n="25">I'm going to retire and live on a farm, she says,</l>
+                    <l>There's no money in it now, what with the damage done,</l>
+                    <l>And the reputation the place gets, <subst xml:id="sub-1"><del xml:id="del-2" hand="TEliot" rend="overstrike">on account</del><add xml:id="add-3" place="above" hand="TEliot">off</add></subst> of a few bar-flies,</l>
+                    <l>I've kept a clean house for twenty years, she says,</l>
+                    <l>And the gents from Buckingham Club know they're safe here;</l>
+                    <l n="30">You was well introduced, but this is the last of you.</l>
+                    <l>Get me a woman, I said; you're too drunk, she said,</l>
+                    <l>But she gave me a bed, and a bath, and ham and eggs,</l>
+                    <l>And now you go get a shave, she said; <subst xml:id="sub-2"><del xml:id="del-3" hand="TEliot" rend="overstrike">I had a good laugh,</del> <add xml:id="add-4" hand="TEliot" place="inline"><del xml:id="del-4" hand="TEliot" rend="overstrike">couple of laughs (?)</del></add> <add xml:id="add-5" hand="TEliot" place="below"><del xml:id="del-5" hand="TEliot" rend="overstrike">good laugh</del></add></subst></l>
+                    <l>Myrtle <subst xml:id="sub-3"><del xml:id="del-6a" hand="TEliot" rend="overstrike">was</del> always a <del xml:id="del-6b" hand="TEliot" rend="overstrike">good sport").</del> <add xml:id="add-6" hand="TEliot" place="inline">treated me white.</add></subst></l>
+                    <l n="35"><add xml:id="add-7" hand="TEliot" place="margin-left">-</add>We'd just gone up the alley, a fly cop came along,</l>
+                    <l>Looking for trouble; committing a nuisance, he said,</l> 
+                    <l>You come on to the station. I'm sorry, I said,</l>
+                    <l>It's no use being sorry, he said; let me get my hat, I said.</l>                    
+                    <l>Well by a stroke of luck who came by but Mr.Donovan.</l>                    
+                    <l n="40">What's this, officer. You're new on this beat, aint you?</l>                    
+                    <delSpan xml:id="delSpan-02" hand="TEliot" spanTo="#delSpan-02End" rend="overstrike"/><l>I thought so. You know who I am? Yes, I do, <add xml:id="add-8" hand="TEliot" place="margin-right-inline" rend="linking-line"><del hand="TEliot">me?</del></add></l>                   
+                    <l>Said the fresh cop, very peevish.<anchor xml:id="delSpan-02End"/> Then let it alone,</l>                   
+                    <l>These gents are particular friends of mine.</l>                    
+                    <l>-Wasn't it luck? Then we wen to the German Club,</l>                    
+                    <l n="45"><subst xml:id="sub-4"><add xml:id="add-9" hand="TEliot" place="margin-left">Us</add><del xml:id="del-8" hand="TEliot" rend="overstrike">We</del></subst> and Mr. Donovan and his friend <subst xml:id="sub-5"><del xml:id="del-9" hand="TEliot" rend="overstrike">Joe Leahy,</del><add xml:id="add-10" hand="TEliot" place="margin-right-inline" rend="linking-line"><del xml:id="del-10" hand="TEliot" rend="overstrike">Heinie</del><add xml:id="add-11" hand="TEliot" place="above">Gus</add> Krutzsch</add></subst></l>             
+                    <l><del xml:id="del-11" hand="TEliot" rend="overstrike">Found it shut.</del> I want to get home, said the cabman,</l>
+                    <l>We all go the same way home, said Mr. Donavan,</l>                                     
+                    <l>Cheer up, Trixie and Stella; and put his foot through the window.</l>                                     
+                    <l>The next I know the old cab was hauled up on the avenue,</l>                                     
+                    <l n="50">And the cabman and little Ben Levin the tailor,</l>                                     
+                    <l>The one who read George Meredith,</l>                                     
+                    <l>Were running a hundred yards on a bet,</l>
+                    <l>And Mr. Donovan holding the watch.</l>
+                    <l>So I got out to see the sunrise, and walked home.</l> 
                 </lg>
-                
+                <anchor xml:id="delSpan-01End"/>
+                <note id="note-1" hand="TEliot"><del><lg>
+                    <l>Meet me in the shadow of the <lb/> watermelon Vine</l>
+                    <l>Eva Iva Uva Emmaline</l>
+                </lg></del>
+                </note>
+                <note id="note-2" hand="TEliot"><lg>
+                        <l>Tease, Squeeze lovin &#38; wooin</l>
+                        <l>Say Kid what're y'<lb/> doin'</l>
+                    </lg>
+                </note>
+                <note xml:id="note-3" hand="TEliot">
+                    <p>real<lb/>
+                    good(?)</p>
+                </note>
             </div>
             <pb xml:id="wasteland-2" n="2"/>
             <div xml:id="page-3">
                 <figure><graphic url="https://thewwwasteland.github.io/images/3.jpg" xml:id="page-2" type="page"/>
                 </figure>
-                <lg type="poemPage" n="2" xml:id="poemPage02">
-                    <head>
-                        2.<lb/>
-                        *  *  *  *
-                    </head>
-                    <lg type="stanza" n="2" xml:id="stanza02">
-                        <l n="55">April is the cruellest month, breeding</l>
-                        <l>Liliacs out of the dead land, mixing</l>
-                        <l>Memory and desire, stirring</l>
-                        <l>Dull roots with spring rain.</l>
-                        <l>Winter kept us warm, covering</l>
-                        <l n="60">Earth in <hi xml:id="hi-2" rend="circledExceptAbove" hand="Pound">forgetful</hi> snow, feeding</l>
-                        <l>A little life with dried tubers.</l>
-                        <l>Summer surprised us, coming over Königssee</l>
-                        <l>With a shower of rain; we stopped in the colonnade,</l>
-                        <l> And went on in sunlight, into the Hofgarten,</l>
-                        <l n="65">And drank coffee, talking an hour.</l>
-                        <l>Bin gar kein Russin, stamm' aus Litauen, echt deutsch.</l>
-                        <l>And when we were children, staying at the arcduke's,</l>
-                        <l>My cousin's, he took me out on a sled,</l>
-                        <l>And I was frightened. He said, Marie,</l>
-                        <l n="70">Marie, hold on tight. And down we went.</l>
-                        <l>In the mountains, <hi xml:id="hi-3" rend="circled" hand="Pound">there you feel free.</hi></l>
-                        <l>I read, much of the night, and go south in the winter.</l>
-                    </lg>
-                    <head>  *  *  *  * </head> 
-                    <anchor xml:id="anchor-1"/>
-                    <lg type="stanza" n="3" xml:id="stanza03">
-                            <l>What are the roots that clutch, what branches grew</l>
-                            <l>Out of this stony rubbish! Son of man,</l>
-                            <l n="75">You cannot say, or guess for you know only</l>
-                            <l>A heap of broken images, where the sun beats,</l>
-                            <l>And the dead tree gives no shelter, the cricket no relief,</l>
-                            <l>And the dry stone no sound of water. Only</l>
-                            <l>There is shadow under this red rock,</l>
-                            <l n="80">(Come in under the shadow of this red rock),</l>
-                            <l><del xml:id="del-12" hand="TEliot">And</del> I will show you something different from either</l>
-                            <l>Your shadow at morning striding behind you</l>
-                            <l>Or your shadow at evening rising to meet you;</l>
-                            <l>I will show you fear in a handful of dust.</l>
-                    </lg>
-                    <head>  *  *  *  * </head>
-                    <metamark function="transpostion" place="around" rend="circled arrow" hand="TEliot" target="#anchor-1">
-                        <lg type="stanza" n="4" xml:id="stanza04">
-                            <hi xml:id="hi-4" rend="circled" hand="TEliot">
-                                <l n="85"><del xml:id="del-13">Mein</del> Frisch <subst xml:id="sub-6"><del xml:id="del-14" hand="TEliot">schwebt</del><add xml:id="add-12" hand="TEliot" place="above">weht</add></subst> der Wind </l>
-                                <l>           Der Heimat zu,</l>
-                                <l>           Mein Irisch' Kind,</l>
-                                <l>           Wo weilest du?</l>
-                                <l>"You fave me hyacinths first a year ago; </l>
-                                <l n="90">"They called me the hyacinth girl".</l>
-                                <l>- Yet when we came back, late, from the hyacinth garden,</l>
-                                <l>Your arms full, and your hair wet, <hi xml:id="hi-5a" rend="underline" hand="Pound">I could not</hi></l>
-                                <l><hi xml:id="hi-5b" rend="underline" hand="Pound">Speak</hi>, and my eyes failed, I was neither</l>
-                                <l>Living nor dead, and I knew nothing,</l>
-                                <l n="95">Looking into the heart of light, the silence.</l>
-                            </hi>
-                            <add xml:id="add-13" place="margin-right" hand="TEliot" rend="linking-line">Öd' und leer das Meer.</add>
-                        </lg>
-                    </metamark>
-                    
-                    <lg type="stanza" n="5" xml:id="stanza05">
-                        <l>Madame Sosostris, famous clairvoyant<add xml:id="add-14" place="above" rend="superscript" hand="TEliot">e</add>,</l>
-                        <l>Had a bad cold, nevertheless</l>
-                        <l>Is known to be the wisest woman in Europe,</l>
-                        <l>With a wicked pack of cards. Here, said she,</l>
-                        <l n="100">Is your card, the drowned Phoenician Sailor,</l>
-                        <l><del xml:id="del-15" hand="Pound">(Those are pearls that were hist eyes, Look!)</del></l>
-                        <l>Here is Belladonna, the Lady of the Rocks,</l>
-                        <l>The lady of situations,</l>
-                    </lg>
-                    <note xml:id="note-4" hand="Pound" rend="diagonal" place="margin-right">
-                        <p><hi xml:id="hi-6" rend="underline" hand="Pound"><del xml:id="del-16" rend="central-deletion" hand="Pound">Marianne</del></hi></p>
-                    </note>
+                <head>
+                    2.<lb/>
+                    *  *  *  *
+                </head>
+                <lg type="stanza" n="2" xml:id="stanza02">
+                    <l n="55">April is the cruellest month, breeding</l>
+                    <l>Liliacs out of the dead land, mixing</l>
+                    <l>Memory and desire, stirring</l>
+                    <l>Dull roots with spring rain.</l>
+                    <l>Winter kept us warm, covering</l>
+                    <l n="60">Earth in <hi xml:id="hi-2" rend="circledExceptAbove" hand="Pound">forgetful</hi> snow, feeding</l>
+                    <l>A little life with dried tubers.</l>
+                    <l>Summer surprised us, coming over Königssee</l>
+                    <l>With a shower of rain; we stopped in the colonnade,</l>
+                    <l> And went on in sunlight, into the Hofgarten,</l>
+                    <l n="65">And drank coffee, talking an hour.</l>
+                    <l>Bin gar kein Russin, stamm' aus Litauen, echt deutsch.</l>
+                    <l>And when we were children, staying at the arcduke's,</l>
+                    <l>My cousin's, he took me out on a sled,</l>
+                    <l>And I was frightened. He said, Marie,</l>
+                    <l n="70">Marie, hold on tight. And down we went.</l>
+                    <l>In the mountains, <hi xml:id="hi-3" rend="circled" hand="Pound">there you feel free.</hi></l>
+                    <l>I read, much of the night, and go south in the winter.</l>
                 </lg>
+                <head>  *  *  *  * </head> 
+                <anchor xml:id="anchor-1"/>
+                <lg type="stanza" n="3" xml:id="stanza03">
+                        <l>What are the roots that clutch, what branches grew</l>
+                        <l>Out of this stony rubbish! Son of man,</l>
+                        <l n="75">You cannot say, or guess for you know only</l>
+                        <l>A heap of broken images, where the sun beats,</l>
+                        <l>And the dead tree gives no shelter, the cricket no relief,</l>
+                        <l>And the dry stone no sound of water. Only</l>
+                        <l>There is shadow under this red rock,</l>
+                        <l n="80">(Come in under the shadow of this red rock),</l>
+                        <l><del xml:id="del-12" hand="TEliot">And</del> I will show you something different from either</l>
+                        <l>Your shadow at morning striding behind you</l>
+                        <l>Or your shadow at evening rising to meet you;</l>
+                        <l>I will show you fear in a handful of dust.</l>
+                </lg>
+                <head>  *  *  *  * </head>
+                <metamark function="transpostion" place="around" rend="circled arrow" hand="TEliot" target="#anchor-1">
+                    <lg type="stanza" n="4" xml:id="stanza04">
+                        <hi xml:id="hi-4" rend="circled" hand="TEliot">
+                            <l n="85"><del xml:id="del-13">Mein</del> Frisch <subst xml:id="sub-6"><del xml:id="del-14" hand="TEliot">schwebt</del><add xml:id="add-12" hand="TEliot" place="above">weht</add></subst> der Wind </l>
+                            <l>           Der Heimat zu,</l>
+                            <l>           Mein Irisch' Kind,</l>
+                            <l>           Wo weilest du?</l>
+                            <l>"You fave me hyacinths first a year ago; </l>
+                            <l n="90">"They called me the hyacinth girl".</l>
+                            <l>- Yet when we came back, late, from the hyacinth garden,</l>
+                            <l>Your arms full, and your hair wet, <hi xml:id="hi-5a" rend="underline" hand="Pound">I could not</hi></l>
+                            <l><hi xml:id="hi-5b" rend="underline" hand="Pound">Speak</hi>, and my eyes failed, I was neither</l>
+                            <l>Living nor dead, and I knew nothing,</l>
+                            <l n="95">Looking into the heart of light, the silence.</l>
+                        </hi>
+                        <add xml:id="add-13" place="margin-right" hand="TEliot" rend="linking-line">Öd' und leer das Meer.</add>
+                    </lg>
+                </metamark>
+
+                <lg type="stanza" n="5" xml:id="stanza05">
+                    <l>Madame Sosostris, famous clairvoyant<add xml:id="add-14" place="above" rend="superscript" hand="TEliot">e</add>,</l>
+                    <l>Had a bad cold, nevertheless</l>
+                    <l>Is known to be the wisest woman in Europe,</l>
+                    <l>With a wicked pack of cards. Here, said she,</l>
+                    <l n="100">Is your card, the drowned Phoenician Sailor,</l>
+                    <l><del xml:id="del-15" hand="Pound">(Those are pearls that were hist eyes, Look!)</del></l>
+                    <l>Here is Belladonna, the Lady of the Rocks,</l>
+                    <l>The lady of situations,</l>
+                </lg>
+                <note xml:id="note-4" hand="Pound" rend="diagonal" place="margin-right">
+                    <p><hi xml:id="hi-6" rend="underline" hand="Pound"><del xml:id="del-16" rend="central-deletion" hand="Pound">Marianne</del></hi></p>
+                </note>
             </div>
+            <pb xml:id="wasteland-3" n="3"/>
             <div xml:id="page-4">
                 <figure><graphic url="https://thewwwasteland.github.io/images/4.jpg" xml:id="page-3" type="page"/>
                 </figure>
-                <lg type="poemPage" n="3" xml:id="poemPage03">
-                    <head>
-                        3.
-                    </head>
-                    <lg type="stanza" n="6" xml:id="stanza06">
-                        <l>Here is the <hi xml:id="hi-7" rend="circled" hand="TEliot">man with three staves</hi><add xml:id="add-15" place="above" hand="TEliot"><subst xml:id="sub-7"><del xml:id="del-16" hand="TEliot">King fishing</del><add xml:id="add-16" place="above" hand="TEliot">fishing King</add></subst></add>, and here the Wheel,</l>
-                        <l n="105">And here is the onw-eyes merchant, and this card,</l>
-                        <l>Which is blank, is something he carries on his back,</l>
-                        <l>Which I am forbidden to see. <hi xml:id="hi-8" hand="Pound" rend="squared">I look in vain</hi><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el.png" xml:id="pound-1-hi"/></l>
-                        <l>For the Hanged Man. Fear death by water.</l>
-                        <l>I see crowds of people, walking round in a ring.</l>
-                        <l n="110"><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el-2.png" xml:id="pound-2-hi"/><del xml:id="del-17" hand="Pound">(I John saw these things, and heard them).</del></l>
-                        <l>Thank you. If you see dear Mrs. Equitone,</l>
-                        <l>Tell her I bring the horoscope myself,</l>
-                        <l>One must be so careful these days.</l>
-                    </lg>
-                    <lg type="stanza" n="7" xml:id="stanza07">
-                        <l><hi xml:id="hi-9" rend="circledExceptRight" hand="Pound"><subst xml:id="sub-8"><del xml:id="del-18" hand="TEliot">Terrible</del><add xml:id="add-17" hand="TEliot" place="above">Unreal</add></subst></hi> City<del xml:id="del-19" hand="Pound">,</del> I have sometimes seen and <hi xml:id="hi-10" rend="circledExceptLeft" hand="Pound">see</hi></l>
-                        <l n="115">Under the brown fog of <hi xml:id="hi-11" hand="Pound" rend="circled">your</hi> winter dawn</l>
-                        <l>A crowd flow over London Bridge, so many,</l>
-                        <l>I had not thought death had undone so many.</l>
-                        <l>Sighs, short and infrequent, were<subst xml:id="sub-9"><del xml:id="del-20a" hand="TEliot">expired,</del><del xml:id="del-20b" hand="TEliot"><add xml:id="add-18" hand="TEliot"> exhaled.</add></del><del xml:id="del-20c" hand="TEliot"><add xml:id="add-19" hand="TEliot">expired.</add></del> <add xml:id="add-20" hand="TEliot">exhaled.</add></subst></l>
-                        <l>And each <subst xml:id="sub-10"><del xml:id="del-21" hand="TEliot">one</del><add xml:id="add-21" hand="TEliot" rend="diagonal linking-line 13" place="margin-left">man</add></subst> <subst xml:id="sub-11"><del xml:id="del-22" hand="TEliot">kept</del><del xml:id="del-23" hand="TEliot"><add xml:id="add-22" hand="TEliot" place="margin-left above" rend="linking-line 17">held</add></del><add xml:id="add-23" hand="TEliot" rend="17" place="margin-left below">fixed</add></subst> his eyes before his feet.</l>
-                        <l n="120">Flowed up the hill and down King William Street,</l>
-                        <delSpan xml:id="delSpan-03" hand="Pound" spanTo="#delSpan-03End" rend="overstrike"/><hi xml:id="hi-12" hand="Pound" rend="squaredOnlyRight"><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound2.png" xml:id="pound-3-hi"/><l>To where Saint Mary Woolnoth kept the time,</l>
-                        <l>With a dead sound on the final stroke of nine.<anchor xml:id="delSpan-03End"/></l></hi>
-                        <l>There I saw one I knew, and stopped him, crying: "Stetson! </l>
-                        <l>"You who were with me in the ships at Mylae!</l>
-                        <l n="125">"That corpse you planted last year in your garden,</l>
-                        <l>"Has it begun to sprout<add xml:id="add-24" hand="TEliot" place="footer" rend="linking-line 6">yet?</add>? Will it bloom this year?"</l>
-                        <l>"Or has the sudden frost disturbed its bed?"</l>
-                        <l>"Oh keep the Dog far hence, that's <del xml:id="del-24" hand="TEliot">foe</del> to men,</l>
-                        <l>"Or with his nails he'll dig it up again!</l>
-                        <l n="130">"You! <hi xml:id="hi-13a" hand="TEliot" rend="underline">hypocrite lecteur</hi>,-<hi xml:id="hi-13b" hand="TEliot" rend="underline">mon semblable</hi>,-<hi xml:id="hi-13c" hand="TEliot" rend="underline">mon frère</hi>!"</l>
-                    </lg>
-                    <note xml:id="note-5" hand="Pound" rend="diagonal" style="font-size: 200%;">
-                        <p><hi xml:id="hi-14" hand="Pound" rend="squared">J.J.</hi></p>
-                    </note>
-                    <note xml:id="note-6" hand="Pound" rend="diagonal">
-                        <p><hi xml:id="hi-15" rend="underline">Blake</hi><lb/>
-                        Too<lb/>
-                        o<subst><del xml:id="del-25" hand="Pound">ld</del> <add xml:id="add-25" rend="overwritten">ften</add></subst><lb/>
-                        used</p>
-                        </note>
-                    <note xml:id="note-7" hand="TEliot">
-                        <lg>
-                            <l>/friend</l>
-                        </lg>
-                    </note>
+                <head>
+                    3.
+                </head>
+                <lg type="stanza" n="6" xml:id="stanza06">
+                    <l>Here is the <hi xml:id="hi-7" rend="circled" hand="TEliot">man with three staves</hi><add xml:id="add-15" place="above" hand="TEliot"><subst xml:id="sub-7"><del xml:id="del-16" hand="TEliot">King fishing</del><add xml:id="add-16" place="above" hand="TEliot">fishing King</add></subst></add>, and here the Wheel,</l>
+                    <l n="105">And here is the onw-eyes merchant, and this card,</l>
+                    <l>Which is blank, is something he carries on his back,</l>
+                    <l>Which I am forbidden to see. <hi xml:id="hi-8" hand="Pound" rend="squared">I look in vain</hi><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el.png" xml:id="pound-1-hi"/></l>
+                    <l>For the Hanged Man. Fear death by water.</l>
+                    <l>I see crowds of people, walking round in a ring.</l>
+                    <l n="110"><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el-2.png" xml:id="pound-2-hi"/><del xml:id="del-17" hand="Pound">(I John saw these things, and heard them).</del></l>
+                    <l>Thank you. If you see dear Mrs. Equitone,</l>
+                    <l>Tell her I bring the horoscope myself,</l>
+                    <l>One must be so careful these days.</l>
                 </lg>
+                <lg type="stanza" n="7" xml:id="stanza07">
+                    <l><hi xml:id="hi-9" rend="circledExceptRight" hand="Pound"><subst xml:id="sub-8"><del xml:id="del-18" hand="TEliot">Terrible</del><add xml:id="add-17" hand="TEliot" place="above">Unreal</add></subst></hi> City<del xml:id="del-19" hand="Pound">,</del> I have sometimes seen and <hi xml:id="hi-10" rend="circledExceptLeft" hand="Pound">see</hi></l>
+                    <l n="115">Under the brown fog of <hi xml:id="hi-11" hand="Pound" rend="circled">your</hi> winter dawn</l>
+                    <l>A crowd flow over London Bridge, so many,</l>
+                    <l>I had not thought death had undone so many.</l>
+                    <l>Sighs, short and infrequent, were<subst xml:id="sub-9"><del xml:id="del-20a" hand="TEliot">expired,</del><del xml:id="del-20b" hand="TEliot"><add xml:id="add-18" hand="TEliot"> exhaled.</add></del><del xml:id="del-20c" hand="TEliot"><add xml:id="add-19" hand="TEliot">expired.</add></del> <add xml:id="add-20" hand="TEliot">exhaled.</add></subst></l>
+                    <l>And each <subst xml:id="sub-10"><del xml:id="del-21" hand="TEliot">one</del><add xml:id="add-21" hand="TEliot" rend="diagonal linking-line 13" place="margin-left">man</add></subst> <subst xml:id="sub-11"><del xml:id="del-22" hand="TEliot">kept</del><del xml:id="del-23" hand="TEliot"><add xml:id="add-22" hand="TEliot" place="margin-left above" rend="linking-line 17">held</add></del><add xml:id="add-23" hand="TEliot" rend="17" place="margin-left below">fixed</add></subst> his eyes before his feet.</l>
+                    <l n="120">Flowed up the hill and down King William Street,</l>
+                    <delSpan xml:id="delSpan-03" hand="Pound" spanTo="#delSpan-03End" rend="overstrike"/><hi xml:id="hi-12" hand="Pound" rend="squaredOnlyRight"><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound2.png" xml:id="pound-3-hi"/><l>To where Saint Mary Woolnoth kept the time,</l>
+                    <l>With a dead sound on the final stroke of nine.<anchor xml:id="delSpan-03End"/></l></hi>
+                    <l>There I saw one I knew, and stopped him, crying: "Stetson! </l>
+                    <l>"You who were with me in the ships at Mylae!</l>
+                    <l n="125">"That corpse you planted last year in your garden,</l>
+                    <l>"Has it begun to sprout<add xml:id="add-24" hand="TEliot" place="footer" rend="linking-line 6">yet?</add>? Will it bloom this year?"</l>
+                    <l>"Or has the sudden frost disturbed its bed?"</l>
+                    <l>"Oh keep the Dog far hence, that's <del xml:id="del-24" hand="TEliot">foe</del> to men,</l>
+                    <l>"Or with his nails he'll dig it up again!</l>
+                    <l n="130">"You! <hi xml:id="hi-13a" hand="TEliot" rend="underline">hypocrite lecteur</hi>,-<hi xml:id="hi-13b" hand="TEliot" rend="underline">mon semblable</hi>,-<hi xml:id="hi-13c" hand="TEliot" rend="underline">mon frère</hi>!"</l>
+                </lg>
+                <note xml:id="note-5" hand="Pound" rend="diagonal" style="font-size: 200%;">
+                    <p><hi xml:id="hi-14" hand="Pound" rend="squared">J.J.</hi></p>
+                </note>
+                <note xml:id="note-6" hand="Pound" rend="diagonal">
+                    <p><hi xml:id="hi-15" rend="underline">Blake</hi><lb/>
+                    Too<lb/>
+                    o<subst><del xml:id="del-25" hand="Pound">ld</del> <add xml:id="add-25" rend="overwritten">ften</add></subst><lb/>
+                    used</p>
+                    </note>
+                <note xml:id="note-7" hand="TEliot">
+                    <p>/friend</p>
+                </note>
             </div>
-                        <div xml:id="page-5">
+            <pb xml:id="wasteland-4" n="4"/>
+            <div xml:id="page-5">
                 <figure><graphic url="https://thewwwasteland.github.io/images/5.jpg" xml:id="page-4" type="page"/>
                 </figure>
-                <lg type="poemPage" n="4" xml:id="poemPage04">
-                    <head>
-                    HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/>
-                    <lb/>
-                    <subst xml:id="sub-10"><del xml:id="del-26" hand="TEliot">IN THE CAGE.</del><add place="above" xml:id="add-26" hand="TEliot">A Game of Chess.</add></subst>
-                    </head>
-                    <lg type="stanza" n="8" xml:id="stanza08">
-                        <hi xml:id="hi-16" rend="borderRight" hand="Pound"><l n="1">The Chair she sat in, like a burnished throne</l>
-                        <l>Glowed on the marble, where the swinging glass</l>
-                        <l>Held up by standards wrought with golden vines</l></hi>
-                        <l>From which <hi xml:id="hi-17" rend="circled" hand="Pound">one</hi><add xml:id="add-27" hand="Pound" place="margin-left" rend="13">a</add> tender Cupidon peeped out</l>
-                        <l n="5">(Another hid his eyes behind his wing)</l>
-                        <l>Doubled the flames of seven-branched candelabra</l>
-                        <l>Reflecting light upon the table <del xml:id="del-27" hand="TEliot">where</del> as</l>
-                        <l>The glitter of her jewels rose to meet <del xml:id="del-28" hand="TEliot">it,</del> it,</l>
-                        <l>From satin cases poured in rich profusion;</l>
-                        <l n="10">In vials of ivory and coloured glass</l>
-                        <l>Unstopped, lurked her strange synthetic perfumes</l>
-                        <l>Unguent, powdered, or liquid -troubled, confused</l>
-                        <l>And drowned the sense in odours; stirred by the air</l>
-                        <l>That freshened from the window, these ascended,</l>
-                        <l n="15">Fattening the <hi xml:id="hi-18" rend="circledExceptBelow" hand="Pound">candles flames, <hi xml:id="hi-19" rend="squared" hand="Pound"><del xml:id="del-29" hand="Pound">which were</del></hi></hi> <hi xml:id="hi-19" rend="squaredExceptAbove" hand="Pound">prolonged,</hi><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el-5.png" xml:id="pound-4-hi"/></l>
-                        <l><del xml:id="del-30" hand="Pound">And</del> flung their smoke into the laquenaria,</l>
-                        <l>Stirring the pattern on the coffered ceiling.</l>
-                        <l><hi xml:id="hi-20" rend="squared" hand="Pound">Upon the hearth</hi> huge sea-wood fed with copper</l>
-                        <l>Burned green and orange, framed by the coloured stone,</l>
-                        <hi xml:id="hi-21"><l n="20"><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el-6.png" xml:id="pound-5-hi"/>In which sad light a carved dolphin swam;<add xml:id="add-28" hand="Pound" cause="sign">&gt;</add><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el-4.png" xml:id="pound-6-hi"/></l>
-                        <hi xml:id="hi-22"><l>Above the antique mantel was displayed<graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el-3.png" xml:id="pound-7-hi"/></l>
-                        <l>In pigment, <add xml:id="add-29" hand="Pound" cause="sign">&lt;</add><del xml:id="del-31" hand="Pound">but so lively, <hi xml:id="hi-23" rend="squared" hand="Pound">you had thought</hi></del></l>
-                        <l>A window gave upon the sylvan scene,</l></hi></hi>
-                        <l>The change of Philomel, by the barbarous king</l>
-                        <l n="25">So rudely forced, yet <del xml:id="del-32" hand="TEliot">still</del> there the nightingale</l>
-                        <l>Filled all the desert with <hi xml:id="hi-24" rend="circled" hand="Pound">inviolable</hi> voice</l>
-                        <l>And still she cried (and still the world pursues)</l>
-                        <l>Jug Jug, into <del xml:id="del-33a" hand="Pound">the</del> dirty ear <del xml:id="del-33b" hand="Pound">of death;</del> <add xml:id="add-28" hand="TEliot"><del xml:id="del-34" hand="Pound"><hi xml:id="hi-25" rend="circled" hand="Pound">lust;</hi></del></add></l>
-                        <l><del xml:id="del-35" hand="Pound"><hi xml:id="hi-25" rend="squaredExceptRight" hand="Pound">And</hi> other tales, from the</del> old stumps and bloody ends of <hi xml:id="hi-26" rend="squaredExceptLeft" hand="Pound">time</hi></l>
-                        <l n="30">Were told upon the walls, <del xml:id="del-36" hand="Pound">where</del> staring forms</l>
-                        <l>Leaned out, <del xml:id="del-37a" hand="Pound">and</del> hushed the room <del xml:id="del-37b" hand="Pound">and</del> closed it <del xml:id="del-38" hand="Pound">in.</del></l>
-                        <l><hi xml:id="hi-27" rend="circled" hand="Pound"><del xml:id="del-39" hand="Pound">There</del></hi> were footsteps on the stair,</l>
-                        <l>Under the firelight, under the brush, her hair</l>
-                        <l>Spread out in <del xml:id="del-40" hand="Pound">little</del> fiery points <del xml:id="del-41" hand="Pound"><hi xml:id="hi-28" rend="squared" hand="Pound">of will,</hi></del></l>
-                        <l n="35">Glowed into words, then would be savagely still.</l>
-                    </lg>
-                    <lg type="stanza" n="9" xml:id="stanza09">
-                        <hi xml:id="hi-29" hand="Pound"><l>"My nerves are bad tonight. Yes, bad. Stay with me.<graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el-7.png" xml:id="pound-8-hi"/></l>
-                        <l>"Speak to me. Why do you never speak. Speak.</l>
-                        <l>"What are you thinking of? What thinking? <del xml:id="del-42" hand="TEliot">Think</del> What?</l>
-                        <l>"I never know what you are thinking. Think".</l></hi>
-                    </lg>
-                    <lg type="stanza" n="10" xml:id="stanza10">
-                        <l n="40">I think we met first in rats' alley,</l>
-                        <l>Ehere the dead men lost their bones.</l>
-                    </lg>
-                    <lg type="stanza" n="11" xml:id="stanza11">
-                        <l>"What is that noise?"</l>
-                    </lg>
-                    <lg type="stanza" n="12" xml:id="stanza12">
-                        <l>                      The wind under the door.</l>
-                    </lg>
-                    <lg type="stanza" n="13" xml:id="stanza13">
-                        <l>"What is that noise now? What is the wind doing?"</l>
-                    </lg>
-                    <note xml:id="note-8" hand="Pound" rend="diagonal">
-                        <p><hi xml:id="hi-30" rend="underline" hand="Pound">3 lines</hi><lb/>
-                        Too       tum-pum<lb/>
-                                  at a stretch</p>
-                    </note>
-                    <note xml:id="note-9" hand="Pound" rend="diagonal">
-                        <p>
-                            "one"<lb/>
-                            wee<lb/>
-                            red<lb/>
-                            mouse
-                        </p>
-                    </note>
-                    <note xml:id="note-10" hand="VEliot" rend="vertical linkingStar">
-                        <p>
-                            Don't see  what you had in mind<lb/>
-                                    here
-                        </p>
-                    </note>
-                    <note xml:id="note-11" hand="Pound" rend="diagonal">
-                        <p>
-                            space<lb/>
-                            _\_\_\
-                        </p>
-                    </note>
-                    <note xml:id="note-12" hand="Pound" rend="diagonal">
-                        <p>had is the weekest point</p>
-                    </note>
-                    <note xml:id="note-13" hand="Pound" rend="diagonal">
-                        1921
-                    </note>
-                    <note xml:id="note-14" hand="Pound">
-                        too penty
-                    </note>
-                    <note xml:id="note-15" hand="VEliot" rend="vertical doubleLetterSpacing"> 
-                        <p>WONDERFUL</p>
-                    </note>
-                    <note xml:id="note-16" hand="Pound">
-                        <p>
-                            Dogmatic<lb/>
-                            deduction<lb/>
-                            but<lb/>
-                            wobbly<lb/>
-                            as<lb/>
-                            well
-                        </p>
-                    </note>
-                    <note xml:id="note-17" hand="Pound" rend="vertical">
-                        <p>
-                            Re this<lb/>
-                            point
-                        </p>
-                    </note>
-                    <note xml:id="note-18" hand="Pound" rend="diagonal">
-                        <p>
-                            photography<lb/>
-                            ?
-                        </p>
-                    </note>
-                    <note xml:id="note-19" hand="Pound" rend="vertical">
-                        <p>
-                            Il cherchait<lb/>
-                            des sentiments<lb/>
-                            pour les<lb/>
-                            accomoder<lb/>
-                            a<lb/>
-                            son<lb/>
-                            vocabulaire.
-                        </p>
-                    </note>
-                    <note xml:id="note-20" hand="Pound">
-                        <p>
-                            Beddoes
-                        </p>
-                    </note>
+                <head>
+                HE DO THE POLICE IN DIFFERENT VOICES: Part II.<lb/>
+                <lb/>
+                <subst xml:id="sub-10"><del xml:id="del-26" hand="TEliot">IN THE CAGE.</del><add place="above" xml:id="add-26" hand="TEliot">A Game of Chess.</add></subst>
+                </head>
+                <lg type="stanza" n="8" xml:id="stanza08">
+                    <hi xml:id="hi-16" rend="borderRight" hand="Pound"><l n="1">The Chair she sat in, like a burnished throne</l>
+                    <l>Glowed on the marble, where the swinging glass</l>
+                    <l>Held up by standards wrought with golden vines</l></hi>
+                    <l>From which <hi xml:id="hi-17" rend="circled" hand="Pound">one</hi><add xml:id="add-27" hand="Pound" place="margin-left" rend="13">a</add> tender Cupidon peeped out</l>
+                    <l n="5">(Another hid his eyes behind his wing)</l>
+                    <l>Doubled the flames of seven-branched candelabra</l>
+                    <l>Reflecting light upon the table <del xml:id="del-27" hand="TEliot">where</del> as</l>
+                    <l>The glitter of her jewels rose to meet <del xml:id="del-28" hand="TEliot">it,</del> it,</l>
+                    <l>From satin cases poured in rich profusion;</l>
+                    <l n="10">In vials of ivory and coloured glass</l>
+                    <l>Unstopped, lurked her strange synthetic perfumes</l>
+                    <l>Unguent, powdered, or liquid -troubled, confused</l>
+                    <l>And drowned the sense in odours; stirred by the air</l>
+                    <l>That freshened from the window, these ascended,</l>
+                    <l n="15">Fattening the <hi xml:id="hi-18" rend="circledExceptBelow" hand="Pound">candles flames, <hi xml:id="hi-19" rend="squared" hand="Pound"><del xml:id="del-29" hand="Pound">which were</del></hi></hi> <hi xml:id="hi-19" rend="squaredExceptAbove" hand="Pound">prolonged,</hi><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el-5.png" xml:id="pound-4-hi"/></l>
+                    <l><del xml:id="del-30" hand="Pound">And</del> flung their smoke into the laquenaria,</l>
+                    <l>Stirring the pattern on the coffered ceiling.</l>
+                    <l><hi xml:id="hi-20" rend="squared" hand="Pound">Upon the hearth</hi> huge sea-wood fed with copper</l>
+                    <l>Burned green and orange, framed by the coloured stone,</l>
+                    <hi xml:id="hi-21"><l n="20"><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el-6.png" xml:id="pound-5-hi"/>In which sad light a carved dolphin swam;<add xml:id="add-28" hand="Pound" cause="sign">&gt;</add><graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el-4.png" xml:id="pound-6-hi"/></l>
+                    <hi xml:id="hi-22"><l>Above the antique mantel was displayed<graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el-3.png" xml:id="pound-7-hi"/></l>
+                    <l>In pigment, <add xml:id="add-29" hand="Pound" cause="sign">&lt;</add><del xml:id="del-31" hand="Pound">but so lively, <hi xml:id="hi-23" rend="squared" hand="Pound">you had thought</hi></del></l>
+                    <l>A window gave upon the sylvan scene,</l></hi></hi>
+                    <l>The change of Philomel, by the barbarous king</l>
+                    <l n="25">So rudely forced, yet <del xml:id="del-32" hand="TEliot">still</del> there the nightingale</l>
+                    <l>Filled all the desert with <hi xml:id="hi-24" rend="circled" hand="Pound">inviolable</hi> voice</l>
+                    <l>And still she cried (and still the world pursues)</l>
+                    <l>Jug Jug, into <del xml:id="del-33a" hand="Pound">the</del> dirty ear <del xml:id="del-33b" hand="Pound">of death;</del> <add xml:id="add-28" hand="TEliot"><del xml:id="del-34" hand="Pound"><hi xml:id="hi-25" rend="circled" hand="Pound">lust;</hi></del></add></l>
+                    <l><del xml:id="del-35" hand="Pound"><hi xml:id="hi-25" rend="squaredExceptRight" hand="Pound">And</hi> other tales, from the</del> old stumps and bloody ends of <hi xml:id="hi-26" rend="squaredExceptLeft" hand="Pound">time</hi></l>
+                    <l n="30">Were told upon the walls, <del xml:id="del-36" hand="Pound">where</del> staring forms</l>
+                    <l>Leaned out, <del xml:id="del-37a" hand="Pound">and</del> hushed the room <del xml:id="del-37b" hand="Pound">and</del> closed it <del xml:id="del-38" hand="Pound">in.</del></l>
+                    <l><hi xml:id="hi-27" rend="circled" hand="Pound"><del xml:id="del-39" hand="Pound">There</del></hi> were footsteps on the stair,</l>
+                    <l>Under the firelight, under the brush, her hair</l>
+                    <l>Spread out in <del xml:id="del-40" hand="Pound">little</del> fiery points <del xml:id="del-41" hand="Pound"><hi xml:id="hi-28" rend="squared" hand="Pound">of will,</hi></del></l>
+                    <l n="35">Glowed into words, then would be savagely still.</l>
                 </lg>
+                <lg type="stanza" n="9" xml:id="stanza09">
+                    <hi xml:id="hi-29" hand="Pound"><l>"My nerves are bad tonight. Yes, bad. Stay with me.<graphic url="https://thewwwasteland.github.io/The-Waste-Land-Original-Drafts/images/pound-el-7.png" xml:id="pound-8-hi"/></l>
+                    <l>"Speak to me. Why do you never speak. Speak.</l>
+                    <l>"What are you thinking of? What thinking? <del xml:id="del-42" hand="TEliot">Think</del> What?</l>
+                    <l>"I never know what you are thinking. Think".</l></hi>
+                </lg>
+                <lg type="stanza" n="10" xml:id="stanza10">
+                    <l n="40">I think we met first in rats' alley,</l>
+                    <l>Ehere the dead men lost their bones.</l>
+                </lg>
+                <lg type="stanza" n="11" xml:id="stanza11">
+                    <l>"What is that noise?"</l>
+                </lg>
+                <lg type="stanza" n="12" xml:id="stanza12">
+                    <l>                      The wind under the door.</l>
+                </lg>
+                <lg type="stanza" n="13" xml:id="stanza13">
+                    <l>"What is that noise now? What is the wind doing?"</l>
+                </lg>
+                <note xml:id="note-8" hand="Pound" rend="diagonal">
+                    <p><hi xml:id="hi-30" rend="underline" hand="Pound">3 lines</hi><lb/>
+                    Too       tum-pum<lb/>
+                              at a stretch</p>
+                </note>
+                <note xml:id="note-9" hand="Pound" rend="diagonal">
+                    <p>
+                        "one"<lb/>
+                        wee<lb/>
+                        red<lb/>
+                        mouse
+                    </p>
+                </note>
+                <note xml:id="note-10" hand="VEliot" rend="vertical linkingStar">
+                    <p>
+                        Don't see  what you had in mind<lb/>
+                                here
+                    </p>
+                </note>
+                <note xml:id="note-11" hand="Pound" rend="diagonal">
+                    <p>
+                        space<lb/>
+                        _\_\_\
+                    </p>
+                </note>
+                <note xml:id="note-12" hand="Pound" rend="diagonal">
+                    <p>had is the weekest point</p>
+                </note>
+                <note xml:id="note-13" hand="Pound" rend="diagonal">
+                    1921
+                </note>
+                <note xml:id="note-14" hand="Pound">
+                    too penty
+                </note>
+                <note xml:id="note-15" hand="VEliot" rend="vertical doubleLetterSpacing"> 
+                    <p>WONDERFUL</p>
+                </note>
+                <note xml:id="note-16" hand="Pound">
+                    <p>
+                        Dogmatic<lb/>
+                        deduction<lb/>
+                        but<lb/>
+                        wobbly<lb/>
+                        as<lb/>
+                        well
+                    </p>
+                </note>
+                <note xml:id="note-17" hand="Pound" rend="vertical">
+                    <p>
+                        Re this<lb/>
+                        point
+                    </p>
+                </note>
+                <note xml:id="note-18" hand="Pound" rend="diagonal">
+                    <p>
+                        photography<lb/>
+                        ?
+                    </p>
+                </note>
+                <note xml:id="note-19" hand="Pound" rend="vertical">
+                    <p>
+                        Il cherchait<lb/>
+                        des sentiments<lb/>
+                        pour les<lb/>
+                        accomoder<lb/>
+                        a<lb/>
+                        son<lb/>
+                        vocabulaire.
+                    </p>
+                </note>
+                <note xml:id="note-20" hand="Pound">
+                    <p>
+                        Beddoes
+                    </p>
+                </note>
             </div>
+            <pb xml:id="wasteland-5" n="5"/>
             <div xml:id="page-6">
                 <figure><graphic url="https://thewwwasteland.github.io/images/6.jpg" xml:id="page-5" type="page"/>
                 </figure>
-                <lg type="poemPage" n="5" xml:id="poemPage05">
-                    <head>
-                        2
-                    </head>
-                    <lg type="stanza" n="14" xml:id="stanza14">
-                        <l n="45">                                                                 Carrying</l>
-                        <l>Away the <hi xml:id="hi-31" rend="circled" hand="Pound">little</hi> light dead people.</l>
-                    </lg>
-                    <lg type="stanza" n="15" xml:id="stanza15">
-                        <l>"<del xml:id="del-42a" hand="TEliot">Do</del> <subst xml:id="sub-12"><del xml:id="del-42b" hand="Pound">y</del><add xml:id="add-30" hand="Pound" place="inline">Y</add></subst>ou know nothing? Do you see nothing? Do you remember</l>
-                        <l>"Nothing?"</l>
-                    </lg>
-                    <lg type="stanza" n="16" xml:id="stanza16">
-                        <l>                 I remember</l>
-                        <l n="50">The hyacinth garden. Those are pearls that were his eyes, <hi xml:id="hi-32" rend="squared" hand="Pound"><del xml:id="del-43" hand="Pound">yes!</del></hi></l>
-                    </lg>
-                    <lg type="stanza" n="17" xml:id="stanza17">
-                        <l>"Are you alive, or not? Is there nothing in your head?"</l>
-                    </lg>
-                    <lg>
-                        <l>                                                                                 But</l>
-                        <l>O O O O that Shakespeherian Rag-</l>
-                        <l>It's so elegant-</l>
-                        <l n="55">So intelligent-</l>
-                    </lg>
-                    <lg type="stanza" n="18" xml:id="stanza18">
-                        <l>"What shall I do now? What shall I do?</l>
-                        <l>"I shall rush out as I am, and walk the street</l>
-                        <l>"With my hair down, so. What shall we do tomorrow?</l>
-                        <l>"What shall we ever do?"</l>
-                    </lg>
-                    <lg type="stanza" n="19" xml:id="stanza19">
-                        <l n="60">                                   The hot water <add xml:id="add-32" hand="VEliot" place="above" rend="circumflex">bottle </add>at ten.</l>
-                        <l>And if it rains, the <hi xml:id="hi-33" rend="squared" hand="Pound">closed carriage</hi> at four.</l>
-                        <l>And we shall play a game of chess:</l>
-                        <l>The ivory men make company between us</l>
-                        <l>Pressing lidless eyes and waiting for a knock upon the door.</l>
-                    </lg>
-                    <lg type="stanza" n="20" xml:id="stanza20">
-                        <l n="65">When Lil's husband was <subst xml:id="sub-11"><del xml:id="del-44a" hand="VEliot">coming back out of the</del><add xml:id="add-33" hand="Pound" place="above">demobbed</add><del xml:id="del-44b" hand="VEliot"><hi xml:id="hi-34" hand="VEliot" rend="circled">Transport Corps</hi></del><add xml:id="add-34" hand="TEliot" place="doubleAbove"><del xml:id="del-45" hand="TEliot">Discharge out of the army</del>??</add></subst></l>
-                        <l>I didn't mince my words, I said to her myself,</l>
-                        <l>HURRY UP PLEASE IT'S TIME</l>
-                        <l>"Now Albert's coming back, make yourself a bit smart.</l>
-                        <l>"He'll want to know what you did with that money he gave you</l>
-                        <l n="70">"To get yourself some teeth". He did, I was there.</l>
-                        <l>"You have them all out, Lil, and get a nice set",</l>
-                        <l>He said, "I swear, I can't bear to look at you".</l>
-                        <l>"And no more can I", I said, "and think of poor Albert,</l>
-                        <l>"He's been in the army four years, he wants a good time,</l>
-                        <l n="75">"And if you don't give it him, there<hi xml:id="hi-35" rend="circled" hand="Pound">'s many another</hi> will".</l>
-                        <l><add xml:id="add-35a" hand="Pound" place="inline" cause="sign">(</add>"Other women",<add xml:id="add-35b" hand="Pound" place="inline" cause="sign">)</add> she said. "Somethin<subst xml:id="sub-13" hand="VEliot"><del xml:id="del-45" hand="VEliot">g</del><add xml:id="add-36" place="above" hand="VEliot">k</add></subst> o<subst xml:id="sub-14" hand="VEliot"><del xml:id="del-46" hand="VEliot">f</del><add xml:id="add-37" place="above" hand="VEliot">'</add></subst> that", I said.</l>
-                        <l>"Then I'll know who to thank, she said, and gave me a straight look.</l>
-                        <l>HURRY UP PLEASE IT'S TIME.</l>
-                        <l><del xml:id="del-47" hand="VEliot">"No, ma'am, you needn't look old fashioned at</del> me", I said,</l>
-                        <l n="80">"Others can pick and choose if you can't.</l>
-                        <l>"But if you Albert makes off, it won't be for lack of telling.</l>
-                        <l>"You ought to be ashamed," I said, "to look so antique".</l>
-                        <l>-(And her only thirty-one).</l>
-                        <l>"I can't help it", she said, putting on a long face,</l>
-                        <l n="85">"It's that <del xml:id="del-48" hand="VEliot">medicine</del> I took, <del xml:id="del-49" hand="VEliot">in order</del> to bring it off".</l>
-                        <l>(She's had five already, and nearly died of young George).</l>
-                        <l>"The chemist said it would be all right, but I've never been the same".</l>
-                        <l>"You <hi xml:id="hi-36" rend="underline" hand="TEliot">are</hi> a proper fool", I said.</l>
-                        <l>"Well if Albert won't leave you alone, there it is", I said. </l>
-                    </lg>
-                    <note xml:id="note-21" hand="Pound">
-                        <p>
-                            "Do?
-                        </p>
-                    </note>
-                    <note xml:id="note-22" hand="Pound" rend="diagonal">
-                        <p>
-                            <hi xml:id="hi-37" rend="underline" hand="Pound">Penelope</hi><lb/>
-                            J.J.
-                        </p>
-                    </note>
-                    <note xml:id="note-23" hand="Pound">
-                        <p>
-                            photo.
-                        </p>
-                    </note>
-                    <note xml:id="note-24" hand="Pound" rend="vertical">
-                        <p>
-                            Why this Blot on Scutchen<lb/>
-                            <hi xml:id="hi-38" rend="doubleUnderline" hand="Pound">between</hi> 1922 and Lil'
-                        </p>
-                    </note>
-                    <note xml:id="note-25" hand="Pound" style="font-size: 200%;">
-                        <p>
-                            (1880)
-                        </p>
-                    </note>
-                    <note xml:id="note-26" hand="VEliot" rend="vertical">
-                        <p>
-                            wonderful
-                        </p>
-                    </note>
-                    <note xml:id="note-27" hand="VEliot" rend="vertical">
-                        <p>
-                            &#38; wonderful
-                        </p>
-                    </note>
-                    <note xml:id="note-28" hand="VEliot" rend="vertical">
-                        <p>
-                            Yes
-                        </p>
-                    </note>
-                    <note xml:id="note-29" hand="Pound">
-                        <p>
-                            ?
-                        </p>
-                    </note>
-                    <note xml:id="note-30" hand="VEliot" rend="linkingArrow">
-                        <p>
-                            Perhaps<lb/>
-                            better not so<lb/>
-                            soon. Cld you put<lb/>
-                            this later.<lb/>
-                        </p>
-                    </note>
-                    <note xml:id="note-31" hand="VEliot">
-                        <p>
-                                 Or<lb/>
-                            If you don't like<lb/>
-                            it you can get<lb/>
-                            on with it<lb/>
-                        </p>
-                    </note>
-                    <note xml:id="note-32" hand="VEliot">
-                        <p>
-                            <del xml:id="del-50" hand="VEliot">stuff</del><lb/>
-                            pills
-                        </p>
-                    </note>
-                    <note xml:id="note-33" hand="TEliot" rend="diagonal">
-                        <p>
-                            I want to<lb/>
-                            avoid trying<lb/>
-                            show pro-<lb/>
-                            nunciation<lb/>
-                            by spelling
-                        </p>
-                    </note>
+                <head>
+                    2
+                </head>
+                <lg type="stanza" n="14" xml:id="stanza14">
+                    <l n="45">                                                                 Carrying</l>
+                    <l>Away the <hi xml:id="hi-31" rend="circled" hand="Pound">little</hi> light dead people.</l>
                 </lg>
+                <lg type="stanza" n="15" xml:id="stanza15">
+                    <l>"<del xml:id="del-42a" hand="TEliot">Do</del> <subst xml:id="sub-12"><del xml:id="del-42b" hand="Pound">y</del><add xml:id="add-30" hand="Pound" place="inline">Y</add></subst>ou know nothing? Do you see nothing? Do you remember</l>
+                    <l>"Nothing?"</l>
+                </lg>
+                <lg type="stanza" n="16" xml:id="stanza16">
+                    <l>                 I remember</l>
+                    <l n="50">The hyacinth garden. Those are pearls that were his eyes, <hi xml:id="hi-32" rend="squared" hand="Pound"><del xml:id="del-43" hand="Pound">yes!</del></hi></l>
+                </lg>
+                <lg type="stanza" n="17" xml:id="stanza17">
+                    <l>"Are you alive, or not? Is there nothing in your head?"</l>
+                </lg>
+                <lg>
+                    <l>                                                                                 But</l>
+                    <l>O O O O that Shakespeherian Rag-</l>
+                    <l>It's so elegant-</l>
+                    <l n="55">So intelligent-</l>
+                </lg>
+                <lg type="stanza" n="18" xml:id="stanza18">
+                    <l>"What shall I do now? What shall I do?</l>
+                    <l>"I shall rush out as I am, and walk the street</l>
+                    <l>"With my hair down, so. What shall we do tomorrow?</l>
+                    <l>"What shall we ever do?"</l>
+                </lg>
+                <lg type="stanza" n="19" xml:id="stanza19">
+                    <l n="60">                                   The hot water <add xml:id="add-32" hand="VEliot" place="above" rend="circumflex">bottle </add>at ten.</l>
+                    <l>And if it rains, the <hi xml:id="hi-33" rend="squared" hand="Pound">closed carriage</hi> at four.</l>
+                    <l>And we shall play a game of chess:</l>
+                    <l>The ivory men make company between us</l>
+                    <l>Pressing lidless eyes and waiting for a knock upon the door.</l>
+                </lg>
+                <lg type="stanza" n="20" xml:id="stanza20">
+                    <l n="65">When Lil's husband was <subst xml:id="sub-11"><del xml:id="del-44a" hand="VEliot">coming back out of the</del><add xml:id="add-33" hand="Pound" place="above">demobbed</add><del xml:id="del-44b" hand="VEliot"><hi xml:id="hi-34" hand="VEliot" rend="circled">Transport Corps</hi></del><add xml:id="add-34" hand="TEliot" place="doubleAbove"><del xml:id="del-45" hand="TEliot">Discharge out of the army</del>??</add></subst></l>
+                    <l>I didn't mince my words, I said to her myself,</l>
+                    <l>HURRY UP PLEASE IT'S TIME</l>
+                    <l>"Now Albert's coming back, make yourself a bit smart.</l>
+                    <l>"He'll want to know what you did with that money he gave you</l>
+                    <l n="70">"To get yourself some teeth". He did, I was there.</l>
+                    <l>"You have them all out, Lil, and get a nice set",</l>
+                    <l>He said, "I swear, I can't bear to look at you".</l>
+                    <l>"And no more can I", I said, "and think of poor Albert,</l>
+                    <l>"He's been in the army four years, he wants a good time,</l>
+                    <l n="75">"And if you don't give it him, there<hi xml:id="hi-35" rend="circled" hand="Pound">'s many another</hi> will".</l>
+                    <l><add xml:id="add-35a" hand="Pound" place="inline" cause="sign">(</add>"Other women",<add xml:id="add-35b" hand="Pound" place="inline" cause="sign">)</add> she said. "Somethin<subst xml:id="sub-13" hand="VEliot"><del xml:id="del-45" hand="VEliot">g</del><add xml:id="add-36" place="above" hand="VEliot">k</add></subst> o<subst xml:id="sub-14" hand="VEliot"><del xml:id="del-46" hand="VEliot">f</del><add xml:id="add-37" place="above" hand="VEliot">'</add></subst> that", I said.</l>
+                    <l>"Then I'll know who to thank, she said, and gave me a straight look.</l>
+                    <l>HURRY UP PLEASE IT'S TIME.</l>
+                    <l><del xml:id="del-47" hand="VEliot">"No, ma'am, you needn't look old fashioned at</del> me", I said,</l>
+                    <l n="80">"Others can pick and choose if you can't.</l>
+                    <l>"But if you Albert makes off, it won't be for lack of telling.</l>
+                    <l>"You ought to be ashamed," I said, "to look so antique".</l>
+                    <l>-(And her only thirty-one).</l>
+                    <l>"I can't help it", she said, putting on a long face,</l>
+                    <l n="85">"It's that <del xml:id="del-48" hand="VEliot">medicine</del> I took, <del xml:id="del-49" hand="VEliot">in order</del> to bring it off".</l>
+                    <l>(She's had five already, and nearly died of young George).</l>
+                    <l>"The chemist said it would be all right, but I've never been the same".</l>
+                    <l>"You <hi xml:id="hi-36" rend="underline" hand="TEliot">are</hi> a proper fool", I said.</l>
+                    <l>"Well if Albert won't leave you alone, there it is", I said. </l>
+                </lg>
+                <note xml:id="note-21" hand="Pound">
+                    <p>
+                        "Do?
+                    </p>
+                </note>
+                <note xml:id="note-22" hand="Pound" rend="diagonal">
+                    <p>
+                        <hi xml:id="hi-37" rend="underline" hand="Pound">Penelope</hi><lb/>
+                        J.J.
+                    </p>
+                </note>
+                <note xml:id="note-23" hand="Pound">
+                    <p>
+                        photo.
+                    </p>
+                </note>
+                <note xml:id="note-24" hand="Pound" rend="vertical">
+                    <p>
+                        Why this Blot on Scutchen<lb/>
+                        <hi xml:id="hi-38" rend="doubleUnderline" hand="Pound">between</hi> 1922 and Lil'
+                    </p>
+                </note>
+                <note xml:id="note-25" hand="Pound" style="font-size: 200%;">
+                    <p>
+                        (1880)
+                    </p>
+                </note>
+                <note xml:id="note-26" hand="VEliot" rend="vertical">
+                    <p>
+                        wonderful
+                    </p>
+                </note>
+                <note xml:id="note-27" hand="VEliot" rend="vertical">
+                    <p>
+                        &#38; wonderful
+                    </p>
+                </note>
+                <note xml:id="note-28" hand="VEliot" rend="vertical">
+                    <p>
+                        Yes
+                    </p>
+                </note>
+                <note xml:id="note-29" hand="Pound">
+                    <p>
+                        ?
+                    </p>
+                </note>
+                <note xml:id="note-30" hand="VEliot" rend="linkingArrow">
+                    <p>
+                        Perhaps<lb/>
+                        better not so<lb/>
+                        soon. Cld you put<lb/>
+                        this later.<lb/>
+                    </p>
+                </note>
+                <note xml:id="note-31" hand="VEliot">
+                    <p>
+                             Or<lb/>
+                        If you don't like<lb/>
+                        it you can get<lb/>
+                        on with it<lb/>
+                    </p>
+                </note>
+                <note xml:id="note-32" hand="VEliot">
+                    <p>
+                        <del xml:id="del-50" hand="VEliot">stuff</del><lb/>
+                        pills
+                    </p>
+                </note>
+                <note xml:id="note-33" hand="TEliot" rend="diagonal">
+                    <p>
+                        I want to<lb/>
+                        avoid trying<lb/>
+                        show pro-<lb/>
+                        nunciation<lb/>
+                        by spelling
+                    </p>
+                </note>
             </div>
+            <pb xml:id="wasteland-6" n="6"/>
             <div xml:id="page-7">
                 <figure><graphic url="https://thewwwasteland.github.io/images/7.jpg" xml:id="page-6" type="page"/>
                 </figure>
-           
-                <lg type="poemPage" n="6" xml:id="poemPage06">
-                    <head>
-                    3
-                    </head>
-                    <lg type="stanza" n="21" xml:id="stanza21">
-                        <l n="90"><subst xml:id="sub-15"><add xml:id="add-38" hand="VEliot" place="margin-left" rend="1"><anchor xml:id="anchor-2" cause="sign" hand="VEliot"/>*</add><del xml:id="del-51" hand="VEliot">"You want to keep him at home, I suppose".</del></subst></l>
-                        <l>HURRY UP PLEASE IT'S TIME.</l>
-                        <l>Well thtat Sunday Albert was home, they had a hot gammon,</l>
-                        <l>And they asked me in to dinner, to get the beauty of it hot-</l>
-                        <l>HURRY UP PLEASE IT'S TIME.</l>
-                        <l n="95">HURRY UP PLEASE IT'S TIME.</l>
-                        <l>Goo<del xml:id="del-52a" hand="VEliot">d</del> night, Bill.   Goo<del xml:id="del-52b" hand="VEliot">d</del> night, Lou.   Goo<del xml:id="del-52c" hand="VEliot">d</del> night, George. Goo<del xml:id="del-52d" hand="VEliot">d</del> night.</l>
-                        <l>Ta ta.   <del xml:id="del-53" hand="VEliot">Good night.   Good night.</del></l>
-                        <l>Good night, ladies, good night, sweet ladies, good night, good night.</l>
-                    </lg>
-                    <note xml:id="note-34" hand="VEliot">
-                        <p>
-                            Splendid last lines
-                        </p>
-                    </note>
-                    <note xml:id="note-35" hand="VEliot">
-                        <p>
-                            <ref xml:id="ref-1" target="#anchor-2">*</ref> What you get married for if you<lb/>
-                             dont want to have children
-                        </p>
-                    </note>
-                </lg>   
+                <head>
+                3
+                </head>
+                <lg type="stanza" n="21" xml:id="stanza21">
+                    <l n="90"><subst xml:id="sub-15"><add xml:id="add-38" hand="VEliot" place="margin-left" rend="1"><anchor xml:id="anchor-2" cause="sign" hand="VEliot"/>*</add><del xml:id="del-51" hand="VEliot">"You want to keep him at home, I suppose".</del></subst></l>
+                    <l>HURRY UP PLEASE IT'S TIME.</l>
+                    <l>Well thtat Sunday Albert was home, they had a hot gammon,</l>
+                    <l>And they asked me in to dinner, to get the beauty of it hot-</l>
+                    <l>HURRY UP PLEASE IT'S TIME.</l>
+                    <l n="95">HURRY UP PLEASE IT'S TIME.</l>
+                    <l>Goo<del xml:id="del-52a" hand="VEliot">d</del> night, Bill.   Goo<del xml:id="del-52b" hand="VEliot">d</del> night, Lou.   Goo<del xml:id="del-52c" hand="VEliot">d</del> night, George. Goo<del xml:id="del-52d" hand="VEliot">d</del> night.</l>
+                    <l>Ta ta.   <del xml:id="del-53" hand="VEliot">Good night.   Good night.</del></l>
+                    <l>Good night, ladies, good night, sweet ladies, good night, good night.</l>
+                </lg>
+                <note xml:id="note-34" hand="VEliot">
+                    <p>
+                        Splendid last lines
+                    </p>
+                </note>
+                <note xml:id="note-35" hand="VEliot">
+                    <p>
+                        <ref xml:id="ref-1" target="#anchor-2">*</ref> What you get married for if you<lb/>
+                         dont want to have children
+                    </p>
+                </note>
             </div>
         </body>
     </text>
