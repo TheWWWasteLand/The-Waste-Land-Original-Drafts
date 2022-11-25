@@ -871,8 +871,13 @@ function modify() {
       var nodeList = divs[a].childNodes;
       for (let i = 0; i < nodeList.length; i++) {
         if (nodeList[i].nodeName == "TEI-LG" || nodeList[i].nodeName == "TEI-HEAD") {
-          var number = parseInt(a) - 1;
           var inner = nodeList[i].outerHTML;
+          var x = i + 1;
+          while (nodeList[x].nodeName == "TEI-LG" || nodeList[x].nodeName == "TEI-HEAD") {
+            inner += nodeList[x].outerHTML;
+            x = x + 1;
+          }
+          var number = parseInt(a) - 1;
           var newText = initial + number.toString() + "'>"+ inner + "</section>";
           nodeList[i].outerHTML = newText;
           return false;
