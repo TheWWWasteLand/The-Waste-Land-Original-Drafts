@@ -854,6 +854,7 @@ var CETEI = (function () {
 
 function modify() {
   const divs = document.getElementsByTagName("tei-div");
+  console.log(divs);
   var initial = "<section id='poemPage0";
   for (let index = 0; index < divs.lenght; index ++) {
     if (index == 0) {
