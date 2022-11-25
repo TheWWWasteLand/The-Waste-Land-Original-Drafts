@@ -875,11 +875,13 @@ function modify() {
     else if (index > 1) {
       const nodeList = divs[index].childNodes;
       for (let i = 0; i < nodeList.length; i++) {
+        console.log(nodeList[i].nodeName);
         if (nodeList[i].nodeName == "#tei-lg") {
           var number = parseInt(index) - 1;
           var inner = nodeList[i].outerHTML;
           var newText = initial + number.toString() + "'>"+ inner + "</section>";
           nodeList.outerHTML = newText;
+          console.log(newText);
         }        
       }
     }  
