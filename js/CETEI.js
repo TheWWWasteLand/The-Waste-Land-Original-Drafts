@@ -859,10 +859,13 @@ function modify() {
     if (index == 0) {
       const nodeList = divs[index].childNodes;
       for (let i = 0; i < nodeList.length; i++) {
+        console.log(nodeList[i].nodeName);
         if (nodeList[i].nodeName == "#tei-lg") {
           var inner = nodeList[i].outerHTML;
           var newText = "<section id='" + "page-i-content" + ">" + inner + "</section>";
-          nodeList.outerHTML = newText;
+          nodeList[i].outerHTML = newText;
+          console.log(newText);
+          
         }        
       }
     }
