@@ -861,7 +861,7 @@ function modify() {
       var nodeList = divs[a].childNodes;
       for (let i = 0; i < nodeList.length; i++) {
         console.log(nodeList[i].nodeName);
-        if (nodeList[i].nodeName == "#tei-lg") {
+        if (nodeList[i].nodeName == "TEI-LG") {
           var inner = nodeList[i].outerHTML;
           var newText = "<section id='" + "page-i-content" + ">" + inner + "</section>";
           nodeList[i].outerHTML = newText;
@@ -874,7 +874,7 @@ function modify() {
       var nodeList = divs[a].childNodes;
       for (let i = 0; i < nodeList.length; i++) {
         console.log(nodeList[i].nodeName);
-        if (nodeList[i].nodeName == "#tei-lg") {
+        if (nodeList[i].nodeName == "TEI-LG") {
           var number = parseInt(a) - 1;
           var inner = nodeList[i].outerHTML;
           var newText = initial + number.toString() + "'>"+ inner + "</section>";
