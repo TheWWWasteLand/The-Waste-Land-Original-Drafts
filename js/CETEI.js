@@ -849,7 +849,38 @@ var CETEI = (function () {
 
 }());
 
+/* The WWWasteLand Original Script */
+
+
 function modify() {
+  const divs = document.getElementsByTagName("tei-div");
+  var initial = "<section id='poemPage0";
+  for (let index = 0; index < divs.lenght; index ++) {
+    if (index == 0) {
+      const nodeList = divs[index].childNodes;
+      for (let i = 0; i < nodeList.length; i++) {
+        if (nodeList[i].nodeName == "#tei-lg") {
+          var inner = nodeList[i].outerHTML;
+          var newText = "<section id='" + "page-i-content" + ">" + inner + "</section>";
+          nodeList.outerHTML = newText;
+        }        
+      }
+    }
+    else if (index == 1) {
+      return false;
+    }
+    else if (index > 1) {
+      const nodeList = divs[index].childNodes;
+      for (let i = 0; i < nodeList.length; i++) {
+        if (nodeList[i].nodeName == "#tei-lg") {
+          var number = parseInt(index) - 1;
+          var inner = nodeList[i].outerHTML;
+          var newText = initial + number.toString() "'>"+ inner + "</section>";
+          nodeList.outerHTML = newText;
+        }        
+      }
+    }  
+  }    
   const add = document.getElementsByTagName("tei-add");
   const notes = document.getElementsByTagName("tei-note");
   const graphs = document.getElementsByTagName("tei-graphic");
