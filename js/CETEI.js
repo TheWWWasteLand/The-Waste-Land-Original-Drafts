@@ -854,11 +854,11 @@ var CETEI = (function () {
 
 function modify() {
   const divs = document.getElementsByTagName("tei-div");
-  console.log(divs);
   var initial = "<section id='poemPage0";
-  for (let index = 0; index < divs.lenght; index ++) {
-    if (index == 0) {
-      const nodeList = divs[index].childNodes;
+  for (let a = 0; a < divs.lenght; a ++) {
+    console.log(a);
+    if (a == 0) {
+      var nodeList = divs[a].childNodes;
       for (let i = 0; i < nodeList.length; i++) {
         console.log(nodeList[i].nodeName);
         if (nodeList[i].nodeName == "#tei-lg") {
@@ -870,15 +870,12 @@ function modify() {
         }        
       }
     }
-    else if (index == 1) {
-      return false;
-    }
-    else if (index > 1) {
-      const nodeList = divs[index].childNodes;
+    else if (a > 1) {
+      var nodeList = divs[a].childNodes;
       for (let i = 0; i < nodeList.length; i++) {
         console.log(nodeList[i].nodeName);
         if (nodeList[i].nodeName == "#tei-lg") {
-          var number = parseInt(index) - 1;
+          var number = parseInt(a) - 1;
           var inner = nodeList[i].outerHTML;
           var newText = initial + number.toString() + "'>"+ inner + "</section>";
           nodeList.outerHTML = newText;
