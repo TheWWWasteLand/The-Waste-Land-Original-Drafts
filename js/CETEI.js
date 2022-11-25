@@ -861,12 +861,12 @@ function modify() {
       var nodeList = divs[a].childNodes;
       for (let i = 0; i < nodeList.length; i++) {
         console.log(nodeList[i].nodeName);
-        if (nodeList[i].nodeName == "TEI-LG") {
+        if (nodeList[i].nodeName == "TEI-LG" || nodeList[i].nodeName == "TEI-HEAD") {
           var inner = nodeList[i].outerHTML;
           var newText = "<section id='" + "page-i-content" + ">" + inner + "</section>";
           nodeList[i].outerHTML = newText;
           console.log(newText);
-          
+          return false;
         }        
       }
     }
