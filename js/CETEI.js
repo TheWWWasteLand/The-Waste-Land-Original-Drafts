@@ -878,7 +878,7 @@ function modify() {
           var number = parseInt(a) - 1;
           var inner = nodeList[i].outerHTML;
           var newText = initial + number.toString() + "'>"+ inner + "</section>";
-          nodeList.outerHTML = newText;
+          nodeList[i].outerHTML = newText;
           console.log(newText);
         }        
       }
