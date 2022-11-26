@@ -850,9 +850,7 @@ var CETEI = (function () {
 }());
 
 /* The WWWasteLand Original Script */
-
-
-function modify() {
+function sectionCreate() {
   const divs = document.getElementsByTagName("tei-div");
   var initial = "<section id='poemPage0";
   for (let a = 0; a < divs.length; a ++) {
@@ -886,10 +884,21 @@ function modify() {
           var newText = initial + number.toString() + "'>"+ inner + "</section>";
           nodeList[i].outerHTML = newText;
           return false;
-        }        
+        }
+        else if (nodeList[i].nodeName == "SECTION") {
+          var y = i + 1;
+          while (nodeList.length > y) {
+            nodeList[y].remove();
+          }
+        }
       }
     }  
-  }    
+  }
+}
+
+function modify() {
+  sectionCreate();
+  sectionCreate();
   const add = document.getElementsByTagName("tei-add");
   const notes = document.getElementsByTagName("tei-note");
   const graphs = document.getElementsByTagName("tei-graphic");
