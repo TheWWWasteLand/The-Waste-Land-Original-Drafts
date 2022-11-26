@@ -555,7 +555,7 @@ function reset() {
     if (compare > 0) {
         comparison();
     }
-    if ($("tei-lg").css('display') == "none") {
+    if ($("section").css('display') == "none") {
         photo();
     }
 }
@@ -573,7 +573,7 @@ function singlePage() {
     if (compare > 0) {
         comparison();
     }
-    if ($("tei-lg").css('display') == "none") {
+    if ($("section").css('display') == "none") {
         photo();
     }
     const single = $('#onlytextDIV').length;
@@ -607,7 +607,7 @@ function singlePage() {
         $("#onlytextDIV tei-figure").hide();
         $(".zoom-button").hide();
         $("#onlytextDIV tei-titlepage > tei-div").css({"padding-left": "30vw"});
-        $("#onlytextDIV tei-lg[type=poemPage]").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "25vw", "padding-right": "22vw", "height": "auto", "overflow":"auto", "-webkit-box-shadow": "2px 4px 4px 0px #999", "box-shadow":" 2px 4px 4px 0px #999"});
+        $("#onlytextDIV section").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "25vw", "padding-right": "22vw", "height": "auto", "overflow":"auto", "-webkit-box-shadow": "2px 4px 4px 0px #999", "box-shadow":" 2px 4px 4px 0px #999"});
         $("#button-notes-list").hide();
         var x = 0;
         var list = [60, -30, 90, 105, 765, 650, 1140, 1190]; 
@@ -700,9 +700,9 @@ function photo() {
       comparison();
   }
   console.log($("tei-figure").css('display'));
-  if ($("tei-lg").css('display') == "none") {
+  if ($("section").css('display') == "none") {
     $("tei-div tei-div").show();
-    $("tei-lg").show();
+    $("section").show();
     $("tei-quote").show();  
     $("tei-head").show();
     $("#button-notes-list").show();
@@ -713,7 +713,7 @@ function photo() {
   else {
     $("#page-i-content").addClass("photoClass");
     $("tei-div tei-div").hide();
-    $("tei-lg").hide();
+    $("section").hide();
     $("tei-quote").hide();  
     $("tei-head").hide();
     $("#button-notes-list").hide();
