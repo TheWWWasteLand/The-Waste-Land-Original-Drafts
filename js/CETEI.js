@@ -876,6 +876,8 @@ function modify() {
           while (x < nodeList.length) {
             console.log(x);
             console.log(inner);
+            console.log(nodeList[x].nodeName);
+            x = x + 1;
             if (nodeList[x].nodeName == "TEI-LG" || nodeList[x].nodeName == "TEI-HEAD") {
               inner = inner + nodeList[x].outerHTML;
               x = x + 1;
