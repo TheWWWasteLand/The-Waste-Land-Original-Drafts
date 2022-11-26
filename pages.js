@@ -447,7 +447,7 @@ function comparison() {
     if (single > 0) {
         singlePage();
     }
-    if ($("tei-lg").css("display") == "none") {
+    if ($("section").css("display") == "none") {
         photo();
     }
     const compare = $('#singlePageDIV').length;
