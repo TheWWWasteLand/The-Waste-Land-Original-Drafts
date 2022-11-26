@@ -883,7 +883,6 @@ function sectionCreate() {
           var number = parseInt(a) - 1;
           var newText = initial + number.toString() + "'>"+ inner + "</section>";
           nodeList[i].outerHTML = newText;
-          return false;
         }
         else if (nodeList[i].nodeName == "SECTION") {
           var y = i + 1;
