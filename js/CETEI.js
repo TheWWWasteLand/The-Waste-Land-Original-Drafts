@@ -876,12 +876,11 @@ function modify() {
           while (x < nodeList.length) {
             console.log(x);
             console.log(inner);
-            console.log(nodeList[x].nodeName);
-            x = x + 1;
-            if (nodeList[x].nodeName == "TEI-LG" || nodeList[x].nodeName == "TEI-HEAD") {
+            console.log(nodeList[x].nodeName); 
+            if (nodeList[x].nodeName == "TEI-LG" || nodeList[x].nodeName == "TEI-HEAD" || nodeList[x].nodeName == "TEI-HI" || nodeList[x].nodeName == "TEI-DELSPAN" || nodeList[x].nodeName == "TEI-METAMARK" || nodeList[x].nodeName == "TEI-NOTE" || nodeList[x].nodeName == "TEI-ANCHOR") {
               inner = inner + nodeList[x].outerHTML;
-              x = x + 1;
             }
+            x = x + 1;
           }
           var number = parseInt(a) - 1;
           var newText = initial + number.toString() + "'>"+ inner + "</section>";
