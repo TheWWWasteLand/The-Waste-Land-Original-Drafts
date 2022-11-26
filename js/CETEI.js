@@ -873,9 +873,13 @@ function modify() {
         if (nodeList[i].nodeName == "TEI-LG" || nodeList[i].nodeName == "TEI-HEAD") {
           var inner = nodeList[i].outerHTML;
           var x = i + 1;
-          while (nodeList[x].nodeName == "TEI-LG" || nodeList[x].nodeName == "TEI-HEAD") {
-            inner += nodeList[x].outerHTML;
-            x = x + 1;
+          while (x < nodeList.length) {
+            console.log(x);
+            console.log(inner);
+            if (nodeList[x].nodeName == "TEI-LG" || nodeList[x].nodeName == "TEI-HEAD") {
+              inner = inner + nodeList[x].outerHTML;
+              x = x + 1;
+            }
           }
           var number = parseInt(a) - 1;
           var newText = initial + number.toString() + "'>"+ inner + "</section>";
