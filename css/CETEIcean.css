@@ -499,7 +499,7 @@ body > tei-tei #page-i tei-div tei-quote > tei-p {
     overflow-y: hidden;
     padding-bottom: 263px;
 }
-tei-lg > tei-head {
+section > tei-head {
     text-align: center;
     line-height: 2em;
     margin-left: -11.5em
