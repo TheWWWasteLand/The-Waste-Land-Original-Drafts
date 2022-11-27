@@ -871,7 +871,6 @@ function sectionCreate() {
           }
           var newText = "<section id='" + "page-i-content" + "'>" + inner + "</section>";
           nodeList[i].outerHTML = newText;
-          return false;
         }        
       }
     }
@@ -890,8 +889,7 @@ function sectionCreate() {
             }
             x = x + 1;
           }
-          var number = parseInt(a) - 1;
-          var newText = initial + number.toString() + "'>"+ inner + "</section>";
+          var newText = initial + a.toString() + "'>"+ inner + "</section>";
           nodeList[i].outerHTML = newText;
         }
         else if (nodeList[i].nodeName == "SECTION") {
