@@ -857,15 +857,25 @@ function sectionCreate() {
     if (a == 0) {
       var nodeList = divs[a].childNodes;
       for (let i = 0; i < nodeList.length; i++) {
-        if (nodeList[i].nodeName == "TEI-LG" || nodeList[i].nodeName == "TEI-HEAD") {
+        if (nodeList[i].nodeName == "TEI-HEAD") {
           var inner = nodeList[i].outerHTML;
+          var x = i + 1;
+          while (x < nodeList.length) {
+            console.log(x);
+            console.log(inner);
+            console.log(nodeList[x].nodeName); 
+            if (nodeList[x].nodeName == "TEI-QUOTE") {
+              inner = inner + nodeList[x].outerHTML;
+            }
+            x = x + 1;
+          }
           var newText = "<section id='" + "page-i-content" + ">" + inner + "</section>";
           nodeList[i].outerHTML = newText;
           return false;
         }        
       }
     }
-    else if (a > 1) {
+    else if (a > 0) {
       var nodeList = divs[a].childNodes;
       for (let i = 0; i < nodeList.length; i++) {
         if (nodeList[i].nodeName == "TEI-LG" || nodeList[i].nodeName == "TEI-HEAD") {
