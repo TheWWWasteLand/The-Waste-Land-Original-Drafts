@@ -1965,10 +1965,11 @@ li.right:hover {
 }
 
 #onlytextDIV #page-i-content {
-    margin-left: 0;
-    width: auto;
-    padding-left: 0;
-    padding-right: 0;
-    height: auto;
-    overflow: inherit;
+    margin-left: 0 !important;
+    width: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    height: auto !important;
+    overflow: inherit !important;
+    box-shadow: none !important;
 }
