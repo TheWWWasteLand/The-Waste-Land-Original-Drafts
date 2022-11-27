@@ -902,7 +902,7 @@ function goToPage(num) {
      goToPage("1");
      prevPage();
      document.getElementById("pageNumber").innerHTML = "1      <span class='bolder'>+</span>";
-     document.getElementById('prev').style.display="block";
+     document.getElementById('prev').style.display="none";
     }
     else {
       const pageList = document.getElementsByTagName('tei-div');
