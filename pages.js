@@ -896,9 +896,9 @@ function goToPage(num) {
      finalVer();
     }
     const span = "      <span class='bolder'>+</span>";
-    var newString = num + span;
+    var newString = (parseInt(num) + 1).toString() + span;
     document.getElementById("pageNumber").innerHTML = newString;
-    if (num == 1) {
+    if (num == 0) {
      goToPage("1");
      prevPage();
      document.getElementById("pageNumber").innerHTML = "1      <span class='bolder'>+</span>";
