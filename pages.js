@@ -610,7 +610,7 @@ function singlePage() {
         $("#onlytextDIV section").css({"margin-left": "0px", "width": "calc(100% - 126px)", "padding-left": "25vw", "padding-right": "22vw", "height": "auto", "overflow":"auto", "-webkit-box-shadow": "2px 4px 4px 0px #999", "box-shadow":" 2px 4px 4px 0px #999"});
         $("#button-notes-list").hide();
         var x = 0;
-        var list = [60, -30, 90, 105, 765, 650, 1140, 1190]; 
+        var list = [60, 0, 90, 1270, 665, 1180, 1190]; 
         $("#onlytextDIV tei-div").each(function(){
             var a = list[x];
             x = x + 1;
