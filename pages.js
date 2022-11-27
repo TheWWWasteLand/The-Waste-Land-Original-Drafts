@@ -933,15 +933,12 @@ function goToPage(num) {
 };
  
 function getActivePage() {
-    const divs = document.querySelectorAll("#singlePageDIV tei-div");
+    const divs = document.querySelectorAll("#singlePageDIV section");
     var a = 0;
     for (let i = 0; i < divs.length; i++) {
       if (divs[i].getAttribute('style') == "display: block;") {
         a = i;
       }
-    }
-    if (a == 0) {
-      a = a + 1
     }
     return a
 }
