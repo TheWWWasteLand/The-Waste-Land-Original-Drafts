@@ -494,7 +494,7 @@ tei-head {
   width: 20em;
   margin-left: 2em !important;
 }
-body > tei-tei #page-i tei-div tei-quote > tei-p {
+body > tei-tei #page-i tei-quote > tei-p {
     white-space: pre;
     line-height: 0.8em;
     overflow-y: hidden;
