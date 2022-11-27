@@ -1909,7 +1909,7 @@ tei-add[rend~=vertical], .diagonal, tei-note[rend~=vertical] > tei-p, .vertical 
     border: solid 0.5px #C8CBCE;
 }
 
-#singlePageDIV tei-head, #singlePageDIV tei-lg, #singlePageDIV tei-p {
+#singlePageDIV tei-head, #singlePageDIV tei-lg, #singlePageDIV section, #singlePageDIV tei-p {
    margin-left: 0px!important;
 } 
 
