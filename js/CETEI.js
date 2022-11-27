@@ -869,7 +869,7 @@ function sectionCreate() {
             }
             x = x + 1;
           }
-          var newText = "<section id='" + "page-i-content" + ">" + inner + "</section>";
+          var newText = "<section id='" + "page-i-content" + "'>" + inner + "</section>";
           nodeList[i].outerHTML = newText;
           return false;
         }        
