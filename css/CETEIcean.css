@@ -489,6 +489,11 @@ tei-head {
   text-align: center;
   white-space: nowrap;
 }
+
+#page-i {
+  display:block;
+}
+
 #page-i tei-head {
   padding-top: 2em;
   width: 20em;
