@@ -492,6 +492,7 @@ tei-head {
 #page-i tei-head {
   padding-top: 2em;
   width: 20em;
+  margin-left: 2em !important;
 }
 body > tei-tei #page-i tei-div tei-quote > tei-p {
     white-space: pre;
@@ -1630,7 +1631,7 @@ tei-lg[type=stanza] {
     width: 25em;
 }
 
-section {
+tei-body section {
       height: calc(100vh - 129px);
       overflow: scroll;
       position: absolute;
@@ -1647,7 +1648,7 @@ section {
     padding-left: 12.5em;
 }
 
-body > tei-tei #page-i tei-div {
+body > tei-tei #page-i section {
     display: block;
     overflow: scroll;
     padding-top: 55px;
