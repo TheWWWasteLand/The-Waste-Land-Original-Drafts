@@ -1963,3 +1963,12 @@ li.right:hover {
     -webkit-box-shadow: 6px 4px 12px 0px #999;
     box-shadow: 6px 4px 12px 0px #999;
 }
+
+#onlytextDIV #page-i-content {
+    margin-left: 0;
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+    height: auto;
+    overflow: inherit;
+}
