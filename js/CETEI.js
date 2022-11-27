@@ -871,7 +871,13 @@ function sectionCreate() {
           }
           var newText = "<section id='" + "page-i-content" + "'>" + inner + "</section>";
           nodeList[i].outerHTML = newText;
-        }        
+        }
+        else if (nodeList[i].nodeName == "SECTION") {
+          var y = i + 1;
+          while (nodeList.length > y) {
+            nodeList[y].remove();
+          }
+        }
       }
     }
     else if (a > 0) {
