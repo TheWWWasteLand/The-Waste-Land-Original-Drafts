@@ -875,7 +875,7 @@ function thumbSearch(el) {
 }
 
 function goToPage(num) {
-    num = (parseInt(num) + 1).toString();
+    num = (num).toString();
     if (document.getElementById("singlePageDIV")) {
       var x = getActivePage();
       if (num > x) {
