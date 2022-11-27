@@ -933,7 +933,7 @@ function goToPage(num) {
 };
  
 function getActivePage() {
-    const divs = document.querySelectorAll("#singlePageDIV section");
+    const divs = document.querySelectorAll("#singlePageDIV tei-div");
     var a = 0;
     for (let i = 0; i < divs.length; i++) {
       if (divs[i].getAttribute('style') == "display: block;") {
